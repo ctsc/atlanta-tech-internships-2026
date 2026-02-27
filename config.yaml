@@ -1,0 +1,779 @@
+# ============================================================================
+# Summer 2026 Tech Internships — Configuration
+# ============================================================================
+# Source of truth for all discovery sources, filtering rules, and settings.
+# Board tokens/slugs correspond to real ATS board identifiers.
+# ============================================================================
+
+project:
+  name: "Summer 2026 Tech Internships"
+  season: "summer_2026"
+  github_repo: "ctsc/atlanta-tech-internships-2026"
+
+# ============================================================================
+# Georgia Focus — Priority locations and settings for GA-based internships
+# ============================================================================
+georgia_focus:
+  priority_locations:
+    - "Atlanta, GA"
+    - "Alpharetta, GA"
+    - "Marietta, GA"
+    - "Savannah, GA"
+    - "Augusta, GA"
+    - "Roswell, GA"
+    - "Sandy Springs, GA"
+    - "Duluth, GA"
+    - "Kennesaw, GA"
+    - "Peachtree Corners, GA"
+    - "Johns Creek, GA"
+    - "Lawrenceville, GA"
+    - "Decatur, GA"
+    - "Smyrna, GA"
+    - "Brookhaven, GA"
+    - "Dunwoody, GA"
+    - "Norcross, GA"
+    - "Suwanee, GA"
+    - "Cumming, GA"
+    - "Athens, GA"
+  highlight_georgia: true
+  georgia_section_in_readme: true
+
+# ============================================================================
+# ATS API Sources — Greenhouse Boards
+# ============================================================================
+# Token is the slug from: https://boards-api.greenhouse.io/v1/boards/{token}/jobs
+greenhouse_boards:
+  # --- FAANG+ ---
+  - token: "openai"
+    company: "OpenAI"
+    is_faang_plus: true
+
+  # --- Top-Tier Tech ---
+  - token: "anthropic"
+    company: "Anthropic"
+    is_faang_plus: false
+  - token: "stripe"
+    company: "Stripe"
+    is_faang_plus: false
+  - token: "figma"
+    company: "Figma"
+    is_faang_plus: false
+  - token: "notion"
+    company: "Notion"
+    is_faang_plus: false
+  - token: "vercel"
+    company: "Vercel"
+    is_faang_plus: false
+  - token: "ramp"
+    company: "Ramp"
+    is_faang_plus: false
+  - token: "coinbase"
+    company: "Coinbase"
+    is_faang_plus: false
+  - token: "datadog"
+    company: "Datadog"
+    is_faang_plus: false
+  - token: "plaid"
+    company: "Plaid"
+    is_faang_plus: false
+  - token: "scaleai"
+    company: "Scale AI"
+    is_faang_plus: false
+  - token: "brex"
+    company: "Brex"
+    is_faang_plus: false
+  - token: "discord"
+    company: "Discord"
+    is_faang_plus: false
+  - token: "palantir"
+    company: "Palantir"
+    is_faang_plus: false
+  - token: "robinhood"
+    company: "Robinhood"
+    is_faang_plus: false
+  - token: "doordash"
+    company: "DoorDash"
+    is_faang_plus: false
+  - token: "instacart"
+    company: "Instacart"
+    is_faang_plus: false
+  - token: "pinterest"
+    company: "Pinterest"
+    is_faang_plus: false
+  - token: "snap"
+    company: "Snap"
+    is_faang_plus: false
+  - token: "spotify"
+    company: "Spotify"
+    is_faang_plus: false
+  - token: "twitch"
+    company: "Twitch"
+    is_faang_plus: false
+  - token: "cloudflare"
+    company: "Cloudflare"
+    is_faang_plus: false
+  - token: "databricks"
+    company: "Databricks"
+    is_faang_plus: false
+  - token: "snowflake"
+    company: "Snowflake"
+    is_faang_plus: false
+  - token: "mongodb"
+    company: "MongoDB"
+    is_faang_plus: false
+  - token: "hashicorp"
+    company: "HashiCorp"
+    is_faang_plus: false
+  - token: "elastic"
+    company: "Elastic"
+    is_faang_plus: false
+  - token: "confluent"
+    company: "Confluent"
+    is_faang_plus: false
+  - token: "cockroachlabs"
+    company: "Cockroach Labs"
+    is_faang_plus: false
+  - token: "airtable"
+    company: "Airtable"
+    is_faang_plus: false
+  - token: "retool"
+    company: "Retool"
+    is_faang_plus: false
+  - token: "linear"
+    company: "Linear"
+    is_faang_plus: false
+  - token: "supabase"
+    company: "Supabase"
+    is_faang_plus: false
+  - token: "dbt-labs"
+    company: "dbt Labs"
+    is_faang_plus: false
+  - token: "airbyte"
+    company: "Airbyte"
+    is_faang_plus: false
+  - token: "postman"
+    company: "Postman"
+    is_faang_plus: false
+  - token: "gitlabcom"
+    company: "GitLab"
+    is_faang_plus: false
+  - token: "sourcegraph"
+    company: "Sourcegraph"
+    is_faang_plus: false
+  - token: "replit"
+    company: "Replit"
+    is_faang_plus: false
+  - token: "anyscale"
+    company: "Anyscale"
+    is_faang_plus: false
+  - token: "cohere"
+    company: "Cohere"
+    is_faang_plus: false
+  - token: "huggingface"
+    company: "Hugging Face"
+    is_faang_plus: false
+  - token: "mistral"
+    company: "Mistral AI"
+    is_faang_plus: false
+  - token: "perplexityai"
+    company: "Perplexity AI"
+    is_faang_plus: false
+  - token: "cursor"
+    company: "Cursor"
+    is_faang_plus: false
+  - token: "warp"
+    company: "Warp"
+    is_faang_plus: false
+  - token: "loom"
+    company: "Loom"
+    is_faang_plus: false
+  - token: "miro"
+    company: "Miro"
+    is_faang_plus: false
+  - token: "canva"
+    company: "Canva"
+    is_faang_plus: false
+  - token: "asana"
+    company: "Asana"
+    is_faang_plus: false
+  - token: "clickup"
+    company: "ClickUp"
+    is_faang_plus: false
+  - token: "mondaydotcom"
+    company: "monday.com"
+    is_faang_plus: false
+  - token: "dropbox"
+    company: "Dropbox"
+    is_faang_plus: false
+  - token: "box"
+    company: "Box"
+    is_faang_plus: false
+  - token: "zendesk"
+    company: "Zendesk"
+    is_faang_plus: false
+  - token: "twilio"
+    company: "Twilio"
+    is_faang_plus: false
+  - token: "sendgrid"
+    company: "SendGrid"
+    is_faang_plus: false
+  - token: "segment"
+    company: "Segment"
+    is_faang_plus: false
+  - token: "amplitude"
+    company: "Amplitude"
+    is_faang_plus: false
+  - token: "mixpanel"
+    company: "Mixpanel"
+    is_faang_plus: false
+  - token: "launchdarkly"
+    company: "LaunchDarkly"
+    is_faang_plus: false
+  - token: "split"
+    company: "Split"
+    is_faang_plus: false
+  - token: "optimizely"
+    company: "Optimizely"
+    is_faang_plus: false
+  - token: "contentful"
+    company: "Contentful"
+    is_faang_plus: false
+  - token: "sanity"
+    company: "Sanity"
+    is_faang_plus: false
+  - token: "netlify"
+    company: "Netlify"
+    is_faang_plus: false
+  - token: "render"
+    company: "Render"
+    is_faang_plus: false
+  - token: "fly"
+    company: "Fly.io"
+    is_faang_plus: false
+  - token: "railway"
+    company: "Railway"
+    is_faang_plus: false
+  - token: "modal"
+    company: "Modal"
+    is_faang_plus: false
+  - token: "together-ai"
+    company: "Together AI"
+    is_faang_plus: false
+  - token: "groq"
+    company: "Groq"
+    is_faang_plus: false
+  - token: "fireworks-ai"
+    company: "Fireworks AI"
+    is_faang_plus: false
+  - token: "replicate"
+    company: "Replicate"
+    is_faang_plus: false
+  - token: "weights-and-biases"
+    company: "Weights & Biases"
+    is_faang_plus: false
+  - token: "labelbox"
+    company: "Labelbox"
+    is_faang_plus: false
+  - token: "snorkelai"
+    company: "Snorkel AI"
+    is_faang_plus: false
+  - token: "bepactiv"
+    company: "Pactiv Evergreen"
+    is_faang_plus: false
+  - token: "navan"
+    company: "Navan"
+    is_faang_plus: false
+  - token: "rippling"
+    company: "Rippling"
+    is_faang_plus: false
+  - token: "gusto"
+    company: "Gusto"
+    is_faang_plus: false
+  - token: "deel"
+    company: "Deel"
+    is_faang_plus: false
+  - token: "remote"
+    company: "Remote"
+    is_faang_plus: false
+  - token: "oyster"
+    company: "Oyster"
+    is_faang_plus: false
+  - token: "justworks"
+    company: "Justworks"
+    is_faang_plus: false
+
+  # --- Georgia-Based / Georgia-Presence Companies ---
+  - token: "ncratleos"
+    company: "NCR Atleos"
+    is_faang_plus: false
+  - token: "calendly"
+    company: "Calendly"
+    is_faang_plus: false
+  - token: "salesloft"
+    company: "Salesloft"
+    is_faang_plus: false
+  - token: "onetrust"
+    company: "OneTrust"
+    is_faang_plus: false
+  - token: "greenlight"
+    company: "Greenlight"
+    is_faang_plus: false
+  - token: "bakkt"
+    company: "Bakkt"
+    is_faang_plus: false
+  - token: "pindrop"
+    company: "Pindrop"
+    is_faang_plus: false
+  - token: "fullstory"
+    company: "FullStory"
+    is_faang_plus: false
+  - token: "roadie"
+    company: "Roadie"
+    is_faang_plus: false
+  - token: "ionic-security"
+    company: "Ionic Security"
+    is_faang_plus: false
+  - token: "mailchimp"
+    company: "Mailchimp (Intuit)"
+    is_faang_plus: false
+  - token: "cardlytics"
+    company: "Cardlytics"
+    is_faang_plus: false
+  - token: "greensky"
+    company: "GreenSky"
+    is_faang_plus: false
+
+  # --- Additional High-Profile Companies ---
+  - token: "duolingo"
+    company: "Duolingo"
+    is_faang_plus: false
+  - token: "reddit"
+    company: "Reddit"
+    is_faang_plus: false
+  - token: "lyft"
+    company: "Lyft"
+    is_faang_plus: false
+  - token: "uber"
+    company: "Uber"
+    is_faang_plus: false
+  - token: "airbnb"
+    company: "Airbnb"
+    is_faang_plus: false
+  - token: "block"
+    company: "Block (Square)"
+    is_faang_plus: false
+  - token: "squarespace"
+    company: "Squarespace"
+    is_faang_plus: false
+  - token: "grammarly"
+    company: "Grammarly"
+    is_faang_plus: false
+  - token: "flexport"
+    company: "Flexport"
+    is_faang_plus: false
+  - token: "chime"
+    company: "Chime"
+    is_faang_plus: false
+  - token: "sofi"
+    company: "SoFi"
+    is_faang_plus: false
+  - token: "marqeta"
+    company: "Marqeta"
+    is_faang_plus: false
+  - token: "toast"
+    company: "Toast"
+    is_faang_plus: false
+  - token: "samsara"
+    company: "Samsara"
+    is_faang_plus: false
+  - token: "zscaler"
+    company: "Zscaler"
+    is_faang_plus: false
+  - token: "crowdstrike"
+    company: "CrowdStrike"
+    is_faang_plus: false
+  - token: "paloaltonetworks"
+    company: "Palo Alto Networks"
+    is_faang_plus: false
+  - token: "sentinelone"
+    company: "SentinelOne"
+    is_faang_plus: false
+  - token: "okta"
+    company: "Okta"
+    is_faang_plus: false
+  - token: "1password"
+    company: "1Password"
+    is_faang_plus: false
+
+# ============================================================================
+# ATS API Sources — Lever Boards
+# ============================================================================
+# Slug is from: https://api.lever.co/v0/postings/{slug}
+lever_boards:
+  - company_slug: "netflix"
+    company: "Netflix"
+    is_faang_plus: true
+  - company_slug: "shopify"
+    company: "Shopify"
+    is_faang_plus: false
+  - company_slug: "tailscale"
+    company: "Tailscale"
+    is_faang_plus: false
+  - company_slug: "temporal"
+    company: "Temporal"
+    is_faang_plus: false
+  - company_slug: "planetscale"
+    company: "PlanetScale"
+    is_faang_plus: false
+  - company_slug: "neon"
+    company: "Neon"
+    is_faang_plus: false
+  - company_slug: "turso"
+    company: "Turso"
+    is_faang_plus: false
+  - company_slug: "upstash"
+    company: "Upstash"
+    is_faang_plus: false
+  - company_slug: "axiom-co"
+    company: "Axiom"
+    is_faang_plus: false
+  - company_slug: "tinybird"
+    company: "Tinybird"
+    is_faang_plus: false
+  - company_slug: "motherduck"
+    company: "MotherDuck"
+    is_faang_plus: false
+  - company_slug: "duckdb"
+    company: "DuckDB"
+    is_faang_plus: false
+  - company_slug: "clickhouse"
+    company: "ClickHouse"
+    is_faang_plus: false
+  - company_slug: "timescale"
+    company: "Timescale"
+    is_faang_plus: false
+  - company_slug: "questdb"
+    company: "QuestDB"
+    is_faang_plus: false
+  - company_slug: "materialize"
+    company: "Materialize"
+    is_faang_plus: false
+  - company_slug: "redpanda-data"
+    company: "Redpanda"
+    is_faang_plus: false
+  - company_slug: "warpstream"
+    company: "WarpStream"
+    is_faang_plus: false
+  - company_slug: "cockroachlabs"
+    company: "Cockroach Labs"
+    is_faang_plus: false
+  - company_slug: "grafana"
+    company: "Grafana Labs"
+    is_faang_plus: false
+  - company_slug: "hashicorp"
+    company: "HashiCorp"
+    is_faang_plus: false
+  - company_slug: "snyk"
+    company: "Snyk"
+    is_faang_plus: false
+
+# ============================================================================
+# ATS API Sources — Ashby Boards
+# ============================================================================
+# Slug is from: https://jobs.ashbyhq.com/{slug}
+ashby_boards:
+  - company_slug: "zip"
+    company: "Zip"
+    is_faang_plus: false
+  - company_slug: "ramp"
+    company: "Ramp"
+    is_faang_plus: false
+  - company_slug: "vercel"
+    company: "Vercel"
+    is_faang_plus: false
+  - company_slug: "linear"
+    company: "Linear"
+    is_faang_plus: false
+  - company_slug: "resend"
+    company: "Resend"
+    is_faang_plus: false
+  - company_slug: "cal"
+    company: "Cal.com"
+    is_faang_plus: false
+  - company_slug: "trigger"
+    company: "Trigger.dev"
+    is_faang_plus: false
+  - company_slug: "inngest"
+    company: "Inngest"
+    is_faang_plus: false
+  - company_slug: "knock"
+    company: "Knock"
+    is_faang_plus: false
+  - company_slug: "novu"
+    company: "Novu"
+    is_faang_plus: false
+  - company_slug: "plain"
+    company: "Plain"
+    is_faang_plus: false
+  - company_slug: "loops"
+    company: "Loops"
+    is_faang_plus: false
+  - company_slug: "attio"
+    company: "Attio"
+    is_faang_plus: false
+  - company_slug: "clay"
+    company: "Clay"
+    is_faang_plus: false
+  - company_slug: "unkey"
+    company: "Unkey"
+    is_faang_plus: false
+  - company_slug: "frigade"
+    company: "Frigade"
+    is_faang_plus: false
+  - company_slug: "highlight"
+    company: "Highlight"
+    is_faang_plus: false
+
+# ============================================================================
+# Workday / Custom Scrape Sources
+# ============================================================================
+# These require web scraping (no clean JSON API).
+scrape_sources:
+  # --- FAANG+ ---
+  - company: "Google"
+    url: "https://www.google.com/about/careers/applications/jobs/results/?q=intern+software+engineer"
+    is_faang_plus: true
+  - company: "Microsoft"
+    url: "https://careers.microsoft.com/us/en/search-results?keywords=intern%20software"
+    is_faang_plus: true
+  - company: "Amazon"
+    url: "https://amazon.jobs/en/search?base_query=intern+software"
+    is_faang_plus: true
+  - company: "Apple"
+    url: "https://jobs.apple.com/en-us/search?search=intern+software"
+    is_faang_plus: true
+  - company: "Meta"
+    url: "https://www.metacareers.com/jobs?q=intern+software+engineer"
+    is_faang_plus: true
+
+  # --- Major Georgia Employers ---
+  - company: "Home Depot"
+    url: "https://careers.homedepot.com/job-search-results/?keyword=intern+technology"
+    is_faang_plus: false
+  - company: "UPS"
+    url: "https://www.jobs-ups.com/search-jobs/intern%20technology/1187/1"
+    is_faang_plus: false
+  - company: "Coca-Cola"
+    url: "https://careers.coca-colacompany.com/search-jobs/intern+technology"
+    is_faang_plus: false
+  - company: "Delta Air Lines"
+    url: "https://delta.avature.net/en_US/careers/SearchJobs/intern+technology"
+    is_faang_plus: false
+  - company: "Southern Company"
+    url: "https://southerncompany.jobs/jobs/?q=intern+technology"
+    is_faang_plus: false
+  - company: "Cox Enterprises"
+    url: "https://jobs.coxenterprises.com/en/jobs/?search=intern+technology"
+    is_faang_plus: false
+  - company: "Genuine Parts Company"
+    url: "https://jobs.genpt.com/search-jobs/intern+technology"
+    is_faang_plus: false
+  - company: "Aflac"
+    url: "https://jobs.aflac.com/search-jobs/intern+technology"
+    is_faang_plus: false
+  - company: "Global Payments"
+    url: "https://jobs.globalpayments.com/en/jobs/?search=intern+software"
+    is_faang_plus: false
+  - company: "Fiserv"
+    url: "https://careers.fiserv.com/search-jobs/intern+technology"
+    is_faang_plus: false
+  - company: "NCR Voyix"
+    url: "https://careers.ncr.com/search-jobs/intern+software"
+    is_faang_plus: false
+  - company: "Intercontinental Exchange"
+    url: "https://careers.ice.com/search-jobs/intern+technology"
+    is_faang_plus: false
+  - company: "Equifax"
+    url: "https://careers.equifax.com/en/jobs/?search=intern+software"
+    is_faang_plus: false
+  - company: "InComm Payments"
+    url: "https://careers.incomm.com/search-jobs/intern+technology"
+    is_faang_plus: false
+
+  # --- Other Top Tech Companies ---
+  - company: "Tesla"
+    url: "https://www.tesla.com/careers/search/?query=intern+software"
+    is_faang_plus: false
+  - company: "Nvidia"
+    url: "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite?q=intern+software"
+    is_faang_plus: false
+  - company: "AMD"
+    url: "https://careers.amd.com/careers-home/jobs?keywords=intern+software"
+    is_faang_plus: false
+  - company: "Intel"
+    url: "https://jobs.intel.com/en/search-jobs/intern+software"
+    is_faang_plus: false
+  - company: "Qualcomm"
+    url: "https://careers.qualcomm.com/careers?query=intern+software"
+    is_faang_plus: false
+  - company: "IBM"
+    url: "https://www.ibm.com/careers/search?query=intern+software"
+    is_faang_plus: false
+  - company: "Oracle"
+    url: "https://careers.oracle.com/jobs/?keyword=intern+software"
+    is_faang_plus: false
+  - company: "Salesforce"
+    url: "https://careers.salesforce.com/en/jobs/?search=intern+software"
+    is_faang_plus: false
+  - company: "Adobe"
+    url: "https://careers.adobe.com/us/en/search-results?keywords=intern+software"
+    is_faang_plus: false
+  - company: "VMware"
+    url: "https://careers.vmware.com/main/jobs?keywords=intern+software"
+    is_faang_plus: false
+  - company: "Cisco"
+    url: "https://jobs.cisco.com/jobs/SearchJobs/intern+software"
+    is_faang_plus: false
+
+  # --- Finance / Quant ---
+  - company: "JPMorgan Chase"
+    url: "https://careers.jpmorgan.com/us/en/students/programs/software-engineer-summer"
+    is_faang_plus: false
+  - company: "Goldman Sachs"
+    url: "https://www.goldmansachs.com/careers/students/programs/americas/summer-analyst.html"
+    is_faang_plus: false
+  - company: "Morgan Stanley"
+    url: "https://morganstanley.tal.net/vx/lang-en-GB/candidate/jobboard/requisition/default/campaign/14/type/6"
+    is_faang_plus: false
+  - company: "Bloomberg"
+    url: "https://careers.bloomberg.com/job/search?qf=internship&qe=Software+Engineering"
+    is_faang_plus: false
+  - company: "Citadel"
+    url: "https://www.citadel.com/careers/open-opportunities/?keyword=intern"
+    is_faang_plus: false
+  - company: "Two Sigma"
+    url: "https://careers.twosigma.com/careers/SearchJobs/?q=intern"
+    is_faang_plus: false
+  - company: "Jane Street"
+    url: "https://www.janestreet.com/join-jane-street/open-roles/?type=intern&location=new-york"
+    is_faang_plus: false
+  - company: "DE Shaw"
+    url: "https://www.deshaw.com/careers/internships"
+    is_faang_plus: false
+  - company: "Hudson River Trading"
+    url: "https://www.hudsonrivertrading.com/careers/?gh_src=&q=intern"
+    is_faang_plus: false
+
+# ============================================================================
+# GitHub Repo Monitors
+# ============================================================================
+# Monitor other repos for new additions (diff against last run).
+github_monitors:
+  - repo: "SimplifyJobs/Summer2026-Internships"
+    branch: "dev"
+    file: "README.md"
+
+# ============================================================================
+# Filtering
+# ============================================================================
+filters:
+  keywords_include:
+    - "intern"
+    - "internship"
+    - "co-op"
+    - "coop"
+    - "summer 2026"
+    - "summer 26"
+  keywords_exclude:
+    - "senior"
+    - "staff"
+    - "principal"
+    - "director"
+    - "manager"
+    - "lead engineer"
+  role_categories:
+    swe:
+      - "software engineer"
+      - "software developer"
+      - "backend"
+      - "frontend"
+      - "full stack"
+      - "fullstack"
+      - "web developer"
+      - "mobile engineer"
+      - "ios engineer"
+      - "android engineer"
+      - "platform engineer"
+      - "infrastructure engineer"
+      - "devops"
+      - "sre"
+      - "site reliability"
+    ml_ai:
+      - "machine learning"
+      - "ml engineer"
+      - "ai engineer"
+      - "deep learning"
+      - "nlp"
+      - "computer vision"
+      - "data scientist"
+      - "research engineer"
+      - "research scientist"
+    data_science:
+      - "data analyst"
+      - "data engineer"
+      - "business intelligence"
+      - "analytics"
+    quant:
+      - "quantitative"
+      - "quant"
+      - "algorithmic trading"
+      - "systematic"
+    pm:
+      - "product manager"
+      - "program manager"
+      - "technical program manager"
+      - "tpm"
+    hardware:
+      - "hardware engineer"
+      - "embedded"
+      - "firmware"
+      - "fpga"
+      - "asic"
+      - "chip design"
+      - "electrical engineer"
+  exclude_companies:
+    - "Revature"
+    - "Infosys"
+    - "Wipro"
+    - "TCS"
+    - "Cognizant"
+
+# ============================================================================
+# AI Enrichment
+# ============================================================================
+ai:
+  model: "gemini-2.0-flash"
+  max_tokens: 1024
+  enrichment_prompt: |
+    Analyze this job listing and extract structured metadata.
+    Return JSON only, no markdown, no explanation.
+    {
+      "is_internship": true/false,
+      "is_summer_2026": true/false,
+      "category": "swe|ml_ai|data_science|quant|pm|hardware|other",
+      "locations": ["city, state abbreviation"],
+      "is_georgia": true/false,
+      "sponsorship": "sponsors|no_sponsorship|us_citizenship|unknown",
+      "requires_advanced_degree": true/false,
+      "remote_friendly": true/false,
+      "tech_stack": ["Python", "React", ...],
+      "confidence": 0.0-1.0
+    }
+
+# ============================================================================
+# Schedule
+# ============================================================================
+schedule:
+  update_interval_hours: 6
+  link_check_interval_hours: 24
+  archive_after_days: 7    # days after link goes dead before archiving
