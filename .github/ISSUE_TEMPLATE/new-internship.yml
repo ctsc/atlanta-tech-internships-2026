@@ -1,0 +1,55 @@
+name: New Internship Submission
+description: Submit an internship listing we missed
+title: "[New] {Company} — {Role}"
+labels: ["new-internship"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company Name
+      placeholder: e.g., Stripe
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role Title
+      placeholder: e.g., Software Engineer Intern
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Application URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location(s)
+      placeholder: e.g., San Francisco, CA / Remote
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Role Category
+      options:
+        - Software Engineering
+        - ML / AI / Data Science
+        - Quantitative Finance
+        - Product Management
+        - Hardware Engineering
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: flags
+    attributes:
+      label: Additional Info
+      options:
+        - label: Offers visa sponsorship
+        - label: Requires U.S. citizenship
+        - label: Remote friendly
+        - label: Requires advanced degree (Master's/PhD)
