@@ -289,6 +289,29 @@ def _save_database(db: JobsDatabase) -> None:
     )
 
 
+def _infer_category_from_title(
+    title: str, role_categories: dict[str, list[str]]
+) -> str:
+    """Infer a role category from the job title using keyword matching.
+
+    Checks the title against each category's keyword list from config.yaml.
+    Returns the first matching category key, or "other" if none match.
+
+    Args:
+        title: The job title string.
+        role_categories: Mapping of category key -> list of keyword phrases.
+
+    Returns:
+        Category string (e.g. "swe", "ml_ai", "other").
+    """
+    title_lower = title.lower()
+    for category, keywords in role_categories.items():
+        for keyword in keywords:
+            if keyword.lower() in title_lower:
+                return category
+    return "other"
+
+
 def validate_all() -> list[JobListing]:
     """Main validation entry point.
 
@@ -338,6 +361,12 @@ def validate_all() -> list[JobListing]:
     rejected_low_confidence = 0
     errors = 0
 
+    # Load role category keywords for fallback classification
+    try:
+        role_categories_map = config.filters.role_categories
+    except Exception:
+        role_categories_map = {}
+
     for i, raw in enumerate(raw_listings):
         # Skip listings already in the database
         if raw.content_hash in existing_hashes:
@@ -356,6 +385,31 @@ def validate_all() -> list[JobListing]:
                 )
                 errors += 1
                 continue
+
+            # Detect DEFAULT_METADATA (Gemini unavailable / budget exceeded):
+            # confidence == 0.0 AND season == "none" means AI didn't run.
+            # Since discovery already filtered for intern keywords, accept
+            # these listings with reasonable defaults instead of rejecting.
+            is_default_metadata = (
+                metadata.get("confidence", 0.0) == 0.0
+                and metadata.get("season", "none") == "none"
+            )
+
+            if is_default_metadata:
+                default_season = sorted(active_seasons)[0] if active_seasons else "summer_2026"
+                metadata["season"] = default_season
+                metadata["confidence"] = 0.7
+                metadata["category"] = _infer_category_from_title(
+                    raw.title, role_categories_map
+                )
+                logger.info(
+                    "Accepted without AI validation (Gemini unavailable): %s — %s "
+                    "(default season=%s, category=%s)",
+                    raw.company,
+                    raw.title,
+                    default_season,
+                    metadata["category"],
+                )
 
             # Validation checks
             if not metadata.get("is_internship", False):

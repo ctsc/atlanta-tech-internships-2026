@@ -35,6 +35,7 @@ from scripts.utils.config import (
 from scripts.utils.models import RawListing
 from scripts.utils.scraper import (
     GenericScraper,
+    _parse_html_table,
     _parse_readme_table,
     _strip_markup,
     monitor_github_repo,
@@ -864,6 +865,167 @@ class TestMarkdownParsing:
     def test_strip_markup_combined(self):
         """Combined markdown formatting is stripped."""
         assert _strip_markup("**[Google](https://google.com)**") == "Google"
+
+
+# ======================================================================
+# HTML table parsing (Simplify format)
+# ======================================================================
+
+
+class TestHTMLTableParsing:
+    """Tests for HTML table parsing used by Simplify and similar repos."""
+
+    def test_parse_basic_html_table(self):
+        """Parse a simple HTML table with company, role, location, apply link."""
+        content = """
+<table>
+<thead><tr><th>Company</th><th>Role</th><th>Location</th><th>Application</th><th>Date</th></tr></thead>
+<tbody>
+<tr>
+  <td><strong><a href="https://stripe.com">Stripe</a></strong></td>
+  <td>Software Engineer Intern</td>
+  <td>San Francisco, CA</td>
+  <td><a href="https://stripe.com/jobs/123">Apply</a></td>
+  <td>Jan 15</td>
+</tr>
+<tr>
+  <td><strong><a href="https://anthropic.com">Anthropic</a></strong></td>
+  <td>ML Research Intern</td>
+  <td>San Francisco, CA</td>
+  <td><a href="https://anthropic.com/jobs/456">Apply</a></td>
+  <td>Jan 20</td>
+</tr>
+</tbody>
+</table>
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) == 2
+        assert rows[0]["company"] == "Stripe"
+        assert rows[0]["role"] == "Software Engineer Intern"
+        assert rows[0]["location"] == "San Francisco, CA"
+        assert rows[0]["url"] == "https://stripe.com/jobs/123"
+        assert rows[1]["company"] == "Anthropic"
+        assert rows[1]["url"] == "https://anthropic.com/jobs/456"
+
+    def test_parse_continuation_rows(self):
+        """↳ continuation rows carry forward the previous company."""
+        content = """
+<table>
+<tbody>
+<tr>
+  <td><strong><a href="https://google.com">Google</a></strong></td>
+  <td>SWE Intern</td>
+  <td>Mountain View, CA</td>
+  <td><a href="https://google.com/jobs/1">Apply</a></td>
+</tr>
+<tr>
+  <td>↳</td>
+  <td>ML Intern</td>
+  <td>New York, NY</td>
+  <td><a href="https://google.com/jobs/2">Apply</a></td>
+</tr>
+<tr>
+  <td>↳</td>
+  <td>Data Science Intern</td>
+  <td>Remote</td>
+  <td><a href="https://google.com/jobs/3">Apply</a></td>
+</tr>
+</tbody>
+</table>
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) == 3
+        assert all(r["company"] == "Google" for r in rows)
+        assert rows[0]["role"] == "SWE Intern"
+        assert rows[1]["role"] == "ML Intern"
+        assert rows[2]["role"] == "Data Science Intern"
+
+    def test_parse_details_location(self):
+        """Locations inside <details> tags are expanded and included."""
+        content = """
+<table>
+<tbody>
+<tr>
+  <td><strong>Meta</strong></td>
+  <td>SWE Intern</td>
+  <td>Menlo Park, CA<br><details><summary>3 more</summary>New York, NY<br>Seattle, WA<br>Austin, TX</details></td>
+  <td><a href="https://metacareers.com/jobs/1">Apply</a></td>
+</tr>
+</tbody>
+</table>
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) == 1
+        loc = rows[0]["location"]
+        assert "Menlo Park" in loc
+        assert "New York" in loc
+        assert "Seattle" in loc
+        assert "Austin" in loc
+
+    def test_parse_html_table_no_apply_link_skipped(self):
+        """Rows without an apply URL are skipped."""
+        content = """
+<table>
+<tbody>
+<tr>
+  <td><strong>NoLink Corp</strong></td>
+  <td>Intern</td>
+  <td>Remote</td>
+  <td>Closed</td>
+</tr>
+</tbody>
+</table>
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) == 0
+
+    def test_parse_html_table_emoji_stripped_from_role(self):
+        """Emoji in role cells is stripped by _strip_markup."""
+        content = """
+<table>
+<tbody>
+<tr>
+  <td><strong>Stripe</strong></td>
+  <td>🔒 SWE Intern</td>
+  <td>SF</td>
+  <td><a href="https://stripe.com/jobs/99">Apply</a></td>
+</tr>
+</tbody>
+</table>
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) == 1
+        assert "SWE Intern" in rows[0]["role"]
+        # Emoji should be stripped
+        assert "\U0001f512" not in rows[0]["role"]
+
+    def test_parse_html_falls_back_to_markdown(self):
+        """If content has no <table> tag, falls back to markdown pipe parsing."""
+        content = """
+| Company | Role | Location | Link |
+|---------|------|----------|------|
+| **Google** | SWE Intern | MTV | [Apply](https://google.com/1) |
+"""
+        rows = _parse_readme_table(content, "test/repo")
+        assert len(rows) >= 1
+        assert rows[0]["company"] == "Google"
+
+    def test_parse_html_table_directly(self):
+        """_parse_html_table can be called directly."""
+        content = """
+<table><tbody>
+<tr>
+  <td><strong>Ramp</strong></td>
+  <td>Backend Intern</td>
+  <td>NYC</td>
+  <td><a href="https://ramp.com/jobs/5">Apply</a></td>
+</tr>
+</tbody></table>
+"""
+        rows = _parse_html_table(content)
+        assert len(rows) == 1
+        assert rows[0]["company"] == "Ramp"
+        assert rows[0]["url"] == "https://ramp.com/jobs/5"
 
 
 # ======================================================================

@@ -470,9 +470,156 @@ async def monitor_github_repo(monitor: GitHubMonitor) -> list[RawListing]:
 
 
 def _parse_readme_table(content: str, repo_name: str) -> list[dict]:
-    """Parse markdown tables from a README to extract job listing rows.
+    """Parse job listing tables from a README.
 
-    Handles both markdown links [text](url) and HTML links <a href="url">.
+    Supports two formats:
+    1. **HTML tables** (``<table>`` tags) — used by SimplifyJobs and others.
+       Parses ``<tbody><tr>`` rows via BeautifulSoup.  Column mapping:
+       0=Company, 1=Role, 2=Location, 3=Application link.
+    2. **Markdown pipe tables** — the traditional ``| col | col |`` format.
+
+    Both paths carry forward the last-seen company name for continuation
+    rows that begin with ``↳``.
+
+    Returns a list of dicts with keys: company, role, location, url.
+    """
+    # Detect HTML tables — if present, prefer the HTML parser
+    if "<table" in content.lower():
+        entries = _parse_html_table(content)
+        if entries:
+            return entries
+
+    # Fallback: markdown pipe tables
+    return _parse_markdown_pipe_table(content)
+
+
+def _parse_html_table(content: str) -> list[dict]:
+    """Parse HTML ``<table>`` elements for job listing rows.
+
+    Expected column order (Simplify format):
+        0 — Company  (``<strong><a>`` or plain text; ``↳`` for continuation)
+        1 — Role     (text, possibly with emoji)
+        2 — Location (may contain ``<br>`` or ``<details>`` blocks)
+        3 — Application link (first ``<a href="...">`` is the apply URL)
+
+    Returns a list of dicts with keys: company, role, location, url.
+    """
+    soup = BeautifulSoup(content, "lxml")
+    tables = soup.find_all("table")
+    if not tables:
+        return []
+
+    entries: list[dict] = []
+    last_company = ""
+
+    for table in tables:
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) < 3:
+                continue
+
+            # --- Company (column 0) ---
+            company_cell = cells[0]
+            company_text = _extract_cell_text(company_cell)
+
+            if not company_text or company_text == "↳":
+                company = last_company
+            else:
+                company = company_text
+                last_company = company
+
+            if not company:
+                continue
+
+            # Skip header-like rows
+            if company.lower() in ("company", "symbol", "legend", "---"):
+                continue
+
+            # --- Role (column 1) ---
+            role = _strip_markup(_extract_cell_text(cells[1])) if len(cells) > 1 else "Unknown Role"
+
+            # --- Location (column 2) ---
+            location = _extract_location_cell(cells[2]) if len(cells) > 2 else "Unknown"
+
+            # --- Apply URL (column 3, fallback to any cell) ---
+            apply_url = None
+            # Prefer column 3 if it exists
+            if len(cells) > 3:
+                apply_url = _extract_first_href(cells[3])
+            # Fallback: scan all cells right-to-left
+            if not apply_url:
+                for cell in reversed(cells):
+                    apply_url = _extract_first_href(cell)
+                    if apply_url:
+                        break
+
+            if not apply_url:
+                continue
+
+            entries.append(
+                {
+                    "company": company,
+                    "role": role,
+                    "location": location,
+                    "url": apply_url,
+                }
+            )
+
+    return entries
+
+
+def _extract_cell_text(cell) -> str:
+    """Get cleaned text from a table cell, stripping HTML/markdown formatting."""
+    # Prefer text from <strong><a> or <a> if present
+    strong = cell.find("strong")
+    if strong:
+        anchor = strong.find("a")
+        if anchor:
+            return _strip_markup(anchor.get_text(strip=True))
+        return _strip_markup(strong.get_text(strip=True))
+    anchor = cell.find("a")
+    if anchor:
+        return _strip_markup(anchor.get_text(strip=True))
+    return _strip_markup(cell.get_text(strip=True))
+
+
+def _extract_location_cell(cell) -> str:
+    """Extract location text from a cell that may contain <br> or <details>.
+
+    Flattens ``<br>`` into ``, `` separators and expands ``<details>``
+    content so hidden locations are included.
+    """
+    # Expand <details> tags so their content is visible
+    for details in cell.find_all("details"):
+        summary = details.find("summary")
+        # Replace the details block with its inner content (minus summary)
+        if summary:
+            summary.decompose()
+        details.unwrap()
+
+    # Replace <br> with comma separator
+    for br in cell.find_all("br"):
+        br.replace_with(", ")
+
+    raw = cell.get_text(separator=", ", strip=True)
+    # Collapse multiple commas / whitespace
+    raw = re.sub(r"[,\s]{2,}", ", ", raw).strip(", ")
+    return _strip_markup(raw) if raw else "Unknown"
+
+
+def _extract_first_href(cell) -> str | None:
+    """Return the first ``https?://`` href found in a cell's ``<a>`` tags."""
+    for anchor in cell.find_all("a", href=True):
+        href = anchor["href"]
+        if re.match(r"https?://", href):
+            return href
+    return None
+
+
+def _parse_markdown_pipe_table(content: str) -> list[dict]:
+    """Parse markdown pipe tables (``| col | col |``) for job listing rows.
+
+    Handles both markdown links ``[text](url)`` and HTML links ``<a href="url">``.
     Carries forward company names for continuation rows (↳ prefix).
 
     Returns a list of dicts with keys: company, role, location, url.
