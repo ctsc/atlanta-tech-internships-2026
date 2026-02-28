@@ -4,7 +4,7 @@
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
-> Built and maintained by [Carter](https://github.com/ctsc) | President, IEEE @ Georgia State
+> Built by [Carter](https://github.com/ctsc) | Maintained by [progsu](https://progsu.com/) programming club @ Georgia State
 
 Use this repo to discover and track **tech internships** across software engineering, ML/AI, data science, quant, and more.
 
