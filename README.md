@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: February 28, 2026 at 18:09 UTC
+> 🤖 **Auto-updated every 6 hours** | Last updated: February 28, 2026 at 18:18 UTC
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -14,14 +14,14 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 280 |
-| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 114 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 176 |
-| 📈 [Quantitative Finance](#-quantitative-finance) | 11 |
+| 💻 [Software Engineering](#-software-engineering) | 277 |
+| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 107 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 172 |
+| 📈 [Quantitative Finance](#-quantitative-finance) | 9 |
 | 📱 [Product Management](#-product-management) | 1 |
-| 🔧 [Hardware Engineering](#-hardware-engineering) | 30 |
-| 🔹 [Other](#-other) | 914 |
-| **Total** | **1526** |
+| 🔧 [Hardware Engineering](#-hardware-engineering) | 31 |
+| 🔹 [Other](#-other) | 925 |
+| **Total** | **1522** |
 
 ---
 
@@ -69,9 +69,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Date Added |
 |---------|------|----------|--------|-------|------------|
-| 💬 **Pinterest** | Machine Learning Intern Fall 2026 (Toronto) | Toronto, ON, CA | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7268778) | Feb 28 |
-| 💬 **Pinterest** | Master's Machine Learning Internship Summer Term 2026 (Toronto) | Toronto, ON, CA | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7268767) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Quantitative Development Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7663697&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Global Relay** | Co-op Java Developer | Halifax Regional Municipality, NS, Canada | F26 | [Apply](https://www.globalrelay.com/careers/jobs?gh_jid=5815419004&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **KION Group** | Intern Software Engineer | Atlanta, GA | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/Intern---Software-Engineer_JR-0087191?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Trimble** | Software Engineer Intern | Atlanta, GA | F26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Atlanta-GA/Software-Engineer-Intern_R52484?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -116,13 +113,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **GE Vernova** | Controls Product Management Cost Analyst Intern | Longmont, CO, Greenville and 1 more | F26 | [Apply](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Longmont/Controls-Product-Management-Cost-Analyst-Intern_R5021234-2?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Acuity** | Intern - Product Operations | Decatur, GA | F26 | [Apply](https://careers.acuityinc.com/job/Decatur-Summer-Internship-Product-Operations-(Hybrid-Decatur,-GA)-GA-30035/1360879400/?ats=successfactors&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Motorola** | Product Management Intern - Product Management - Dispatch Products & Operations | Chicago, IL, Hoffman Estates and 3 more | F26 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Lexington-SC-SC07/XMLNAME-2026-Summer-Internship---Product-Management---Dispatch-Products---Operations_R61537?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Summer Intern - Quantitative Analytics | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7663216&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 📦 **Uber** | PhD Scientist Intern - Competitive Intelligence | SF, Seattle, WA and 2 more | F26 | [Apply](https://www.uber.com/global/en/careers/list/156189/?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏢 **Cisco** | AI/ML Modeling Engineer 2 - Intern | Milpitas, CA, San Jose and 2 more | F26 | [Apply](https://careers.cisco.com/global/en/job/2008901?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Hearst** | Specialty Markets Analytics Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026195?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Procter & Gamble (P&G)** | University of Cincinnati R&D Engineer Co-op | Mason, OH, Cincinnati and 1 more | F26 | [Apply](https://pg.wd5.myworkdayjobs.com/1000/job/Mason/University-of-Cincinnati-R-D-Engineer-Co-op_R000134835?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | ML Engineering Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7659764&utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Data Engineering Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7659561&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **RELX** | Knowledge & AI Optimization Intern | NYC, Philadelphia, PA and 4 more | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Missouri/Knowledge---AI-Optimization-Intern_R108300-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Johnson & Johnson** | AI/ML Intern - Computer Vision - Ophthalmology | Cambridge, MA, Bridgewater Township and 9 more | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/AI-ML-Summer-Intern---Computer-Vision---Ophthalmology_R-060055?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Johnson & Johnson** | Data Science Intern - Pai | Cambridge, MA, Bridgewater Township and 9 more | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Data-Science-Intern--PAI_R-057889?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -170,7 +164,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Resmed** | AI Engineer Intern | Norcross, GA | F26 | [Apply](https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/US-Brightree-Peachtree-Corners-Corp-Office/AI-Engineer-Intern_JR_047986?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Merck** | Future Talent Program Image Data Analytics Intern | Cambridge, MA, Boston and 5 more | F26 | [Apply](https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Image-Data-Analytics-Intern_R384659?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Centerstone** | Bachelor Level Intern Summer Semester | Louisville, KY, Oxford and 7 more | F26 | [Apply](https://centerstone.wd5.myworkdayjobs.com/centerstonecareers/job/Bloomington-Indiana/Bachelor-Level-Intern-Summer-Semester_JR-030425?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Motional** | 2026 Summer Intern-PhD - Foundations: Localization - RVA & Mapping | Boston, MA, Pittsburgh and 1 more | F26 | [Apply](https://motional.com/open-positions/?gh_jid=7615090003#/7615090003&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Alo Yoga** | Data Engineer Intern | San Ramon, CA, Culver City and 1 more | F26 | [Apply](https://boards.greenhouse.io/aloyoga/jobs/5789977004?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | ☁️ **Microsoft** | Research Intern - Applied Speech Research | Berkeley, CA, Burlington and 1 more | F26 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556751423?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nasdaq** | Research & Development Intern | Atlanta, GA | F26 | [Apply](https://nasdaq.wd1.myworkdayjobs.com/en-US/Global_External_Site/job/USA---Atlanta---Georgia/Research---Development-Intern---2026-Summer-Internship_R0025018?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -216,29 +209,24 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Date Added |
 |---------|------|----------|--------|-------|------------|
-| 💳 **Stripe** | Software Engineer, Intern | Dublin | F26 | [Apply](https://stripe.com/jobs/search?gh_jid=7206494) | Feb 28 |
 | 💳 **Stripe** | Software Engineer, Intern (Summer) | San Francisco, Seattle, New York City | F26 | [Apply](https://stripe.com/jobs/search?gh_jid=7210115) | Feb 28 |
 | 🏢 **Figma** | Software Engineer Intern, Developer Tools (2026) (London, United Kingdom) | London, England | F26 | [Apply](https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004) | Feb 28 |
-| 💳 **Coinbase** | Software Engineer Intern | Hybrid - San Francisco, CA | F26 | [Apply](https://www.coinbase.com/careers/positions/7268895?gh_jid=7268895) | Feb 28 |
 | 🧠 **Scale AI** | Software Engineering Intern (Summer 2026)  | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4606014005) | Feb 28 |
 | 💳 **Brex** | Software Engineer, Intern | United States | F26 | [Apply](https://www.brex.com/careers/8434389002?gh_jid=8434389002) | Feb 28 |
 | 💳 **Brex** | Software Engineer, Internship - 2026 | São Paulo, São Paulo, Brazil | F26 | [Apply](https://www.brex.com/careers/8434385002?gh_jid=8434385002) | Feb 28 |
 | 💳 **Robinhood** | Software Developer Intern, Backend (Summer 2026) | Toronto, Canada | F26 | [Apply](https://boards.greenhouse.io/robinhood/jobs/7235228?t=gh_src=&gh_jid=7235228) | Feb 28 |
 | 💳 **Robinhood** | Software Engineering Intern, Android (Summer 2026) | Menlo Park, CA | F26 | [Apply](https://boards.greenhouse.io/robinhood/jobs/7239199?t=gh_src=&gh_jid=7239199) | Feb 28 |
 | 💳 **Robinhood** | Software Engineering Intern, iOS (Summer 2026) | Menlo Park, CA | F26 | [Apply](https://boards.greenhouse.io/robinhood/jobs/7239268?t=gh_src=&gh_jid=7239268) | Feb 28 |
-| 💬 **Pinterest** | Software Engineering Intern 2026 (Mexico City) | Mexico City, MX | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7263499) | Feb 28 |
 | 💬 **Twitch** | Undergrad Software Engineering Intern | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8174019002) | Feb 28 |
 | ☁️ **Cloudflare** | Software Engineer Intern (Summer 2026) | In-Office | F26 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/7296923?gh_jid=7296923) | Feb 28 |
 | ☁️ **Cloudflare** | Software Engineer Intern (Summer 2026) - Austin, TX | In-Office | F26 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/7206269?gh_jid=7206269) | Feb 28 |
 | 🧠 **Databricks** | Software Engineering Intern (2026) | Belgrade, Serbia | F26 | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7640764002) | Feb 28 |
 | 🏢 **Asana** | Software Engineering Intern - Summer 2026 (Reykjavik) | Reykjavík | F26 | [Apply](https://www.asana.com/jobs/apply/7490314?gh_jid=7490314) | Feb 28 |
 | 🏢 **Asana** | Software Engineering Intern - Summer 2026 (Warsaw) | Warsaw | F26 | [Apply](https://www.asana.com/jobs/apply/7490274?gh_jid=7490274) | Feb 28 |
-| 🏷️ **Dropbox** | Poland Software Engineering Intern (Summer 2026) | Remote - Poland | F26 | [Apply](https://jobs.dropbox.com/listing/7309198?gh_jid=7309198) | Feb 28 |
 | 🏢 **Twilio** | Software Engineer Intern (June start, Remote-Estonia) | Remote - Estonia | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7585653) | Feb 28 |
 | 🏢 **Twilio** | Software Engineer Intern (June start, Remote-Ireland) | Remote - Ireland | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7585589) | Feb 28 |
 | 📦 **Roadie** | Software Engineer Intern - Summer 2026 | REMOTE | F26 | [Apply](https://job-boards.greenhouse.io/roadie/jobs/8431926002) | Feb 28 |
 | 🛒 **Squarespace** | Software Engineering Intern - Summer 2026 | Dublin | F26 | [Apply](http://www.squarespace.com/about/careers?gh_jid=7589065) | Feb 28 |
-| 🏢 **Grammarly** | Software Engineer Intern (Summer 2026) | Ukraine, Hybrid | F26 | [Apply](https://job-boards.greenhouse.io/grammarly/jobs/7657265) | Feb 28 |
 | 🔐 **Zscaler** | Site Reliability Engineer Federal- SkillBridge Intern | Remote - Virginia, USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5046050007) | Feb 28 |
 | 🔐 **Zscaler** | Site Reliability Engineer-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) | Feb 28 |
 | 🏷️ **RTX** | Intern – Software Engineer Intern | Marlborough, MA | F26 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--MA-_01827452?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -338,8 +326,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Visa** | Software Engineer – Intern - Summer 2026 - Foster City | San Mateo, CA | F26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000109722936?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Waters Corporation** | Intern Software Developer | Franklin, MA | F26 | [Apply](https://uscareers-waters.icims.com/jobs/25456/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Woven** | Software Engineer Intern - ML Platform | Ann Arbor, MI | F26 | [Apply](https://jobs.lever.co/woven-by-toyota/b6bb0a14-829c-45d6-b64d-7ddaeb1851b3/apply?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **SMX** | Intern-Software Engineer | Broomfield, CO | F26 | [Apply](https://www.smxtech.com/careers/?gh_jid=7611490003&utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏢 **LaunchDarkly** | Fullstack Software Engineer Intern | Oakland, CA | F26 | [Apply](https://job-boards.greenhouse.io/launchdarkly/jobs/7632240003?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Strata Decision Technology** | Intern Software Engineer - Reimbursement Intelligence | Chicago, IL, St. Louis and 1 more | F26 | [Apply](https://job-boards.greenhouse.io/stratacareers/jobs/7572710003?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Mercor** | Software Engineer Intern | SF | F26 | [Apply](https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **ByteDance** | Software Engineer Intern - AI Infrastructure | San Jose, CA | F26 | [Apply](https://jobs.bytedance.com/en/position/7595756835349973253/detail?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -358,8 +344,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Intuitive Surgical** | Software Engineer Intern | Sunnyvale, CA | F26 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000108384376?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **HeartFlow** | Software Engineer Intern - ML Ops / Compute Migration | SF | F26 | [Apply](https://job-boards.greenhouse.io/heartflowinc/jobs/5798443004?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Ditto AI** | Software Engineer Intern | Berkeley, CA | F26 | [Apply](https://jobs.ashbyhq.com/dittoai/f4cbce81-94bf-44cb-a2fc-4dcd001175e1/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏢 **Twilio** | Software Engineer Intern - Canada | Remote in Canada | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7560248?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏢 **Twilio** | Software Engineer Intern - United States | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7560246?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Perchwell** | Software Engineering Intern | NYC | F26 | [Apply](https://jobs.ashbyhq.com/Perchwell/6641ec1a-ebf5-4554-b5f4-6c998e57f37e/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Delinea** | Software Engineering Intern | Lehi, UT | F26 | [Apply](https://jobs.ashbyhq.com/delinea/3eed48b7-b60c-4c50-adc2-4523337e1592/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Resmed** | Software Engineer Intern | Halifax Regional Municipality, NS, Canada | F26 | [Apply](https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Halifax-Canada/Software-Engineer-Intern_JR_047978?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -444,7 +428,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Johnson Controls** | Software Engineering Intern | Milwaukee, WI | F26 | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Milwaukee-Wisconsin-United-States-of-America/Software-Engineering-Intern_WD30258854?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **TikTok** | Frontend Software Engineer Intern - Ads Measurement Signal and Privacy | San Jose, CA | F26 | [Apply](https://lifeattiktok.com/search/7595306554946193717?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Veeva Systems** | Intern Software Engineer - Summer 2026 | Pleasanton, CA | F26 | [Apply](https://jobs.lever.co/veeva/4df9c2ca-d702-4d41-af82-290deff66564/apply?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Exiger** | Software Engineer Intern | McLean, VA | F26 | [Apply](https://www.exiger.com/careers/5751719004?gh_jid=5751719004&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Tive** | Software Engineer Co-op | Boston, MA | F26 | [Apply](https://ats.rippling.com/tive-careers/jobs/e7ed0c47-bf2e-4105-a793-e48dc0e0f710?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **TikTok** | General Hire – Software Engineer Intern | San Jose, CA | F26 | [Apply](https://lifeattiktok.com/search/7592368550477465909?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Electronic Arts** | Software Engineer Intern | Vancouver, BC, Canada | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210835?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -454,7 +437,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Autostore** | Software Engineering Intern - Summer | Denver, CO | F26 | [Apply](https://autostore.wd3.myworkdayjobs.com/autostore/job/Denver-USA/Software-Engineering-Intern_JR102345?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nokia** | Security Software Developer Intern | Ottawa, ON, Canada | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29678?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nokia** | Security Software Developer Co-Op | Sunnyvale, CA | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29545?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Ithaka** | Intern Software Engineer | Remote in USA | F26 | [Apply](https://www.ithaka.org/job/4645220005?gh_jid=4645220005&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **DRW Holdings** | Software Developer Intern | Montreal, QC, Canada | F26 | [Apply](https://job-boards.greenhouse.io/drweng/jobs/7194245?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **T-Mobile** | Software Engineer Intern | Overland Park, KS | F26 | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2026-Software-Engineering-Internship_REQ346600?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **ZoomInfo** | Software Engineer Intern - Data Engineering | Bethesda, MD, Waltham and 1 more | F26 | [Apply](https://www.zoominfo.com/careers?gh_jid=8373259002&utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -496,6 +478,20 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Flock Safety** | Device Software Engineering Intern | Atlanta, GA | F26 | [Apply](https://jobs.ashbyhq.com/Flock%20Safety/88a80dbf-1627-420a-a087-1bc8edc894e0/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **NXP Semiconductors** | Software Engineering Intern | Ottawa, ON, Canada | F26 | [Apply](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Kanata/Software-Engineering-Intern---Summer-2026_R-10061229?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Roku** | Software Engineer Intern - Embedded | Cambridge, UK | F26 | [Apply](https://www.weareroku.com/jobs/7533350?gh_jid=7533350&utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 💳 **Stripe** | Software Engineer, Intern | London | F26 | [Apply](https://stripe.com/jobs/search?gh_jid=7360840) | Feb 28 |
+| 🏢 **Twilio** | Software Engineer Intern - Canada | Remote - Canada | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7560248) | Feb 28 |
+| 🏢 **Twilio** | Software Engineer Intern - United States | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7560246) | Feb 28 |
+| 🏢 **LaunchDarkly** | Fullstack Software Engineer Intern | Oakland, California, United States | F26 | [Apply](https://job-boards.greenhouse.io/launchdarkly/jobs/7632240003) | Feb 28 |
+| 🏢 **Grammarly** | Software Engineer Intern (Summer 2026) | Berlin, Hybrid | F26 | [Apply](https://job-boards.greenhouse.io/grammarly/jobs/7491439) | Feb 28 |
+| 📦 **Genuine Parts Company** | Marketing Technology InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/marketing-technology-intern/505/85815950224) | Feb 28 |
+| 📦 **Genuine Parts Company** | Web Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/web-developer-intern/505/91840435472) | Feb 28 |
+| 📦 **Genuine Parts Company** | Cloud SRE InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/cloud-sre-intern/505/86810984128) | Feb 28 |
+| 💳 **Coinbase** | Software Engineer Intern 🔒 | Hybrid - San Francisco, CA | F26 | 🔒 Closed | Feb 28 |
+| 💬 **Pinterest** | Software Engineering Intern 2026 (Mexico City) 🔒 | Mexico City, MX | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | Poland Software Engineering Intern (Summer 2026) 🔒 | Remote - Poland | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **SMX** | Intern-Software Engineer 🔒 | Broomfield, CO | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Exiger** | Software Engineer Intern 🔒 | McLean, VA | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Ithaka** | Intern Software Engineer 🔒 | Remote in USA | F26 | 🔒 Closed | Feb 28 |
 
 ---
 
@@ -505,22 +501,15 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|------------|
 | 💳 **Stripe** | PhD Data Scientist, Intern | Toronto, Ontario, Canada | F26 | [Apply](https://stripe.com/jobs/search?gh_jid=7285974) | Feb 28 |
 | 💳 **Stripe** | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | F26 | [Apply](https://stripe.com/jobs/search?gh_jid=7216664) | Feb 28 |
-| 💳 **Coinbase** | Machine Learning Engineer Intern | Hybrid - San Francisco, CA | F26 | [Apply](https://www.coinbase.com/careers/positions/7294075?gh_jid=7294075) | Feb 28 |
 | 🧠 **Scale AI** | Machine Learning Research Intern (Summer 2026) | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4606060005) | Feb 28 |
 | 🛒 **Instacart** | Machine Learning Engineer, PhD Intern | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=5917202) | Feb 28 |
 | 🛒 **Instacart** | Machine Learning PhD Intern, Economics | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=7532267) | Feb 28 |
-| 💬 **Pinterest** | Machine Learning Intern Fall 2026 (Toronto) | Toronto, ON, CA | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7268778) | Feb 28 |
-| 💬 **Pinterest** | Master's Machine Learning Internship Summer Term 2026 (Toronto) | Toronto, ON, CA | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7268767) | Feb 28 |
-| 💬 **Pinterest** | PhD Machine Learning Internship 2026 (USA)  | San Francisco, CA, US, Palo Alto, CA, US, Seattle, WA, US and 1 more | F26 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7211004) | Feb 28 |
 | ☁️ **Cloudflare** | Research Engineer Intern (Summer 2026) | In-Office | F26 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525) | Feb 28 |
 | 🧠 **Databricks** | PhD GenAI Research Scientist Intern | San Francisco, California | F26 | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002) | Feb 28 |
-| 🏷️ **Dropbox** | PhD Machine Learning Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7368677?gh_jid=7368677) | Feb 28 |
 | 🏷️ **RELX** | Data Scientist Intern | NYC, Massachusetts, Pennsylvania and 1 more | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Pennsylvania/Data-Scientist-Intern_R109156-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Motional** | Intern – Research Engineering Intern - PhD - Generative Simulation Validation | Boston, MA | F26 | [Apply](https://motional.com/open-positions/?gh_jid=7646487003#/7646487003&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Wasabi Technologies** | Co-op – AI / Machine Learning Engineering | Boston, MA | F26 | [Apply](https://job-boards.greenhouse.io/wasabi/jobs/5135801008?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Elsevier** | Data Scientist Intern | NYC, Massachusetts, Pennsylvania and 1 more | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/Pennsylvania/Data-Scientist-Intern_R109156?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Fulton Bank** | Intern Data Scientist | Lancaster, PA | F26 | [Apply](https://careers-fult.icims.com/jobs/23336/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | ML Engineering Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7659764&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Johnson & Johnson** | AI/ML Intern - Computer Vision - Ophthalmology | Cambridge, MA, Bridgewater Township and 9 more | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/AI-ML-Summer-Intern---Computer-Vision---Ophthalmology_R-060055?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Bose** | Digital Signal Processing Machine Learning Software Development Co-op | Framingham, MA | F26 | [Apply](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Digital-Signal-Processing-ML-Software-Development-Co-op_R28705?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **RTX** | Intern - AI/ML Engineering Methods | Waterbury, CT | F26 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-REMOTE/Intern--Summer-2026---AI-ML-Engineering-Methods--Remote-_01805523?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -603,7 +592,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Motorola** | Data Scientist Intern | Chicago, IL, Hoffman Estates and 1 more | F26 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Data-Scientist-Intern--Summer-2026-Internship-_R59968?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Rocket Companies** | Data Scientist Intern | Detroit, MI | F26 | [Apply](https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Windsor-ON/Data-Scientist-Intern---Summer-2026--Windsor--ON-_R-081572?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Booz Allen** | University – 2026 Summer Games Data Scientist Intern | Honolulu, HI, Annapolis Junction and 19 more | F26 | [Apply](https://bah.wd1.myworkdayjobs.com/Confidential/job/McLean-VA/University--2026-Summer-Games-Data-Scientist-Intern_R0225534-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏦 **Citadel** | Machine Learning Researcher – PhD Intern - US | NYC | F26 | [Apply](https://www.citadel.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Flagship Pioneering** | AI Research Scientist Intern - Summer 2026 | Cambridge, MA | F26 | [Apply](https://boards.greenhouse.io/flagshippioneeringinc/jobs/8373309002?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **TikTok** | Data Scientist Intern - Tiktok UG-Mid Platform - 2026 Summer | San Jose, CA | F26 | [Apply](https://lifeattiktok.com/search/7592001144580262197?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **TikTok** | Machine Learning Engineer Intern - Commerce Ads - 2026 Summer | San Jose, CA | F26 | [Apply](https://lifeattiktok.com/search/7595346361319491893?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -617,6 +605,15 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏢 **Adobe** | Intern - Data Scientist | San Jose, CA | F26 | [Apply](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2026-Intern---Data-Scientist_R158902?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **ByteDance** | Camera and Computer Vision Development Intern - Pico - 2026 Summer','PhD | San Jose, CA | F26 | [Apply](https://jobs.bytedance.com/en/position/7592046406739921205/detail?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | ☁️ **Microsoft** | Research Intern - Machine Learning and Optimization | Cambridge, MA, Redmond and 1 more | F26 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556655958?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **Bloom Energy** | Machine Learning / Data Science Intern | San Jose, CA | F26 | [Apply](https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Machine-Learning---Data-Science-Intern_JR-21570?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 💳 **Coinbase** | Machine Learning Engineer Intern 🔒 | Hybrid - San Francisco, CA | F26 | 🔒 Closed | Feb 28 |
+| 💬 **Pinterest** | Machine Learning Intern Fall 2026 (Toronto) 🔒 | Toronto, ON, CA | F26 | 🔒 Closed | Feb 28 |
+| 💬 **Pinterest** | Master's Machine Learning Internship Summer Term 2026 (Toronto) 🔒 | Toronto, ON, CA | F26 | 🔒 Closed | Feb 28 |
+| 💬 **Pinterest** | PhD Machine Learning Internship 2026 (USA)  🔒 | San Francisco, CA, US, Palo Alto, CA, US, Seattle, WA, US and 1 more | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | PhD Machine Learning Intern (Summer 2026) 🔒 | Remote - US: All locations | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Motional** | Intern – Research Engineering Intern - PhD - Generative Simulation Validation 🔒 | Boston, MA | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Cypress Creek Renewables** | ML Engineering Intern 🔒 | Washington, DC, Durham and 3 more | F26 | 🔒 Closed | Feb 28 |
+| 🏦 **Citadel** | Machine Learning Researcher – PhD Intern - US 🔒 | NYC | F26 | 🔒 Closed | Feb 28 |
 
 ---
 
@@ -630,7 +627,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔐 **Okta** | Data Analyst Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055) | Feb 28 |
 | 🏷️ **ACLU Kentucky** | Undergraduate Intern - Technology and Analytics Department-Educate Pod | NYC | F26 | [Apply](https://job-boards.greenhouse.io/acluinternships/jobs/8425459002?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Vantage Data Centers** | Design Management Analytics Intern | Denver, CO | F26 | [Apply](https://vantagedc.wd1.myworkdayjobs.com/en-US/Vantage/job/Denver-Colorado/Design-Management-Intern--NA_R21139?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Summer Intern - Quantitative Analytics | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7663216&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Marmon Holdings** | Business/Data Analyst Intern | Chicago, IL | F26 | [Apply](https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/Business-Data-Analyst-Intern_JR0000041432-2?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Fidelity Investments** | Co-op – Advanced Data Analytics and Insights | Boston, MA | F26 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Advanced-Data-Analytics-and-Insights_2125260?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Ambarella** | Data Analyst Intern | United States | F26 | [Apply](https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Data-Analyst-Intern_JR100243?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -638,7 +634,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Nokia** | Care Data Analytics & AI Intern | Dallas, TX | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/31829?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Hearst** | Specialty Markets Analytics Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026195?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Pitney Bowes** | Data Analytics Intern | Shelton, CT | F26 | [Apply](https://pitneybowes.wd1.myworkdayjobs.com/pbcareers/job/US-CT-Shelton/Data-Analytics-Intern_R21344?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Data Engineering Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7659561&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Donaldson Company** | Modeling and Data Engineering – Master's Intern | Bloomington, MN | F26 | [Apply](https://donaldson.wd5.myworkdayjobs.com/donaldsoncareers/job/Bloomington-MN-USA/Modeling-and-Data-Engineering---Master-s-Intern_JR-26037?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Fidelity Investments** | Co-Op – Risk Data Analyst | Merrimack, NH, Boston and 3 more | F26 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-Op--Risk-Data-Analyst_2125190?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Fidelity Investments** | Co-Op Data Analyst | Boston, MA, Westlake and 1 more | F26 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-Op--Data-Analyst_2125163?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -704,7 +699,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **American Heart Association** | Intern – Data Analyst | Dallas, TX | F26 | [Apply](https://careers-heart.icims.com/jobs/17141/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **ABB** | AI Data Analytics Intern | San Jose, CA | F26 | [Apply](https://abb.wd3.myworkdayjobs.com/external_career_page/job/San-Jose-California-United-States-of-America/AI-Data-Analytics-Intern--Summer-2026_JR00024382?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Humana** | Graduate Analytics Internship - Summer 2026 | Kentucky | F26 | [Apply](https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Remote-Kentucky/Graduate-Analytics-Internship---Summer-2026_R-405928?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **SMX** | Summer Internship-Foreign Policy - Intelligence and Data Analytics - Kapolei, HI | Kapolei, HI | F26 | [Apply](https://www.smxtech.com/careers/?gh_jid=7630388003&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **EBSCO** | Data Analytics and Experimentation Intern | Remote in USA | F26 | [Apply](https://careers-ebscoind.icims.com/jobs/1956/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **ByteDance** | Benefits Operation Data Analyst Project Intern | San Jose, CA | F26 | [Apply](https://jobs.bytedance.com/en/position/7605524889478842677/detail?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Applied Materials** | 2026 Summer Data Analyst/Scientist Intern-Master's - Santa Clara - CA | Santa Clara, CA | F26 | [Apply](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-Summer-Data-Analyst-Scientist-Intern--Master-s--Santa-Clara--CA-_R2612971?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -788,11 +782,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Howmet Aerospace** | Intern – Manufacturing Data Analyst - Whitehall - MI | Muskegon, MI | F26 | [Apply](https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115794?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Definity Financial** | Advanced Analytics Professional – Summer 2026 Co-op/Intern | Toronto, ON, Canada and 6 more | F26 | [Apply](https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8840?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Paccar** | Data Engineering Intern Summer 2026 | Columbus, MS | F26 | [Apply](https://jobs.paccar.com/job/Columbus-Data-Engineering-Intern-Summer-2026-MS-39701/1283547501/?ats=successfactors&utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Exiger** | AI Data Engineer Intern - Summer 2026 | Toronto, ON, Canada | F26 | [Apply](https://www.exiger.com/careers/5751828004?gh_jid=5751828004&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Uline** | Financial Data Analyst Internship - Summer 2026 | Pleasant Prairie, WI | F26 | [Apply](https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Financial-Data-Analyst-Internship---Summer-2026_R260525?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Audax Group** | Data Engineer – Business Solutions Co-Op | Boston, MA | F26 | [Apply](https://job-boards.greenhouse.io/audaxgroup/jobs/4649036005?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏢 **Oracle** | PhD Applied Scientist Intern - Oracle Analytics | NYC, Seattle, WA and 2 more | F26 | [Apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/322036?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Exiger** | Trade Intelligence Analyst Intern - Government Analytics | McLean, VA | F26 | [Apply](https://www.exiger.com/careers/5751874004?gh_jid=5751874004&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Cox** | Business Intelligence & Analytics Intern | Atlanta, GA, Overland Park and 1 more | F26 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Business-Intelligence---Analytics-Intern--Summer-2026---Mission--KS---Atlanta--GA_R202566800?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nokia** | Analytics Next-Gen AI Intern/Co-op | Ottawa, ON, Canada | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/30064?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Definity Financial** | Business Intelligence Co-op/Intern | Vancouver, BC, Canada | F26 | [Apply](https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8832?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -800,6 +792,12 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Electronic Arts** | Business Intelligence Intern | Vancouver, BC, Canada | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Business-Intelligence-Intern/210873?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Bandwidth** | Go to Market Analytics Intern | Raleigh, NC | F26 | [Apply](https://job-boards.greenhouse.io/bandwidth/jobs/7485296?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Apollo Global** | 2026 Summer Associate – Investment Portfolio Management & Analytics Intern - Apollo Aligned Alternatives Fund - Aaa | El Segundo, CA | F26 | [Apply](https://athene.wd5.myworkdayjobs.com/Apollo_Careers/job/El-Segundo-California/XMLNAME-2026-Summer-Associate--Investment-Portfolio-Management---Analytics-Intern---Apollo-Aligned-Alternatives-Fund--AAA-_R253919-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 📦 **Genuine Parts Company** | Business Intelligence Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/business-intelligence-developer-intern/505/85815950112) | Feb 28 |
+| 🏷️ **Cypress Creek Renewables** | Summer Intern - Quantitative Analytics 🔒 | Washington, DC, Durham and 3 more | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Cypress Creek Renewables** | Data Engineering Intern 🔒 | Washington, DC, Durham and 3 more | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **SMX** | Summer Internship-Foreign Policy - Intelligence and Data Analytics - Kapolei, HI 🔒 | Kapolei, HI | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Exiger** | AI Data Engineer Intern - Summer 2026 🔒 | Toronto, ON, Canada | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Exiger** | Trade Intelligence Analyst Intern - Government Analytics 🔒 | McLean, VA | F26 | 🔒 Closed | Feb 28 |
 
 ---
 
@@ -807,17 +805,17 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Date Added |
 |---------|------|----------|--------|-------|------------|
-| 🏷️ **Cypress Creek Renewables** | Quantitative Development Intern | Washington, DC, Durham and 3 more | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7663697&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Schonfeld** | 2026 Quantitative Developer Execution Services Sophomore Summer Internship | NYC | F26 | [Apply](https://job-boards.greenhouse.io/schonfeld/jobs/7610709?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Infleqtion** | Summer 2026 Quantum Software Internship – Undergraduate/Graduate | Chicago, IL | F26 | [Apply](https://apply.workable.com/coldquanta/j/32919D6F52/apply?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **InfiniteQuant** | Quantitative Developer – Internship - Summer 2026 | NYC, Dubai - United Arab Emirates | F26 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000107588752?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **InfiniteQuant** | Quantitative Researcher – Internship - Summer 2026 | NYC, Dubai - United Arab Emirates | F26 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000105006765?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Gelber Group** | Algorithmic Trading Intern | Boston, MA | F26 | [Apply](https://job-boards.greenhouse.io/gelberhandshake/jobs/4654950006?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Citadel Securities** | Quantitative Researcher Engineer – PhD Intern - Europe | London, UK | F26 | [Apply](https://www.citadelsecurities.com/careers/details/quantitative-researcher-engineer-phd-intern-europe/?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Jain Global** | Quant Research Intern - Summer 2026 - New York | NYC | F26 | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-Office/Quant-Research-Intern--Summer-2026---New-York-_JR100314?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Jain Global** | Quant Research Intern | London, UK | F26 | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/London-Office/Quant-Research-Intern--Summer-2026---London-_JR100353-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **G-Research** | Quantitative Research Intern | London, UK | F26 | [Apply](https://gresearch.wd103.myworkdayjobs.com/G-Research/job/London-UK/Internship-in-Quantitative-Research_R3213?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Ripple** | Quantitative Trading Intern | London, UK | F26 | [Apply](https://ripple.com/careers/all-jobs/job/7527740?gh_jid=7527740&utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **Cypress Creek Renewables** | Quantitative Development Intern 🔒 | Washington, DC, Durham and 3 more | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Citadel Securities** | Quantitative Researcher Engineer – PhD Intern - Europe 🔒 | London, UK | F26 | 🔒 Closed | Feb 28 |
 
 ---
 
@@ -863,6 +861,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Samsung** | Intern – Firmware Engineer - Pfd | San Jose, CA | F26 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/7605456003?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Sandisk** | Intern - Firmware Engineer - Physical Storage | Milpitas, CA | F26 | [Apply](https://jobs.smartrecruiters.com/Sandisk/744000106151995?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Stanley Black & Decker** | Embedded Engineering Summer Intern 2026 | Towson, MD | F26 | [Apply](https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2026_REQ-1000045296?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **Hewlett Packard (HP)** | Technology & Innovation Organization Hardware Engineering Intern | Corvallis, OR | F26 | [Apply](https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Corvallis-Oregon-United-States-of-America/Personal-Technology---Innovation-Organization-Hardware-Engineering-Internship_3154457?utm_source=Simplify&ref=Simplify) | Feb 28 |
 
 ---
 
@@ -871,10 +870,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Date Added |
 |---------|------|----------|--------|-------|------------|
 | ☁️ **Vercel** | Data Platform & Engineering Intern | Hybrid - San Francisco | F26 | [Apply](https://job-boards.greenhouse.io/vercel/jobs/5810803004) | Feb 28 |
-| 💳 **Coinbase** | Business Controller Intern | Hybrid - New York, NY | F26 | [Apply](https://www.coinbase.com/careers/positions/7434684?gh_jid=7434684) | Feb 28 |
-| 💳 **Coinbase** | Product Design Intern | Hybrid - San Francisco, CA | F26 | [Apply](https://www.coinbase.com/careers/positions/7325051?gh_jid=7325051) | Feb 28 |
-| 💳 **Coinbase** | Strategic Sourcing Intern | Hybrid - New York, NY | F26 | [Apply](https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887) | Feb 28 |
-| 💳 **Coinbase** | User Researcher Intern | Hybrid - San Francisco, CA | F26 | [Apply](https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775) | Feb 28 |
 | 🧠 **Scale AI** | Technical Advisor Intern - GenAI (Winter/Spring 2026) | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4611533005) | Feb 28 |
 | 💬 **Twitch** | Graduate Applied Science Intern | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8204076002) | Feb 28 |
 | 💬 **Twitch** | Graduate Data Science Intern | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/twitch/jobs/8221777002) | Feb 28 |
@@ -912,15 +907,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏢 **Asana** | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | F26 | [Apply](https://www.asana.com/jobs/apply/7490322?gh_jid=7490322) | Feb 28 |
 | 🏢 **Asana** | Product Design Intern - Summer 2026 (Vancouver, BC) | Vancouver, BC | F26 | [Apply](https://www.asana.com/jobs/apply/7078126?gh_jid=7078126) | Feb 28 |
 | 🏢 **Asana** | Product Design Intern - Summer 2026 (Warsaw) | Warsaw | F26 | [Apply](https://www.asana.com/jobs/apply/7490332?gh_jid=7490332) | Feb 28 |
-| 🏷️ **Dropbox** | AI Solutions Intern (Summer 2026) | Remote - Ireland | F26 | [Apply](https://jobs.dropbox.com/listing/7460106?gh_jid=7460106) | Feb 28 |
-| 🏷️ **Dropbox** | Content Design Intern (Summer 2026) | Remote - Canada: Select locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558613?gh_jid=7558613) | Feb 28 |
-| 🏷️ **Dropbox** | CX Technical Content Design Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558512?gh_jid=7558512) | Feb 28 |
-| 🏷️ **Dropbox** | CX Video Content Design Intern (Summer 2026) | Remote - Canada: Select locations | F26 | [Apply](https://jobs.dropbox.com/listing/7532165?gh_jid=7532165) | Feb 28 |
-| 🏷️ **Dropbox** | Data Science Engineer Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7527941?gh_jid=7527941) | Feb 28 |
-| 🏷️ **Dropbox** | PhD Systems & AI/ML Research Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7462813?gh_jid=7462813) | Feb 28 |
-| 🏷️ **Dropbox** | Research and Insights Intern (Summer 2026) | Remote - Canada: Select locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558572?gh_jid=7558572) | Feb 28 |
-| 🏷️ **Dropbox** | Support Enablement Engineer Intern  (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7531477?gh_jid=7531477) | Feb 28 |
-| 🏷️ **Dropbox** | Tax & Treasury Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7628941?gh_jid=7628941) | Feb 28 |
 | 🏢 **Twilio** | Marketing Analyst Intern - Employer Brand | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7616761) | Feb 28 |
 | 🏢 **Amplitude** | Product Marketing Intern | San Francisco, CA | F26 | [Apply](https://job-boards.greenhouse.io/amplitude/jobs/8436646002) | Feb 28 |
 | 🏢 **Contentful** | Talent Acquisition Operations Intern (f/m/d) | Berlin | F26 | [Apply](https://job-boards.greenhouse.io/contentful/jobs/7572505) | Feb 28 |
@@ -936,7 +922,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔐 **Okta** | Communications AI Strategy & Operations Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195) | Feb 28 |
 | 🔐 **Okta** | Company Planning & Operations Intern (Summer 2026) | Bellevue, Washington | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7630315?gh_jid=7630315) | Feb 28 |
 | 🔐 **Okta** | Customer First Strategy and Operations Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7561036?gh_jid=7561036) | Feb 28 |
-| 🔐 **Okta** | Customer Success Intern (Summer 2026) | Dublin, Ireland | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7646155?gh_jid=7646155) | Feb 28 |
 | 🔐 **Okta** | Global Partner Marketing Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998) | Feb 28 |
 | 🔐 **Okta** | Growth & Marketing Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7560631?gh_jid=7560631) | Feb 28 |
 | 🔐 **Okta** | Marketing Technology Intern (Summer 2026) | San Francisco, California | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7561018?gh_jid=7561018) | Feb 28 |
@@ -1019,7 +1004,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Sila Nanotechnologies** | Software Intern - AI & Battery Informatics | Alameda, CA | F26 | [Apply](https://job-boards.greenhouse.io/silananotechnologies/jobs/7624654?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **QuidelOrtho** | Emerging Technology Intern | San Diego, CA | F26 | [Apply](https://orthoclinical.wd1.myworkdayjobs.com/Search/job/US---CA---San-Diego---Summers-Ridge/Emerging-Technology-Intern_R0016317?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **T-Mobile** | Associate Engineer Intern | Bellevue, WA | F26 | [Apply](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2026-Associate-Engineer-Internship_REQ342273?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Ivalua** | Customer Application Engineer Intern | Montreal, QC, Canada | F26 | [Apply](https://boards.greenhouse.io/ivalua/jobs/7614940?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Keysight Technologies** | Software Development Intern | Fleet, UK | F26 | [Apply](https://jobs.keysight.com/jobs/51347?lang=en-us&icims=1&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **KBR** | National Security Solutions – Internship – Intel DE/Mbse Intern - Nss | King of Prussia, PA | F26 | [Apply](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/King-of-Prussia-Pennsylvania/National-Security-Solutions--NSS--Internship---INTEL-DE-MBSE-Intern_R2119128?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Bree** | Co-op & Intern Program - All Roles | Toronto, ON, Canada | F26 | [Apply](http://jobs.ashbyhq.com/bree/4b995914-d2e4-45f7-ab60-f0a9303ca52c/application?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1030,7 +1014,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Deluxe** | Internship - Technology & Computer Science - Fort Worth | Fort Worth, TX | F26 | [Apply](https://deluxe.wd5.myworkdayjobs.com/en-US/USA_CAN/job/Fort-Worth-TX-USA-100-Throckmorton-St/Internship---Technology---Computer-Science---Fort-Worth_260196WD?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Deluxe** | Internship - Technology & Computer Science - Atlanta | Atlanta, GA | F26 | [Apply](https://deluxe.wd5.myworkdayjobs.com/en-US/USA_CAN/job/Atlanta-GA-USA/Internship---Technology---Computer-Science---Atlanta_260195WD?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Deluxe** | Internship - Technology & Computer Science - Minneapolis | Minneapolis, MN | F26 | [Apply](https://deluxe.wd5.myworkdayjobs.com/en-US/USA_CAN/job/Minneapolis-MN-USA/Internship---Technology---Computer-Science---Minneapolis_260197WD?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **SMX** | Summer Internship-AI/ML - Broomfield CO | Broomfield, CO | F26 | [Apply](https://www.smxtech.com/careers/?gh_jid=7611533003&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Gelber Group** | Technical Operations Intern | Chicago, IL | F26 | [Apply](https://job-boards.greenhouse.io/gelberhandshake/jobs/4652889006?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **GE Vernova** | GE Vernova Engineering Intern - Summer/Fall 2026 | Rochester, NY | F26 | [Apply](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Engineering-Intern---Summer-Fall-2026_R5032378-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Westinghouse Electric Company** | Software Development Intern Summer 2026 | Cranberry Twp, PA | F26 | [Apply](https://careers.westinghousenuclear.com/job/Warrendale-Software-Development-Intern-Summer-2026-OR/1364828400/?ats=successfactors&utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1118,7 +1101,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Loft** | Commerce Platform Intern - Summer 2026 | Fort Myers, FL | F26 | [Apply](https://knitwellgroup.wd1.myworkdayjobs.com/US_Corporate_Jobs/job/Corporate-ascena--Remote/Commerce-Platform-Intern---Summer-2026_R-2019957?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **CommScope** | Intern-Field Application Engineering | Denver, NC | F26 | [Apply](https://jobs.commscope.com/job/Catawba-Intern-Field-Application-Engineering-Nort/1352606600/?ats=successfactors&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **SteerBridge** | Intern Program | Vienna, VA | F26 | [Apply](https://jobs.lever.co/steerbridge/8e04075a-0565-404a-bd25-941a5458df53/apply?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Rubrik** | Product Management Intern | Palo Alto, CA | F26 | [Apply](https://www.rubrik.com/company/careers/departments/job.7604319?gh_jid=7604319&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Chubb** | 2026 Personal Risk Services Intern - Product - Fine Arts | NYC | F26 | [Apply](https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/30957?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **The Federal Reserve System** | 2026 Summer Internship Program – BTS Customer Engagement Intern | Atlanta, GA | F26 | [Apply](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Atlanta-GA/XMLNAME-2026-Summer-Internship-Program---BTS-Customer-Engagement-Intern_R-0000030756-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Visa** | Product Intern | London, UK | F26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000111831030?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1492,7 +1474,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | ☁️ **Microsoft** | Research Intern - Natural Language Processing for Healthcare | Redmond, WA | F26 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556751897?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Hewlett Packard (HP)** | Artificial Intelligence Data Systems Intern | Boise, ID | F26 | [Apply](https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Boise-Idaho-United-States-of-America/Artificial-Intelligence--Data-Systems-Intern_UNI3786?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Sony** | R&D Intern | Culver City, CA | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Culver-City/R-D-Intern---AI-Computational-Photography---Computer-Vision_JR-118652?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Motional** | 2026 Summer Intern-PhD - Foundations: Localization - RVA & Mapping | Boston, MA, Pittsburgh and 1 more | F26 | [Apply](https://motional.com/open-positions/?gh_jid=7615090003#/7615090003&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Analytical Mechanics Associates** | RSES Space Weather Intern | Hampton, VA | F26 | [Apply](https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Hampton-VA/RSES-Space-Weather-Intern_R-100476?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Johns Manville (JM)** | Intern – Furnace Technology | Littleton, CO | F26 | [Apply](https://jm.wd103.myworkdayjobs.com/External/job/Littleton-CO-JMTC/Intern---Project-Management_R26_0068?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Samsung** | Software Development Engineer Intern | Mountain View, CA | F26 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Development-Engineer-Intern_R113999?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1632,7 +1613,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Dropbox** | Data Science Engineer Intern - Summer 2026 | Remote in USA | F26 | [Apply](https://boards.greenhouse.io/embed/job_app?token=7527941&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **National Renewable Energy Laboratory** | Graduate Intern - Distributed Energy Systems | Golden, CO | F26 | [Apply](https://nrel.wd5.myworkdayjobs.com/nrel/job/CO---Golden/Graduate--Summer--Intern---Distributed-Energy-Systems_R14095?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Arrowhead Pharmaceuticals** | Intern - Digital Workplace AI | Madison, WI | F26 | [Apply](https://arrowheadpharma.com/careers/?gh_jid=5021314007&utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Exiger** | Defense Sustainment Integration Intern | Huntsville, AL | F26 | [Apply](https://www.exiger.com/careers/5751846004?gh_jid=5751846004&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **StepStone Group** | AI Initiatives PhD Intern | La Jolla, San Diego, CA | F26 | [Apply](https://boards.greenhouse.io/embed/job_app?token=7527722&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Cinemark Theatres** | Data Science Intern | Plano, TX | F26 | [Apply](https://cinemark.wd1.myworkdayjobs.com/cinemark/job/CORP---Cinemark-Service-Center-Plano-TX/Data-Science-Intern_R34561?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Global Partners** | Data Science Intern | Waltham, MA | F26 | [Apply](https://global.wd1.myworkdayjobs.com/globalpartnerscareers/job/Waltham-MA---Corporate-Headquarters/Data-Science-Intern_R0029915?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1655,7 +1635,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Electronic Arts** | Sims Analyst Intern | Vancouver, BC, Canada | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Sims-Analyst-Intern/210862?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **SFMOMA** | Archives and Art Resources: Digital Access and Records Intern | SF | F26 | [Apply](https://jobs.lever.co/sfmoma/e7760f2b-cc38-46ff-937c-506044e929e8/apply?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **S&P Global** | Research Analyst Intern – Early Career - Fuels - Chemicals & Resource Solutions | Houston, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Houston-TX/Research-Analyst-Intern---Fuels--Chemicals---Resource-Solutions--Early-Career-_320543-1?utm_source=Simplify&ref=Simplify) | Feb 28 |
-| 🏷️ **Cypress Creek Renewables** | Capital Markets Intern | NYC | F26 | [Apply](https://ccrenew.com/careers/job-listing/?gh_jid=7663887&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Artisan Partners** | Emerging Markets Debt Trading Desk – Summer Intern - Undergraduate | Boston, MA | F26 | [Apply](https://www.artisanpartners.com/careers/career-opportunities.html?gh_jid=7651599&utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Louis Dreyfus Company** | Trader Trainee Intern | Arlington, TN | F26 | [Apply](https://jobs.smartrecruiters.com/LouisDreyfusCompany/744000081369410?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **PNC Financial Services** | Graduate Intern - Modeling - Chief Investment Office | NYC | F26 | [Apply](https://pnc.wd5.myworkdayjobs.com/External/job/NY---New-York-10173/Graduate-Intern--Modeling--Chief-Investment-Office--CIO---Non-Campus-_R212888?utm_source=Simplify&ref=Simplify) | Feb 28 |
@@ -1784,6 +1763,71 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🏷️ **Ensign-Bickford Aerospace & Defense Company** | Product Engineer Intern | Simsbury, CT, Hopkinsville and 1 more | F26 | [Apply](https://ebi.wd5.myworkdayjobs.com/ebadcareers/job/Graham-KY/Product-Engineer-Intern_REQ106906?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nokia** | Hardware Developer Eng Co-op/Intern | Ottawa, ON, Canada | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28488?utm_source=Simplify&ref=Simplify) | Feb 28 |
 | 🏷️ **Nokia** | Electronics Component Qualification Co-op/Intern | Ottawa, ON, Canada | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28486?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **Dropbox** | Content Design Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558609?gh_jid=7558609) | Feb 28 |
+| 🏷️ **Dropbox** | CX Technical Content Design Intern (Summer 2026) | Remote - Canada: Select locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558516?gh_jid=7558516) | Feb 28 |
+| 🏷️ **Dropbox** | CX Video Content Design Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7532161?gh_jid=7532161) | Feb 28 |
+| 🏷️ **Dropbox** | Research and Insights Intern (Summer 2026) | Remote - US: All locations | F26 | [Apply](https://jobs.dropbox.com/listing/7558568?gh_jid=7558568) | Feb 28 |
+| 🏷️ **Dropbox** | Support Enablement Engineer Intern  (Summer 2026) | Remote - Canada: Select locations | F26 | [Apply](https://jobs.dropbox.com/listing/7531481?gh_jid=7531481) | Feb 28 |
+| 🔐 **Okta** | Customer Success Intern (Summer 2026) | Chicago, Illinois | F26 | [Apply](https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237) | Feb 28 |
+| ☁️ 🔥 **Google** | homehomeHomeHome | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/?q=intern+software+engineer) | Feb 28 |
+| ☁️ 🔥 **Google** | noogler_hatnoogler_hatStudentsStudents | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/students?q=intern+software+engineer) | Feb 28 |
+| ☁️ 🔥 **Google** | googlegoogleHow we workHow we work | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/teams?q=intern+software+engineer) | Feb 28 |
+| ☁️ 🔥 **Google** | handymanhandymanHow we hireHow we hire | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/how-we-hire?q=intern+software+engineer) | Feb 28 |
+| ☁️ 🔥 **Google** | person_outlineperson_outlineYour careerYour career | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/dashboard?q=intern+software+engineer) | Feb 28 |
+| ☁️ 🔥 **Google** | AI at Google | Unknown | F26 | [Apply](https://www.google.com/about/careers/applications/jobs/results/ai?q=intern+software+engineer) | Feb 28 |
+| 📦 **Genuine Parts Company** | Cloud Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/cloud-developer-intern/505/85815950304) | Feb 28 |
+| 📦 **Genuine Parts Company** | Business Application Support Engineer - InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/business-application-support-engineer-intern/505/90561978528) | Feb 28 |
+| 📦 **Genuine Parts Company** | Mobile Software Development InternBirmingham, AL\|Full time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/mobile-software-development-intern/505/85815949952) | Feb 28 |
+| 📦 **Genuine Parts Company** | Customer Software Development InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/customer-software-development-intern/505/85815949936) | Feb 28 |
+| 📦 **Genuine Parts Company** | Prev | Unknown | F26 | [Apply](https://jobs.genpt.com/search-jobs/intern+technology&p=1) | Feb 28 |
+| 📦 **Genuine Parts Company** | Next | Unknown | F26 | [Apply](https://jobs.genpt.com/search-jobs/intern+technology&p=2) | Feb 28 |
+| 🏢 **Salesforce** | Deutsch (Deutschland) | Unknown | F26 | [Apply](https://careers.salesforce.com/de/arbeitsplaetze/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | English (United States) | Unknown | F26 | [Apply](https://careers.salesforce.com/en/jobs/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Español (España) | Unknown | F26 | [Apply](https://careers.salesforce.com/es/trabajos/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Español (México) | Unknown | F26 | [Apply](https://careers.salesforce.com/es-mx/trabajos/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Français (France) | Unknown | F26 | [Apply](https://careers.salesforce.com/fr/emplois/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Italiano (Italia) | Unknown | F26 | [Apply](https://careers.salesforce.com/it/lavori/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | 日本語 (日本) | Unknown | F26 | [Apply](https://careers.salesforce.com/jp/%E3%82%B8%E3%83%A7%E3%83%96/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | 한국어(대한민국) | Unknown | F26 | [Apply](https://careers.salesforce.com/kr/%EC%9E%91%EC%97%85/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Nederlands (Nederland) | Unknown | F26 | [Apply](https://careers.salesforce.com/nl/banen/?search=intern%20software) | Feb 28 |
+| 🏢 **Salesforce** | Svenska (Sverige) | Unknown | F26 | [Apply](https://careers.salesforce.com/se/jobb/?search=intern%20software) | Feb 28 |
+| 🏷️ **Geisinger** | Undergraduate Intern - Software Development | Pennsylvania | F26 | [Apply](https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate--Software-Development-_R-92541?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **Boston Dynamics** | Technical Operations Co-Op | Waltham, MA | F26 | [Apply](https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Technical-Operations-Co-Op_R2386?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 🏷️ **CAE** | Integration Specialist Intern Co-Op | Tampa, FL | F26 | [Apply](https://cae.wd3.myworkdayjobs.com/career/job/Tampa/Integration-Specialist-Co-Op_120461?utm_source=Simplify&ref=Simplify) | Feb 28 |
+| 💳 **Coinbase** | Business Controller Intern 🔒 | Hybrid - New York, NY | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Coinbase** | Product Design Intern 🔒 | Hybrid - San Francisco, CA | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Coinbase** | Strategic Sourcing Intern 🔒 | Hybrid - New York, NY | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Coinbase** | User Researcher Intern 🔒 | Hybrid - San Francisco, CA | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | AI Solutions Intern (Summer 2026) 🔒 | Remote - Ireland | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | Data Science Engineer Intern (Summer 2026) 🔒 | Remote - US: All locations | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | PhD Systems & AI/ML Research Intern (Summer 2026) 🔒 | Remote - US: All locations | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Dropbox** | Tax & Treasury Intern (Summer 2026) 🔒 | Remote - US: All locations | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Ivalua** | Customer Application Engineer Intern 🔒 | Montreal, QC, Canada | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **SMX** | Summer Internship-AI/ML - Broomfield CO 🔒 | Broomfield, CO | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Rubrik** | Product Management Intern 🔒 | Palo Alto, CA | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Motional** | 2026 Summer Intern-PhD - Foundations: Localization - RVA & Mapping 🔒 | Boston, MA, Pittsburgh and 1 more | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Exiger** | Defense Sustainment Integration Intern 🔒 | Huntsville, AL | F26 | 🔒 Closed | Feb 28 |
+| 🏷️ **Cypress Creek Renewables** | Capital Markets Intern 🔒 | NYC | F26 | 🔒 Closed | Feb 28 |
+| ☁️ 🔥 **Google** | work_outlinework_outlineJobsJobs 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| ☁️ 🔥 **Google** | Recommended jobs 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| ☁️ 🔥 **Google** | Saved jobs 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| ☁️ 🔥 **Google** | Job alerts 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| ☁️ 🔥 **Google** | Unknown Role 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | Čeština 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | English (United States) 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | Español 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | Français (Canada) 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 中文(简体) 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 1 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 2 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 3 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 4 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 5 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 6 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 7 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 8 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 9 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
+| 💳 **Global Payments** | 19 🔒 | Unknown | F26 | 🔒 Closed | Feb 28 |
 
 ---
 
