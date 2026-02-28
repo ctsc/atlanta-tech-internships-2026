@@ -4,11 +4,7 @@ import json
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-import pytest
-
 from scripts.archive_stale import (
-    CLOSED_ARCHIVE_DAYS,
-    STALE_ARCHIVE_DAYS,
     _should_archive,
     archive_stale,
 )
@@ -247,12 +243,12 @@ class TestArchiveStale:
         assert count == 2
         jobs_db = _read_db(jobs_path)
         assert len(jobs_db.listings) == 2
-        remaining_ids = {l.id for l in jobs_db.listings}
+        remaining_ids = {item.id for item in jobs_db.listings}
         assert remaining_ids == {"keep-1", "keep-2"}
 
         arch_db = _read_db(archived_path)
         assert len(arch_db.listings) == 2
-        archived_ids = {l.id for l in arch_db.listings}
+        archived_ids = {item.id for item in arch_db.listings}
         assert archived_ids == {"archive-closed", "archive-stale"}
 
     def test_appended_to_existing_archive(self, tmp_path: Path):
@@ -276,7 +272,7 @@ class TestArchiveStale:
         assert count == 1
         arch_db = _read_db(archived_path)
         assert len(arch_db.listings) == 2
-        archived_ids = {l.id for l in arch_db.listings}
+        archived_ids = {item.id for item in arch_db.listings}
         assert "already-archived" in archived_ids
         assert "to-archive" in archived_ids
 

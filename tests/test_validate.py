@@ -20,8 +20,6 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-import pytest
-
 from scripts.utils.models import (
     JobListing,
     JobsDatabase,
@@ -100,7 +98,7 @@ def _make_valid_metadata(**overrides) -> dict:
     """Create a valid AI enrichment metadata dict."""
     defaults = {
         "is_internship": True,
-        "is_summer_2026": True,
+        "season": "summer_2026",
         "category": "swe",
         "locations": ["San Francisco, CA"],
         "sponsorship": "unknown",
@@ -566,7 +564,7 @@ class TestBuildJobListing:
         assert job.source == "greenhouse_api"
         assert job.status == ListingStatus.OPEN
         assert job.tech_stack == ["Python", "TypeScript"]
-        assert job.season == "summer_2026"
+        assert job.season == "summer_2026"  # from metadata["season"]
         assert job.date_added == date.today()
         assert job.date_last_verified == date.today()
 
@@ -597,7 +595,7 @@ class TestBuildJobListing:
         raw = _make_raw_listing()
         metadata = {
             "is_internship": True,
-            "is_summer_2026": True,
+            "season": "summer_2026",
             "confidence": 0.9,
             # No category, sponsorship, tech_stack, etc.
         }
@@ -607,6 +605,24 @@ class TestBuildJobListing:
         assert job.tech_stack == []
         assert job.remote_friendly is False
         assert job.requires_advanced_degree is False
+
+    def test_backward_compat_is_summer_2026(self):
+        """Legacy cached responses with is_summer_2026 are handled."""
+        raw = _make_raw_listing()
+        metadata = {
+            "is_internship": True,
+            "is_summer_2026": True,
+            "confidence": 0.9,
+        }
+        job = _build_job_listing(raw, metadata)
+        assert job.season == "summer_2026"
+
+    def test_fall_2026_season(self):
+        """Season set from AI metadata for fall_2026."""
+        raw = _make_raw_listing()
+        metadata = _make_valid_metadata(season="fall_2026")
+        job = _build_job_listing(raw, metadata)
+        assert job.season == "fall_2026"
 
 
 # ======================================================================
@@ -707,31 +723,28 @@ class TestSaveDatabase:
 
 
 class TestValidateAll:
-    """Tests for the async validate_all entry point."""
+    """Tests for the validate_all entry point."""
 
-    @pytest.mark.asyncio
-    async def test_returns_empty_when_no_raw_files(self, tmp_path):
+    def test_returns_empty_when_no_raw_files(self, tmp_path):
         """Returns an empty list when no raw discovery files are found."""
         with (
             patch("scripts.validate.DATA_DIR", tmp_path),
             patch("scripts.validate.JOBS_PATH", tmp_path / "jobs.json"),
         ):
-            result = await validate_all()
+            result = validate_all()
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_returns_empty_when_raw_file_has_no_listings(self, tmp_path):
+    def test_returns_empty_when_raw_file_has_no_listings(self, tmp_path):
         """Returns empty when raw discovery file exists but has no listings."""
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [])
         with (
             patch("scripts.validate.DATA_DIR", tmp_path),
             patch("scripts.validate.JOBS_PATH", tmp_path / "jobs.json"),
         ):
-            result = await validate_all()
+            result = validate_all()
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_skips_already_existing_listings(self, tmp_path):
+    def test_skips_already_existing_listings(self, tmp_path):
         """Skips listings whose content_hash already exists in the database."""
         raw = _make_raw_listing(company="Anthropic", title="SWE Intern", location="SF")
         raw_dict = _make_raw_listing_dict(company="Anthropic", title="SWE Intern", location="SF")
@@ -761,13 +774,12 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
         mock_enrich.assert_not_called()
 
-    @pytest.mark.asyncio
-    async def test_rejects_non_internships(self, tmp_path):
+    def test_rejects_non_internships(self, tmp_path):
         """Rejects listings where AI says is_internship is False."""
         raw_dict = _make_raw_listing_dict(company="FullTime Inc", title="Senior Engineer")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -782,32 +794,58 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_rejects_non_summer_2026(self, tmp_path):
-        """Rejects listings where AI says is_summer_2026 is False."""
+    def test_rejects_wrong_season(self, tmp_path):
+        """Rejects listings where AI returns a season not in active_seasons."""
         raw_dict = _make_raw_listing_dict(company="OldCo", title="Fall 2025 Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
 
         mock_enrich = MagicMock(
-            return_value=_make_valid_metadata(is_summer_2026=False)
+            return_value=_make_valid_metadata(season="none")
         )
+
+        mock_config = MagicMock()
+        mock_config.project.active_seasons = ["summer_2026", "fall_2026"]
 
         with (
             patch("scripts.validate.DATA_DIR", tmp_path),
             patch("scripts.validate.JOBS_PATH", tmp_path / "jobs.json"),
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
+            patch("scripts.validate.get_config", return_value=mock_config),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_rejects_low_confidence(self, tmp_path):
+    def test_accepts_fall_2026_listing(self, tmp_path):
+        """Accepts listings with fall_2026 season when it's in active_seasons."""
+        raw_dict = _make_raw_listing_dict(company="FallCo", title="Fall SWE Intern")
+        _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
+
+        mock_enrich = MagicMock(
+            return_value=_make_valid_metadata(season="fall_2026")
+        )
+
+        mock_config = MagicMock()
+        mock_config.project.active_seasons = ["summer_2026", "fall_2026"]
+
+        with (
+            patch("scripts.validate.DATA_DIR", tmp_path),
+            patch("scripts.validate.JOBS_PATH", tmp_path / "jobs.json"),
+            patch("scripts.validate.enrich_listing", mock_enrich),
+            patch("scripts.validate.reset_budget"),
+            patch("scripts.validate.get_config", return_value=mock_config),
+        ):
+            result = validate_all()
+
+        assert len(result) == 1
+        assert result[0].season == "fall_2026"
+
+    def test_rejects_low_confidence(self, tmp_path):
         """Rejects listings with confidence below 0.7 threshold."""
         raw_dict = _make_raw_listing_dict(company="MaybeCo", title="Intern?")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -822,12 +860,11 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_accepts_valid_listings(self, tmp_path):
+    def test_accepts_valid_listings(self, tmp_path):
         """Accepts listings that pass all validation checks and appends to db."""
         raw_dict = _make_raw_listing_dict(
             company="Anthropic",
@@ -845,7 +882,7 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert len(result) == 1
         assert result[0].company == "Anthropic"
@@ -855,8 +892,7 @@ class TestValidateAll:
         saved = json.loads((tmp_path / "jobs.json").read_text(encoding="utf-8"))
         assert len(saved["listings"]) == 1
 
-    @pytest.mark.asyncio
-    async def test_handles_enrichment_errors_gracefully(self, tmp_path):
+    def test_handles_enrichment_errors_gracefully(self, tmp_path):
         """Continues processing when enrichment raises an exception."""
         raw_dicts = [
             _make_raw_listing_dict(company="ErrorCo", title="Intern", url="https://example.com/1"),
@@ -882,14 +918,13 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         # Only the second listing should succeed
         assert len(result) == 1
         assert result[0].company == "GoodCo"
 
-    @pytest.mark.asyncio
-    async def test_handles_enrichment_returning_none(self, tmp_path):
+    def test_handles_enrichment_returning_none(self, tmp_path):
         """Skips listing when enrichment returns None."""
         raw_dict = _make_raw_listing_dict(company="NoneCo", title="Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -902,12 +937,11 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_deduplicates_within_single_run(self, tmp_path):
+    def test_deduplicates_within_single_run(self, tmp_path):
         """Removes duplicate listings (same content hash) within one validation run."""
         # Two raw listings that will produce the same content hash
         raw_dicts = [
@@ -929,13 +963,12 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         # Only one should be kept
         assert len(result) == 1
 
-    @pytest.mark.asyncio
-    async def test_appends_to_existing_database(self, tmp_path):
+    def test_appends_to_existing_database(self, tmp_path):
         """New validated listings are appended to existing ones in the database."""
         # Pre-existing listing in jobs.json
         existing_listing = {
@@ -968,14 +1001,13 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert len(result) == 1
         saved = json.loads((tmp_path / "jobs.json").read_text(encoding="utf-8"))
         assert len(saved["listings"]) == 2  # old + new
 
-    @pytest.mark.asyncio
-    async def test_calls_reset_budget(self, tmp_path):
+    def test_calls_reset_budget(self, tmp_path):
         """Calls reset_budget before processing listings."""
         raw_dict = _make_raw_listing_dict()
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -989,12 +1021,11 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget", mock_reset),
         ):
-            await validate_all()
+            validate_all()
 
         mock_reset.assert_called_once()
 
-    @pytest.mark.asyncio
-    async def test_enrich_called_without_await(self, tmp_path):
+    def test_enrich_called_without_await(self, tmp_path):
         """Verifies enrich_listing is called as a sync function (not awaited)."""
         raw_dict = _make_raw_listing_dict(company="SyncTest", title="Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -1007,7 +1038,7 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            await validate_all()
+            validate_all()
 
         # MagicMock (not AsyncMock) was called, confirming sync invocation
         mock_enrich.assert_called_once()
@@ -1015,8 +1046,7 @@ class TestValidateAll:
         call_args = mock_enrich.call_args
         assert isinstance(call_args[0][0], RawListing)
 
-    @pytest.mark.asyncio
-    async def test_confidence_at_exactly_070_is_accepted(self, tmp_path):
+    def test_confidence_at_exactly_070_is_accepted(self, tmp_path):
         """Listings with confidence exactly at 0.7 are rejected (< 0.7 check)."""
         raw_dict = _make_raw_listing_dict(company="BorderCo", title="Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -1032,12 +1062,11 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert len(result) == 1
 
-    @pytest.mark.asyncio
-    async def test_confidence_at_069_is_rejected(self, tmp_path):
+    def test_confidence_at_069_is_rejected(self, tmp_path):
         """Listings with confidence at 0.69 are rejected."""
         raw_dict = _make_raw_listing_dict(company="LowCo", title="Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
@@ -1052,12 +1081,11 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert result == []
 
-    @pytest.mark.asyncio
-    async def test_multiple_valid_listings(self, tmp_path):
+    def test_multiple_valid_listings(self, tmp_path):
         """Processes and validates multiple distinct listings in one run."""
         raw_dicts = [
             _make_raw_listing_dict(company="Alpha", title="SWE Intern",
@@ -1089,14 +1117,13 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert len(result) == 3
         companies = {r.company for r in result}
         assert companies == {"Alpha", "Beta", "Gamma"}
 
-    @pytest.mark.asyncio
-    async def test_mixed_accept_reject(self, tmp_path):
+    def test_mixed_accept_reject(self, tmp_path):
         """Correctly filters a mix of valid and invalid listings."""
         raw_dicts = [
             _make_raw_listing_dict(company="ValidCo", title="SWE Intern",
@@ -1128,7 +1155,7 @@ class TestValidateAll:
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
         ):
-            result = await validate_all()
+            result = validate_all()
 
         assert len(result) == 1
         assert result[0].company == "ValidCo"

@@ -71,8 +71,10 @@ def _save_database(db: JobsDatabase) -> None:
     db.compute_stats()
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    with open(JOBS_PATH, "w", encoding="utf-8") as f:
+    tmp_path = JOBS_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(db.model_dump(mode="json"), f, indent=2, default=str)
+    tmp_path.replace(JOBS_PATH)
 
     logger.info(
         "Saved jobs.json: %d listings, %d open", len(db.listings), db.total_open

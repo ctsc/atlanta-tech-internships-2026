@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Optional
 
 from scripts.utils.ai_enrichment import enrich_listing, reset_budget
-from scripts.utils.config import PROJECT_ROOT
+from scripts.utils.config import PROJECT_ROOT, get_config
 from scripts.utils.models import (
     JobListing,
     JobsDatabase,
@@ -236,6 +236,11 @@ def _build_job_listing(raw: RawListing, metadata: dict) -> JobListing:
     listing_id = _generate_listing_id(raw.company, raw.title, locations)
     today = date.today()
 
+    # Determine season from AI metadata (with backward compat for cached responses)
+    season = metadata.get("season", "none")
+    if season == "none" and metadata.get("is_summer_2026"):
+        season = "summer_2026"
+
     return JobListing(
         id=listing_id,
         company=raw.company,
@@ -254,7 +259,7 @@ def _build_job_listing(raw: RawListing, metadata: dict) -> JobListing:
         source=raw.source,
         status=ListingStatus.OPEN,
         tech_stack=metadata.get("tech_stack", []),
-        season="summer_2026",
+        season=season,
     )
 
 
@@ -272,8 +277,10 @@ def _save_database(db: JobsDatabase) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     data = db.model_dump(mode="json")
-    with open(JOBS_PATH, "w", encoding="utf-8") as f:
+    tmp_path = JOBS_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, default=str)
+    tmp_path.replace(JOBS_PATH)
 
     logger.info(
         "Saved database: %d total listings, %d open",
@@ -282,7 +289,7 @@ def _save_database(db: JobsDatabase) -> None:
     )
 
 
-async def validate_all() -> list[JobListing]:
+def validate_all() -> list[JobListing]:
     """Main validation entry point.
 
     Finds the latest raw discovery file, enriches each listing via AI,
@@ -306,10 +313,19 @@ async def validate_all() -> list[JobListing]:
     db = _load_existing_database()
     existing_hashes = _get_existing_hashes(db)
 
+    # Load active seasons from config
+    try:
+        config = get_config()
+        active_seasons = set(config.project.active_seasons)
+    except Exception as exc:
+        logger.warning("Could not load active_seasons from config: %s", exc)
+        active_seasons = {"summer_2026"}
+
     logger.info(
-        "Validating %d raw listings (%d already in database)",
+        "Validating %d raw listings (%d already in database), active seasons: %s",
         len(raw_listings),
         len(existing_hashes),
+        ", ".join(sorted(active_seasons)),
     )
 
     # Reset AI budget for this run
@@ -318,7 +334,7 @@ async def validate_all() -> list[JobListing]:
     validated: list[JobListing] = []
     skipped_existing = 0
     rejected_not_internship = 0
-    rejected_not_summer = 0
+    rejected_wrong_season = 0
     rejected_low_confidence = 0
     errors = 0
 
@@ -351,13 +367,18 @@ async def validate_all() -> list[JobListing]:
                 rejected_not_internship += 1
                 continue
 
-            if not metadata.get("is_summer_2026", False):
+            # Season check: support both new "season" key and legacy "is_summer_2026"
+            season = metadata.get("season", "none")
+            if season == "none" and metadata.get("is_summer_2026"):
+                season = "summer_2026"
+            if season not in active_seasons:
                 logger.info(
-                    "Rejected (not summer 2026): %s — %s",
+                    "Rejected (season %s not active): %s — %s",
+                    season,
                     raw.company,
                     raw.title,
                 )
-                rejected_not_summer += 1
+                rejected_wrong_season += 1
                 continue
 
             confidence = metadata.get("confidence", 0.0)
@@ -414,12 +435,12 @@ async def validate_all() -> list[JobListing]:
 
     logger.info(
         "Validation complete: %d validated, %d skipped (existing), "
-        "%d rejected (not internship), %d rejected (not summer 2026), "
+        "%d rejected (not internship), %d rejected (wrong season), "
         "%d rejected (low confidence), %d errors",
         len(validated),
         skipped_existing,
         rejected_not_internship,
-        rejected_not_summer,
+        rejected_wrong_season,
         rejected_low_confidence,
         errors,
     )
@@ -428,11 +449,9 @@ async def validate_all() -> list[JobListing]:
 
 
 if __name__ == "__main__":
-    import asyncio
-
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(name)s %(levelname)s %(message)s",
     )
-    results = asyncio.run(validate_all())
+    results = validate_all()
     logger.info("Validated %d new listings", len(results))

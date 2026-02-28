@@ -1,14 +1,19 @@
 # ============================================================================
-# Summer 2026 Tech Internships — Configuration
+# Atlanta Tech Internships — Configuration
 # ============================================================================
 # Source of truth for all discovery sources, filtering rules, and settings.
 # Board tokens/slugs correspond to real ATS board identifiers.
 # ============================================================================
 
 project:
-  name: "Summer 2026 Tech Internships"
+  name: "Atlanta Tech Internships"
   season: "summer_2026"
   github_repo: "ctsc/atlanta-tech-internships-2026"
+  active_seasons:
+    - "summer_2026"
+    - "fall_2026"
+    - "spring_2027"
+    - "summer_2027"
 
 # ============================================================================
 # Georgia Focus — Priority locations and settings for GA-based internships
@@ -684,6 +689,12 @@ filters:
     - "coop"
     - "summer 2026"
     - "summer 26"
+    - "fall 2026"
+    - "fall 26"
+    - "spring 2027"
+    - "spring 27"
+    - "summer 2027"
+    - "summer 27"
   keywords_exclude:
     - "senior"
     - "staff"
@@ -759,7 +770,7 @@ ai:
     Return JSON only, no markdown, no explanation.
     {
       "is_internship": true/false,
-      "is_summer_2026": true/false,
+      "season": "summer_2026|fall_2026|spring_2027|summer_2027|none",
       "category": "swe|ml_ai|data_science|quant|pm|hardware|other",
       "locations": ["city, state abbreviation"],
       "is_georgia": true/false,

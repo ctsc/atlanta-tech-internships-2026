@@ -60,8 +60,10 @@ def _save_database(db: JobsDatabase) -> None:
     db.compute_stats()
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(JOBS_PATH, "w", encoding="utf-8") as f:
+    tmp_path = JOBS_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(db.model_dump(mode="json"), f, indent=2, default=str)
+    tmp_path.replace(JOBS_PATH)
 
     logger.info(
         "Saved jobs.json: %d listings, %d open", len(db.listings), db.total_open
@@ -95,8 +97,10 @@ def _save_link_health(health: dict[str, Any]) -> None:
         health: Dict mapping listing IDs to health records.
     """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    with open(LINK_HEALTH_PATH, "w", encoding="utf-8") as f:
+    tmp_path = LINK_HEALTH_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(health, f, indent=2, default=str)
+    tmp_path.replace(LINK_HEALTH_PATH)
     logger.info("Saved link_health.json with %d entries", len(health))
 
 
@@ -223,7 +227,17 @@ async def check_all_links() -> dict[str, int]:
             )
             for listing in open_listings
         ]
-        results = await asyncio.gather(*tasks)
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    # Filter out any exceptions from gather results
+    valid_results = []
+    for r in results:
+        if isinstance(r, Exception):
+            logger.error("Unexpected gather exception: %s", r)
+            stats["transient_errors"] += 1
+        else:
+            valid_results.append(r)
+    results = valid_results
 
     stats["checked"] = len(results)
 

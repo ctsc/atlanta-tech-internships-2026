@@ -1,4 +1,4 @@
-# Contributing to Summer 2026 Tech Internships
+# Contributing to Atlanta Tech Internships
 
 Thanks for helping make this resource better for everyone! This repo is automatically maintained by AI, but we rely on the community to catch listings we miss.
 
@@ -33,7 +33,7 @@ The repo updates automatically **every 6 hours**. Community submissions are proc
 
 ## What We're Looking For
 
-We track **Summer 2026 tech internships** in these categories:
+We track **tech internships** across multiple seasons (Summer 2026, Fall 2026, Spring 2027, Summer 2027) in these categories:
 
 - Software Engineering (SWE, frontend, backend, full stack, mobile, DevOps)
 - Machine Learning / AI / Data Science

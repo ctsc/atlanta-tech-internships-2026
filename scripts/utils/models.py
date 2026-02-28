@@ -6,11 +6,20 @@ and RawListing.
 """
 
 import hashlib
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from enum import Enum
 from typing import Optional
 
 from pydantic import BaseModel, Field, HttpUrl
+
+
+class InternSeason(str, Enum):
+    """Internship season identifiers."""
+
+    SUMMER_2026 = "summer_2026"
+    FALL_2026 = "fall_2026"
+    SPRING_2027 = "spring_2027"
+    SUMMER_2027 = "summer_2027"
 
 
 class RoleCategory(str, Enum):
@@ -113,7 +122,7 @@ class RawListing(BaseModel):
     source: str  # "greenhouse_api", "lever_api", "ashby_api", "scrape", "github_monitor"
     is_faang_plus: bool = False
     raw_data: dict = {}
-    discovered_at: datetime = Field(default_factory=datetime.utcnow)
+    discovered_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     @property
     def content_hash(self) -> str:

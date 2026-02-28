@@ -10,7 +10,7 @@ import logging
 import random
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -599,7 +599,7 @@ def _save_monitor_state(
 
     state[repo] = {
         "urls": sorted(current_urls),
-        "last_checked": datetime.utcnow().isoformat(),
+        "last_checked": datetime.now(timezone.utc).isoformat(),
     }
 
     state_path.parent.mkdir(parents=True, exist_ok=True)

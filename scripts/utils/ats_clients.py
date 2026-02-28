@@ -8,7 +8,7 @@ import asyncio
 import logging
 import re
 from abc import ABC, abstractmethod
-from datetime import datetime
+from datetime import datetime, timezone
 
 import httpx
 from tenacity import (
@@ -180,7 +180,7 @@ class GreenhouseClient(BaseATSClient):
                 source="greenhouse_api",
                 is_faang_plus=board.is_faang_plus,
                 raw_data=job,
-                discovered_at=datetime.utcnow(),
+                discovered_at=datetime.now(timezone.utc),
             )
             results.append(listing)
 
@@ -279,7 +279,7 @@ class LeverClient(BaseATSClient):
                 source="lever_api",
                 is_faang_plus=board.is_faang_plus,
                 raw_data=posting,
-                discovered_at=datetime.utcnow(),
+                discovered_at=datetime.now(timezone.utc),
             )
             results.append(listing)
 
@@ -414,7 +414,7 @@ query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) {
                     source="ashby_api",
                     is_faang_plus=board.is_faang_plus,
                     raw_data=job,
-                    discovered_at=datetime.utcnow(),
+                    discovered_at=datetime.now(timezone.utc),
                 )
                 results.append(listing)
 

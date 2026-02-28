@@ -1,8 +1,6 @@
 """Shared pytest fixtures for internship board tests."""
 
-import tempfile
 from datetime import date, datetime
-from pathlib import Path
 
 import pytest
 import yaml
@@ -64,6 +62,7 @@ def minimal_config_dict():
             "name": "Test Project",
             "season": "summer_2026",
             "github_repo": "test/repo",
+            "active_seasons": ["summer_2026"],
         },
     }
 
@@ -73,9 +72,10 @@ def full_config_dict():
     """A full config dict with all sections populated."""
     return {
         "project": {
-            "name": "Summer 2026 Tech Internships",
+            "name": "Atlanta Tech Internships",
             "season": "summer_2026",
             "github_repo": "ctsc/atlanta-tech-internships-2026",
+            "active_seasons": ["summer_2026", "fall_2026", "spring_2027", "summer_2027"],
         },
         "georgia_focus": {
             "priority_locations": ["Atlanta, GA", "Alpharetta, GA"],
@@ -129,20 +129,18 @@ def full_config_dict():
 
 
 @pytest.fixture
-def config_yaml_file(full_config_dict):
+def config_yaml_file(full_config_dict, tmp_path):
     """Write a full config dict to a temp YAML file and return its Path."""
-    with tempfile.NamedTemporaryFile(
-        mode="w", suffix=".yaml", delete=False, encoding="utf-8"
-    ) as f:
+    path = tmp_path / "config.yaml"
+    with open(path, "w", encoding="utf-8") as f:
         yaml.dump(full_config_dict, f, default_flow_style=False)
-        return Path(f.name)
+    return path
 
 
 @pytest.fixture
-def minimal_config_yaml_file(minimal_config_dict):
+def minimal_config_yaml_file(minimal_config_dict, tmp_path):
     """Write a minimal config dict to a temp YAML file and return its Path."""
-    with tempfile.NamedTemporaryFile(
-        mode="w", suffix=".yaml", delete=False, encoding="utf-8"
-    ) as f:
+    path = tmp_path / "minimal_config.yaml"
+    with open(path, "w", encoding="utf-8") as f:
         yaml.dump(minimal_config_dict, f, default_flow_style=False)
-        return Path(f.name)
+    return path

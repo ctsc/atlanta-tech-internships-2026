@@ -1,10 +1,8 @@
 """Tests for config loader and validation."""
 
-import tempfile
 from pathlib import Path
 
 import pytest
-import yaml
 from pydantic import ValidationError
 
 from scripts.utils.config import (
@@ -30,6 +28,18 @@ class TestProjectConfig:
     def test_valid(self):
         p = ProjectConfig(name="Test", season="summer_2026", github_repo="a/b")
         assert p.name == "Test"
+
+    def test_active_seasons_default(self):
+        p = ProjectConfig(name="Test", season="summer_2026", github_repo="a/b")
+        assert p.active_seasons == ["summer_2026"]
+
+    def test_active_seasons_custom(self):
+        p = ProjectConfig(
+            name="Test", season="summer_2026", github_repo="a/b",
+            active_seasons=["summer_2026", "fall_2026", "spring_2027", "summer_2027"],
+        )
+        assert len(p.active_seasons) == 4
+        assert "fall_2026" in p.active_seasons
 
     def test_missing_name(self):
         with pytest.raises(ValidationError):
@@ -264,7 +274,7 @@ class TestAppConfig:
 class TestLoadConfig:
     def test_load_valid_config(self, config_yaml_file):
         config = load_config(config_path=config_yaml_file)
-        assert config.project.name == "Summer 2026 Tech Internships"
+        assert config.project.name == "Atlanta Tech Internships"
         assert len(config.greenhouse_boards) == 2
 
     def test_load_minimal_config(self, minimal_config_yaml_file):
@@ -296,9 +306,7 @@ class TestLoadConfig:
 
     def test_load_real_config_yaml(self):
         """Load the actual project config.yaml and verify it parses."""
-        real_config = Path(
-            "C:/Users/carte/OneDrive/Desktop/internshipboard/config.yaml"
-        )
+        real_config = Path(__file__).resolve().parent.parent / "config.yaml"
         if not real_config.exists():
             pytest.skip("Real config.yaml not found")
         config = load_config(config_path=real_config)

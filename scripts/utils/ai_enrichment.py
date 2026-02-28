@@ -33,7 +33,7 @@ _CACHE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / ".cache"
 # Default metadata returned when the API is unavailable or budget is exceeded
 DEFAULT_METADATA: dict = {
     "is_internship": True,
-    "is_summer_2026": False,
+    "season": "none",
     "category": "other",
     "locations": [],
     "sponsorship": "unknown",

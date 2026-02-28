@@ -9,11 +9,8 @@ Tests cover:
 - discover_all(): aggregation, error isolation, JSON output saved
 """
 
-import asyncio
 import json
-import tempfile
 from datetime import datetime
-from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import httpx

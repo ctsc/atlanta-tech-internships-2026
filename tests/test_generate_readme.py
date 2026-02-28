@@ -1,12 +1,8 @@
 """Tests for README generation: renderer and generate_readme script."""
 
 import json
-import re
-from datetime import date, datetime, timezone
-from pathlib import Path
+from datetime import date, datetime
 from unittest.mock import MagicMock, patch
-
-import pytest
 
 from scripts.utils.models import (
     JobListing,
@@ -16,7 +12,6 @@ from scripts.utils.models import (
     SponsorshipStatus,
 )
 from scripts.utils.readme_renderer import (
-    CATEGORY_INFO,
     _count_open,
     _format_listing_row,
     _format_locations,
@@ -174,8 +169,18 @@ class TestFormatListingRow:
         row = _format_listing_row(listing)
         assert row.startswith("|")
         assert row.endswith("|")
-        # 5 columns = 6 pipes
-        assert row.count("|") == 6
+        # 6 columns = 7 pipes
+        assert row.count("|") == 7
+
+    def test_season_badge_in_row(self):
+        listing = _make_listing(season="summer_2026")
+        row = _format_listing_row(listing)
+        assert "S26" in row
+
+    def test_fall_season_badge(self):
+        listing = _make_listing(season="fall_2026")
+        row = _format_listing_row(listing)
+        assert "F26" in row
 
 
 # ---------------------------------------------------------------------------
@@ -246,8 +251,8 @@ class TestRenderCategorySection:
     def test_with_listings(self):
         listings = [_make_listing(), _make_listing(id="x2", role="Backend Intern")]
         section = _render_category_section(RoleCategory.SWE, "💻", "Software Engineering", listings)
-        assert "| Company | Role | Location | Apply | Date Added |" in section
-        assert "|---------|------|----------|-------|------------|" in section
+        assert "| Company | Role | Location | Season | Apply | Date Added |" in section
+        assert "|---------|------|----------|--------|-------|------------|" in section
         assert "**TestCo**" in section
 
     def test_sorted_by_date_desc(self):
@@ -274,7 +279,7 @@ class TestRenderGeorgiaSection:
     def test_with_georgia_listings(self):
         listings = [_make_listing(locations=["Atlanta, GA"])]
         section = _render_georgia_section(listings, ["Atlanta, GA"])
-        assert "| Company | Role | Location | Apply | Date Added |" in section
+        assert "| Company | Role | Location | Season | Apply | Date Added |" in section
         assert "**TestCo**" in section
 
     def test_excludes_closed_listings(self):
@@ -292,7 +297,7 @@ class TestRenderReadme:
     def test_empty_database(self, mock_config):
         db = _make_db([])
         readme = render_readme(db)
-        assert "# Summer 2026 Tech Internships" in readme
+        assert "# Atlanta Tech Internships" in readme
         assert "### 📊 Stats" in readme
         assert "### Legend" in readme
         assert "## How This Works" in readme
@@ -357,6 +362,10 @@ class TestRenderReadme:
         assert "| 🔒 | Application closed |" in readme
         assert "| 🎓 | Advanced degree required |" in readme
         assert "| 🏠 | Remote friendly |" in readme
+        assert "| S26 | Summer 2026 |" in readme
+        assert "| F26 | Fall 2026 |" in readme
+        assert "| Sp27 | Spring 2027 |" in readme
+        assert "| S27 | Summer 2027 |" in readme
 
     @patch("scripts.utils.readme_renderer.get_config", return_value=_MOCK_CONFIG)
     def test_georgia_section_present(self, mock_config):
@@ -448,7 +457,7 @@ class TestRenderReadme:
         with patch("scripts.utils.readme_renderer.get_config", side_effect=Exception("no config")):
             db = _make_db([])
             readme = render_readme(db)
-            assert "# Summer 2026 Tech Internships" in readme
+            assert "# Atlanta Tech Internships" in readme
             # Georgia section not rendered when config fails
             assert "## 🍑 Georgia Internships" not in readme
 
@@ -475,12 +484,12 @@ class TestValidateMarkdown:
         assert validate_markdown(content) is False
 
     def test_missing_legend_fails(self):
-        content = "# Summer 2026 Tech Internships\n## How This Works\n"
+        content = "# Atlanta Tech Internships\n## How This Works\n"
         assert validate_markdown(content) is False
 
     def test_inconsistent_table_pipes_fails(self):
         content = (
-            "# Summer 2026 Tech Internships\n"
+            "# Atlanta Tech Internships\n"
             "### Legend\n"
             "## How This Works\n"
             "| A | B | C |\n"
@@ -535,21 +544,21 @@ class TestGenerateReadme:
     def test_writes_file(self, mock_render, mock_load, tmp_path):
         mock_load.return_value = _make_db([])
         mock_render.return_value = (
-            "# Summer 2026 Tech Internships\n### Legend\n## How This Works\n"
+            "# Atlanta Tech Internships\n### Legend\n## How This Works\n"
         )
         readme_path = tmp_path / "README.md"
-        result = generate_readme(
+        generate_readme(
             jobs_path=tmp_path / "jobs.json",
             readme_path=readme_path,
         )
         assert readme_path.exists()
-        assert "Summer 2026 Tech Internships" in readme_path.read_text(encoding="utf-8")
+        assert "Atlanta Tech Internships" in readme_path.read_text(encoding="utf-8")
 
     @patch("scripts.generate_readme.render_readme")
     @patch("scripts.generate_readme.load_database")
     def test_returns_content(self, mock_load, mock_render, tmp_path):
         mock_load.return_value = _make_db([])
-        expected = "# Summer 2026 Tech Internships\n### Legend\n## How This Works\n"
+        expected = "# Atlanta Tech Internships\n### Legend\n## How This Works\n"
         mock_render.return_value = expected
         result = generate_readme(
             jobs_path=tmp_path / "jobs.json",

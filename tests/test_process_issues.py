@@ -18,7 +18,6 @@ from unittest.mock import AsyncMock, patch
 import pytest
 
 from scripts.process_issues import (
-    CATEGORY_MAP,
     _build_job_listing,
     _get_missing_fields,
     _map_category,
@@ -407,7 +406,7 @@ class TestProcessIssues:
     async def test_no_issues_returns_zero(self, tmp_path):
         """When there are no open issues, returns 0."""
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
         with (
             patch("scripts.process_issues.get_config", return_value=config_mock),
@@ -421,7 +420,7 @@ class TestProcessIssues:
     async def test_no_token_returns_zero(self):
         """When GITHUB_TOKEN is not set, returns 0."""
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
         with (
             patch("scripts.process_issues.get_config", return_value=config_mock),
@@ -442,7 +441,7 @@ class TestProcessIssues:
 
         issue = _make_issue(number=10)
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -475,7 +474,7 @@ class TestProcessIssues:
         body = "### Company Name\n\n\n\n### Role Title\n\nIntern\n\n### Application URL\n\nhttps://test.com\n\n### Location(s)\n\nNYC"
         issue = _make_issue(number=11, body=body)
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -502,7 +501,7 @@ class TestProcessIssues:
         """An issue with an invalid URL is rejected."""
         issue = _make_issue(number=12, url="not-a-url")
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -528,7 +527,7 @@ class TestProcessIssues:
         """An issue with a totally malformed body is rejected."""
         issue = _make_issue(number=13, body="random text no structure at all")
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -564,7 +563,7 @@ class TestProcessIssues:
                        url="https://notion.so/1", location="NYC"),
         ]
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -602,7 +601,7 @@ class TestProcessIssues:
         bad_issue = {"title": "Bad", "body": _make_issue_body()}
         good_issue = _make_issue(number=30)
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -632,7 +631,7 @@ class TestProcessIssues:
             location="SF / Remote",
         )
         parsed = _parse_issue_body(body)
-        from scripts.process_issues import _build_job_listing, _generate_listing_id
+        from scripts.process_issues import _build_job_listing
         job = _build_job_listing(parsed)
 
         jobs_path = tmp_path / "jobs.json"
@@ -652,7 +651,7 @@ class TestProcessIssues:
             location="SF / Remote",
         )
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -688,7 +687,7 @@ class TestProcessIssues:
         invalid_issue = _make_issue(number=51, url="not-a-url")
 
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)
@@ -719,7 +718,7 @@ class TestProcessIssues:
 
         issue = _make_issue(number=60)
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=False)  # comment fails
@@ -762,7 +761,7 @@ class TestProcessIssues:
 
         issue = _make_issue(number=70, url="not-a-url")
         config_mock = type("Config", (), {
-            "project": type("Project", (), {"github_repo": "owner/repo"})()
+            "project": type("Project", (), {"github_repo": "owner/repo", "season": "summer_2026"})()
         })()
 
         mock_comment = AsyncMock(return_value=True)

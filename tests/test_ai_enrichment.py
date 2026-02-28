@@ -11,10 +11,9 @@ Tests cover:
 - enrich_batch: batching, ordering, empty list, delay between batches
 """
 
-import asyncio
 import json
 from pathlib import Path
-from unittest.mock import MagicMock, patch, mock_open
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -96,7 +95,7 @@ def valid_metadata():
     """A valid enrichment metadata dict."""
     return {
         "is_internship": True,
-        "is_summer_2026": True,
+        "season": "summer_2026",
         "category": "swe",
         "locations": ["San Francisco, CA"],
         "sponsorship": "unknown",
@@ -399,7 +398,7 @@ class TestEnrichListing:
             result = enrich_listing(raw_listing, config=mock_config)
 
         assert result["confidence"] == 0.0
-        assert result["is_summer_2026"] is False
+        assert result["season"] == "none"
 
     def test_returns_default_when_no_client(self, raw_listing, mock_config):
         """Returns default metadata when no Gemini client is available."""
@@ -408,7 +407,7 @@ class TestEnrichListing:
                 result = enrich_listing(raw_listing, config=mock_config)
 
         assert result["confidence"] == 0.0
-        assert result["is_summer_2026"] is False
+        assert result["season"] == "none"
 
     def test_successful_api_call(self, raw_listing, mock_config, valid_metadata):
         """Makes API call, parses response, caches result, and increments counter."""
@@ -442,7 +441,7 @@ class TestEnrichListing:
                     result = enrich_listing(raw_listing, config=mock_config)
 
         assert result["confidence"] == 0.0
-        assert result["is_summer_2026"] is False
+        assert result["season"] == "none"
         # Counter should NOT increment on failure
         assert get_api_call_count() == 0
 
@@ -576,7 +575,6 @@ class TestGetGeminiClient:
                     ai_mod._gemini_client = None
 
                     # Patch the import of google.genai within the function
-                    import importlib
                     original_import = __builtins__.__import__ if hasattr(__builtins__, '__import__') else __import__
 
                     def mock_import(name, *args, **kwargs):
@@ -587,7 +585,7 @@ class TestGetGeminiClient:
                         return original_import(name, *args, **kwargs)
 
                     with patch("builtins.__import__", side_effect=mock_import):
-                        client = ai_mod._get_gemini_client()
+                        ai_mod._get_gemini_client()
 
         # The client should be initialized (even if mocking is complex)
         assert ai_mod._gemini_client_initialized is True
@@ -781,7 +779,7 @@ class TestDefaultMetadata:
         """DEFAULT_METADATA should contain all expected keys."""
         expected_keys = {
             "is_internship",
-            "is_summer_2026",
+            "season",
             "category",
             "locations",
             "sponsorship",
@@ -796,9 +794,9 @@ class TestDefaultMetadata:
         """Confidence should be 0.0 for defaults."""
         assert DEFAULT_METADATA["confidence"] == 0.0
 
-    def test_default_is_summer_2026_false(self):
-        """Default should not assume summer 2026."""
-        assert DEFAULT_METADATA["is_summer_2026"] is False
+    def test_default_season_is_none(self):
+        """Default season should be 'none'."""
+        assert DEFAULT_METADATA["season"] == "none"
 
     def test_default_is_internship_true(self):
         """Default assumes it is an internship (benefit of the doubt)."""

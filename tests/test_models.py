@@ -1,6 +1,6 @@
 """Tests for Pydantic data models."""
 
-from datetime import date, datetime
+from datetime import datetime
 
 import pytest
 from pydantic import ValidationError
@@ -8,6 +8,7 @@ from pydantic import ValidationError
 from scripts.utils.models import (
     ATSType,
     Company,
+    InternSeason,
     JobListing,
     JobsDatabase,
     ListingStatus,
@@ -17,6 +18,24 @@ from scripts.utils.models import (
 
 
 # ── Enum Tests ──────────────────────────────────────────────────────────────
+
+
+class TestInternSeason:
+    def test_all_values(self):
+        expected = {"summer_2026", "fall_2026", "spring_2027", "summer_2027"}
+        assert {e.value for e in InternSeason} == expected
+
+    def test_str_enum(self):
+        assert InternSeason.SUMMER_2026 == "summer_2026"
+        assert isinstance(InternSeason.SUMMER_2026, str)
+
+    def test_from_value(self):
+        assert InternSeason("fall_2026") is InternSeason.FALL_2026
+        assert InternSeason("spring_2027") is InternSeason.SPRING_2027
+
+    def test_invalid_value(self):
+        with pytest.raises(ValueError):
+            InternSeason("winter_2026")
 
 
 class TestRoleCategory:

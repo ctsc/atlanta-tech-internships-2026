@@ -30,6 +30,7 @@ class ProjectConfig(BaseModel):
     name: str
     season: str
     github_repo: str
+    active_seasons: list[str] = ["summer_2026"]
 
 
 class GeorgiaFocusConfig(BaseModel):

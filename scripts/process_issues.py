@@ -94,25 +94,56 @@ def _parse_issue_body(body: str) -> Optional[dict]:
     }
 
     return {
-        "company": company,
-        "role": role,
+        "company": _sanitize_field(company),
+        "role": _sanitize_field(role),
         "url": url,
-        "location": location,
+        "location": _sanitize_field(location),
         "category": category,
         "flags": flags,
     }
 
 
 def _validate_url(url: str) -> bool:
-    """Check if a URL looks valid (starts with http/https).
+    """Check if a URL is a valid HTTP(S) URL.
 
     Args:
         url: The URL string to validate.
 
     Returns:
-        True if the URL starts with http:// or https://.
+        True if the URL is a well-formed http/https URL.
     """
-    return url.startswith("http://") or url.startswith("https://")
+    from urllib.parse import urlparse
+
+    try:
+        parsed = urlparse(url)
+        return parsed.scheme in ("http", "https") and bool(parsed.netloc)
+    except Exception:
+        return False
+
+
+def _sanitize_field(text: str, max_length: int = 500) -> str:
+    """Sanitize a user-submitted field for safe markdown rendering.
+
+    Strips pipe characters (which break tables), control characters,
+    and enforces a maximum length.
+
+    Args:
+        text: The raw user input.
+        max_length: Maximum allowed length.
+
+    Returns:
+        Sanitized string safe for markdown table cells.
+    """
+    # Strip leading/trailing whitespace
+    text = text.strip()
+    # Remove pipe characters that break markdown tables
+    text = text.replace("|", "-")
+    # Remove markdown link injection attempts
+    text = text.replace("[", "").replace("]", "")
+    # Truncate to max length
+    if len(text) > max_length:
+        text = text[:max_length]
+    return text
 
 
 def _map_category(category_str: str) -> RoleCategory:
@@ -248,6 +279,8 @@ def _build_job_listing(parsed: dict) -> JobListing:
     elif flags.get("sponsors"):
         sponsorship = SponsorshipStatus.SPONSORS
 
+    config = get_config()
+
     return JobListing(
         id=listing_id,
         company=parsed["company"],
@@ -266,7 +299,7 @@ def _build_job_listing(parsed: dict) -> JobListing:
         source="community",
         status=ListingStatus.OPEN,
         tech_stack=[],
-        season="summer_2026",
+        season=config.project.season,
     )
 
 

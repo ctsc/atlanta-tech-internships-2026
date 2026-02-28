@@ -30,10 +30,12 @@ def _load_database(path: Path) -> JobsDatabase:
 
 
 def _save_database(db: JobsDatabase, path: Path) -> None:
-    """Save a JobsDatabase to a JSON file."""
+    """Save a JobsDatabase to a JSON file atomically."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    tmp_path = path.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(db.model_dump(mode="json"), f, indent=2, default=str)
+    tmp_path.replace(path)
 
 
 def _should_archive(listing: JobListing, today: date) -> str | None:

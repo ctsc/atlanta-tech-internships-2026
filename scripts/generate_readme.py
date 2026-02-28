@@ -84,7 +84,7 @@ def validate_markdown(content: str) -> bool:
             expected_pipes = 0
 
     # Check that required sections exist
-    required = ["# Summer 2026 Tech Internships", "### Legend", "## How This Works"]
+    required = ["# Atlanta Tech Internships", "### Legend", "## How This Works"]
     for section in required:
         if section not in content:
             logger.warning("Missing required section: %s", section)

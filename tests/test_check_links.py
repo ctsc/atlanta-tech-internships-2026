@@ -10,9 +10,7 @@ import httpx
 import pytest
 
 from scripts.check_links import (
-    DATA_DIR,
     DEAD_STATUSES,
-    LINK_HEALTH_PATH,
     MAX_CONCURRENT,
     TRANSIENT_STATUSES,
     _check_single_link,
