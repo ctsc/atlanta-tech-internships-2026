@@ -36,7 +36,7 @@ from scripts.utils.models import RawListing
 from scripts.utils.scraper import (
     GenericScraper,
     _parse_readme_table,
-    _strip_markdown,
+    _strip_markup,
     monitor_github_repo,
 )
 
@@ -853,17 +853,17 @@ class TestMarkdownParsing:
         assert len(rows) >= 1
         assert rows[0]["url"] == "https://metacareers.com/job/1"
 
-    def test_strip_markdown_bold(self):
+    def test_strip_markup_bold(self):
         """Bold markdown is stripped."""
-        assert _strip_markdown("**Google**") == "Google"
+        assert _strip_markup("**Google**") == "Google"
 
-    def test_strip_markdown_link(self):
+    def test_strip_markup_link(self):
         """Markdown links keep text, remove URL."""
-        assert _strip_markdown("[Apply](https://example.com)") == "Apply"
+        assert _strip_markup("[Apply](https://example.com)") == "Apply"
 
-    def test_strip_markdown_combined(self):
+    def test_strip_markup_combined(self):
         """Combined markdown formatting is stripped."""
-        assert _strip_markdown("**[Google](https://google.com)**") == "Google"
+        assert _strip_markup("**[Google](https://google.com)**") == "Google"
 
 
 # ======================================================================

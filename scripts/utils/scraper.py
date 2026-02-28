@@ -472,12 +472,13 @@ async def monitor_github_repo(monitor: GitHubMonitor) -> list[RawListing]:
 def _parse_readme_table(content: str, repo_name: str) -> list[dict]:
     """Parse markdown tables from a README to extract job listing rows.
 
-    Looks for rows matching patterns like:
-      | Company | Role | Location | [Apply](url) | Date |
+    Handles both markdown links [text](url) and HTML links <a href="url">.
+    Carries forward company names for continuation rows (↳ prefix).
 
     Returns a list of dicts with keys: company, role, location, url.
     """
     entries: list[dict] = []
+    last_company = ""
 
     # Match markdown table rows (lines starting and ending with |)
     table_row_pattern = re.compile(r"^\|(.+)\|$", re.MULTILINE)
@@ -496,28 +497,40 @@ def _parse_readme_table(content: str, repo_name: str) -> list[dict]:
         if len(cells) < 3:
             continue
 
-        # Try to find a URL in any cell — look for markdown link [text](url)
-        url_match = None
-        for cell in cells:
-            url_match = re.search(r"\[([^\]]*)\]\((https?://[^)]+)\)", cell)
-            if url_match:
+        # Try to find an apply URL in cells (search right-to-left so the
+        # "Application/Apply" column is found before the company-name link).
+        # Supports both markdown [text](url) and HTML <a href="url">.
+        apply_url = None
+        for cell in reversed(cells):
+            md_match = re.search(r"\[([^\]]*)\]\((https?://[^)]+)\)", cell)
+            if md_match:
+                apply_url = md_match.group(2)
+                break
+            html_match = re.search(r'href="(https?://[^"]+)"', cell)
+            if html_match:
+                apply_url = html_match.group(1)
                 break
 
-        if not url_match:
+        if not apply_url:
             continue
 
-        apply_url = url_match.group(2)
+        # Extract company from first cell (strip formatting)
+        company = _strip_markup(cells[0])
 
-        # Extract company from first cell (strip markdown formatting)
-        company = _strip_markdown(cells[0])
+        # Handle continuation rows (↳ = same company, different role)
+        if not company or company == "↳":
+            company = last_company
+        else:
+            last_company = company
+
         if not company:
             continue
 
         # Extract role from second cell if available
-        role = _strip_markdown(cells[1]) if len(cells) > 1 else "Unknown Role"
+        role = _strip_markup(cells[1]) if len(cells) > 1 else "Unknown Role"
 
         # Extract location from third cell if available
-        location = _strip_markdown(cells[2]) if len(cells) > 2 else "Unknown"
+        location = _strip_markup(cells[2]) if len(cells) > 2 else "Unknown"
 
         # Skip obviously non-job rows (like header, legend)
         if company.lower() in ("company", "symbol", "legend", "---"):
@@ -535,11 +548,13 @@ def _parse_readme_table(content: str, repo_name: str) -> list[dict]:
     return entries
 
 
-def _strip_markdown(text: str) -> str:
-    """Remove common markdown formatting from a string."""
-    # Remove bold/italic
+def _strip_markup(text: str) -> str:
+    """Remove markdown and HTML formatting from a string."""
+    # Remove HTML tags but keep inner text
+    text = re.sub(r"<[^>]+>", "", text)
+    # Remove bold/italic markdown
     text = re.sub(r"\*{1,3}([^*]+)\*{1,3}", r"\1", text)
-    # Remove links, keeping text
+    # Remove markdown links, keeping text
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
     # Remove emoji
     text = re.sub(
