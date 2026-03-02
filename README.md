@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: March 02, 2026 at 13:14 UTC
+> 🤖 **Auto-updated every 6 hours** | Last updated: March 02, 2026 at 19:00 UTC
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -14,14 +14,14 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 42 |
+| 💻 [Software Engineering](#-software-engineering) | 43 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 14 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 37 |
 | 📈 [Quantitative Finance](#-quantitative-finance) | 0 |
 | 📱 [Product Management](#-product-management) | 0 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 3 |
 | 🔹 [Other](#-other) | 144 |
-| **Total** | **240** |
+| **Total** | **241** |
 
 ---
 
@@ -44,6 +44,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|------------|
+| **Elsevier** | Simulation Software Engineer Intern | NYC, Florida, Massachusetts and 2 more | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/Pennsylvania/Simulation-Software-Engineer-Intern_R110008?utm_source=Simplify&ref=Simplify) | today |
 | **KION Group** | Intern Software Engineer | Atlanta, GA | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/Intern---Software-Engineer_JR-0087191?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Cadence Design Systems** | Intern-Software Engineering | Austin, TX | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Intern-Software-Engineering_R53488?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **The Walt Disney Company** | Software Engineering Intern | Celebration, FL | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Software-Engineering-Intern--Summer-2026-_10135863-1?utm_source=Simplify&ref=Simplify) | 2d ago |

@@ -276,23 +276,23 @@
     "last_checked": "2026-02-28"
   },
   "14bbfedee4b4282bb88ea8106f1e04e668a36841ebfad41fbaa62d56b43dbf3c": {
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_checked": "2026-03-02"
   },
   "e44914149f6e5b7af23bf4111705e69cb78ccf73feeb9fcc4ec254b0874e0934": {
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_checked": "2026-03-02"
   },
   "8a941a7b1095ba6339b2b77f8692643a4b664cacc69da507d447c41d7b3cac40": {
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_checked": "2026-03-02"
   },
   "67fca0c7712a96579e638b4992e97f4aad2c07afdf12944a842a35827b5a6762": {
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_checked": "2026-03-02"
   },
   "e2e78423c43c23888710b57215c66380fb7f940300c3c5304559238d73023f71": {
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_checked": "2026-03-02"
   },
   "04b78df07028037425a62e74c5b7beb0433005e8a22ee93469443764ed340cf9": {
@@ -364,6 +364,34 @@
     "last_checked": "2026-03-02"
   },
   "edd7cffeafb0c0fc57ae0cdef674594971d5720a1586fc62179af2a84bfe8f78": {
+    "consecutive_failures": 2,
+    "last_checked": "2026-03-02"
+  },
+  "60248cc520d92acf9b73b1000ea3091533979cdabd5678a9a66339f579c95f75": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "f381af12e59c1f24c8c0de7234fdced9f8547bb0ccf93fdd13e6570e98b3f075": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "d9adaaa891bf19e80340f36b5bdac07655d35f5e73434dabb3551af90cb80a44": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "efbf38fdec1bc2c0985f744bbfc35d533892a33981326c855fb2ee77f1270317": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "6958ffc06e0a18fa536dbe736944694aea2705fe1734a744cf222185efcd0156": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "b7eea1519416c39cba8367eb0bd38e3dac56400fc6ddf777b843d712bece0af3": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-03-02"
+  },
+  "18f2c7e0267c31db2c7a78a286b731ab231da08a8d506039d5106831b1fbe03c": {
     "consecutive_failures": 1,
     "last_checked": "2026-03-02"
   }
