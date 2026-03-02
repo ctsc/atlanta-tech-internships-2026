@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: March 02, 2026 at 07:08 UTC
+> 🤖 **Auto-updated every 6 hours** | Last updated: March 02, 2026 at 13:14 UTC
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,8 +20,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | 📈 [Quantitative Finance](#-quantitative-finance) | 0 |
 | 📱 [Product Management](#-product-management) | 0 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 3 |
-| 🔹 [Other](#-other) | 142 |
-| **Total** | **238** |
+| 🔹 [Other](#-other) | 144 |
+| **Total** | **240** |
 
 ---
 
@@ -185,6 +185,8 @@ No listings yet. Check back soon!
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|------------|
+| **Concord** | AI Data Cataloging Intern | Nashville, TN | F26 | [Apply](https://careers-concord.icims.com/jobs/2030/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | today |
+| **The Walt Disney Company** | Labor Systems Web Integration Intern | Celebration, FL | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Labor-Systems-Web-Integration-Intern--Summer-Fall-2026_10142310-2?utm_source=Simplify&ref=Simplify) | today |
 | **World Kinect** | Technology Intern | Miami, FL | F26 | [Apply](https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/MIAMI-FL/Technology-Internship---Summer-2026_R22263?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **AeroVect** | Developer Productivity Intern | Atlanta, GA | F26 | [Apply](https://jobs.ashbyhq.com/AeroVect/e29aa9a1-efbd-4698-bf9f-e4e31ad961e6/application?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Samsung** | Engineering Intern - Associate RAN Virtualization | Plano, TX | F26 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6555-Excellence-Way-Plano-TX-USA/Engineering-Intern--Associate-RAN-Virtualization-_R114932?utm_source=Simplify&ref=Simplify) | 2d ago |
