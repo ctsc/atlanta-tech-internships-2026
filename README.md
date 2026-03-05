@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: March 04, 2026 at 10:31 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: March 05, 2026 at 02:13 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,16 +16,16 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 46 |
-| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 13 |
+| 💻 [Software Engineering](#-software-engineering) | 48 |
+| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 14 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 33 |
-| 📈 [Quantitative Finance](#-quantitative-finance) | 1 |
+| 📈 [Quantitative Finance](#-quantitative-finance) | 0 |
 | 📱 [Product Management](#-product-management) | 0 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 5 |
-| 🔹 [Other](#-other) | 195 |
+| 🔹 [Other](#-other) | 194 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 16 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 68 |
-| **Total** | **293** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 70 |
+| **Total** | **294** |
 
 ---
 
@@ -71,6 +71,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Cox** | AJC Reporting Intern - Summer 2026 | — | Atlanta GA | S26 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AJC-Reporting-Intern---Summer-2026_R202673540) | today |
 | **Fiserv** | Technology Summer Internship Program - Application Development (Columbus, OH) | — | Columbus, Ohio | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Columbus-Ohio/Technology-Summer-Internship-Program---Application-Development--Columbus--OH-_R-10389119) | today |
 | **Intuitive Surgical** | ML Engineering Intern | — | Peachtree Corners, GA | F26 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000107840054) | today |
+| **Hermeus** | Manufacturing Engineering Intern - (Summer/Fall 2026) | — | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **RSM** | Tax Digital Services Intern - AI Engineering | — | Atlanta, GA | F26 | [Apply](https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Atlanta-Metro-Area/Tax-Digital-Services-Intern---AI-Engineering---Summer-2026_JR117117?utm_source=Simplify&ref=Simplify) | today |
 | **KION Group** | Intern Software Engineer | — | Atlanta, GA | S26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/Intern---Software-Engineer_JR-0087191?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Fiserv** | Technology Intern Program - Application Development | — | Columbus, OH | S26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Columbus-Ohio/Technology-Summer-Internship-Program---Application-Development--Columbus--OH-_R-10389119?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Trimble** | Software Engineer Intern | — | Atlanta, GA | S26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Atlanta-GA/Software-Engineer-Intern_R52484?utm_source=Simplify&ref=Simplify) | 5d ago |
@@ -128,7 +130,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Level | Location | Season | Apply | Posted |
 |---------|------|-------|----------|--------|-------|------------|
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2026) | PhD | Austin, Texas, United States | S26 | [Apply](https://optiver.com/working-at-optiver/career-opportunities/8055439002/?gh_jid=8055439002) | today |
 | 🔥 **Cisco** | Support Engineer I (Intern) - United States | — | USA-RESEARCH TRIANGLE PARK | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/USA-RESEARCH-TRIANGLE-PARK/Support-Engineer-I--Intern----United-States_2001892) | today |
 | 🔥 **Cisco** | Quality Assurance I (Intern) - United States | — | RTP, North Carolina, US | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Quality-Assurance-I--Intern----United-States_2001815) | today |
 | 🔥 **Capital One** | Student Café Ambassador (Intern) - Gulfgate Center and Houston Galleria | — | Houston, TX | F26 | [Apply](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Houston-TX/Student-Caf-Ambassador--Intern----Gulfgate-Center-and-Houston-Galleria_R237232-2) | today |
@@ -136,6 +137,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **The Walt Disney Company** | ESPN Marketing Intern, Charlotte, Summer/Fall 2026 | — | Charlotte, NC, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Charlotte-NC-USA/ESPN-Marketing-Intern--Charlotte--Summer-Fall-2026_10143727) | today |
 | 🔥 **The Walt Disney Company** | ESPN Intern, Charlotte, NC, Summer 2026 | — | Charlotte, NC, USA | S26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Charlotte-NC-USA/ESPN-Intern--Charlotte--NC--Summer-2026_10142182) | today |
 | 🔥 **Visa** | Data Science, Intern - Summer 2026, Austin, TX | — | Austin, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000111924225) | today |
+| 🔥 **Morgan Stanley** | Intern | — | Jacksonville FL 6375 | F26 | [Apply](https://ms.wd5.myworkdayjobs.com/External/job/Jacksonville-FL-6375/Intern_JR029473) | today |
 | 🔥 **Visa** | Software Engineer – Intern - Summer 2026 - Austin | — | Austin, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000109722402?utm_source=Simplify&ref=Simplify) | 5d ago |
 | 🔥 **Oracle** | Ada Intern | — | Nashville, TN | S26 | [Apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325227?utm_source=Simplify&ref=Simplify) | 5d ago |
 | 🔥 **Visa** | Data Science Intern - Multiple Teams | — | Austin, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000111924225?utm_source=Simplify&ref=Simplify) | 5d ago |
@@ -165,6 +167,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Genuine Parts Company** | Cloud SRE InternBirmingham, AL\|Part time\| | — | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/cloud-sre-intern/505/86810984128) | today |
 | **USAA** | IT Audit InternJan. 26, 2026San Antonio, TX | — | San Antonio, TX | F26 | [Apply](https://www.usaajobs.com/job/san-antonio/it-audit-intern/1207/91064327728) | today |
 | **USAA** | Audit InternJan. 26, 2026Plano, TX | — | Plano, TX | F26 | [Apply](https://www.usaajobs.com/job/plano/audit-intern/1207/91064327792) | today |
+| **Leidos** | Software Engineer Intern | — | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Software-Engineer-Intern_R-00174597-1) | today |
+| **CAE** | Software Engineering Co-op Instructional Systems | — | Arlington, TX | F26 | [Apply](https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Software-Engineering-Co-op-Instructional-Systems_120458?utm_source=Simplify&ref=Simplify) | today |
 | **KION Group** | Intern Software Engineer | — | Atlanta, GA | S26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/Intern---Software-Engineer_JR-0087191?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **The Walt Disney Company** | Software Engineering Intern | — | Celebration, FL | S26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Software-Engineering-Intern--Summer-2026-_10135863-1?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Trimble** | Software Engineer Intern | — | Atlanta, GA | S26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Atlanta-GA/Software-Engineer-Intern_R52484?utm_source=Simplify&ref=Simplify) | 5d ago |
@@ -207,6 +211,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Level | Location | Season | Apply | Posted |
 |---------|------|-------|----------|--------|-------|------------|
 | **Intuitive Surgical** | ML Engineering Intern | — | Peachtree Corners, GA | F26 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000107840054) | today |
+| **RSM** | Tax Digital Services Intern - AI Engineering | — | Atlanta, GA | F26 | [Apply](https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Atlanta-Metro-Area/Tax-Digital-Services-Intern---AI-Engineering---Summer-2026_JR117117?utm_source=Simplify&ref=Simplify) | today |
 | **RELX** | Data Scientist Intern | — | NYC, Massachusetts, Pennsylvania and 1 more | S26 | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Pennsylvania/Data-Scientist-Intern_R109156-1?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Elsevier** | Data Scientist Intern | — | NYC, Massachusetts, Pennsylvania and 1 more | S26 | [Apply](https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/Pennsylvania/Data-Scientist-Intern_R109156?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Expedia Group** | Machine Learning Science Intern | — | San Jose, CA, Austin and 1 more | S26 | [Apply](https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Machine-Learning-Science-Intern---PhD---2026---Austin--San-Jose_R-98585?utm_source=Simplify&ref=Simplify) | 5d ago |
@@ -270,7 +275,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Level | Location | Season | Apply | Posted |
 |---------|------|-------|----------|--------|-------|------------|
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2026) | PhD | Austin, Texas, United States | S26 | [Apply](https://optiver.com/working-at-optiver/career-opportunities/8055439002/?gh_jid=8055439002) | today |
 | **Cypress Creek Renewables** | Quantitative Development Intern 🔒 | — | Washington, DC, Durham and 3 more | S26 | 🔒 Closed | 5d ago |
 
 ---
@@ -318,7 +322,6 @@ No listings yet. Check back soon!
 | **Motorola Solutions** | UO FE Summer Internship 2026 | — | Texas Remote Work | F26 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Texas-Remote-Work/UO-FE-Summer-Internship-2026_R58011) | today |
 | **Leidos** | Manufacturing/Quality Intern | — | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Manufacturing-Quality-Intern_R-00175383) | today |
 | **Leidos** | AI Data Science Intern | — | Orlando, FL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/AI-Data-Science-Intern_R-00170158) | today |
-| **Leidos** | Power Delivery Engineering Intern | — | Charlotte, NC | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Charlotte-NC/Power-Delivery-Engineering-Intern_R-00171932) | today |
 | **Leidos** | Information Technologies (IT) Intern | — | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Information-Technologies--IT--Intern_R-00176994) | today |
 | **Leidos** | Civil/Transmission Line Engineering Intern | — | Orlando, FL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/Civil-Transmission-Line-Engineering-Intern_R-00173789) | today |
 | **Leidos** | Radar Signal Processing Engineer Intern | — | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Radar-Signal-Processing-Engineer-Intern_R-00174014) | today |
@@ -329,9 +332,7 @@ No listings yet. Check back soon!
 | **Sony** | Summer Intern, IT Infrastructure | — | NA, Nashville 17th Ave 37.5 | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/NA--Nashville-17th-Ave-375/Intern--IT-Infrastructure_JR-118848) | today |
 | **S&P Global** | Counterparty Analyst Intern | — | Dallas, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Dallas-TX/Counterparty-Analyst-Intern_326497-1) | today |
 | **S&P Global** | WSO Core Operations, Intern | — | Dallas, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Dallas-TX/WSO-Core-Operations--Intern_326308-1) | today |
-| **S&P Global** | Summer Intern - Product Management | — | Dallas, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Dallas-TX/Summer-Intern---Product-Management_326496-1) | today |
 | **S&P Global** | Research Analyst Intern - Fuels, Chemicals & Resource Solutions (Early Career) | — | Houston, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Houston-TX/Research-Analyst-Intern---Fuels--Chemicals---Resource-Solutions--Early-Career-_320543-1) | today |
-| **Cadence Design Systems** | Software Intern | — | AUSTIN | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R52911-2) | today |
 | **Cadence Design Systems** | Product Engineer Intern | — | AUSTIN | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Product-Engineer-Intern_R53361-1) | today |
 | **ASML** | Internship - EUV Installation Technical Project Support | — | Austin, TX, USA | F26 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Installation-Technical-Project-Support_J-00333528) | today |
 | **Equifax** | Security Intern | — | USA-GA-Alpharetta-JVW3 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA-GA-Alpharetta-JVW3/Security-Intern_J00170942) | today |
@@ -343,7 +344,6 @@ No listings yet. Check back soon!
 | 🔥 **Visa** | Data Science, Intern - Summer 2026, Austin, TX | — | Austin, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000111924225) | today |
 | **Bosch** | 2026 Summer Logistics Engineer / LOM – 1st Shift (Co-Op) | — | Charleston, SC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000112778036) | today |
 | **Bosch** | Technical Engineering Function (TEF) Intern | — | Pineville, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000111689495) | today |
-| **Bosch** | Marketing Intern | — | Taguig, NCR | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000111566801) | today |
 | **Bosch** | Manufacturing Engineer  (MOE) Intern | — | Pineville, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000111175813) | today |
 | **Bosch** | Electronics Engineering Intern | — | Fort Lauderdale, FL | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000108626489) | today |
 | **Bosch** | Quality Engineering Co-op | — | Pineville, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000107744848) | today |
@@ -359,6 +359,9 @@ No listings yet. Check back soon!
 | **Genuine Parts Company** | Mobile Software Development InternBirmingham, AL\|Full time\| | — | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/mobile-software-development-intern/505/85815949952) | today |
 | **Genuine Parts Company** | Customer Software Development InternBirmingham, AL\|Part time\| | — | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/customer-software-development-intern/505/85815949936) | today |
 | **Genuine Parts Company** | Finance InternBirmingham, AL\|Part time\| | — | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/finance-intern/505/92321051664) | today |
+| **Hermeus** | Manufacturing Engineering Intern - (Summer/Fall 2026) | — | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| 🔥 **Morgan Stanley** | Intern | — | Jacksonville FL 6375 | F26 | [Apply](https://ms.wd5.myworkdayjobs.com/External/job/Jacksonville-FL-6375/Intern_JR029473) | today |
+| **Continental** | Communications Intern | — | Sumter, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000112519345) | today |
 | **World Kinect** | Technology Intern | — | Miami, FL | S26 | [Apply](https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/MIAMI-FL/Technology-Internship---Summer-2026_R22263?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **AeroVect** | Developer Productivity Intern | — | Atlanta, GA | S26 | [Apply](https://jobs.ashbyhq.com/AeroVect/e29aa9a1-efbd-4698-bf9f-e4e31ad961e6/application?utm_source=Simplify&ref=Simplify) | 5d ago |
 | **Samsung** | Engineering Intern - Associate RAN Virtualization | — | Plano, TX | S26 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6555-Excellence-Way-Plano-TX-USA/Engineering-Intern--Associate-RAN-Virtualization-_R114932?utm_source=Simplify&ref=Simplify) | 5d ago |
