@@ -833,6 +833,7 @@ class TestDefaultMetadata:
             "industry",
             "start_date",
             "end_date",
+            "preferred_class_years",
         }
         assert set(DEFAULT_METADATA.keys()) == expected_keys
 

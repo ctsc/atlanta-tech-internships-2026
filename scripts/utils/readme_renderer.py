@@ -78,6 +78,40 @@ def _escape_markdown_cell(text: str) -> str:
     return text.replace("|", "\\|")
 
 
+_CLASS_YEAR_ABBR: dict[str, str] = {
+    "freshman": "Fr",
+    "sophomore": "So",
+    "junior": "Jr",
+    "senior": "Sr",
+    "masters": "MS",
+    "phd": "PhD",
+}
+
+_ALL_UNDERGRAD = {"freshman", "sophomore", "junior", "senior"}
+_ALL_YEARS = {"freshman", "sophomore", "junior", "senior", "masters", "phd"}
+
+
+def _format_class_years(years: list[str]) -> str:
+    """Format a list of class years into a short display string.
+
+    Examples: "Jr/Sr", "Undergrad", "All", "MS/PhD", "—" (empty).
+    """
+    if not years:
+        return "\u2014"  # em dash
+
+    year_set = set(years)
+
+    if year_set >= _ALL_YEARS:
+        return "All"
+    if year_set >= _ALL_UNDERGRAD and not (year_set & {"masters", "phd"}):
+        return "Undergrad"
+
+    # Preserve canonical order
+    order = ["freshman", "sophomore", "junior", "senior", "masters", "phd"]
+    abbrs = [_CLASS_YEAR_ABBR[y] for y in order if y in year_set]
+    return "/".join(abbrs)
+
+
 def _format_listing_row(listing: JobListing) -> str:
     """Format a single listing as a markdown table row."""
     company = f"**{_escape_markdown_cell(listing.company)}**"
@@ -97,6 +131,7 @@ def _format_listing_row(listing: JobListing) -> str:
         role = f"{role} {''.join(flags)}"
 
     locations = _format_locations(listing.locations)
+    level = _format_class_years(listing.preferred_class_years)
     season_badge = _format_season(listing.season)
     date_str = _format_relative_date(listing.date_added)
     apply_url = str(listing.apply_url)
@@ -106,7 +141,7 @@ def _format_listing_row(listing: JobListing) -> str:
     else:
         apply_link = f"[Apply]({apply_url})"
 
-    return f"| {company} | {role} | {locations} | {season_badge} | {apply_link} | {date_str} |"
+    return f"| {company} | {role} | {level} | {locations} | {season_badge} | {apply_link} | {date_str} |"
 
 
 def _render_category_section(
@@ -136,8 +171,8 @@ def _render_category_section(
         lines.append("")
         return "\n".join(lines)
 
-    lines.append("| Company | Role | Location | Season | Apply | Posted |")
-    lines.append("|---------|------|----------|--------|-------|------------|")
+    lines.append("| Company | Role | Level | Location | Season | Apply | Posted |")
+    lines.append("|---------|------|-------|----------|--------|-------|------------|")
     for listing in sorted_listings:
         lines.append(_format_listing_row(listing))
     lines.append("")
@@ -195,6 +230,39 @@ def _count_open_faang(listings: list[JobListing]) -> int:
     ])
 
 
+GEORGIA_PATTERNS: dict[str, list[str]] = {
+    "states": [", ga", "georgia"],
+    "cities": [
+        "atlanta", "alpharetta", "marietta", "savannah", "augusta",
+        "roswell", "sandy springs", "johns creek", "kennesaw",
+        "lawrenceville", "duluth", "peachtree", "decatur",
+        "athens", "columbus", "macon", "warner robins",
+    ],
+}
+
+
+def _is_georgia_listing(listing: JobListing) -> bool:
+    """Check if a listing has a Georgia location."""
+    for loc in listing.locations:
+        loc_lower = loc.lower()
+        for pattern in GEORGIA_PATTERNS["states"]:
+            if pattern in loc_lower:
+                return True
+        for city in GEORGIA_PATTERNS["cities"]:
+            if city in loc_lower:
+                return True
+    return False
+
+
+def _count_open_georgia(listings: list[JobListing]) -> int:
+    """Count open listings in Georgia."""
+    return len([
+        x for x in listings
+        if x.status == ListingStatus.OPEN
+        and _is_georgia_listing(x)
+    ])
+
+
 def render_readme(jobs_db: JobsDatabase) -> str:
     """Render a complete README.md from a JobsDatabase.
 
@@ -215,7 +283,10 @@ def render_readme(jobs_db: JobsDatabase) -> str:
 
     jobs_db.compute_stats()
     listings = jobs_db.listings
-    timestamp = jobs_db.last_updated.strftime("%B %d, %Y at %H:%M UTC")
+    from datetime import timezone, timedelta
+    est = timezone(timedelta(hours=-5))
+    last_updated_est = jobs_db.last_updated.replace(tzinfo=timezone.utc).astimezone(est)
+    timestamp = last_updated_est.strftime("%B %d, %Y at %I:%M %p EST")
 
     # Compute category counts (SE-only)
     category_counts: dict[RoleCategory, int] = {}
@@ -241,6 +312,10 @@ def render_readme(jobs_db: JobsDatabase) -> str:
         "across software engineering, ML/AI, data science, quant, and more."
     )
     parts.append("")
+    parts.append(
+        "[View all tracked companies](COMPANIES.md)"
+    )
+    parts.append("")
     parts.append("---")
     parts.append("")
 
@@ -256,7 +331,9 @@ def render_readme(jobs_db: JobsDatabase) -> str:
         parts.append(f"| {emoji} [{title}](#{anchor}) | {count} |")
 
     big_tech_count = _count_open_faang(listings)
-    parts.append(f"| 🔥 [Big Tech in Atlanta](#-big-tech-in-atlanta) | {big_tech_count} |")
+    georgia_count = _count_open_georgia(listings)
+    parts.append(f"| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | {big_tech_count} |")
+    parts.append(f"| 🍑 [Roles Open in GA](#-roles-open-in-ga) | {georgia_count} |")
     parts.append(f"| **Total** | **{total_open}** |")
     parts.append("")
     parts.append("---")
@@ -275,17 +352,34 @@ def render_readme(jobs_db: JobsDatabase) -> str:
     parts.append("| F26 | Fall 2026 |")
     parts.append("| Sp27 | Spring 2027 |")
     parts.append("| S27 | Summer 2027 |")
+    parts.append("| Fr/So/Jr/Sr | Freshman / Sophomore / Junior / Senior |")
+    parts.append("| MS/PhD | Masters / PhD |")
+    parts.append("| Undergrad | All undergraduate years |")
+    parts.append("| All | All class years |")
+    parts.append("| — | Not specified |")
     parts.append("")
     parts.append("---")
     parts.append("")
 
-    # --- Big Tech in Atlanta ---
+    # --- Roles Open in GA ---
+    ga_listings = [
+        x for x in listings
+        if _is_georgia_listing(x)
+    ]
+    ga_section = _render_category_section(
+        RoleCategory.OTHER, "🍑", "Roles Open in GA", ga_listings,
+    )
+    parts.append(ga_section)
+    parts.append("---")
+    parts.append("")
+
+    # --- Big Tech in the Southeast ---
     big_tech_listings = [
         x for x in listings
         if x.is_faang_plus and _is_southeast_listing(x)
     ]
     big_tech_section = _render_category_section(
-        RoleCategory.SWE, "🔥", "Big Tech in Atlanta", big_tech_listings,
+        RoleCategory.SWE, "🔥", "Big Tech in the Southeast", big_tech_listings,
     )
     parts.append(big_tech_section)
     parts.append("---")

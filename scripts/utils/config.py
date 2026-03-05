@@ -61,6 +61,22 @@ class AshbyBoard(BaseModel):
     is_faang_plus: bool = False
 
 
+class WorkdayBoard(BaseModel):
+    """A Workday career site source."""
+    company: str
+    company_code: str  # subdomain e.g. "ibm"
+    instance: int = 1  # wd1, wd2, etc.
+    site_name: str = "External"  # career site name path
+    is_faang_plus: bool = False
+
+
+class SmartRecruitersBoard(BaseModel):
+    """A SmartRecruiters career site source."""
+    company: str
+    company_id: str  # identifier for API, e.g. "VISA"
+    is_faang_plus: bool = False
+
+
 class ScrapeSource(BaseModel):
     """A career page that requires web scraping."""
     company: str
@@ -109,6 +125,8 @@ class AppConfig(BaseModel):
     greenhouse_boards: list[GreenhouseBoard] = []
     lever_boards: list[LeverBoard] = []
     ashby_boards: list[AshbyBoard] = []
+    workday_boards: list[WorkdayBoard] = []
+    smartrecruiters_boards: list[SmartRecruitersBoard] = []
     scrape_sources: list[ScrapeSource] = []
     github_monitors: list[GitHubMonitor] = []
     filters: FiltersConfig = Field(default_factory=FiltersConfig)
@@ -123,6 +141,8 @@ class AppConfig(BaseModel):
             len(self.greenhouse_boards)
             + len(self.lever_boards)
             + len(self.ashby_boards)
+            + len(self.workday_boards)
+            + len(self.smartrecruiters_boards)
             + len(self.scrape_sources)
             + len(self.github_monitors)
         )
@@ -189,11 +209,13 @@ def load_config(config_path: Optional[Path] = None) -> AppConfig:
 
     _config = AppConfig.model_validate(raw)
     logger.info(
-        "Config loaded: %d total sources (%d greenhouse, %d lever, %d ashby, %d scrape, %d monitors)",
+        "Config loaded: %d total sources (%d greenhouse, %d lever, %d ashby, %d workday, %d smartrecruiters, %d scrape, %d monitors)",
         _config.total_sources,
         len(_config.greenhouse_boards),
         len(_config.lever_boards),
         len(_config.ashby_boards),
+        len(_config.workday_boards),
+        len(_config.smartrecruiters_boards),
         len(_config.scrape_sources),
         len(_config.github_monitors),
     )

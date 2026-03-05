@@ -46,6 +46,7 @@ DEFAULT_METADATA: dict = {
     "industry": "other",
     "start_date": None,
     "end_date": None,
+    "preferred_class_years": [],
 }
 
 

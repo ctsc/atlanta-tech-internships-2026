@@ -12,7 +12,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from scripts.utils.ats_clients import AshbyClient, GreenhouseClient, LeverClient
+from scripts.utils.ats_clients import (
+    AshbyClient,
+    GreenhouseClient,
+    LeverClient,
+    SmartRecruitersClient,
+    WorkdayClient,
+)
 from scripts.utils.config import AppConfig, load_config, PROJECT_ROOT
 from scripts.utils.models import RawListing
 from scripts.utils.scraper import GenericScraper, monitor_github_repo
@@ -107,6 +113,68 @@ async def _run_ashby(config: AppConfig) -> list[RawListing]:
 
     logger.info(
         "Ashby: %d/%d boards succeeded, %d listings found",
+        succeeded,
+        succeeded + failed,
+        len(listings),
+    )
+    return listings
+
+
+async def _run_workday(config: AppConfig) -> list[RawListing]:
+    """Fetch listings from all configured Workday boards."""
+    client = WorkdayClient(config.filters)
+    tasks = [client.fetch_listings(board) for board in config.workday_boards]
+    if not tasks:
+        return []
+
+    results_or_errors = await asyncio.gather(*tasks, return_exceptions=True)
+
+    listings: list[RawListing] = []
+    succeeded = 0
+    failed = 0
+    for i, result in enumerate(results_or_errors):
+        board = config.workday_boards[i]
+        if isinstance(result, BaseException):
+            logger.error("Workday %s failed: %s", board.company, result)
+            failed += 1
+        else:
+            listings.extend(result)
+            succeeded += 1
+
+    logger.info(
+        "Workday: %d/%d boards succeeded, %d listings found",
+        succeeded,
+        succeeded + failed,
+        len(listings),
+    )
+    return listings
+
+
+async def _run_smartrecruiters(config: AppConfig) -> list[RawListing]:
+    """Fetch listings from all configured SmartRecruiters boards."""
+    client = SmartRecruitersClient(config.filters)
+    tasks = [client.fetch_listings(board) for board in config.smartrecruiters_boards]
+    if not tasks:
+        return []
+
+    results_or_errors = await asyncio.gather(*tasks, return_exceptions=True)
+
+    listings: list[RawListing] = []
+    succeeded = 0
+    failed = 0
+    for i, result in enumerate(results_or_errors):
+        board = config.smartrecruiters_boards[i]
+        if isinstance(result, BaseException):
+            logger.error(
+                "SmartRecruiters %s failed: %s", board.company, result
+            )
+            failed += 1
+        else:
+            listings.extend(result)
+            succeeded += 1
+
+    logger.info(
+        "SmartRecruiters: %d/%d boards succeeded, %d listings found",
         succeeded,
         succeeded + failed,
         len(listings),
@@ -228,6 +296,8 @@ async def discover_all() -> list[RawListing]:
         _run_greenhouse(config),
         _run_lever(config),
         _run_ashby(config),
+        _run_workday(config),
+        _run_smartrecruiters(config),
         _run_scraping(config),
         _run_github_monitors(config),
     ]
@@ -236,7 +306,10 @@ async def discover_all() -> list[RawListing]:
 
     # Collect all listings, isolating any top-level failures
     all_listings: list[RawListing] = []
-    source_names = ["Greenhouse", "Lever", "Ashby", "Scraping", "GitHub Monitors"]
+    source_names = [
+        "Greenhouse", "Lever", "Ashby", "Workday",
+        "SmartRecruiters", "Scraping", "GitHub Monitors",
+    ]
 
     sources_succeeded = 0
     sources_failed = 0

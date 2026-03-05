@@ -75,6 +75,17 @@ class IndustrySector(str, Enum):
     OTHER = "other"
 
 
+class ClassYear(str, Enum):
+    """Eligible class year / grade level for internship applicants."""
+
+    FRESHMAN = "freshman"
+    SOPHOMORE = "sophomore"
+    JUNIOR = "junior"
+    SENIOR = "senior"
+    MASTERS = "masters"
+    PHD = "phd"
+
+
 class ATSType(str, Enum):
     """Applicant Tracking System types."""
 
@@ -124,6 +135,7 @@ class JobListing(BaseModel):
     start_date: Optional[str] = None
     end_date: Optional[str] = None
     industry: IndustrySector = IndustrySector.OTHER
+    preferred_class_years: list[str] = []
 
 
 class JobsDatabase(BaseModel):

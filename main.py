@@ -217,6 +217,21 @@ def run_clean() -> None:
     if season_updated:
         logger.info("Backfilled season for %d listings", season_updated)
 
+    # Backfill preferred_class_years from title text
+    from scripts.validate import _extract_class_years_from_text as _extract_cy
+
+    class_year_updated = 0
+    for listing in cleaned:
+        if not listing.get("preferred_class_years"):
+            title = listing.get("role", "")
+            years = _extract_cy(title)
+            if years:
+                listing["preferred_class_years"] = years
+                class_year_updated += 1
+
+    if class_year_updated:
+        logger.info("Backfilled preferred_class_years for %d listings", class_year_updated)
+
     data["listings"] = cleaned
     data["last_updated"] = datetime.now(timezone.utc).isoformat()
     data["total_open"] = len([x for x in cleaned if x.get("status") == "open"])

@@ -24,6 +24,8 @@ from scripts.utils.config import (
     FiltersConfig,
     GreenhouseBoard,
     LeverBoard,
+    SmartRecruitersBoard,
+    WorkdayBoard,
 )
 from scripts.utils.models import RawListing
 
@@ -473,5 +475,255 @@ query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) {
             board.company,
             total_jobs,
             len(results),
+        )
+        return results
+
+
+class WorkdayClient(BaseATSClient):
+    """Client for the Workday CXS (Candidate Experience) API.
+
+    Endpoint: POST https://{code}.wd{N}.myworkdayjobs.com/wday/cxs/{code}/{site}/jobs
+    """
+
+    _domain = "myworkdayjobs.com"
+
+    @retry(
+        retry=retry_if_exception_type((httpx.HTTPStatusError, httpx.TransportError)),
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=1, max=10),
+        reraise=True,
+    )
+    async def _request(
+        self, client: httpx.AsyncClient, url: str, payload: dict
+    ) -> httpx.Response:
+        sem = self._get_semaphore()
+        async with sem:
+            response = await client.post(url, json=payload)
+            response.raise_for_status()
+            return response
+
+    async def fetch_listings(
+        self, board: WorkdayBoard
+    ) -> list[RawListing]:
+        """Fetch internship listings from a Workday career site.
+
+        Paginates through all results using offset/limit.
+
+        Args:
+            board: WorkdayBoard config with company_code, instance, site_name.
+
+        Returns:
+            Filtered list of RawListing objects.
+        """
+        base_url = (
+            f"https://{board.company_code}.wd{board.instance}"
+            f".myworkdayjobs.com/wday/cxs/{board.company_code}/{board.site_name}/jobs"
+        )
+        site_base = (
+            f"https://{board.company_code}.wd{board.instance}"
+            f".myworkdayjobs.com/{board.site_name}"
+        )
+        results: list[RawListing] = []
+        limit = 20
+        offset = 0
+        total = None
+
+        async with self._build_client() as client:
+            while True:
+                payload = {
+                    "limit": limit,
+                    "offset": offset,
+                    "searchText": "intern",
+                    "appliedFacets": {},
+                }
+                try:
+                    response = await self._request(client, base_url, payload)
+                except httpx.HTTPStatusError as exc:
+                    status = exc.response.status_code
+                    logger.warning(
+                        "Workday %s returned HTTP %d — skipping",
+                        board.company, status,
+                    )
+                    return results
+                except httpx.TransportError as exc:
+                    logger.warning(
+                        "Workday %s transport error: %s — skipping",
+                        board.company, exc,
+                    )
+                    return results
+
+                data = response.json()
+                if total is None:
+                    total = data.get("total", 0)
+                    logger.info(
+                        "Workday %s: %d total matching jobs", board.company, total,
+                    )
+
+                postings = data.get("jobPostings", [])
+                if not postings:
+                    break
+
+                for job in postings:
+                    title = job.get("title", "")
+                    if not self._should_include(title):
+                        continue
+
+                    location = job.get("locationsText", "Unknown") or "Unknown"
+                    external_path = job.get("externalPath", "")
+                    if not external_path:
+                        continue
+
+                    apply_url = f"{site_base}{external_path}"
+
+                    listing = RawListing(
+                        company=board.company,
+                        company_slug=_slugify(board.company),
+                        title=title,
+                        location=location,
+                        url=apply_url,
+                        source="workday_api",
+                        is_faang_plus=board.is_faang_plus,
+                        description="",
+                        raw_data=job,
+                        discovered_at=datetime.now(timezone.utc),
+                    )
+                    results.append(listing)
+
+                offset += limit
+                if offset >= total:
+                    break
+
+                # Small delay between pages
+                await asyncio.sleep(0.5)
+
+        logger.info(
+            "Workday %s: %d listings after filtering",
+            board.company, len(results),
+        )
+        return results
+
+
+class SmartRecruitersClient(BaseATSClient):
+    """Client for the SmartRecruiters public Posting API.
+
+    Endpoint: GET https://api.smartrecruiters.com/v1/companies/{id}/postings
+    """
+
+    _domain = "api.smartrecruiters.com"
+
+    @retry(
+        retry=retry_if_exception_type((httpx.HTTPStatusError, httpx.TransportError)),
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=1, max=10),
+        reraise=True,
+    )
+    async def _request(
+        self, client: httpx.AsyncClient, url: str, params: dict
+    ) -> httpx.Response:
+        sem = self._get_semaphore()
+        async with sem:
+            response = await client.get(url, params=params)
+            response.raise_for_status()
+            return response
+
+    async def fetch_listings(
+        self, board: SmartRecruitersBoard
+    ) -> list[RawListing]:
+        """Fetch internship listings from a SmartRecruiters company.
+
+        Paginates through all results using offset/limit.
+
+        Args:
+            board: SmartRecruitersBoard config with company_id.
+
+        Returns:
+            Filtered list of RawListing objects.
+        """
+        base_url = (
+            f"https://api.smartrecruiters.com/v1/companies"
+            f"/{board.company_id}/postings"
+        )
+        results: list[RawListing] = []
+        limit = 100
+        offset = 0
+        total = None
+
+        async with self._build_client() as client:
+            while True:
+                params = {
+                    "q": "intern",
+                    "limit": limit,
+                    "offset": offset,
+                }
+                try:
+                    response = await self._request(client, base_url, params)
+                except httpx.HTTPStatusError as exc:
+                    status = exc.response.status_code
+                    logger.warning(
+                        "SmartRecruiters %s returned HTTP %d — skipping",
+                        board.company, status,
+                    )
+                    return results
+                except httpx.TransportError as exc:
+                    logger.warning(
+                        "SmartRecruiters %s transport error: %s — skipping",
+                        board.company, exc,
+                    )
+                    return results
+
+                data = response.json()
+                if total is None:
+                    total = data.get("totalFound", 0)
+                    logger.info(
+                        "SmartRecruiters %s: %d total matching jobs",
+                        board.company, total,
+                    )
+
+                postings = data.get("content", [])
+                if not postings:
+                    break
+
+                for posting in postings:
+                    title = posting.get("name", "")
+                    if not self._should_include(title):
+                        continue
+
+                    # Build location string
+                    loc = posting.get("location", {})
+                    loc_parts = [loc.get("city", ""), loc.get("region", "")]
+                    location = ", ".join(p for p in loc_parts if p) or "Unknown"
+
+                    posting_id = posting.get("id", "")
+                    if not posting_id:
+                        continue
+
+                    apply_url = (
+                        f"https://jobs.smartrecruiters.com/{board.company_id}"
+                        f"/{posting_id}"
+                    )
+
+                    listing = RawListing(
+                        company=board.company,
+                        company_slug=_slugify(board.company),
+                        title=title,
+                        location=location,
+                        url=apply_url,
+                        source="smartrecruiters_api",
+                        is_faang_plus=board.is_faang_plus,
+                        description="",
+                        raw_data=posting,
+                        discovered_at=datetime.now(timezone.utc),
+                    )
+                    results.append(listing)
+
+                offset += limit
+                if offset >= total:
+                    break
+
+                await asyncio.sleep(0.5)
+
+        logger.info(
+            "SmartRecruiters %s: %d listings after filtering",
+            board.company, len(results),
         )
         return results

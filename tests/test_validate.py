@@ -30,6 +30,7 @@ from scripts.utils.models import (
 )
 from scripts.validate import (
     _build_job_listing,
+    _extract_class_years_from_text,
     _extract_season_from_text,
     _find_latest_raw_discovery,
     _generate_listing_id,
@@ -1482,3 +1483,190 @@ class TestBuildJobListingSeasonPriority:
         job = _build_job_listing(raw, metadata)
         assert job.start_date is None
         assert job.end_date is None
+
+
+# ======================================================================
+# Tests for _extract_class_years_from_text
+# ======================================================================
+
+
+class TestExtractClassYearsFromText:
+    """Tests for the _extract_class_years_from_text regex parser."""
+
+    # --- Individual keywords ---
+    def test_freshman(self):
+        assert _extract_class_years_from_text("Open to freshman students") == ["freshman"]
+
+    def test_first_year(self):
+        assert _extract_class_years_from_text("first-year students welcome") == ["freshman"]
+
+    def test_1st_year(self):
+        assert _extract_class_years_from_text("1st year students") == ["freshman"]
+
+    def test_sophomore(self):
+        assert _extract_class_years_from_text("Ideal for sophomore candidates") == ["sophomore"]
+
+    def test_second_year(self):
+        assert _extract_class_years_from_text("second-year and above") == ["sophomore"]
+
+    def test_2nd_year(self):
+        assert _extract_class_years_from_text("2nd year CS students") == ["sophomore"]
+
+    def test_junior(self):
+        assert _extract_class_years_from_text("junior standing required") == ["junior"]
+
+    def test_third_year(self):
+        assert _extract_class_years_from_text("third-year or higher") == ["junior"]
+
+    def test_3rd_year(self):
+        assert _extract_class_years_from_text("3rd year engineering") == ["junior"]
+
+    def test_senior(self):
+        assert _extract_class_years_from_text("senior students only") == ["senior"]
+
+    def test_fourth_year(self):
+        assert _extract_class_years_from_text("fourth-year applicants") == ["senior"]
+
+    def test_4th_year(self):
+        assert _extract_class_years_from_text("4th year students") == ["senior"]
+
+    def test_masters(self):
+        assert _extract_class_years_from_text("master's students preferred") == ["masters"]
+
+    def test_masters_no_apostrophe(self):
+        assert _extract_class_years_from_text("masters degree candidates") == ["masters"]
+
+    def test_ms_student(self):
+        assert _extract_class_years_from_text("MS student in CS") == ["masters"]
+
+    def test_graduate_student(self):
+        assert _extract_class_years_from_text("graduate student in engineering") == ["masters"]
+
+    def test_grad_student(self):
+        assert _extract_class_years_from_text("grad student applicants") == ["masters"]
+
+    def test_phd(self):
+        assert _extract_class_years_from_text("PhD candidates welcome") == ["phd"]
+
+    def test_phd_dotted(self):
+        assert _extract_class_years_from_text("Ph.D. students") == ["phd"]
+
+    def test_doctoral(self):
+        assert _extract_class_years_from_text("doctoral students in ML") == ["phd"]
+
+    # --- Combination patterns ---
+    def test_junior_senior(self):
+        result = _extract_class_years_from_text("Open to junior and senior students")
+        assert result == ["junior", "senior"]
+
+    def test_masters_and_phd(self):
+        result = _extract_class_years_from_text("For masters or PhD candidates")
+        assert result == ["masters", "phd"]
+
+    def test_sophomore_junior_senior(self):
+        result = _extract_class_years_from_text("sophomore, junior, or senior standing")
+        assert result == ["sophomore", "junior", "senior"]
+
+    # --- Undergrad expansion ---
+    def test_undergraduate_expands(self):
+        result = _extract_class_years_from_text("undergraduate students eligible")
+        assert result == ["freshman", "sophomore", "junior", "senior"]
+
+    def test_undergrad_expands(self):
+        result = _extract_class_years_from_text("for undergrad and masters students")
+        assert result == ["freshman", "sophomore", "junior", "senior", "masters"]
+
+    # --- All class years expansion ---
+    def test_all_class_years(self):
+        result = _extract_class_years_from_text("all class years welcome")
+        assert result == ["freshman", "sophomore", "junior", "senior", "masters", "phd"]
+
+    def test_all_levels(self):
+        result = _extract_class_years_from_text("open to all levels")
+        assert result == ["freshman", "sophomore", "junior", "senior", "masters", "phd"]
+
+    def test_any_year(self):
+        result = _extract_class_years_from_text("any year may apply")
+        assert result == ["freshman", "sophomore", "junior", "senior", "masters", "phd"]
+
+    # --- No match ---
+    def test_no_match(self):
+        assert _extract_class_years_from_text("Software Engineer Intern — Summer 2026") == []
+
+    def test_empty_string(self):
+        assert _extract_class_years_from_text("") == []
+
+    def test_none_like_empty(self):
+        """None-ish empty text returns empty list."""
+        assert _extract_class_years_from_text("   ") == []
+
+    # --- Case insensitivity ---
+    def test_case_insensitive(self):
+        result = _extract_class_years_from_text("JUNIOR and SENIOR students")
+        assert result == ["junior", "senior"]
+
+    # --- Canonical ordering ---
+    def test_output_ordering(self):
+        """Results follow freshman→phd order regardless of input order."""
+        result = _extract_class_years_from_text("phd or freshman candidates")
+        assert result == ["freshman", "phd"]
+
+
+# ======================================================================
+# Tests for class year priority chain in _build_job_listing
+# ======================================================================
+
+
+class TestBuildJobListingClassYears:
+    """Tests for preferred_class_years extraction in _build_job_listing."""
+
+    def test_class_years_from_description(self):
+        """Description regex takes priority."""
+        raw = _make_raw_listing(
+            title="SWE Intern",
+            description="Open to junior and senior students",
+        )
+        metadata = _make_valid_metadata()
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == ["junior", "senior"]
+
+    def test_class_years_from_title_when_no_description(self):
+        """Title regex is used when description has no match."""
+        raw = _make_raw_listing(title="PhD Research Intern")
+        metadata = _make_valid_metadata()
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == ["phd"]
+
+    def test_class_years_from_ai_metadata(self):
+        """AI metadata is used when regex finds nothing."""
+        raw = _make_raw_listing(title="SWE Intern")
+        metadata = _make_valid_metadata(preferred_class_years=["sophomore", "junior"])
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == ["sophomore", "junior"]
+
+    def test_class_years_empty_by_default(self):
+        """Default is empty list when nothing matches."""
+        raw = _make_raw_listing(title="SWE Intern")
+        metadata = _make_valid_metadata()
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == []
+
+    def test_description_overrides_title(self):
+        """Description regex wins over title regex."""
+        raw = _make_raw_listing(
+            title="PhD Research Intern",
+            description="For undergraduate students only",
+        )
+        metadata = _make_valid_metadata()
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == ["freshman", "sophomore", "junior", "senior"]
+
+    def test_description_overrides_ai(self):
+        """Description regex wins over AI metadata."""
+        raw = _make_raw_listing(
+            title="SWE Intern",
+            description="senior standing required",
+        )
+        metadata = _make_valid_metadata(preferred_class_years=["freshman"])
+        job = _build_job_listing(raw, metadata)
+        assert job.preferred_class_years == ["senior"]

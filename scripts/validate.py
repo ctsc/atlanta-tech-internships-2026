@@ -164,6 +164,64 @@ def _extract_season_from_text(
 
     return None, None, None
 
+# ---------------------------------------------------------------------------
+# Class year / grade level extraction
+# ---------------------------------------------------------------------------
+
+_CLASS_YEAR_PATTERNS: list[tuple[str, list[str]]] = [
+    # "all" patterns — expand to all 6
+    (r"\ball\s+class\s+years?\b", ["freshman", "sophomore", "junior", "senior", "masters", "phd"]),
+    (r"\ball\s+levels?\b", ["freshman", "sophomore", "junior", "senior", "masters", "phd"]),
+    (r"\bany\s+year\b", ["freshman", "sophomore", "junior", "senior", "masters", "phd"]),
+    # "undergrad" patterns — expand to 4
+    (r"\bundergrad(?:uate)?s?\b", ["freshman", "sophomore", "junior", "senior"]),
+    # Individual class years
+    (r"\bfreshm[ae]n\b", ["freshman"]),
+    (r"\bfirst[\s-]year\b", ["freshman"]),
+    (r"\b1st[\s-]year\b", ["freshman"]),
+    (r"\bsophomore\b", ["sophomore"]),
+    (r"\bsecond[\s-]year\b", ["sophomore"]),
+    (r"\b2nd[\s-]year\b", ["sophomore"]),
+    (r"\bjunior\b", ["junior"]),
+    (r"\bthird[\s-]year\b", ["junior"]),
+    (r"\b3rd[\s-]year\b", ["junior"]),
+    (r"\bsenior\b", ["senior"]),
+    (r"\bfourth[\s-]year\b", ["senior"]),
+    (r"\b4th[\s-]year\b", ["senior"]),
+    (r"\bmaster'?s?\b", ["masters"]),
+    (r"\bms\s+student\b", ["masters"]),
+    (r"\bgraduate\s+student\b", ["masters"]),
+    (r"\bgrad\s+student\b", ["masters"]),
+    (r"\bph\.?d\b", ["phd"]),
+    (r"\bdoctoral\b", ["phd"]),
+]
+
+
+def _extract_class_years_from_text(text: str) -> list[str]:
+    """Extract class year eligibility from free text using regex.
+
+    Args:
+        text: Job title or description text.
+
+    Returns:
+        Deduplicated list of matched class year strings, ordered by
+        academic progression (freshman → phd).
+    """
+    if not text:
+        return []
+
+    text_lower = text.lower()
+    found: set[str] = set()
+
+    for pattern, years in _CLASS_YEAR_PATTERNS:
+        if _re.search(pattern, text_lower):
+            found.update(years)
+
+    # Return in canonical order
+    order = ["freshman", "sophomore", "junior", "senior", "masters", "phd"]
+    return [y for y in order if y in found]
+
+
 DATA_DIR = PROJECT_ROOT / "data"
 JOBS_PATH = DATA_DIR / "jobs.json"
 
@@ -450,6 +508,19 @@ def _build_job_listing(
         config_industries or {},
     )
 
+    # Determine preferred class years using priority chain:
+    #   1. Regex on description
+    #   2. Regex on title
+    #   3. AI metadata
+    #   4. Default: empty list (unspecified)
+    class_years: list[str] = []
+    if raw.description:
+        class_years = _extract_class_years_from_text(raw.description)
+    if not class_years:
+        class_years = _extract_class_years_from_text(raw.title)
+    if not class_years:
+        class_years = metadata.get("preferred_class_years", [])
+
     return JobListing(
         id=listing_id,
         company=raw.company,
@@ -473,6 +544,7 @@ def _build_job_listing(
         start_date=start_date,
         end_date=end_date,
         industry=industry,
+        preferred_class_years=class_years,
     )
 
 

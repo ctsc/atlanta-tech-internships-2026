@@ -30,6 +30,7 @@ big_tech_companies:
   - "Netflix"
   # Mega-cap / Iconic Tech
   - "Nvidia"
+  - "NVIDIA"
   - "Tesla"
   - "Adobe"
   - "Salesforce"
@@ -95,6 +96,7 @@ big_tech_companies:
   - "Anduril"
   # Entertainment / Media
   - "Disney"
+  - "The Walt Disney Company"
   - "Electronic Arts"
   - "Epic Games"
   # Georgia Majors
@@ -1042,7 +1044,285 @@ ashby_boards:
     is_faang_plus: false
 
 # ============================================================================
-# Workday / Custom Scrape Sources
+# Workday Career Sites — POST JSON API
+# ============================================================================
+# URL pattern: https://{company_code}.wd{instance}.myworkdayjobs.com/wday/cxs/{company_code}/{site_name}/jobs
+workday_boards:
+  # --- Big Tech ---
+  - company: "NVIDIA"
+    company_code: "nvidia"
+    instance: 5
+    site_name: "NVIDIAExternalCareerSite"
+    is_faang_plus: true
+  - company: "Intel"
+    company_code: "intel"
+    instance: 1
+    site_name: "External"
+    is_faang_plus: true
+  - company: "Adobe"
+    company_code: "adobe"
+    instance: 5
+    site_name: "external_experienced"
+    is_faang_plus: true
+  - company: "Adobe"
+    company_code: "adobe"
+    instance: 5
+    site_name: "external_university"
+    is_faang_plus: true
+  - company: "Salesforce"
+    company_code: "salesforce"
+    instance: 12
+    site_name: "External_Career_Site"
+    is_faang_plus: true
+  # IBM uses Kenexa BrassRing (sjobs.brassring.com), NOT Workday — removed
+  - company: "Dell Technologies"
+    company_code: "dell"
+    instance: 1
+    site_name: "External"
+    is_faang_plus: true
+  - company: "VMware"
+    company_code: "broadcom"
+    instance: 1
+    site_name: "External_Career"
+    is_faang_plus: true
+  - company: "Qualcomm"
+    company_code: "qualcomm"
+    instance: 12
+    site_name: "External"
+    is_faang_plus: true
+  # AMD uses careers.amd.com (custom ATS), NOT Workday — removed
+  # ServiceNow uses careers.servicenow.com (custom ATS), NOT Workday — removed
+  - company: "PayPal"
+    company_code: "paypal"
+    instance: 1
+    site_name: "jobs"
+    is_faang_plus: true
+  - company: "Cisco"
+    company_code: "cisco"
+    instance: 5
+    site_name: "Cisco_Careers"
+    is_faang_plus: true
+  # Oracle uses Oracle HCM Cloud (oracle.com/careers), NOT Workday — removed
+  - company: "Workday"
+    company_code: "workday"
+    instance: 5
+    site_name: "Workday"
+    is_faang_plus: true
+  - company: "eBay"
+    company_code: "ebay"
+    instance: 5
+    site_name: "apply"
+    is_faang_plus: true
+  # --- Finance ---
+  # JPMorgan Chase uses Taleo (jpmchase.taleo.net), NOT Workday — removed
+  # Goldman Sachs uses iCIMS/Avature (goldmansachs.tal.net), NOT Workday — removed
+  - company: "Morgan Stanley"
+    company_code: "ms"
+    instance: 5
+    site_name: "External"
+    is_faang_plus: true
+  - company: "Capital One"
+    company_code: "capitalone"
+    instance: 12
+    site_name: "Capital_One"
+    is_faang_plus: true
+  - company: "BlackRock"
+    company_code: "blackrock"
+    instance: 1
+    site_name: "BlackRock_Professional"
+    is_faang_plus: true
+  - company: "Fidelity Investments"
+    company_code: "fmr"
+    instance: 1
+    site_name: "targeted"
+  # --- Aerospace / Defense ---
+  - company: "Boeing"
+    company_code: "boeing"
+    instance: 1
+    site_name: "EXTERNAL_CAREERS"
+    is_faang_plus: true
+  # Lockheed Martin uses BrassRing (sjobs.brassring.com), NOT Workday — removed
+  - company: "RTX"
+    company_code: "globalhr"
+    instance: 5
+    site_name: "REC_RTX_Ext_Gateway"
+  - company: "General Motors"
+    company_code: "generalmotors"
+    instance: 5
+    site_name: "Careers_GM"
+  - company: "Blue Origin"
+    company_code: "blueorigin"
+    instance: 5
+    site_name: "blueorigin"
+  # --- Professional Services ---
+  # Deloitte US uses apply.deloitte.com (custom ATS), NOT Workday myworkdayjobs — skipped
+  - company: "Accenture"
+    company_code: "accenture"
+    instance: 103
+    site_name: "AccentureCareers"
+  - company: "PwC"
+    company_code: "pwc"
+    instance: 3
+    site_name: "Global_Campus_Careers"
+  # EY uses careers.ey.com, NOT Workday myworkdayjobs — skipped
+  # --- Other Major Companies ---
+  # Ford Motor uses Oracle Taleo (efds.fa.em5.oraclecloud.com), NOT Workday — skipped
+  # American Express uses Eightfold.ai (aexp.eightfold.ai), NOT Workday — skipped
+  # Bank of America uses internal system (careers.bankofamerica.com), NOT standard Workday — skipped
+  - company: "The Walt Disney Company"
+    company_code: "disney"
+    instance: 5
+    site_name: "disneycareerdc"
+    is_faang_plus: true
+  - company: "Mastercard"
+    company_code: "mastercard"
+    instance: 1
+    site_name: "CorporateCareers"
+    is_faang_plus: true
+  - company: "Home Depot"
+    company_code: "homedepot"
+    instance: 5
+    site_name: "CareerDepot"
+    is_faang_plus: true
+  - company: "Johnson & Johnson"
+    company_code: "jj"
+    instance: 5
+    site_name: "JJ"
+  - company: "Procter & Gamble"
+    company_code: "pg"
+    instance: 5
+    site_name: "1000"
+  - company: "T-Mobile"
+    company_code: "tmobile"
+    instance: 1
+    site_name: "External"
+  - company: "Zoom"
+    company_code: "zoom"
+    instance: 5
+    site_name: "zoom"
+  - company: "Samsung"
+    company_code: "sec"
+    instance: 3
+    site_name: "Samsung_Careers"
+  - company: "Micron Technology"
+    company_code: "micron"
+    instance: 1
+    site_name: "External"
+  - company: "Autodesk"
+    company_code: "autodesk"
+    instance: 1
+    site_name: "Ext"
+  - company: "Motorola Solutions"
+    company_code: "motorolasolutions"
+    instance: 5
+    site_name: "Careers"
+  - company: "State Street"
+    company_code: "statestreet"
+    instance: 1
+    site_name: "Global"
+  - company: "Leidos"
+    company_code: "leidos"
+    instance: 5
+    site_name: "External"
+  - company: "Applied Materials"
+    company_code: "amat"
+    instance: 1
+    site_name: "External"
+  - company: "Sony"
+    company_code: "sonyglobal"
+    instance: 1
+    site_name: "SonyGlobalCareers"
+  - company: "Hewlett Packard Enterprise"
+    company_code: "hpe"
+    instance: 5
+    site_name: "acjobsite"
+  - company: "Merck"
+    company_code: "msd"
+    instance: 5
+    site_name: "searchjobs"
+  - company: "GE Healthcare"
+    company_code: "gehc"
+    instance: 5
+    site_name: "GEHC_ExternalSite"
+  - company: "S&P Global"
+    company_code: "spgi"
+    instance: 5
+    site_name: "SPGI_Careers"
+  - company: "Cadence Design Systems"
+    company_code: "cadence"
+    instance: 1
+    site_name: "External_Careers"
+  - company: "ASML"
+    company_code: "asml"
+    instance: 3
+    site_name: "asmlext1"
+  - company: "Boston Dynamics"
+    company_code: "bostondynamics"
+    instance: 1
+    site_name: "Boston_Dynamics"
+  - company: "Marvell"
+    company_code: "marvell"
+    instance: 1
+    site_name: "MarvellCareers"
+  - company: "Etsy"
+    company_code: "etsy"
+    instance: 5
+    site_name: "Etsy_Careers"
+  - company: "Nasdaq"
+    company_code: "nasdaq"
+    instance: 1
+    site_name: "Global_External_Site"
+  - company: "Equifax"
+    company_code: "equifax"
+    instance: 5
+    site_name: "UR_External"
+  - company: "Cox"
+    company_code: "cox"
+    instance: 1
+    site_name: "Cox_External_Career_Site_1"
+  - company: "Coca-Cola"
+    company_code: "coke"
+    instance: 1
+    site_name: "coca-cola-careers"
+    is_faang_plus: true
+  # Delta Air Lines uses delta.com/careers (custom ATS), NOT Workday — removed
+  # DocuSign uses docusign.com/company/careers (custom ATS), NOT Workday — removed
+  - company: "Fiserv"
+    company_code: "fiserv"
+    instance: 5
+    site_name: "ext"
+  - company: "Expedia Group"
+    company_code: "expedia"
+    instance: 108
+    site_name: "private"
+
+# ============================================================================
+# SmartRecruiters Career Sites — Public Posting API
+# ============================================================================
+# URL pattern: https://api.smartrecruiters.com/v1/companies/{company_id}/postings
+smartrecruiters_boards:
+  - company: "Visa"
+    company_id: "Visa"
+    is_faang_plus: true
+  - company: "Bosch"
+    company_id: "BoschGroup"
+  - company: "Intuitive Surgical"
+    company_id: "Intuitive"
+  - company: "Western Digital"
+    company_id: "WesternDigital"
+  - company: "Sandisk"
+    company_id: "Sandisk"
+  - company: "Lawrence Livermore National Laboratory"
+    company_id: "LLNL"
+  - company: "AbbVie"
+    company_id: "AbbVie"
+  - company: "Experian"
+    company_id: "Experian"
+  - company: "Continental"
+    company_id: "Continental"
+
+# ============================================================================
+# Custom Scrape Sources
 # ============================================================================
 # These require web scraping (no clean JSON API).
 scrape_sources:
@@ -1064,17 +1344,8 @@ scrape_sources:
     is_faang_plus: true
 
   # --- Major Georgia Employers ---
-  - company: "Home Depot"
-    url: "https://careers.homedepot.com/job-search-results/?keyword=intern+technology"
-    is_faang_plus: true
   - company: "UPS"
     url: "https://www.jobs-ups.com/search-jobs/intern%20technology/1187/1"
-    is_faang_plus: true
-  - company: "Coca-Cola"
-    url: "https://careers.coca-colacompany.com/search-jobs/intern+technology"
-    is_faang_plus: true
-  - company: "Delta Air Lines"
-    url: "https://delta.avature.net/en_US/careers/SearchJobs/intern+technology"
     is_faang_plus: true
   - company: "Southern Company"
     url: "https://southerncompany.jobs/jobs/?q=intern+technology"
@@ -1091,17 +1362,11 @@ scrape_sources:
   - company: "Global Payments"
     url: "https://jobs.globalpayments.com/en/jobs/?search=intern+software"
     is_faang_plus: false
-  - company: "Fiserv"
-    url: "https://careers.fiserv.com/search-jobs/intern+technology"
-    is_faang_plus: false
   - company: "NCR Voyix"
     url: "https://careers.ncr.com/search-jobs/intern+software"
     is_faang_plus: false
   - company: "Intercontinental Exchange"
     url: "https://careers.ice.com/search-jobs/intern+technology"
-    is_faang_plus: false
-  - company: "Equifax"
-    url: "https://careers.equifax.com/en/jobs/?search=intern+software"
     is_faang_plus: false
   - company: "InComm Payments"
     url: "https://careers.incomm.com/search-jobs/intern+technology"
@@ -1111,44 +1376,8 @@ scrape_sources:
   - company: "Tesla"
     url: "https://www.tesla.com/careers/search/?query=intern+software"
     is_faang_plus: true
-  - company: "Nvidia"
-    url: "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite?q=intern+software"
-    is_faang_plus: true
-  - company: "AMD"
-    url: "https://careers.amd.com/careers-home/jobs?keywords=intern+software"
-    is_faang_plus: true
-  - company: "Intel"
-    url: "https://jobs.intel.com/en/search-jobs/intern+software"
-    is_faang_plus: true
-  - company: "Qualcomm"
-    url: "https://careers.qualcomm.com/careers?query=intern+software"
-    is_faang_plus: true
-  - company: "IBM"
-    url: "https://www.ibm.com/careers/search?query=intern+software"
-    is_faang_plus: true
-  - company: "Oracle"
-    url: "https://careers.oracle.com/jobs/?keyword=intern+software"
-    is_faang_plus: true
-  - company: "Salesforce"
-    url: "https://careers.salesforce.com/en/jobs/?search=intern+software"
-    is_faang_plus: true
-  - company: "Adobe"
-    url: "https://careers.adobe.com/us/en/search-results?keywords=intern+software"
-    is_faang_plus: true
-  - company: "VMware"
-    url: "https://careers.vmware.com/main/jobs?keywords=intern+software"
-    is_faang_plus: false
-  - company: "Cisco"
-    url: "https://jobs.cisco.com/jobs/SearchJobs/intern+software"
-    is_faang_plus: true
 
   # --- Finance / Quant ---
-  - company: "JPMorgan Chase"
-    url: "https://careers.jpmorgan.com/us/en/students/programs/software-engineer-summer"
-    is_faang_plus: true
-  - company: "Goldman Sachs"
-    url: "https://www.goldmansachs.com/careers/students/programs/americas/summer-analyst.html"
-    is_faang_plus: true
   - company: "Morgan Stanley"
     url: "https://morganstanley.tal.net/vx/lang-en-GB/candidate/jobboard/requisition/default/campaign/14/type/6"
     is_faang_plus: false
@@ -1206,14 +1435,7 @@ scrape_sources:
   - company: "Verizon"
     url: "https://mycareer.verizon.com/jobs/SearchJobs/intern+technology"
     is_faang_plus: false
-  - company: "T-Mobile"
-    url: "https://careers.t-mobile.com/search-jobs/intern+technology"
-    is_faang_plus: false
-
   # --- Entertainment / Media ---
-  - company: "Disney"
-    url: "https://jobs.disneycareers.com/search-jobs/intern+technology"
-    is_faang_plus: true
   - company: "Warner Bros. Discovery"
     url: "https://careers.wbd.com/global/en/search-results?keywords=intern+technology"
     is_faang_plus: false
@@ -1234,14 +1456,8 @@ scrape_sources:
     is_faang_plus: false
 
   # --- Aerospace ---
-  - company: "Boeing"
-    url: "https://jobs.boeing.com/search-jobs/intern+software"
-    is_faang_plus: false
   - company: "SpaceX"
     url: "https://www.spacex.com/careers/?search=intern+software"
-    is_faang_plus: false
-  - company: "Blue Origin"
-    url: "https://www.blueorigin.com/careers?search=intern+software"
     is_faang_plus: false
 
   # --- Banks ---
@@ -1253,9 +1469,6 @@ scrape_sources:
     is_faang_plus: false
   - company: "Citigroup"
     url: "https://jobs.citi.com/search-jobs/intern+technology"
-    is_faang_plus: false
-  - company: "Capital One"
-    url: "https://www.capitalonecareers.com/search-jobs/intern+technology"
     is_faang_plus: false
   - company: "American Express"
     url: "https://aexp.eightfold.ai/careers?query=intern+technology"
@@ -1328,9 +1541,6 @@ scrape_sources:
   - company: "Panasonic"
     url: "https://careers.na.panasonic.com/search-jobs/intern+software"
     is_faang_plus: false
-  - company: "Bosch"
-    url: "https://www.bosch.us/careers/job-search/?keywords=intern+software"
-    is_faang_plus: false
   - company: "Emerson"
     url: "https://www.emerson.com/en-us/careers/search-results?keyword=intern+software"
     is_faang_plus: false
@@ -1356,52 +1566,7 @@ scrape_sources:
     url: "https://careers.waystar.com/search/searchjobs?q=intern+technology"
     is_faang_plus: false
 
-  # --- Enterprise SaaS ---
-  - company: "ServiceNow"
-    url: "https://careers.smartrecruiters.com/ServiceNow/?search=intern"
-    is_faang_plus: false
-  - company: "Workday"
-    url: "https://workday.wd5.myworkdayjobs.com/Workday/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "Zoom"
-    url: "https://zoom.wd5.myworkdayjobs.com/Zoom/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "DocuSign"
-    url: "https://careers.docusign.com/search-jobs/intern"
-    is_faang_plus: false
-
-  # --- Fintech / Payments ---
-  - company: "PayPal"
-    url: "https://paypal.wd1.myworkdayjobs.com/jobs/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "Visa"
-    url: "https://careers.smartrecruiters.com/Visa/?search=intern+software"
-    is_faang_plus: false
-  - company: "Mastercard"
-    url: "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "BlackRock"
-    url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-
-  # --- Semiconductor / Hardware ---
-  - company: "Marvell Technology"
-    url: "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "Analog Devices"
-    url: "https://analogdevices.wd1.myworkdayjobs.com/External/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "Dell Technologies"
-    url: "https://dell.wd1.myworkdayjobs.com/External/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-
   # --- Automotive ---
-  - company: "General Motors"
-    url: "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "Toyota"
-    url: "https://toyota.wd5.myworkdayjobs.com/TMNA/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
   - company: "Rivian"
     url: "https://careers.rivian.com/search/searchjobs?q=intern"
     is_faang_plus: false
@@ -1409,14 +1574,6 @@ scrape_sources:
   # --- Networking / Cybersecurity ---
   - company: "Arista Networks"
     url: "https://careers.smartrecruiters.com/AristaNetworks/?search=intern"
-    is_faang_plus: false
-
-  # --- Southeast ---
-  - company: "Manhattan Associates"
-    url: "https://manh.wd5.myworkdayjobs.com/External/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-    is_faang_plus: false
-  - company: "eBay"
-    url: "https://careers.smartrecruiters.com/eBayInc/?search=intern"
     is_faang_plus: false
 
 # ============================================================================
@@ -1559,6 +1716,9 @@ ai:
       or explicitly mentions visa sponsorship or international candidates welcome
     - sponsorship: check for visa sponsorship mentions in the description
     - tech_stack: extract specific technologies mentioned in the description
+    - preferred_class_years: extract eligible class years/grade levels (freshman, sophomore, junior, senior, masters, phd).
+      If the description says "undergrad" or "undergraduate", use ["freshman","sophomore","junior","senior"].
+      If no class year restriction is mentioned, return an empty list.
 
     {
       "is_internship": true/false,
@@ -1575,6 +1735,7 @@ ai:
       "open_to_international": true/false,
       "tech_stack": ["Python", "React", ...],
       "industry": "fintech|healthcare|energy|ecommerce|banking|automotive|gaming|social_media|cybersecurity|cloud|enterprise|ai_ml|aerospace|telecom|media|food|logistics|semiconductor|other",
+      "preferred_class_years": ["freshman", "sophomore", "junior", "senior", "masters", "phd"],
       "confidence": 0.0-1.0
     }
 

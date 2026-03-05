@@ -7,6 +7,7 @@ from pydantic import ValidationError
 
 from scripts.utils.models import (
     ATSType,
+    ClassYear,
     Company,
     IndustrySector,
     InternSeason,
@@ -463,6 +464,79 @@ class TestIndustrySector:
     def test_invalid_value(self):
         with pytest.raises(ValueError):
             IndustrySector("invalid_industry")
+
+
+class TestClassYear:
+    def test_all_values(self):
+        expected = {"freshman", "sophomore", "junior", "senior", "masters", "phd"}
+        assert {e.value for e in ClassYear} == expected
+
+    def test_str_enum(self):
+        assert ClassYear.FRESHMAN == "freshman"
+        assert isinstance(ClassYear.FRESHMAN, str)
+
+    def test_from_value(self):
+        assert ClassYear("junior") is ClassYear.JUNIOR
+        assert ClassYear("phd") is ClassYear.PHD
+
+    def test_invalid_value(self):
+        with pytest.raises(ValueError):
+            ClassYear("postdoc")
+
+
+class TestJobListingClassYears:
+    def test_default_empty(self):
+        """preferred_class_years defaults to empty list."""
+        listing = JobListing(
+            id="abc123",
+            company="TestCo",
+            company_slug="testco",
+            role="SWE Intern",
+            category=RoleCategory.SWE,
+            locations=["NYC"],
+            apply_url="https://example.com/apply",
+            date_added="2026-02-15",
+            date_last_verified="2026-02-20",
+            source="greenhouse_api",
+        )
+        assert listing.preferred_class_years == []
+
+    def test_explicit_class_years(self):
+        """JobListing accepts explicit class years."""
+        listing = JobListing(
+            id="abc123",
+            company="TestCo",
+            company_slug="testco",
+            role="SWE Intern",
+            category=RoleCategory.SWE,
+            locations=["NYC"],
+            apply_url="https://example.com/apply",
+            date_added="2026-02-15",
+            date_last_verified="2026-02-20",
+            source="greenhouse_api",
+            preferred_class_years=["junior", "senior"],
+        )
+        assert listing.preferred_class_years == ["junior", "senior"]
+
+    def test_class_years_serialization(self):
+        """preferred_class_years round-trips through serialization."""
+        listing = JobListing(
+            id="abc123",
+            company="TestCo",
+            company_slug="testco",
+            role="SWE Intern",
+            category=RoleCategory.SWE,
+            locations=["NYC"],
+            apply_url="https://example.com/apply",
+            date_added="2026-02-15",
+            date_last_verified="2026-02-20",
+            source="greenhouse_api",
+            preferred_class_years=["masters", "phd"],
+        )
+        data = listing.model_dump(mode="json")
+        assert data["preferred_class_years"] == ["masters", "phd"]
+        restored = JobListing(**data)
+        assert restored.preferred_class_years == ["masters", "phd"]
 
 
 class TestJobListingIndustry:
