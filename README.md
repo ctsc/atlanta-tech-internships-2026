@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 19, 2026 at 10:55 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 19, 2026 at 03:16 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 35 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 14 |
-| 🔹 [Other](#-other) | 537 |
+| 🔹 [Other](#-other) | 540 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 62 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 150 |
-| **Total** | **813** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 152 |
+| **Total** | **816** |
 
 ---
 
@@ -46,6 +46,9 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Hermeus** | Subsystem Test Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/3ee3f243-bab8-4bdb-b0d0-2214874ef49e) | today |
 | **Johnson & Johnson** | GET Maintenance Fall 2026 Co-op | Athens, Georgia, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/GET-Maintenance-Fall-2026-Co-op_R-075345) | 1d ago |
 | **OTR Solutions** | Product Analyst Intern 🔒 | Roswell, GA | F26 | 🔒 Closed | 3d ago |
 | **Altamira Technologies** | Software Development Intern | Augusta, GA | F26 | [Apply](https://jobs.jobvite.com/altamiracorps/job/oDD8zfwH?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify) | 4d ago |
@@ -75,7 +78,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Ohio State University** | Data Analytics Intern | Columbus, OH | F26 | [Apply](https://osu.wd1.myworkdayjobs.com/OSUCareers/job/Columbus-Campus/Intern--Data-Analytics--Non-OSU-Student-Assistant-_R150208?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Hermeus** | Subsystem Test Engineering Intern - Summer/Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/641bbc29-5866-4022-8b03-63de917430ed) | 2w ago |
 | **Hermeus** | Software Engineering Intern (HMI) - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) | 2w ago |
-| **Hermeus** | Mission Systems Platform Intern - Summer/Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 2w ago |
 | **Hermeus** | Software Engineering Intern (HIL) - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) | 2w ago |
 | **Fiserv** | Summer Intern - Data Engineer | Alpharetta, Georgia | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654) | 2w ago |
 | **Fiserv** | Intern - Data Engineer | Alpharetta, GA | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654?utm_source=Simplify&ref=Simplify) | 2w ago |
@@ -586,6 +588,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | today |
 | **LINQ** | Technical Intern | Birmingham, AL | F26 | [Apply](https://jobs.ashbyhq.com/linqapp/8a64cb3d-42fa-47ec-94ec-5a6f7c8831b5/application?utm_source=Simplify&ref=Simplify) | today |
 | **LINQ** | Engineer Intern | SF, Birmingham, AL and 1 more | F26 | [Apply](https://jobs.ashbyhq.com/linqapp/808baa26-e5ba-45dd-9c44-7ab685e742c1/application?utm_source=Simplify&ref=Simplify) | today |
 | **Blackboard** | Intern | Remote in USA | F26 | [Apply](https://jobs.jobvite.com/blackboard/job/ouk3zfwa?nl=1&nl=1&fr=false&utm_source=Simplify&ref=Simplify) | today |
@@ -594,6 +597,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Cable One** | Oracle Business Systems Intern | Remote in USA | F26 | [Apply](https://cableone.wd1.myworkdayjobs.com/Cable_One_External_Careers/job/Remote-USA/Oracle-Business-Systems-Intern_R-106929-1?utm_source=Simplify&ref=Simplify) | today |
 | **Ferrovial** | Digital Construction & Data Management Intern | Austin, TX | F26 | [Apply](https://ferrovial.wd3.myworkdayjobs.com/ferrovial_career_site/job/Austin-TX/Digital-Construction---Data-Management-Intern_JR17433?utm_source=Simplify&ref=Simplify) | today |
 | **City of Austin** | Air Quality Intern | Austin, TX | F26 | [Apply](https://austintexas.wd5.myworkdayjobs.com/COA_Careers/job/One-Texas-Center/Air-Quality-Intern---Austin-Climate-Action---Resilience_JR103903?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Hermeus** | Subsystem Test Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/3ee3f243-bab8-4bdb-b0d0-2214874ef49e) | today |
+| **Cadence Design Systems** | Software Intern | AUSTIN | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R54747-1) | today |
 | **Johnson & Johnson** | GET Maintenance Fall 2026 Co-op | Athens, Georgia, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/GET-Maintenance-Fall-2026-Co-op_R-075345) | 1d ago |
 | **Ensemble Health Partners** | Engineering Excellence Engineer Intern | Remote in USA | F26 | [Apply](https://ensemblehp.wd5.myworkdayjobs.com/ensemblehealthpartnerscareers/job/Engineering-Excellence-Intern_R041330?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Ancestry** | Graduate Research Co-op - AI & Representation Learning | Remote in USA | F26 | [Apply](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Graduate-Research-Co-op---AI---Representation-Learning_R003340?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -681,7 +687,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Globalization Partners** | AI - Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/globalizationpartners/jobs/7720641003?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Hermeus** | Subsystem Test Engineering Intern - Summer/Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/641bbc29-5866-4022-8b03-63de917430ed) | 2w ago |
 | **Hermeus** | Propulsion Test Engineering Intern - Fall 2026 | Jacksonville, FL | S26 | [Apply](https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805) | 2w ago |
-| **Hermeus** | Mission Systems Platform Intern - Summer/Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 2w ago |
 | **Centific** | Technical Intern - Masters or PhD | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Technical-Intern--Masters-or-PhD-_JR106696-1?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Ascend Performance Materials** | Data Science Intern | Houston, TX | F26 | [Apply](https://ascendperformancematerials.wd1.myworkdayjobs.com/ascend/job/Houston-TX/Data-Science-Intern_R0005593?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Leidos** | Quantum Information Science Intern | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Quantum-Information-Science-Intern_R-00181429) | 2w ago |
