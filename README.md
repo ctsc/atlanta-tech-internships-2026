@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 20, 2026 at 05:00 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 20, 2026 at 10:54 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 35 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 14 |
-| 🔹 [Other](#-other) | 542 |
+| 🔹 [Other](#-other) | 541 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 63 |
 | 🍑 [Roles Open in GA](#-roles-open-in-ga) | 152 |
-| **Total** | **820** |
+| **Total** | **819** |
 
 ---
 
@@ -46,7 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Cortland** | Capital Markets Intern | Atlanta, GA | F26 | [Apply](https://job-boards.greenhouse.io/cortland/jobs/4252818009?utm_source=Simplify&ref=Simplify) | today |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 1d ago |
 | **Hermeus** | Subsystem Test Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/3ee3f243-bab8-4bdb-b0d0-2214874ef49e) | 1d ago |
 | **Johnson & Johnson** | GET Maintenance Fall 2026 Co-op | Athens, Georgia, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/GET-Maintenance-Fall-2026-Co-op_R-075345) | 2d ago |
@@ -594,8 +594,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Scientific Research Corporation** | Engineer Intern - Sophomore | North Charleston, SC | F26 | [Apply](https://careers-scires.icims.com/jobs/11215/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | today |
 | **Photon** | AI Product Development Intern | Remote in USA | F26 | [Apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/25999?utm_source=Simplify&ref=Simplify) | today |
 | **Primetals Technologies** | Data Science Intern - Data Platforms | Lake Mary, FL | F26 | [Apply](https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Data-Platforms)-FL-32746/1395217733/?ats=successfactors&utm_source=Simplify&ref=Simplify) | today |
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
-| **Cadence Design Systems** | Software Intern | AUSTIN | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R54747-1) | today |
+| **Cortland** | Capital Markets Intern | Atlanta, GA | F26 | [Apply](https://job-boards.greenhouse.io/cortland/jobs/4252818009?utm_source=Simplify&ref=Simplify) | today |
 | **Roadie** |  Product Operations Intern 🔒 | REMOTE | F26 | 🔒 Closed | today |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 1d ago |
 | **LINQ** | Technical Intern | Birmingham, AL | F26 | [Apply](https://jobs.ashbyhq.com/linqapp/8a64cb3d-42fa-47ec-94ec-5a6f7c8831b5/application?utm_source=Simplify&ref=Simplify) | 1d ago |
