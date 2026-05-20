@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 19, 2026 at 11:20 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 20, 2026 at 05:00 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 35 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 14 |
-| 🔹 [Other](#-other) | 541 |
+| 🔹 [Other](#-other) | 542 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 63 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 151 |
-| **Total** | **819** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 152 |
+| **Total** | **820** |
 
 ---
 
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 1d ago |
 | **Hermeus** | Subsystem Test Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/3ee3f243-bab8-4bdb-b0d0-2214874ef49e) | 1d ago |
 | **Johnson & Johnson** | GET Maintenance Fall 2026 Co-op | Athens, Georgia, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/GET-Maintenance-Fall-2026-Co-op_R-075345) | 2d ago |
@@ -593,6 +594,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Scientific Research Corporation** | Engineer Intern - Sophomore | North Charleston, SC | F26 | [Apply](https://careers-scires.icims.com/jobs/11215/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | today |
 | **Photon** | AI Product Development Intern | Remote in USA | F26 | [Apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/25999?utm_source=Simplify&ref=Simplify) | today |
 | **Primetals Technologies** | Data Science Intern - Data Platforms | Lake Mary, FL | F26 | [Apply](https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-(Data-Platforms)-FL-32746/1395217733/?ats=successfactors&utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Cadence Design Systems** | Software Intern | AUSTIN | F26 | [Apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R54747-1) | today |
+| **Roadie** |  Product Operations Intern 🔒 | REMOTE | F26 | 🔒 Closed | today |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 1d ago |
 | **LINQ** | Technical Intern | Birmingham, AL | F26 | [Apply](https://jobs.ashbyhq.com/linqapp/8a64cb3d-42fa-47ec-94ec-5a6f7c8831b5/application?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **LINQ** | Engineer Intern | SF, Birmingham, AL and 1 more | F26 | [Apply](https://jobs.ashbyhq.com/linqapp/808baa26-e5ba-45dd-9c44-7ab685e742c1/application?utm_source=Simplify&ref=Simplify) | 1d ago |
@@ -670,7 +674,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Assurant** | Strategic Reporting Intern | Remote in USA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/United-States-Virtual/Strategic-Reporting-Intern_R-113597?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Primetals Technologies** | Data Science Intern | Lake Mary, FL | F26 | [Apply](https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-FL-32746/1389658633/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Palmetto Clean Technology** | CX AI Intern | Charlotte, NC | F26 | [Apply](https://job-boards.greenhouse.io/palmettocleantech/jobs/5168758008?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **UnitedHealth Group** | Pharmacist Intern - Prior Authorization and Appeals - Remote2314605\|Houston, TX\|Remote | Houston, TX | F26 | [Apply](https://careers.unitedhealthgroup.com/job/houston/pharmacist-intern-prior-authorization-and-appeals-remote/34088/92872105760) | 2w ago |
+| **UnitedHealth Group** | Pharmacist Intern - Prior Authorization and Appeals - Remote2314605\|Houston, TX\|Remote 🔒 | Houston, TX | F26 | 🔒 Closed | 2w ago |
 | **Zscaler** | Phishing Analyst-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) | 2w ago |
 | **Bosch** | HR Communications Co-Op - Fall 2026 | Fountain Inn, SC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000124021187) | 2w ago |
 | **EquipmentShare** | Financial Systems Analyst Intern | Columbia, MO | F26 | [Apply](https://www.equipmentshare.com/careers/openings/?gh_jid=7871565&utm_source=Simplify&ref=Simplify) | 2w ago |
