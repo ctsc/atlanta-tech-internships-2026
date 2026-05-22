@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 21, 2026 at 11:25 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 22, 2026 at 04:56 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -17,13 +17,13 @@ Use this repo to discover and track **tech internships** across software enginee
 | Category | Open Roles |
 |----------|-----------|
 | 💻 [Software Engineering](#-software-engineering) | 151 |
-| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 37 |
+| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 36 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 15 |
 | 🔹 [Other](#-other) | 547 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 65 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 150 |
-| **Total** | **829** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 151 |
+| **Total** | **828** |
 
 ---
 
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **QGenda** | Customer Experience Intern - QS AI Quality  | Atlanta, Georgia | F26 | [Apply](https://job-boards.greenhouse.io/qgenda/jobs/5227201008) | 1d ago |
 | **Cortland** | Capital Markets Intern 🔒 | Atlanta, GA | F26 | 🔒 Closed | 2d ago |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 3d ago |
@@ -446,7 +447,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Arine** | AI Engineer Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 6d ago |
 | **Phil** | AI Engineer Intern | Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/phil/4626509e-297e-4a03-b5b1-7d72cbbc5b82/application?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Hitachi Energy** | Data Scientist Intern | Raleigh, NC | F26 | [Apply](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/Data-Scientist-Intern_R0129529?utm_source=Simplify&ref=Simplify) | 1w ago |
-| **Cotiviti** | Generative AI Research Engineer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/18971/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 1w ago |
+| **Cotiviti** | Generative AI Research Engineer Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 1w ago |
 | **Vestwell** | AI Engineer Intern - Tech | King of Prussia, PA, Austin and 2 more | F26 | [Apply](https://job-boards.greenhouse.io/vestwell/jobs/7722044003?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **American Rare Earths** | AI Engineer Intern | Remote in USA | F26 | [Apply](https://ats.rippling.com/usare/jobs/8db9bb37-aa5f-40e0-96ac-d1c4ca796aeb?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Instacart** | Machine Learning Engineer, PhD Intern | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=5917202) | 3w ago |
@@ -596,12 +597,13 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Photon** | AI Intern | Dallas, TX | F26 | [Apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26033?utm_source=Simplify&ref=Simplify) | today |
-| **Ensono** | AI Transformation Intern | Remote in USA | F26 | [Apply](https://ensono.com/company/careers/jobs-board/?gh_jid=4698019005&utm_source=Simplify&ref=Simplify) | today |
 | **Scientific Research Corporation** | Engineer Junior Intern | North Charleston, SC | F26 | [Apply](https://careers-scires.icims.com/jobs/11222/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | today |
 | **Zillow** | AI Applied Scientist Intern - Evaluation Systems and Metrics | Remote in USA | F26 | [Apply](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Evaluation-Systems-and-Metrics_P748040?utm_source=Simplify&ref=Simplify) | today |
 | **Zillow** | AI Applied Scientist Intern - Foundational IQ | Remote in USA | F26 | [Apply](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Foundational-IQ_P748042?utm_source=Simplify&ref=Simplify) | today |
 | **Zillow** | AI Applied Scientist Intern | Remote in USA | F26 | [Apply](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Next-Gen-Agentic-and-Multi-Modal-Home-Exploration-Experience_P748043?utm_source=Simplify&ref=Simplify) | today |
 | **Zillow** | AI Applied Scientist Intern - Foundational AQ & EQ | Remote in USA | F26 | [Apply](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Foundational-AQ---EQ_P748041?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Ensono** | AI Transformation Intern 🔒 | Remote in USA | F26 | 🔒 Closed | today |
 | **Sparksoft** | Developer Intern | Remote in USA, Maryland | F26 | [Apply](https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5142183007?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Continental** | Intern - Engineering Analyst, Summer 2026 | Uvalde, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000127678189) | 1d ago |
 | **QGenda** | Customer Experience Intern - QS AI Quality  | Atlanta, Georgia | F26 | [Apply](https://job-boards.greenhouse.io/qgenda/jobs/5227201008) | 1d ago |
