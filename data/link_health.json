@@ -4390,5 +4390,13 @@
   "44f6c0c5974ddc11044c7b9f03a6e2b6d80a7c19daa443136fdd3f1949095290": {
     "consecutive_failures": 2,
     "last_checked": "2026-05-22"
+  },
+  "b4a737679face4b3757be176a7c80a9122a8c01c78395a36560cd2dff1c98fcc": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-05-22"
+  },
+  "e81b018cf8dc335b8c785317419192ba3ae7981c229a5c7a9949357a4a651d7d": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-05-22"
   }
 }
