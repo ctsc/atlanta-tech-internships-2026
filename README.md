@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 22, 2026 at 11:03 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 23, 2026 at 03:43 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 36 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 15 |
-| 🔹 [Other](#-other) | 549 |
+| 🔹 [Other](#-other) | 550 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 66 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 150 |
-| **Total** | **830** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 151 |
+| **Total** | **831** |
 
 ---
 
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **QGenda** | Customer Experience Intern - QS AI Quality  | Atlanta, Georgia | F26 | [Apply](https://job-boards.greenhouse.io/qgenda/jobs/5227201008) | 2d ago |
 | **Cortland** | Capital Markets Intern 🔒 | Atlanta, GA | F26 | 🔒 Closed | 3d ago |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 4d ago |
@@ -598,6 +599,7 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | **Leidos** | Power Platform Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Power-Platform-Intern_R-00183950) | today |
 | **Stride** | K12 Zone Engineer Intern | Remote in USA | F26 | [Apply](https://strideinc.wd1.myworkdayjobs.com/en-US/SK/job/US-Nationwide---Remote/K12-Zone-Engineering-Intern_JR114632-1?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Photon** | AI Intern | Dallas, TX | F26 | [Apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26033?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Scientific Research Corporation** | Engineer Junior Intern | North Charleston, SC | F26 | [Apply](https://careers-scires.icims.com/jobs/11222/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Zillow** | AI Applied Scientist Intern - Evaluation Systems and Metrics | Remote in USA | F26 | [Apply](https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Evaluation-Systems-and-Metrics_P748040?utm_source=Simplify&ref=Simplify) | 1d ago |
