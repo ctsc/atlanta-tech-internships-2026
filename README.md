@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 25, 2026 at 05:34 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 25, 2026 at 10:35 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 35 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 15 |
-| 🔹 [Other](#-other) | 550 |
+| 🔹 [Other](#-other) | 549 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 65 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 151 |
-| **Total** | **828** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 150 |
+| **Total** | **827** |
 
 ---
 
@@ -46,7 +46,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **QGenda** | Customer Experience Intern - QS AI Quality  | Atlanta, Georgia | F26 | [Apply](https://job-boards.greenhouse.io/qgenda/jobs/5227201008) | 4d ago |
 | **Cortland** | Capital Markets Intern 🔒 | Atlanta, GA | F26 | 🔒 Closed | 5d ago |
 | **Hermeus** | Mission Systems Platform Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db) | 6d ago |
@@ -594,7 +593,6 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | **Akima** | STEM Intern - Engineering | Huntsville, AL | F26 | [Apply](https://careers.akima.com/jobs/23452?lang=en-us&icims=1&utm_source=Simplify&ref=Simplify) | today |
 | 🔥 **Twilio** | Graphic Design Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7835625) | today |
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Leidos** | Power Platform Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Power-Platform-Intern_R-00183950) | 2d ago |
 | **Stride** | K12 Zone Engineer Intern | Remote in USA | F26 | [Apply](https://strideinc.wd1.myworkdayjobs.com/en-US/SK/job/US-Nationwide---Remote/K12-Zone-Engineering-Intern_JR114632-1?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Centific** | Research Intern - Applied Reinforcement Learning | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Research-Intern---Applied-Reinforcement-Learning_JR106882?utm_source=Simplify&ref=Simplify) | 2d ago |
