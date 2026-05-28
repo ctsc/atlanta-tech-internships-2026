@@ -1580,7 +1580,7 @@
     "last_checked": "2026-04-03"
   },
   "f1827641f663a81895a7383f4646087562597a0fb498a1795af9115ef378724b": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-05-28"
   },
   "de23ce6f994771992f8e755687ec9bb66bd9908b71ee07dd39fed50841b02ba9": {
@@ -4560,6 +4560,10 @@
     "last_checked": "2026-05-28"
   },
   "8a240e799498e659b5694c26de247ca6d8a65538a86154bf6c9b173a8f0ce231": {
+    "consecutive_failures": 0,
+    "last_checked": "2026-05-28"
+  },
+  "1526bd2ddbf21d563027a587656042291798c927a6e4d0c86443a13839e74a96": {
     "consecutive_failures": 1,
     "last_checked": "2026-05-28"
   }
