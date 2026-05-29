@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: May 29, 2026 at 11:13 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: May 29, 2026 at 03:50 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 36 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 16 |
-| 🔹 [Other](#-other) | 564 |
-| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 66 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 152 |
-| **Total** | **849** |
+| 🔹 [Other](#-other) | 567 |
+| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 67 |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 154 |
+| **Total** | **852** |
 
 ---
 
@@ -46,6 +46,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **PrizePicks** | Market Intelligence Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7753475003) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **KION Group** | Software Engineer Intern | Rochester, NY, Grand Rapids and 7 more | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0092762-1?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Nationwide Children's Hospital** | IT R&1 Data Science Intern | Columbus, OH | F26 | [Apply](https://nationwidechildrens.wd5.myworkdayjobs.com/en-US/NCHCareers/job/431-S-18th-St-Columbus-OH/IT-R-I-Data-Science-Intern_R-25866-1?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Vanderlande Industries** | Software Engineer Intern | Marietta, GA | F26 | [Apply](https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR36891?utm_source=Simplify&ref=Simplify) | 3d ago |
@@ -206,6 +208,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| 🔥 **HubSpot** | Creator Partnerships Associate Co-op | Remote - USA | F26 | [Apply](https://www.hubspot.com/careers/jobs/7589749?gh_jid=7589749) | today |
 | 🔥 **NVIDIA** | Synthetic Data Generation and User Simulation PhD Research Intern — Fall 2026 | US, CA, Remote | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Data-Generation-and-User-Simulation-Research-Intern---Fall-2026_JR2018317) | 2d ago |
 | 🔥 **Cisco** | Hardware Engineer 1 Co-op | SF, San Jose, CA and 3 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Hardware-Engineer-I--Co-op----United-States_2000041?utm_source=Simplify&ref=Simplify) | 2d ago |
 | 🔥 **Twilio** | Graphic Design Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7835625) | 4d ago |
@@ -599,6 +602,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Leidos** | IT Asset Administrator Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/IT-Asset-Administrator_R-00183578) | today |
+| 🔥 **HubSpot** | Creator Partnerships Associate Co-op | Remote - USA | F26 | [Apply](https://www.hubspot.com/careers/jobs/7589749?gh_jid=7589749) | today |
+| **PrizePicks** | Market Intelligence Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7753475003) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Roadie** |  Product Operations Intern | REMOTE | F26 | [Apply](https://job-boards.greenhouse.io/roadie/jobs/8544156002) | 1d ago |
 | 🔥 **NVIDIA** | Synthetic Data Generation and User Simulation PhD Research Intern — Fall 2026 | US, CA, Remote | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Data-Generation-and-User-Simulation-Research-Intern---Fall-2026_JR2018317) | 2d ago |
 | **Vera Bradley** | Service Desk Intern - Retail | Columbia City, IN | F26 | [Apply](https://verabradley.wd5.myworkdayjobs.com/vbcareers/job/Corporate-Headquarters---Roanoke-IN/Service-Desk-Intern---Retail_R020387?utm_source=Simplify&ref=Simplify) | 2d ago |
