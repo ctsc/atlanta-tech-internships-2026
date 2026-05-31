@@ -40030,7 +40030,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-07",
-      "date_last_verified": "2026-05-30",
+      "date_last_verified": "2026-05-31",
       "source": "workday_api",
       "status": "open",
       "tech_stack": [],
@@ -238949,17 +238949,18 @@
       "listing_type": "internship"
     },
     {
-      "id": "f104841b8795c92110b60081c2fe5537bf8860ec613a68ae6b108e0a77dc72d3",
+      "id": "5cd93a273584d5c11eec343adf22621625f80cda1cf26deac9c55233d6c9653b",
       "company": "Stripe",
       "company_slug": "stripe",
       "role": "PhD Data Scientist, Intern",
       "category": "ml_ai",
       "locations": [
-        "Toronto",
-        "Ontario",
-        "Canada"
+        "San Francisco",
+        "New York City",
+        "Seattle",
+        "Chicago"
       ],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7285974",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7874965",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -238982,17 +238983,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "a7eec48dafaaafc3282f4c4d01545299df4668357df9a429c589b3629ad66566",
+      "id": "16163de1910a59903966904ef67bc0dcb5b63b694a4a8c27844039c9812f2422",
       "company": "Axon",
       "company_slug": "axon",
       "role": "Controllership AI & Automation Intern",
       "category": "other",
       "locations": [
-        "Boston",
-        "Massachusetts",
+        "Scottsdale",
+        "Arizona",
         "United States"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/axon/jobs/7708565003",
+      "apply_url": "https://job-boards.greenhouse.io/axon/jobs/7708574003",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239013,15 +239014,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "5a9ce5720881b6665da8b9f78a10451616eb1ab12d5b9fab5f2b5acd3ffad18f",
+      "id": "b6318de750d7c361c9b7d837eec19fa4bfec4e46a13da747347350ee1aa2cc43",
       "company": "Hermeus",
       "company_slug": "hermeus",
       "role": "Manufacturing Engineering Intern - Fall 2026",
       "category": "other",
       "locations": [
-        "Los Angeles, CA"
+        "Atlanta, GA"
       ],
-      "apply_url": "https://jobs.lever.co/hermeus/a1f3aa29-72ea-4843-b2ea-801f3bef73ae",
+      "apply_url": "https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239042,15 +239043,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "9c7b71a8bce4fa2828515f0d155c7046d9f40aa74a2b7658f64dbd23385b8bbf",
+      "id": "754142dfe371b63368baa2365e02dc8e90dde048c5c1f52d8b1efecea9813fb0",
       "company": "Intel",
       "company_slug": "intel",
       "role": "AI Software Engineer Intern",
       "category": "swe",
       "locations": [
-        "PRC, Shanghai"
+        "3 Locations"
       ],
-      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0283195",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0283196",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -239071,15 +239072,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "333680dd8f54c176f563ae68fb363d99553e55f6ecf394fe3797c1bf0ab6f9f6",
+      "id": "ca60a70c85fa5092cac38d0c6b981bfb4fb20634fe410cd20db861f04ec17a26",
       "company": "Intel",
       "company_slug": "intel",
       "role": "AI Software Engineering Intern",
       "category": "swe",
       "locations": [
-        "2 Locations"
+        "Poland, Gdansk"
       ],
-      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/Poland-Gdansk/AI-Software-Engineering-Intern_JR0283898",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -239100,15 +239101,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "d5ff4472faddcf2c8c1c006df2f26b214496aa2e61e0d61011bb2246ce15b699",
+      "id": "89aa4237d891f250bc3b66ec64c8de1a2361e9f5ddb216c0165c59d7c7a54390",
       "company": "Fidelity Investments",
       "company_slug": "fidelity-investments",
       "role": "Technology Intern",
       "category": "swe",
       "locations": [
-        "Dublin, Ireland"
+        "Galway, Ireland"
       ],
-      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Dublin-Ireland/Technology-Intern_2124825",
+      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Galway-Ireland/technology-Intern_2124817",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239129,15 +239130,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "1da544d4c879a9b9668d3bfd0510dc75a74d19d8bbabab0351d30e05487f8cb2",
+      "id": "312c640c036c5f6aabc61f1cf2e2603ae68a8c7e969d0e75e40ba6f27cd659de",
       "company": "RTX",
       "company_slug": "rtx",
-      "role": "Stress Intern - 1st Shift - On site - Aeroestructuras",
+      "role": "Stress Analysis Intern - 1st shift - On site - Aeroestructuras",
       "category": "other",
       "locations": [
         "MX-BCN-MEXICALI-238 ~ Blvd Venustiano Carranza #238 ~ BLDG 238, Desarrollo Industrial Colorado"
       ],
-      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/MX-BCN-MEXICALI-238--Blvd-Venustiano-Carranza-238--BLDG-238-Desarrollo-Industrial-Colorado/Stress-Intern---1st-Shift---On-site---Aeroestructuras_01842613-1",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/MX-BCN-MEXICALI-238--Blvd-Venustiano-Carranza-238--BLDG-238-Desarrollo-Industrial-Colorado/Stress-Analysis-Intern---1st-shift---On-site---Aeroestructuras_01842627",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239158,44 +239159,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "7e98d0c87eeab08e255e275bbb6f67939c08348bae9591c97e024a327c3a2190",
-      "company": "PwC",
-      "company_slug": "pwc",
-      "role": "Risk Services - Cybersecurity Testing Poly Internship (Sep 26 - Feb 27)",
-      "category": "swe",
-      "locations": [
-        "Singapore"
-      ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Cybersecurity--Penetration-Testing--Red-Teaming--Poly-Internship--Sep-26---Feb-27-_727181WD",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-05-31",
-      "date_last_verified": "2026-05-31",
-      "source": "workday_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "other",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "3e138336e032509501c735a0c456fa2471abb80decfc449cecbbb94664cbe50a",
+      "id": "78e3c680f146b4350689b8549b209f2bcf01980cedb0bada329477568a40028e",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Nassau"
+        "Prague"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Nassau/Intern_718215WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Intern_732364WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239216,15 +239188,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "49bda24c618100a98b2bfb172d81ed17b9b06e197765a809bc9badb1e4a97e0a",
+      "id": "88b34f85efe5def8d29a135f87a663eecc371f319793ce36898ec4a4eed9f7e4",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Intern - Assurance (October - December 2026 intake)",
-      "category": "other",
+      "role": "Risk Services - Cybersecurity Audit Poly Internship (Sep 26 - Feb 27)",
+      "category": "swe",
       "locations": [
-        "Penang"
+        "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--October---December-2026-intake-_713828WD-1",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Cyber-Security-Audit-Polytechnic-Internship_725470WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239238,22 +239210,51 @@
       "status": "open",
       "tech_stack": [],
       "season": "fall_2026",
-      "start_date": "2026-10",
-      "end_date": "2026-12",
+      "start_date": null,
+      "end_date": null,
       "industry": "other",
       "preferred_class_years": [],
       "listing_type": "internship"
     },
     {
-      "id": "f7fa42ff5a3b566d6ff64557eb6e3b46652da138bdfa0e3a32a83a7945f3189c",
+      "id": "41ec51ff67a5246195c611c9a956ce093af1b5ffb3ae2cd55bff8991ef6a0478",
+      "company": "PwC",
+      "company_slug": "pwc",
+      "role": "Intern - Assurance (October 2026 Intake)",
+      "category": "other",
+      "locations": [
+        "Kuala Lumpur"
+      ],
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Assurance--October-2026-Intake-_719776WD",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-31",
+      "date_last_verified": "2026-05-31",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "f65881eec2f73976c0eb11f0d1d3cc4161afd853a0b980c6ea82d3a1bad8f24e",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Intern - Assurance (May - September 2026 intake)",
       "category": "other",
       "locations": [
-        "Penang"
+        "Melaka"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--May---September-2026-intake-_704167WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Melaka/Intern---Assurance--May---September-2026-intake-_712773WD-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239274,15 +239275,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "6e6c30567b6c3e1e6b8898c50fc659618b1ec3f3daad9479ebacebde69c5ce57",
+      "id": "22c7fa45a33bba1c3cdae4d621cb5ea02f8035f2056e3436dd5829f807059c15",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Intern",
+      "role": "Project Management & Strategy Intern, Fall 2026",
       "category": "other",
       "locations": [
-        "Coupvray, France"
+        "Santa Monica",
+        "CA",
+        "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Coupvray-France/Intern_DLP-0000425954",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Project-Management---Strategy-Intern--Fall-2026_10150419-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -239303,17 +239306,46 @@
       "listing_type": "internship"
     },
     {
-      "id": "1dcd42f478ff6f178c40d5ff5cd882a6c5808be14d07e7e5a9d66a41964b23ca",
+      "id": "7262d04936f98915d3e2485dce5b1ae74fcddfcc7706c44ffcbcced22983d0a7",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Disneyland Resort Industrial Engineering Intern, Spring 2027",
+      "role": "Intern",
+      "category": "other",
+      "locations": [
+        "Marne la Vallee Cedex 4, France"
+      ],
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Marne-la-Vallee-Cedex-4-France/Intern_10147900",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-31",
+      "date_last_verified": "2026-05-31",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "5a96e890cc9620e6abc011c0079a8323c52c375a534c51aae935d3691e44ed66",
+      "company": "The Walt Disney Company",
+      "company_slug": "the-walt-disney-company",
+      "role": "Disneyland Resort Alumni Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Anaheim",
         "CA",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Industrial-Engineering-Intern--Spring-2027_10140384-1",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Alumni-Industrial-Engineering-Intern--Spring-2027_10141149",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -239334,17 +239366,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "d805a2b940d81c455dc06b29601ff093e90ad285b020c5274fb5b15075f41642",
+      "id": "d9bd92c4010ef838ed27e238342fcdeba73f0fe596c1380a4a28b1b7654936a6",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Walt Disney World Alumni Industrial Engineering Intern, Spring 2027",
+      "role": "Walt Disney World Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Bay Lake",
         "FL",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Alumni-Industrial-Engineering-Intern--Spring-2027_10141156",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Industrial-Engineering-Intern--Spring-2027_10141152-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -239365,15 +239397,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "972b363b24bf94472b2d8ab414c0a2b3c384a970fcafec473f66fdd04d92ac0f",
+      "id": "2f4af0b59b96897f06d6ce0a9ce8f1de3b51ce122026ab6f46a9a94d4c7c0b3f",
       "company": "Johnson & Johnson",
       "company_slug": "johnson-&-johnson",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Shanghai, China"
+        "Suzhou",
+        "Jiangsu",
+        "China"
       ],
-      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Shanghai-China/Intern_R-006377",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Suzhou-Jiangsu-China/Intern_R-051447",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239394,15 +239428,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "5f18ab94cea5a759b411257741e767e5dda9e49586e0eb8bb67f2f286032be71",
+      "id": "3f3eb2bcbd563e4959c18992c382face91267d321812f8a909cf65ee8685a067",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
-      "role": "2027 Legal Patent 2L Summer Intern",
+      "role": "2027 Legal 2L Summer Intern",
       "category": "other",
       "locations": [
-        "2 Locations"
+        "CINCINNATI GENERAL OFFICES"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/XMLNAME-2027-Legal-Patent-2L-Summer-Intern_R000150799",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/XMLNAME-2027-Legal-2L-Summer-Intern_R000150797",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239423,15 +239457,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "6335abb39cc91f6353e20efd73fc51d50f30536c7393df66d458c44041632b51",
+      "id": "a7ee2a7fd8ae6350d5828e8dd3b54dbcc16966f19c72e572489f0585b75c75d8",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Brand Management Internship",
       "category": "other",
       "locations": [
-        "Brussels"
+        "ROTTERDAM OFFICE"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Brand-Management-Internship_R000146320",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/ROTTERDAM-OFFICE/Brand-Management-Internship_R000148759",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239452,15 +239486,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "693277e88847fab161645619b0d663351df817c8b93282d60b8bead86e1d40fb",
+      "id": "0727282d9f0bd972255de944fe3cdd59ade9216a2d8980b0b032bdd2948b6447",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
-      "role": "Summer Internship at Gillette Lodz Plant",
+      "role": "Mechanical Summer Internship at Gillette Lodz Plant",
       "category": "other",
       "locations": [
         "Lodz"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Lodz/Summer-Internship-at-Gillette-Lodz-Plant_R000141579",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Lodz/Mechanical-Summer-Internship-at-Gillette-Lodz-Plant_R000146217",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239481,15 +239515,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "965eb1aafc93db93ff9cf80efa7e5139344def78e8561caded9911ba5ecbf0a0",
+      "id": "933c18454adc1854e77b85d3933bd6711e2cc9dce5565b502b945550f71746e9",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Engineering Internship - Automation/Mechanical/Mechatronic/Data Science/Chemical",
       "category": "other",
       "locations": [
-        "MECHELEN PLANT"
+        "Brussels"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/MECHELEN-PLANT/PS-ENG---Intern-Co-op---Management_R000137443",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Engineering-Internship---Automation-Mechanical-Mechatronic-Data-Science-Chemical_R000133015",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239510,16 +239544,16 @@
       "listing_type": "internship"
     },
     {
-      "id": "08222aad82fd7c2aaa70ce4612fe7675f672e44d6b43d891db21614680b37df6",
+      "id": "8824f53dfc8f828a43481603550914ae318146ad9c13198f6b41179ae5d84e8f",
       "company": "Micron Technology",
       "company_slug": "micron-technology",
-      "role": "Intern - Manufacturing Chemical Vapour Deposition (CVD)",
-      "category": "other",
+      "role": "Intern - Metrology (Data Analytics)",
+      "category": "data_science",
       "locations": [
         "Fab 10N",
         "X, Singapore"
       ],
-      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Chemical-Vapour-Deposition--CVD-_JR100519",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Metrology--Data-Analytics-_JR100849",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239540,16 +239574,44 @@
       "listing_type": "internship"
     },
     {
-      "id": "2e422b8910cb7da170c15bd03faff6de728ae5b73fe6be174b065c1cb3df1d55",
+      "id": "405139de54a4ddde1c71452747e3f93bc57674c856f87698e0038ccd07b53008",
+      "company": "Micron Technology",
+      "company_slug": "micron-technology",
+      "role": "Intern - Operation Improvement",
+      "category": "other",
+      "locations": [
+        "Muar, Malaysia"
+      ],
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Muar-Malaysia/Intern---Operation-Improvement_JR97674",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-31",
+      "date_last_verified": "2026-05-31",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "2667fa9e2afbba71384d92bec18261e9bd140b8c390843553306fe2fb817b8a1",
       "company": "Micron Technology",
       "company_slug": "micron-technology",
       "role": "Intern - Manufacturing Dry Etch",
       "category": "other",
       "locations": [
-        "Fab 10N",
-        "X, Singapore"
+        "Fab 10W, Singapore"
       ],
-      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Dry-Etch_JR99978",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/Intern---Manufacturing-Dry-Etch_JR80780",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239570,15 +239632,45 @@
       "listing_type": "internship"
     },
     {
-      "id": "0b3e9d04eecbb4e7611cde85cb13f1f698c7acba084ad6787e166c07eda384c6",
+      "id": "aa1440a19f715c8bf125808253462728a400ffa56ceee7cfe02befc9e87cdffa",
+      "company": "Micron Technology",
+      "company_slug": "micron-technology",
+      "role": "Intern - Manufacturing Chemical Vapour Deposition",
+      "category": "other",
+      "locations": [
+        "Fab 10N",
+        "X, Singapore"
+      ],
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Chemical-Vapour-Deposition_JR96598",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-31",
+      "date_last_verified": "2026-05-31",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "93b3b52f2393d44b9a46363b75390b98de7cb9e85fc21275d4cff8c2a9bd5a5a",
       "company": "S&P Global",
       "company_slug": "s&p-global",
       "role": "Agribusiness Intern (Early Careers)",
       "category": "other",
       "locations": [
-        "Sao Paulo, BR"
+        "Virtual, BR"
       ],
-      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Sao-Paulo-BR/Agribusiness-Intern--Early-Careers-_326567",
+      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Virtual-BR/Agribusiness-Intern--Early-Careers-_327499-2",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239599,15 +239691,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "64467defbffe9448546480aed2807242881f05b873b44b5d0ad4221bfc8a8790",
+      "id": "3d3273a776b2a0c2ed84ad8c990e0fd648b03f39caa52b21b5ead223ece45d3f",
       "company": "Cadence Design Systems",
       "company_slug": "cadence-design-systems",
-      "role": "Software Engineering Intern",
+      "role": "software engineering intern",
       "category": "swe",
       "locations": [
-        "PITTSBURGH 03"
+        "BEIJING"
       ],
-      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BEIJING/software-engineering-intern_R52210",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239628,15 +239720,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "adb80631b12af9472dec919f4b3589f2e15ceb27beafe8fd35a7c4a7568eb41b",
+      "id": "1339f53c7fab17e37d54692be617a369b7895ef4bead0065116bbb46c38f075f",
       "company": "Marvell",
       "company_slug": "marvell",
       "role": "Analog Engineer Intern - PhD",
       "category": "other",
       "locations": [
-        "Ottawa, Canada"
+        "Toronto, Canada"
       ],
-      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1",
+      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239659,15 +239751,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "68c9e416086e0eb0dde03dd0beea403b89507d6354b7fbfda020fde482ba2a9f",
+      "id": "aa631f3360e9753f5c03e784231aed2687a4b643daf09cbdb6c0bb2ab54ee684",
       "company": "Expedia Group",
       "company_slug": "expedia-group",
-      "role": "Machine Learning Science Intern - Masters - 2026 - Austin, San Jose",
+      "role": "Machine Learning Science Intern - PhD - 2026 - Austin, San Jose",
       "category": "ml_ai",
       "locations": [
         "2 Locations"
       ],
-      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Machine-Learning-Science-Intern---Masters---2026---Austin--San-Jose_R-98584",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Machine-Learning-Science-Intern---PhD---2026---Austin--San-Jose_R-98585",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239685,49 +239777,20 @@
       "end_date": null,
       "industry": "ecommerce",
       "preferred_class_years": [
-        "masters"
+        "phd"
       ],
       "listing_type": "internship"
     },
     {
-      "id": "f32118a15f95913447da393b5e808523f6e882e1a071e8e3a1d136ae85f9430e",
-      "company": "Bosch",
-      "company_slug": "bosch",
-      "role": "Internship in Marketing",
-      "category": "other",
-      "locations": [
-        "Petaling Jaya, Selangor"
-      ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000128461489",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-05-31",
-      "date_last_verified": "2026-05-31",
-      "source": "smartrecruiters_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "automotive",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "8d8edaf75ef4e356b50453011a2ce5ac421757dd218cfc64a25b5ce486db68e0",
+      "id": "16480092751c96d93b06c308a021b65e21c91f6c2b65ac71897b748b3b95b614",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "Customer Experience Intern - Bilingual (French & English) ",
       "category": "other",
       "locations": [
-        "Welland, ON"
+        "Edmonton, AB"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000127306414",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000128576314",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239748,15 +239811,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3089577640fc02d11561cc986cb1ccd88aa3ac0881bb49c1cc88ddfcdb0ecd9c",
+      "id": "808a5f3db66d9c48c32814045d8492810bf71bb7fc9ef5ce91253d59eb006f15",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "IT Support Intern",
       "category": "other",
       "locations": [
-        "South Jakarta, DKI Jakarta"
+        "Tauig"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000121389867",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000127586419",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239777,15 +239840,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "a444fc575f6b0d6b9b882e2fb063aceee61c53b7a5e4c2861e46ccfc93cb128c",
+      "id": "2638129196e2617de9ba92700c91b771dd0c9bb659791f83e4dbcda22c044ca0",
       "company": "Bosch",
       "company_slug": "bosch",
-      "role": "[SO] Translation & Requirement Management Support Intern (Chinese + English required)",
+      "role": "[SO] Translation & Requirement Management Support Intern (Japanese + English required)",
       "category": "other",
       "locations": [
         "Ho Chi Minh city"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000121125887",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000121125702",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239806,15 +239869,44 @@
       "listing_type": "internship"
     },
     {
-      "id": "d9ca60fc249f95ebe235d4b1fc799586bbdb18ed003f7c61dc14da212a583bbe",
+      "id": "7d6e4cd9187f02d41ece9fdc0eafbd655b8c9f0980904e00077df926c52ef349",
+      "company": "Bosch",
+      "company_slug": "bosch",
+      "role": "Internship in Marketing",
+      "category": "other",
+      "locations": [
+        "Shah Alam, Selangor"
+      ],
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000118048597",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-31",
+      "date_last_verified": "2026-05-31",
+      "source": "smartrecruiters_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "automotive",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "651707ea62e03ba6b026d698e0640d329313a3249b87f0e52e0723da9432c815",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "Mandatory Internship in the Strategic Purchasing for Turned Parts",
       "category": "other",
       "locations": [
-        "Elchingen, BY"
+        "Stuttgart, BW"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000103707836",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000104703845",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239835,15 +239927,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "60eccf7adb573d0266faab836e7fa7659ebdf2bccbf3ac270cd948a04deb4816",
+      "id": "9c3d5696ef4d35bf06449636c34cef06663ecb476b40e7236f5fc4d24b84ed7a",
       "company": "Lawrence Livermore National Laboratory",
       "company_slug": "lawrence-livermore-national-laboratory",
-      "role": "Center for Global Security Research (CGSR) Graduate Research Associate - Fall 2026",
+      "role": "Center for Global Security Research (CGSR) Undergraduate Research Associate - Fall 2026",
       "category": "other",
       "locations": [
         "Livermore, CA"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/LLNL/3743990012542426",
+      "apply_url": "https://jobs.smartrecruiters.com/LLNL/3743990012542736",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -239860,10 +239952,15 @@
       "start_date": null,
       "end_date": null,
       "industry": "other",
-      "preferred_class_years": [],
+      "preferred_class_years": [
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior"
+      ],
       "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-05-31T14:12:47.953003Z",
-  "total_open": 8044
+  "last_updated": "2026-05-31T19:40:52.451749Z",
+  "total_open": 8047
 }
