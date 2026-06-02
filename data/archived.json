@@ -35133,8 +35133,42 @@
       "industry": "other",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "2a46a09c2e3f7a10cce67bb528f60ded4bdb1ab733872b5d68dd3c212e015e55",
+      "company": "Pinterest",
+      "company_slug": "pinterest",
+      "role": "Master's Fall Machine Learning Internship (ATG - Visual Search)",
+      "category": "ml_ai",
+      "locations": [
+        "San Francisco, CA, US",
+        "Palo Alto, CA, US",
+        "Seattle, WA, US",
+        "New York, NY, US"
+      ],
+      "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7253017",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-25",
+      "date_last_verified": "2026-05-25",
+      "source": "greenhouse_api",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": "2026-09",
+      "end_date": "2026-12",
+      "industry": "social_media",
+      "preferred_class_years": [
+        "masters"
+      ],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-05-31T04:34:35.447513Z",
+  "last_updated": "2026-06-02T04:43:08.985159Z",
   "total_open": 0
 }
