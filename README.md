@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 03, 2026 at 12:04 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 03, 2026 at 06:27 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,13 +16,13 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 158 |
+| 💻 [Software Engineering](#-software-engineering) | 156 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 37 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 78 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 16 |
-| 🔹 [Other](#-other) | 572 |
+| 🔹 [Other](#-other) | 575 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 70 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 157 |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 158 |
 | **Total** | **862** |
 
 ---
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 1d ago |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 1d ago |
@@ -288,7 +289,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hyperproof** | Software Engineer Intern - AI Developer Productivity | Remote in USA | F26 | [Apply](https://hyperproof.io/job-listings/?gh_jid=4700893005&utm_source=Simplify&ref=Simplify) | today |
+| **Hyperproof** | Software Engineer Intern - AI Developer Productivity 🔒 | Remote in USA | F26 | 🔒 Closed | today |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 1d ago |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Walter P Moore** | Software Developer Intern | Austin, TX | F26 | [Apply](https://careers-walterpmoore.icims.com/jobs/4125/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -416,7 +417,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Leidos** | Engineering Intern - Systems Engineering, Integration & Test (SEIT) | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Engineering-Intern---Systems-Engineering--Integration---Test--SEIT-_R-00178609) | 2mo ago |
 | **Apptronik** | Software Engineering Intern: Developer Experience 🇺🇸 | Austin, TX | F26 | [Apply](https://job-boards.greenhouse.io/apptronik/jobs/5828414004?gh_jid=5828414004&utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **EverCommerce** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://evercommerce.wd1.myworkdayjobs.com/evercommerce_careers/job/Remote--US/EverHealth---Software-Engineer-Internship--Remote--US-_R-106034?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Givelify** | Software Engineering Intern | Remote in USA, Remote in Canada | F26 | [Apply](https://www.givelify.com/about-us/careers/job-openings/?gh_jid=8466071002&utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Givelify** | Software Engineering Intern 🔒 | Remote in USA, Remote in Canada | F26 | 🔒 Closed | 2mo ago |
 | **Motorola Solutions** | Software Engineering Intern - Summer 2026 | Allen, TX (TX139) | S26 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-Engineering-Intern---Summer-2026_R58226) | 2mo ago |
 | **Starz** | Starz Intern - Software Developer | Remote in USA | F26 | [Apply](https://starz.wd5.myworkdayjobs.com/Starz/job/US-Remote/STARZ-Intern--Software-Development_JR100319?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **CAE** | Software Engineering Intern | Arlington, TX | F26 | [Apply](https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Software-Engineering-Intern_118247-1?utm_source=Simplify&ref=Simplify) | 2mo ago |
@@ -505,7 +506,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Ensemble Health Partners** | Business Intelligence Intern | Remote in USA | F26 | [Apply](https://ensemblehp.wd5.myworkdayjobs.com/ensemblehealthpartnerscareers/job/Remote---Nationwide/Business-Intelligence-Intern_R044048?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **SailPoint** | AI Data Engineer Intern | Austin, TX | F26 | [Apply](https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/Headquarters-Austin-Texas-USA/AI-Data-Engineer---Intern_R013414?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Werfen** | Data Analytics Intern | Norcross, GA | F26 | [Apply](https://careers-werfen.icims.com/jobs/10384/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 2w ago |
-| **Cotiviti** | Temporary Intern - Data Analytics | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/18676/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 3w ago |
+| **Cotiviti** | Temporary Intern - Data Analytics 🔒 | Remote in USA | F26 | 🔒 Closed | 3w ago |
 | **Sharecare** | Data Analyst Intern | Atlanta, GA | F26 | [Apply](https://sharecare.wd1.myworkdayjobs.com/Sharecare_Careers/job/BAM---Atlanta-GA/Data-Analyst-Intern---Remote_R-101873?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Mercury Insurance** | Marketing Data Analyst Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 4w ago |
 | **Altar'd State** | IT Analytics Intern | Knoxville, TN | F26 | [Apply](https://standoutforgood.wd12.myworkdayjobs.com/StandOutForGood/job/Knoxville-TN/Summer-2026-IT-Analytics-Intern_SOSJ10504?utm_source=Simplify&ref=Simplify) | 4w ago |
@@ -607,6 +608,10 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Genuine Parts Company** | Engineering InternPlano, TX\|Part time\| | Plano, TX | F26 | [Apply](https://jobs.genpt.com/job/plano/engineering-intern/505/95718297728) | today |
+| **Volaris Group** | AI Software Enablement Intern | Texas | F26 | [Apply](https://volarisgroup.wd3.myworkdayjobs.com/volaris/job/United-States---TX/AI-Software-Enablement-Intern_R67348?utm_source=Simplify&ref=Simplify) | today |
+| **City of Largo** | Stormwater Intern - Wastewater Management | Largo, FL | F26 | [Apply](https://largo.wd1.myworkdayjobs.com/external/job/Largo-City-Hall/Intern---Undergraduate_R-2319?utm_source=Simplify&ref=Simplify) | today |
 | **Cotiviti** | Generative AI Developer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19214/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Leidos** | Data Architecture and Governance Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Data-Architecture-and-Governance-Intern_R-00184376) | 1d ago |
@@ -694,7 +699,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Société Générale de Surveillance (SGS)** | Project Engineer Intern | Suwanee, GA | F26 | [Apply](https://jobs.smartrecruiters.com/SGS/744000124949224?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Altera Corporation** | Silicon Validation Graduate Intern | Austin, TX | F26 | [Apply](https://altera.wd1.myworkdayjobs.com/altera/job/Austin-Texas-United-States/Silicon-Validation-Graduate-Intern_R02471?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Endpoint Clinical** | AI Intern | Remote in USA | F26 | [Apply](https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply?utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Volaris Group** | AI Software Enablement Intern | Dallas, TX | F26 | [Apply](https://volarisgroup.wd3.myworkdayjobs.com/en-US/volaris/job/United-States---TX/AI-Software-Enablement-Intern_R66797?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Altom Transport** | Software Development Intern | Houston, TX | F26 | [Apply](https://apply.workable.com/altom-transport/j/42FDA014E9/apply?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **WhiteWater Midstream** | Data Quality Intern | Austin, TX | F26 | [Apply](https://job-boards.greenhouse.io/whitewatermidstream/jobs/5123089007?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **PSA Airlines** | Engineering Intern | Charlotte, NC | F26 | [Apply](https://careers-psaairlines.icims.com/jobs/6531/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 4w ago |
