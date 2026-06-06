@@ -2471,7 +2471,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-07",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "greenhouse_api",
       "status": "open",
       "tech_stack": [],
@@ -2502,7 +2502,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-07",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "greenhouse_api",
       "status": "open",
       "tech_stack": [],
@@ -39793,7 +39793,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-07",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "workday_api",
       "status": "open",
       "tech_stack": [],
@@ -39822,7 +39822,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-07",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "workday_api",
       "status": "open",
       "tech_stack": [],
@@ -68029,7 +68029,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-10",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -75169,7 +75169,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-13",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -91021,7 +91021,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-19",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -109273,7 +109273,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-26",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -109858,7 +109858,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-26",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -115575,7 +115575,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-03-27",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -123757,7 +123757,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-01",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -127862,7 +127862,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-02",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -129363,7 +129363,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-02",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -131461,7 +131461,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-03",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -132126,7 +132126,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-03",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -143202,7 +143202,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-08",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -149543,7 +149543,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-10",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -149991,7 +149991,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-10",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -150431,7 +150431,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-10",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -152837,7 +152837,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-11",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -152866,7 +152866,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-11",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -152895,7 +152895,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-11",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -152924,7 +152924,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-11",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -156102,7 +156102,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-14",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -162677,7 +162677,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-16",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -182897,7 +182897,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-25",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -185644,7 +185644,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-04-28",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -193556,7 +193556,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-01",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -193643,7 +193643,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-01",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -195072,7 +195072,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-02",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -195569,7 +195569,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-02",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -221415,7 +221415,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-20",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -229958,7 +229958,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-27",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -233089,7 +233089,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-05-28",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -240543,7 +240543,7 @@
       "remote_friendly": false,
       "open_to_international": false,
       "date_added": "2026-06-03",
-      "date_last_verified": "2026-06-05",
+      "date_last_verified": "2026-06-06",
       "source": "github_monitor",
       "status": "open",
       "tech_stack": [],
@@ -247357,18 +247357,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "5cd93a273584d5c11eec343adf22621625f80cda1cf26deac9c55233d6c9653b",
+      "id": "f104841b8795c92110b60081c2fe5537bf8860ec613a68ae6b108e0a77dc72d3",
       "company": "Stripe",
       "company_slug": "stripe",
       "role": "PhD Data Scientist, Intern",
       "category": "ml_ai",
       "locations": [
-        "San Francisco",
-        "New York City",
-        "Seattle",
-        "Chicago"
+        "Toronto",
+        "Ontario",
+        "Canada"
       ],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7874965",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7285974",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -247391,50 +247390,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "eeed913e48dd4ad5c42a3d4d8091a620feba7f3a0025045d04b9fdfbcff89356",
-      "company": "Scale AI",
-      "company_slug": "scale-ai",
-      "role": "AI Builder Intern",
-      "category": "other",
-      "locations": [
-        "San Francisco, CA",
-        "New York, NY"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": true,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-06-06",
-      "date_last_verified": "2026-06-06",
-      "source": "greenhouse_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "ai_ml",
-      "preferred_class_years": [
-        "freshman",
-        "sophomore",
-        "junior",
-        "senior"
-      ],
-      "listing_type": "internship"
-    },
-    {
-      "id": "b6318de750d7c361c9b7d837eec19fa4bfec4e46a13da747347350ee1aa2cc43",
+      "id": "5a9ce5720881b6665da8b9f78a10451616eb1ab12d5b9fab5f2b5acd3ffad18f",
       "company": "Hermeus",
       "company_slug": "hermeus",
       "role": "Manufacturing Engineering Intern - Fall 2026",
       "category": "other",
       "locations": [
-        "Atlanta, GA"
+        "Los Angeles, CA"
       ],
-      "apply_url": "https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872",
+      "apply_url": "https://jobs.lever.co/hermeus/a1f3aa29-72ea-4843-b2ea-801f3bef73ae",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247455,15 +247419,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "ca60a70c85fa5092cac38d0c6b981bfb4fb20634fe410cd20db861f04ec17a26",
+      "id": "333680dd8f54c176f563ae68fb363d99553e55f6ecf394fe3797c1bf0ab6f9f6",
       "company": "Intel",
       "company_slug": "intel",
       "role": "AI Software Engineering Intern",
       "category": "swe",
       "locations": [
-        "Poland, Gdansk"
+        "2 Locations"
       ],
-      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/Poland-Gdansk/AI-Software-Engineering-Intern_JR0284012",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -247484,15 +247448,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "89aa4237d891f250bc3b66ec64c8de1a2361e9f5ddb216c0165c59d7c7a54390",
+      "id": "d5ff4472faddcf2c8c1c006df2f26b214496aa2e61e0d61011bb2246ce15b699",
       "company": "Fidelity Investments",
       "company_slug": "fidelity-investments",
       "role": "Technology Intern",
       "category": "swe",
       "locations": [
-        "Galway, Ireland"
+        "Dublin, Ireland"
       ],
-      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Galway-Ireland/technology-Intern_2124817",
+      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Dublin-Ireland/Technology-Intern_2124825",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247513,15 +247477,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "312c640c036c5f6aabc61f1cf2e2603ae68a8c7e969d0e75e40ba6f27cd659de",
+      "id": "1da544d4c879a9b9668d3bfd0510dc75a74d19d8bbabab0351d30e05487f8cb2",
       "company": "RTX",
       "company_slug": "rtx",
-      "role": "Stress Analysis Intern - 1st shift - On site - Aeroestructuras",
+      "role": "Stress Intern - 1st Shift - On site - Aeroestructuras",
       "category": "other",
       "locations": [
         "MX-BCN-MEXICALI-238 ~ Blvd Venustiano Carranza #238 ~ BLDG 238, Desarrollo Industrial Colorado"
       ],
-      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/MX-BCN-MEXICALI-238--Blvd-Venustiano-Carranza-238--BLDG-238-Desarrollo-Industrial-Colorado/Stress-Analysis-Intern---1st-shift---On-site---Aeroestructuras_01842627",
+      "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/MX-BCN-MEXICALI-238--Blvd-Venustiano-Carranza-238--BLDG-238-Desarrollo-Industrial-Colorado/Stress-Intern---1st-Shift---On-site---Aeroestructuras_01842613-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247542,15 +247506,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "2d2f4fb66474247c05d2a2e6d37f2b29574491a40c7015b9ace99fa8eabe936e",
+      "id": "e55fd0994c6fd65be195b786a5d1afcee8c0a22b4f965004d4c09656f2572bf2",
       "company": "Accenture",
       "company_slug": "accenture",
-      "role": "Innovation Intern - Accenture Customer Innovation Network",
+      "role": "Tech Intern - Accenture Customer Innovation Network",
       "category": "other",
       "locations": [
         "Unknown"
       ],
-      "apply_url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Milano/Graphic-Design-Intern---Accenture-Customer-Innovation-Network_R00279811",
+      "apply_url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Milano/Accenture-Customer-Innovation-Network---Innovation-Intern_R00279814",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247571,15 +247535,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "d2400eb622b058e9f1d3fd2fcba915cfe937b13d2003d304b2f67c64c63c88d1",
+      "id": "77d76638737159c6e24aad34776b541a899213199956a654f91c85e4c9fd8fc7",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Tax Intern",
       "category": "other",
       "locations": [
-        "Ulaanbaatar"
+        "2 Locations"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ulaanbaatar/Tax-Intern_721240WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Tirana/Tax-Intern_732807WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247600,15 +247564,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "88b34f85efe5def8d29a135f87a663eecc371f319793ce36898ec4a4eed9f7e4",
+      "id": "7e98d0c87eeab08e255e275bbb6f67939c08348bae9591c97e024a327c3a2190",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Risk Services - Cybersecurity Audit Poly Internship (Sep 26 - Feb 27)",
+      "role": "Risk Services - Cybersecurity Testing Poly Internship (Sep 26 - Feb 27)",
       "category": "swe",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Cyber-Security-Audit-Polytechnic-Internship_725470WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Cybersecurity--Penetration-Testing--Red-Teaming--Poly-Internship--Sep-26---Feb-27-_727181WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247629,15 +247593,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "41ec51ff67a5246195c611c9a956ce093af1b5ffb3ae2cd55bff8991ef6a0478",
+      "id": "49bda24c618100a98b2bfb172d81ed17b9b06e197765a809bc9badb1e4a97e0a",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Intern - Assurance (October 2026 Intake)",
+      "role": "Intern - Assurance (October - December 2026 intake)",
       "category": "other",
       "locations": [
-        "Kuala Lumpur"
+        "Penang"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Assurance--October-2026-Intake-_719776WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--October---December-2026-intake-_713828WD-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247651,22 +247615,22 @@
       "status": "open",
       "tech_stack": [],
       "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
+      "start_date": "2026-10",
+      "end_date": "2026-12",
       "industry": "other",
       "preferred_class_years": [],
       "listing_type": "internship"
     },
     {
-      "id": "f65881eec2f73976c0eb11f0d1d3cc4161afd853a0b980c6ea82d3a1bad8f24e",
+      "id": "f7fa42ff5a3b566d6ff64557eb6e3b46652da138bdfa0e3a32a83a7945f3189c",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Intern - Assurance (May - September 2026 intake)",
       "category": "other",
       "locations": [
-        "Melaka"
+        "Penang"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Melaka/Intern---Assurance--May---September-2026-intake-_712773WD-1",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--May---September-2026-intake-_704167WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247687,15 +247651,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "7262d04936f98915d3e2485dce5b1ae74fcddfcc7706c44ffcbcced22983d0a7",
+      "id": "6e6c30567b6c3e1e6b8898c50fc659618b1ec3f3daad9479ebacebde69c5ce57",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Marne la Vallee Cedex 4, France"
+        "Coupvray, France"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Marne-la-Vallee-Cedex-4-France/Intern_DLP-0000425973",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Coupvray-France/Intern_DLP-0000425970",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -247716,17 +247680,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "5a96e890cc9620e6abc011c0079a8323c52c375a534c51aae935d3691e44ed66",
+      "id": "1dcd42f478ff6f178c40d5ff5cd882a6c5808be14d07e7e5a9d66a41964b23ca",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Disneyland Resort Alumni Industrial Engineering Intern, Spring 2027",
+      "role": "Disneyland Resort Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Anaheim",
         "CA",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Alumni-Industrial-Engineering-Intern--Spring-2027_10141149",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Industrial-Engineering-Intern--Spring-2027_10140384-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -247747,17 +247711,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "d9bd92c4010ef838ed27e238342fcdeba73f0fe596c1380a4a28b1b7654936a6",
+      "id": "d805a2b940d81c455dc06b29601ff093e90ad285b020c5274fb5b15075f41642",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Walt Disney World Industrial Engineering Intern, Spring 2027",
+      "role": "Walt Disney World Alumni Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Bay Lake",
         "FL",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Industrial-Engineering-Intern--Spring-2027_10141152-1",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Alumni-Industrial-Engineering-Intern--Spring-2027_10141156",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -247778,17 +247742,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "2f4af0b59b96897f06d6ce0a9ce8f1de3b51ce122026ab6f46a9a94d4c7c0b3f",
+      "id": "972b363b24bf94472b2d8ab414c0a2b3c384a970fcafec473f66fdd04d92ac0f",
       "company": "Johnson & Johnson",
       "company_slug": "johnson-&-johnson",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Suzhou",
-        "Jiangsu",
-        "China"
+        "Shanghai, China"
       ],
-      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Suzhou-Jiangsu-China/Intern_R-051447",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Shanghai-China/Intern_R-006377",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247809,15 +247771,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3f3eb2bcbd563e4959c18992c382face91267d321812f8a909cf65ee8685a067",
+      "id": "5f18ab94cea5a759b411257741e767e5dda9e49586e0eb8bb67f2f286032be71",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
-      "role": "2027 Legal 2L Summer Intern",
+      "role": "2027 Legal Patent 2L Summer Intern",
       "category": "other",
       "locations": [
-        "CINCINNATI GENERAL OFFICES"
+        "2 Locations"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/XMLNAME-2027-Legal-2L-Summer-Intern_R000150797",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/XMLNAME-2027-Legal-Patent-2L-Summer-Intern_R000150799",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247838,15 +247800,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "933c18454adc1854e77b85d3933bd6711e2cc9dce5565b502b945550f71746e9",
+      "id": "965eb1aafc93db93ff9cf80efa7e5139344def78e8561caded9911ba5ecbf0a0",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Engineering Internship - Automation/Mechanical/Mechatronic/Data Science/Chemical",
       "category": "other",
       "locations": [
-        "Brussels"
+        "MECHELEN PLANT"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Engineering-Internship---Automation-Mechanical-Mechatronic-Data-Science-Chemical_R000133015",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/MECHELEN-PLANT/PS-ENG---Intern-Co-op---Management_R000137443",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247867,45 +247829,16 @@
       "listing_type": "internship"
     },
     {
-      "id": "2667fa9e2afbba71384d92bec18261e9bd140b8c390843553306fe2fb817b8a1",
+      "id": "08222aad82fd7c2aaa70ce4612fe7675f672e44d6b43d891db21614680b37df6",
       "company": "Micron Technology",
       "company_slug": "micron-technology",
-      "role": "Intern - Manufacturing Dry Etch",
-      "category": "other",
-      "locations": [
-        "Fab 10W, Singapore"
-      ],
-      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10W-Singapore/Intern---Manufacturing-Dry-Etch_JR80780",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-06-06",
-      "date_last_verified": "2026-06-06",
-      "source": "workday_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "other",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "aa1440a19f715c8bf125808253462728a400ffa56ceee7cfe02befc9e87cdffa",
-      "company": "Micron Technology",
-      "company_slug": "micron-technology",
-      "role": "Intern - Manufacturing Chemical Vapour Deposition",
+      "role": "Intern - Manufacturing Chemical Vapour Deposition (CVD)",
       "category": "other",
       "locations": [
         "Fab 10N",
         "X, Singapore"
       ],
-      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Chemical-Vapour-Deposition_JR96598",
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Chemical-Vapour-Deposition--CVD-_JR100519",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247926,15 +247859,45 @@
       "listing_type": "internship"
     },
     {
-      "id": "10badaf27b3d04ddfe1f94fd9d117a357986c6c7ec4714075bdc60bc0dcd2040",
+      "id": "2e422b8910cb7da170c15bd03faff6de728ae5b73fe6be174b065c1cb3df1d55",
+      "company": "Micron Technology",
+      "company_slug": "micron-technology",
+      "role": "Intern - Manufacturing Dry Etch",
+      "category": "other",
+      "locations": [
+        "Fab 10N",
+        "X, Singapore"
+      ],
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Manufacturing-Dry-Etch_JR99978",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "3f181a1b026fe666799f9d510ca44b85eb008318c6acc096644ffac911ffe792",
       "company": "State Street",
       "company_slug": "state-street",
       "role": "5 months Internship - Transfer Agency with Italian",
       "category": "other",
       "locations": [
-        "Gdansk, Poland"
+        "Krakow, Poland"
       ],
-      "apply_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Gdansk-Poland/Internship---Transfer-Agency-with-Italian_R-785460-1",
+      "apply_url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Krakow-Poland/XMLNAME-5-months-Internship---Transfer-Agency-with-Italian_R-785459",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247955,15 +247918,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "93b3b52f2393d44b9a46363b75390b98de7cb9e85fc21275d4cff8c2a9bd5a5a",
+      "id": "0b3e9d04eecbb4e7611cde85cb13f1f698c7acba084ad6787e166c07eda384c6",
       "company": "S&P Global",
       "company_slug": "s&p-global",
       "role": "Agribusiness Intern (Early Careers)",
       "category": "other",
       "locations": [
-        "Virtual, BR"
+        "Sao Paulo, BR"
       ],
-      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Virtual-BR/Agribusiness-Intern--Early-Careers-_327499-2",
+      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Sao-Paulo-BR/Agribusiness-Intern--Early-Careers-_326567",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -247984,15 +247947,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3d3273a776b2a0c2ed84ad8c990e0fd648b03f39caa52b21b5ead223ece45d3f",
+      "id": "64467defbffe9448546480aed2807242881f05b873b44b5d0ad4221bfc8a8790",
       "company": "Cadence Design Systems",
       "company_slug": "cadence-design-systems",
-      "role": "software engineering intern",
+      "role": "Software Engineering Intern",
       "category": "swe",
       "locations": [
-        "BEIJING"
+        "PITTSBURGH 03"
       ],
-      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BEIJING/software-engineering-intern_R52210",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248013,15 +247976,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "1339f53c7fab17e37d54692be617a369b7895ef4bead0065116bbb46c38f075f",
+      "id": "adb80631b12af9472dec919f4b3589f2e15ceb27beafe8fd35a7c4a7568eb41b",
       "company": "Marvell",
       "company_slug": "marvell",
       "role": "Analog Engineer Intern - PhD",
       "category": "other",
       "locations": [
-        "Toronto, Canada"
+        "Ottawa, Canada"
       ],
-      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1",
+      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248044,15 +248007,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "aa631f3360e9753f5c03e784231aed2687a4b643daf09cbdb6c0bb2ab54ee684",
+      "id": "68c9e416086e0eb0dde03dd0beea403b89507d6354b7fbfda020fde482ba2a9f",
       "company": "Expedia Group",
       "company_slug": "expedia-group",
-      "role": "Machine Learning Science Intern - PhD - 2026 - Austin, San Jose",
+      "role": "Machine Learning Science Intern - Masters - 2026 - Austin, San Jose",
       "category": "ml_ai",
       "locations": [
         "2 Locations"
       ],
-      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Machine-Learning-Science-Intern---PhD---2026---Austin--San-Jose_R-98585",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/Austin-Domain-11---HomeAway/Machine-Learning-Science-Intern---Masters---2026---Austin--San-Jose_R-98584",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248070,20 +248033,49 @@
       "end_date": null,
       "industry": "ecommerce",
       "preferred_class_years": [
-        "phd"
+        "masters"
       ],
       "listing_type": "internship"
     },
     {
-      "id": "7d6e4cd9187f02d41ece9fdc0eafbd655b8c9f0980904e00077df926c52ef349",
+      "id": "82ced8f564e07038f6fea05118aff56bf3486a383baadf9b5e80072e7b99615e",
+      "company": "Bosch",
+      "company_slug": "bosch",
+      "role": "Logistic Internship",
+      "category": "other",
+      "locations": [
+        "Milano, Lombardia"
+      ],
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000130184832",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "smartrecruiters_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "automotive",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "f32118a15f95913447da393b5e808523f6e882e1a071e8e3a1d136ae85f9430e",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "Internship in Marketing",
       "category": "other",
       "locations": [
-        "Shah Alam, Selangor"
+        "Petaling Jaya, Selangor"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000129918049",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000128461489",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248104,15 +248096,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "16480092751c96d93b06c308a021b65e21c91f6c2b65ac71897b748b3b95b614",
+      "id": "8d8edaf75ef4e356b50453011a2ce5ac421757dd218cfc64a25b5ce486db68e0",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "Customer Experience Intern - Bilingual (French & English) ",
       "category": "other",
       "locations": [
-        "Edmonton, AB"
+        "Welland, ON"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000128576314",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000127306414",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248133,44 +248125,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "b905f13deb3446e7a5ebbe870d0ba61b38a2bf524eeffd8358c76cb675e33a92",
+      "id": "a444fc575f6b0d6b9b882e2fb063aceee61c53b7a5e4c2861e46ccfc93cb128c",
       "company": "Bosch",
       "company_slug": "bosch",
-      "role": "Logistic Internship ",
-      "category": "other",
-      "locations": [
-        "Torino, Piemonte"
-      ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000126015850",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-06-06",
-      "date_last_verified": "2026-06-06",
-      "source": "smartrecruiters_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "automotive",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "2638129196e2617de9ba92700c91b771dd0c9bb659791f83e4dbcda22c044ca0",
-      "company": "Bosch",
-      "company_slug": "bosch",
-      "role": "[SO] Translation & Requirement Management Support Intern (Japanese + English required)",
+      "role": "[SO] Translation & Requirement Management Support Intern (Chinese + English required)",
       "category": "other",
       "locations": [
         "Ho Chi Minh city"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000121125702",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000121125887",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248191,15 +248154,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "651707ea62e03ba6b026d698e0640d329313a3249b87f0e52e0723da9432c815",
+      "id": "d9ca60fc249f95ebe235d4b1fc799586bbdb18ed003f7c61dc14da212a583bbe",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "Mandatory Internship in the Strategic Purchasing for Turned Parts",
       "category": "other",
       "locations": [
-        "Stuttgart, BW"
+        "Elchingen, BY"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000104703845",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000103707836",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -248220,15 +248183,46 @@
       "listing_type": "internship"
     },
     {
-      "id": "64f690dea844a38c5fcb7beb8413ef1299d6c940899b4a5ef5a727278c1255ef",
+      "id": "313f0cdee5b20bf1e96e85fa613d2d5c63985f4c68a264bc47c53ea469383afe",
       "company": "DE Shaw",
       "company_slug": "de-shaw",
-      "role": "iconQuantitative Analyst Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented individuals with impressive records of academic and/or professional achievement to join the firm as quantitative analyst interns. Interns\u2026",
+      "role": "iconQuantitative Analyst, Ph.D. Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented Ph.D. candidates with impressive records of academic and/or professional achievement to join the firm as quantitative analyst interns. Ph.D.\u2026",
       "category": "other",
       "locations": [
         "New York"
       ],
-      "apply_url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
+      "apply_url": "https://www.deshaw.com/careers/quantitative-analyst-ph-d-intern-new-york-summer-2027-5891",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "scrape",
+      "status": "open",
+      "tech_stack": [],
+      "season": "summer_2027",
+      "start_date": null,
+      "end_date": null,
+      "industry": "banking",
+      "preferred_class_years": [
+        "phd"
+      ],
+      "listing_type": "internship"
+    },
+    {
+      "id": "6cb5a6f571ea1eee38ffa4f79071e0cbe9259e438388bb0a51f975bdc8b0be31",
+      "company": "DE Shaw",
+      "company_slug": "de-shaw",
+      "role": "iconSoftware Developer Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented individuals with impressive records of academic and/or professional achievement to join the firm as software developer interns. Interns\u2026",
+      "category": "swe",
+      "locations": [
+        "New York"
+      ],
+      "apply_url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -248249,15 +248243,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "1e75ef99c032e22d40d16ba8ff384f81c3a560bebf168d550a5595f7a17841b3",
+      "id": "14dfad703f619c1174cc2c8f9cc7ecebde29389f19d7ff404ca4ac0735f78efd",
       "company": "DE Shaw",
       "company_slug": "de-shaw",
-      "role": "iconSystems Engineering Intern (London) - Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks motivated individuals with impressive records of academic and/or professional achievement to join the firm as systems engineering interns. Engineers at\u2026",
+      "role": "iconSystems Engineering Intern (New York) - Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks motivated individuals with impressive records of academic and/or professional achievement to join the firm as systems engineering interns. Engineers at\u2026",
       "category": "swe",
       "locations": [
-        "London"
+        "New York"
       ],
-      "apply_url": "https://www.deshaw.com/careers/systems-engineering-intern-london-summer-2027-5925",
+      "apply_url": "https://www.deshaw.com/careers/systems-engineering-intern-new-york-summer-2027-5916",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -248276,8 +248270,124 @@
       "industry": "banking",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "1e9603b9e1077df37c0aea8f852a69123e9148fafc63adf42dcd736f0fa7a658",
+      "company": "Nidec",
+      "company_slug": "nidec",
+      "role": "Application Engineering Co-op",
+      "category": "other",
+      "locations": [
+        "St. Louis, MO"
+      ],
+      "apply_url": "https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Application-Engineering-Co-Op_R0016076?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "github_monitor",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "cd473050fe071bbaf4ba331f00105b7d714e3c309269891e3447203204de45fc",
+      "company": "Scale AI",
+      "company_slug": "scale-ai",
+      "role": "AI Builder Intern",
+      "category": "other",
+      "locations": [
+        "SF, NYC"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "github_monitor",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "ai_ml",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "4e5d2fb8fa3884ce80cc382012b21194d6855aa2fd4456f977b00ead1872784a",
+      "company": "XPENG Motors",
+      "company_slug": "xpeng-motors",
+      "role": "AI Infrastructure Onboard Performance Intern",
+      "category": "other",
+      "locations": [
+        "Santa Clara, CA"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "github_monitor",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "95f389bd06f1fd1ace260b2092e3eb1d98c96dbbf8a1665e62dc171c6d82c5dd",
+      "company": "Agilent Technologies",
+      "company_slug": "agilent-technologies",
+      "role": "Market Intelligence Intern",
+      "category": "other",
+      "locations": [
+        "Oakland, CA"
+      ],
+      "apply_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-CA-Remote-Location-Bay-Area/Market-Intelligence-Internship_4038284?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "github_monitor",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-06-06T08:56:57.931624Z",
-  "total_open": 8328
+  "last_updated": "2026-06-06T14:12:05.594012Z",
+  "total_open": 8332
 }
