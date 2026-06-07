@@ -400,11 +400,11 @@
     "last_checked": "2026-05-19"
   },
   "b3255dcd761b7e6475a116533ee62b69f9a1a4a7afb790e634b80125509d9552": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-06-07"
   },
   "a3443aeec8fdb2a5ab1ad4c64c5cb13be0fefcaf27e7394e7cc862ba0189eeee": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-06-07"
   },
   "c12fc83ad62c3c6bace3f44b4192e299d578d1c3b3c92843ac138866819d6e28": {

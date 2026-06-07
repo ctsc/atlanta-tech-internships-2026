@@ -85,8 +85,6 @@
       "https://external-telecom-teldta.icims.com/jobs/29417/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2428693?utm_source=Simplify&ref=Simplify",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34227?utm_source=Simplify&ref=Simplify",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15237?utm_source=Simplify&ref=Simplify",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15243?utm_source=Simplify&ref=Simplify",
       "https://ferrovial.wd3.myworkdayjobs.com/ferrovial_career_site/job/Austin-TX/Digital-Construction---Data-Management-Intern_JR17433?utm_source=Simplify&ref=Simplify",
       "https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers/job/Indianapolis/Power-Bi-Reporting-Long-Term-Intern_R604?utm_source=Simplify&ref=Simplify",
       "https://fhlbtopeka.wd1.myworkdayjobs.com/FHLBT/job/Topeka-Kansas/Member-Solutions-Intern_JR100348?utm_source=Simplify&ref=Simplify",
@@ -174,7 +172,6 @@
       "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application?utm_source=Simplify&ref=Simplify",
       "https://jobs.ashbyhq.com/NPX/4a250618-dcfb-4ec9-8687-b2be9e2d6ef2/application?utm_source=Simplify&ref=Simplify",
       "https://jobs.ashbyhq.com/Nash/5d2387ea-c478-433b-b3db-30115d1984c5/application?utm_source=Simplify&ref=Simplify",
-      "https://jobs.ashbyhq.com/Perplexity/71168628-1998-47d3-87a9-be7bc56a430d/application?utm_source=Simplify&ref=Simplify",
       "https://jobs.ashbyhq.com/anterior/550c48f9-eb2e-4d5e-80ff-8db076b4e52d/application?utm_source=Simplify&ref=Simplify",
       "https://jobs.ashbyhq.com/apex-technology-inc/5ec2dfa9-724d-4ce4-ab97-5067ec747f11/application?utm_source=Simplify&ref=Simplify",
       "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application?utm_source=Simplify&ref=Simplify",
@@ -332,12 +329,10 @@
       "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Demand-Solutions--NYC-_R-01332?utm_source=Simplify&ref=Simplify",
       "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/R-D-Engineer-Intern_REQ_0000068582-1?utm_source=Simplify&ref=Simplify",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Boston/Machine-Learning-Research-Engineer-Co-op_R-057610?utm_source=Simplify&ref=Simplify",
-      "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101251?utm_source=Simplify&ref=Simplify",
       "https://sarepta.wd5.myworkdayjobs.com/en-US/sarepta_external/job/Cambridge-MA/Commercial-Operations-Co-op_R-03211?utm_source=Simplify&ref=Simplify",
       "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-Office-3800/Data-Scientist-Intern---Graduate_JR2628?utm_source=Simplify&ref=Simplify",
       "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/Communications-House-Staines-Upon-Thames-United-Kingdom/AI-Research-Intern---Knowledge-Graphs_R116819?utm_source=Simplify&ref=Simplify",
       "https://shi.wd12.myworkdayjobs.com/shicareers/job/Somerset-NJ-USA/PubSec-Project-Administrator---Intern_JR3182?utm_source=Simplify&ref=Simplify",
-      "https://smithfieldfoods.wd1.myworkdayjobs.com/Careers/job/Rose-Hill-NC/Research-Intern_R-2026-7408?utm_source=Simplify&ref=Simplify",
       "https://snyk.wd103.myworkdayjobs.com/External/job/United-Kingdom---London-Office/Software-Engineer-Intern_JR100494?utm_source=Simplify&ref=Simplify",
       "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---California/Research-Intern--AI-Ethics_JR-119055?utm_source=Simplify&ref=Simplify",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/Quantitative-Development-Intern--London_R42635?utm_source=Simplify&ref=Simplify",
@@ -397,6 +392,6 @@
       "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Foundational-IQ_P748042?utm_source=Simplify&ref=Simplify",
       "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/AI-Applied-Scientist---PhD-Intern--Next-Gen-Agentic-and-Multi-Modal-Home-Exploration-Experience_P748043?utm_source=Simplify&ref=Simplify"
     ],
-    "last_checked": "2026-06-07T14:05:02.789110+00:00"
+    "last_checked": "2026-06-07T19:40:08.359171+00:00"
   }
 }

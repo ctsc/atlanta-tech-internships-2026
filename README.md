@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 07, 2026 at 09:22 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 07, 2026 at 02:57 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 41 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 16 |
-| 🔹 [Other](#-other) | 574 |
+| 🔹 [Other](#-other) | 575 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 70 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 161 |
-| **Total** | **866** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 162 |
+| **Total** | **867** |
 
 ---
 
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Nationwide Children's Hospital** | Research Intern | Columbus, OH | F26 | [Apply](https://nationwidechildrens.wd5.myworkdayjobs.com/en-US/NCHCareers/job/Main-Campus-Columbus-OH/Research-Intern_R-26191-1?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Assurant** | Digital & AI Transformation Intern | Atlanta, GA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-1?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **CHEP** | FP&A Business Intelligence Intern | London, UK, Orlando and 3 more | F26 | [Apply](https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/London-England-United-Kingdom/FP-A-Business-Intelligence-Intern_JR23946-1?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -621,6 +622,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | 🔥 **Tesla** | Energy System Optimization Intern - Energy Optimization Software 🔒 | Palo Alto, CA, Fremont and 3 more | F26 | 🔒 Closed | today |
 | 🔥 **Tesla** | AI Hardware Design Engineer Intern - AI Hardware Design Engineer - AI Hardware 🔒 | Palo Alto, CA, Austin and 1 more | F26 | 🔒 Closed | today |
 | **Assurant** | Digital & AI Transformation Intern | Atlanta, GA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-1?utm_source=Simplify&ref=Simplify) | 1d ago |
