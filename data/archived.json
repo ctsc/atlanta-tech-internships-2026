@@ -37079,8 +37079,71 @@
         "phd"
       ],
       "listing_type": "internship"
+    },
+    {
+      "id": "a4dbc4079212cf5cb49e607b47d1942356239da25fc54eeac981087609ccf4e4",
+      "company": "FedEx",
+      "company_slug": "fedex",
+      "role": "People Operations (Human Resources) Intern",
+      "category": "other",
+      "locations": [
+        "Unknown"
+      ],
+      "apply_url": "https://careers.fedex.com/people-operations-human-resources-intern/job/741A43132BD022DAC30378F654F5BD79",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-26",
+      "date_last_verified": "2026-05-30",
+      "source": "scrape",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "logistics",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "628dd26b8c829db9945ef4c4a6d4b550c23a6e97abb9e26353876ad81d6c7450",
+      "company": "Pinterest",
+      "company_slug": "pinterest",
+      "role": "PhD Fall Machine Learning Intern (ATG \u2014 Visual, Multimodal, and Recommender Systems)",
+      "category": "ml_ai",
+      "locations": [
+        "San Francisco, CA, US",
+        "Palo Alto, CA, US",
+        "Seattle, WA, US",
+        "New York, NY, US"
+      ],
+      "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7255640",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-05-30",
+      "date_last_verified": "2026-05-30",
+      "source": "greenhouse_api",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": "2026-09",
+      "end_date": "2026-12",
+      "industry": "social_media",
+      "preferred_class_years": [
+        "phd"
+      ],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-06-06T04:16:50.557589Z",
+  "last_updated": "2026-06-07T04:41:02.257468Z",
   "total_open": 0
 }
