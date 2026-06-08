@@ -37142,8 +37142,37 @@
         "phd"
       ],
       "listing_type": "internship"
+    },
+    {
+      "id": "1fe75b7efbc148c4e7df2cc023446e9be3a436516671b5d175b083d421adcacd",
+      "company": "Chevron",
+      "company_slug": "chevron",
+      "role": "Renewable products internAmsterdam, Netherlands",
+      "category": "other",
+      "locations": [
+        "Amsterdam, Netherlands"
+      ],
+      "apply_url": "https://careers.chevron.com/job/amsterdam/renewable-products-intern/38138/94556935104",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-04-30",
+      "date_last_verified": "2026-05-31",
+      "source": "scrape",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "energy",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-06-07T04:41:02.257468Z",
+  "last_updated": "2026-06-08T04:56:42.582911Z",
   "total_open": 0
 }
