@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 13, 2026 at 09:28 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 13, 2026 at 02:59 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 42 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 585 |
+| 🔹 [Other](#-other) | 586 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 75 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 163 |
-| **Total** | **880** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 164 |
+| **Total** | **881** |
 
 ---
 
@@ -48,6 +48,7 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | today |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | 1d ago |
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 2 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | 2d ago |
 | **Nationwide Children's Hospital** | Research Intern | Columbus, OH | F26 | [Apply](https://nationwidechildrens.wd5.myworkdayjobs.com/en-US/NCHCareers/job/Main-Campus-Columbus-OH/Research-Intern_R-26191-1?utm_source=Simplify&ref=Simplify) | 1w ago |
@@ -635,6 +636,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | today |
 | **Centific** | Speech Research Intern - Centific AI Research | Remote in USA, Redmond, WA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Speech-Research-Intern-2_JR107448-1?utm_source=Simplify&ref=Simplify) | today |
 | **Centific** | Applied Research Intern | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/PhD-Applied-Research-Intern_JR107537?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Primetals Technologies** | Generator Application Engineer Associate Internship | Orlando, FL | F26 | [Apply](https://mhicareers.com/job/Orlando-Generator-Application-Engineer-Associate-Internship-FL-32809/1403541233/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Harris Computer** | Co-Op Student Developer | British Columbia, Canada, Burnaby and 5 more | F26 | [Apply](https://harriscomputer.wd3.myworkdayjobs.com/1/job/British-Columbia-Canada/XMLNAME--Remote--Co-Op-Student-Developer_R0044310-2?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **AMAROK Security** | Research and Development Intern | Columbia, SC | F26 | [Apply](https://job-boards.greenhouse.io/amarok/jobs/6018661004?utm_source=Simplify&ref=Simplify) | 2d ago |
