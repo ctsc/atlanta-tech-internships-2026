@@ -39223,8 +39223,37 @@
       "industry": "fintech",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "5feafb63fdf9ee51beda5910537d2e453f8148cb2125e2b1d0234cffb0c561aa",
+      "company": "Tesla",
+      "company_slug": "tesla",
+      "role": "Embedded Software Engineer Intern - AI Platforms - Embedded Software Engineer",
+      "category": "swe",
+      "locations": [
+        "Palo Alto, CA"
+      ],
+      "apply_url": "https://www.tesla.com/careers/search/job/269819?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-06",
+      "date_last_verified": "2026-06-06",
+      "source": "github_monitor",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "automotive",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-06-13T04:36:02.428914Z",
+  "last_updated": "2026-06-14T05:00:11.449003Z",
   "total_open": 0
 }
