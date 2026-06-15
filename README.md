@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 15, 2026 at 12:15 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 15, 2026 at 07:46 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 42 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 76 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 586 |
+| 🔹 [Other](#-other) | 587 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 75 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 164 |
-| **Total** | **880** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 165 |
+| **Total** | **881** |
 
 ---
 
@@ -47,6 +47,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | 2d ago |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | 2d ago |
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | 3d ago |
@@ -631,6 +632,7 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | today |
 | **GE Healthcare** | Field Engineer Apprentice | Dallas, TX | F26 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice_R4042300-1?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | 2d ago |
 | **Centific** | Speech Research Intern - Centific AI Research | Remote in USA, Redmond, WA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Speech-Research-Intern-2_JR107448-1?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Centific** | Applied Research Intern | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/PhD-Applied-Research-Intern_JR107537?utm_source=Simplify&ref=Simplify) | 2d ago |
