@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 17, 2026 at 06:24 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 17, 2026 at 11:05 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -18,12 +18,12 @@ Use this repo to discover and track **tech internships** across software enginee
 |----------|-----------|
 | 💻 [Software Engineering](#-software-engineering) | 159 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 43 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 78 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 590 |
+| 🔹 [Other](#-other) | 592 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 76 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 164 |
-| **Total** | **886** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 166 |
+| **Total** | **889** |
 
 ---
 
@@ -46,6 +46,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | today |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 2d ago |
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | 4d ago |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | 4d ago |
@@ -520,6 +522,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **UnitedHealth Group** | Managed Care Analytics Intern - Per Diem - Kelsey - Seybold Clinics, Pearland, Tx.2367711\|Pearland, TX | Pearland, TX | F26 | [Apply](https://careers.unitedhealthgroup.com/job/pearland/managed-care-analytics-intern-per-diem-kelsey-seybold-clinics-pearland-tx/34088/96534675632) | today |
+| **Trellix** | Business Operations & AI Data Analyst Intern | Remote in USA | F26 | [Apply](https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Remote-United-States/Business-Operations---AI-Data-Analyst-Intern_JR0037670?utm_source=Simplify&ref=Simplify) | today |
 | **CHEP** | FP&A Business Intelligence Intern | London, UK, Orlando and 3 more | F26 | [Apply](https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/London-England-United-Kingdom/FP-A-Business-Intelligence-Intern_JR23946-1?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **TDS** | Field Services Data Analytics Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 2w ago |
 | **Voltus** | Residential Data Analyst Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 2w ago |
@@ -633,6 +636,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | **GE Healthcare** | Field Engineer Apprentice | San Antonio, TX | F26 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice--San-Antonio--TX-_R4042305-1?utm_source=Simplify&ref=Simplify) | today |
 | **The Boeing Company** | Circuit Card Assembly Specialist Apprentice | Huntsville, AL | F26 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Circuit-Card-Assembly-Specialist-Apprenticeship_JR2026515181?utm_source=Simplify&ref=Simplify) | today |
 | **Texas Instruments** | Engineering Technician Intern | Dallas, TX, Tucson and 1 more | F26 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25010550?utm_source=Simplify&ref=Simplify) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | today |
 | **By Light Professional IT Services** | Artificial Intelligence Intern | Remote in USA | F26 | [Apply](https://jobs-bylight.icims.com/jobs/11083/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 2d ago |
 | 🔥 **Electronic Arts** | Growth Marketing Creative Producer Intern | Austin, United States of America | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Growth-Marketing-Creative-Producer-Intern/214857) | 2d ago |
