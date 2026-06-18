@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 17, 2026 at 11:47 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 18, 2026 at 05:55 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,14 +16,14 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 160 |
+| 💻 [Software Engineering](#-software-engineering) | 157 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 43 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 79 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 595 |
+| 🔹 [Other](#-other) | 590 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 78 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 166 |
-| **Total** | **894** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 165 |
+| **Total** | **884** |
 
 ---
 
@@ -46,7 +46,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | 1d ago |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 3d ago |
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | 5d ago |
@@ -312,7 +311,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Centific** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/SDE-Intern_JR107453-1?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **Genuine Parts Company** | Web Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/web-developer-intern/505/85815950080) | 2w ago |
+| **Genuine Parts Company** | Web Developer InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 2w ago |
 | **KION Group** | Software Engineer Intern | Rochester, NY, Grand Rapids and 7 more | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0092762-1?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Autodesk** | Intern Software Developer, Stagiaire en Développement Logiciel | Quebec, CAN - Remote | F26 | [Apply](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Intern-Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD98603-2) | 3w ago |
 | **Base Power** | Software Engineer Intern | Austin, TX | F26 | [Apply](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application?utm_source=Simplify&ref=Simplify) | 3w ago |
@@ -461,9 +460,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Motorola Solutions** | DSP (Digital Signal Processing) Software Engineering Intern - Summer 2026 | Plantation, FL | S26 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern_R58753) | 3mo ago |
 | **Equifax** | Technology Intern | USA - Georgia - Alpharetta - 30005 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00170964) | 3mo ago |
 | 🔥 **Visa** | Software Engineer, Intern - Summer 2026, Austin | Austin, TX | S26 | [Apply](https://jobs.smartrecruiters.com/Visa/744000112931905) | 3mo ago |
-| **Genuine Parts Company** | Marketing Technology InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/marketing-technology-intern/505/85815950224) | 3mo ago |
-| **Genuine Parts Company** | Cloud SRE InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/cloud-sre-intern/505/86810984128) | 3mo ago |
 | **Nokia** | Software Developer Intern/Co-op | Dallas, TX | F26 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32446?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Genuine Parts Company** | Marketing Technology InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
+| **Genuine Parts Company** | Cloud SRE InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
 
 ---
 
@@ -522,7 +521,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Consensus Cloud Solutions** | Sales Strategy & Analytics Intern | Remote in USA | F26 | [Apply](https://consensus.com/careers/jobs/?gh_jid=4688215006&utm_source=Simplify&ref=Simplify) | today |
+| **Consensus Cloud Solutions** | Sales Strategy & Analytics Intern 🔒 | Remote in USA | F26 | 🔒 Closed | today |
 | **UnitedHealth Group** | Managed Care Analytics Intern - Per Diem - Kelsey - Seybold Clinics, Pearland, Tx.2367711\|Pearland, TX | Pearland, TX | F26 | [Apply](https://careers.unitedhealthgroup.com/job/pearland/managed-care-analytics-intern-per-diem-kelsey-seybold-clinics-pearland-tx/34088/96534675632) | 1d ago |
 | **Trellix** | Business Operations & AI Data Analyst Intern | Remote in USA | F26 | [Apply](https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Remote-United-States/Business-Operations---AI-Data-Analyst-Intern_JR0037670?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **CHEP** | FP&A Business Intelligence Intern | London, UK, Orlando and 3 more | F26 | [Apply](https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/London-England-United-Kingdom/FP-A-Business-Intelligence-Intern_JR23946-1?utm_source=Simplify&ref=Simplify) | 1w ago |
@@ -600,8 +599,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Johnson & Johnson** | Business Intelligence Co-Op | Irving, Texas, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Irving-Texas-United-States-of-America/Business-Intelligence-Co-Op_R-060669) | 3mo ago |
 | **Iron Mountain** | Global RIM Analytics Intern | Boston, MA, Remote in USA and 1 more | F26 | [Apply](https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs/job/US--MS--Remote/Summer-2026-Global-RIM-Analytics-Intern_J0099226?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Equifax** | Data & Analytics Intern | USA - Georgia - Alpharetta - 30005 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Data---Analytics-Intern_J00171081) | 3mo ago |
-| **Genuine Parts Company** | Business Intelligence Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/business-intelligence-developer-intern/505/85815950112) | 3mo ago |
 | **Westgate Resorts** | Mortgage Analytics Intern | Winter Garden, FL | F26 | [Apply](https://jobs.smartrecruiters.com/WestgateResorts/744000105034865?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Genuine Parts Company** | Business Intelligence Developer InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
 
 ---
 
@@ -633,7 +632,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **iHerb** | Software Development Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/iherb/jobs/7776154003?utm_source=Simplify&ref=Simplify) | today |
 | 🔥 **Crowdstrike** | GTM Automation Intern | Remote in USA, Remote in Canada | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-CA/GTM-Automation-Intern--Remote-_R29083?utm_source=Simplify&ref=Simplify) | today |
 | 🔥 **Crowdstrike** | Intelligence Launch Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Launch-Intern---Summer-2026--Remote-_R26263?utm_source=Simplify&ref=Simplify) | today |
@@ -1223,12 +1221,12 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Continental** | Intern - Project Lifecycle Support – Complaint Connect / IT, Year-Round | Rock Hill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000112280847) | 3mo ago |
 | **Continental** | Intern - Corporate Tax, Year-Round | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000112269073) | 3mo ago |
 | **Continental** | Intern - PLT Marketing Events, Year-Round | Fort MIll, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000105008155) | 3mo ago |
-| **Genuine Parts Company** | Cloud Developer InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/cloud-developer-intern/505/85815950304) | 3mo ago |
-| **Genuine Parts Company** | Product Information Management InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/product-information-management-intern/505/92351482720) | 3mo ago |
-| **Genuine Parts Company** | Customer Software Development InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/customer-software-development-intern/505/85815949936) | 3mo ago |
-| **Genuine Parts Company** | Engineering InternBirmingham, AL\|Part time\| | Birmingham, AL | F26 | [Apply](https://jobs.genpt.com/job/birmingham/engineering-intern/505/92465962304) | 3mo ago |
 | **Axiom Space** | Software Application Engineering Intern | Houston, TX | F26 | [Apply](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Application-Engineering-Intern--Summer-2026-_JR100352?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **S&P Global** | WSO Operations Intern (Early Careers) | Dallas, TX | F26 | [Apply](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Dallas-TX/WSO-Operations-Intern--Early-Careers-_326382-1) | 3mo ago |
+| **Genuine Parts Company** | Cloud Developer InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
+| **Genuine Parts Company** | Product Information Management InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
+| **Genuine Parts Company** | Customer Software Development InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
+| **Genuine Parts Company** | Engineering InternBirmingham, AL\|Part time\| 🔒 | Birmingham, AL | F26 | 🔒 Closed | 3mo ago |
 
 ---
 
