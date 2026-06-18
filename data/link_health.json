@@ -5248,6 +5248,10 @@
     "last_checked": "2026-06-18"
   },
   "88df8b00cbd575c16e5baba85e3bc26e20eaacfd3cf26d5160cba61baed30bc7": {
+    "consecutive_failures": 2,
+    "last_checked": "2026-06-18"
+  },
+  "78b8ee2309165720e334db0de9d47bd7fa6d9ba84524a773df7ee3b7712f647f": {
     "consecutive_failures": 1,
     "last_checked": "2026-06-18"
   }
