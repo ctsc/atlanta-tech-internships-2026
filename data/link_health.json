@@ -5364,6 +5364,14 @@
     "last_checked": "2026-06-23"
   },
   "860064c1bdfd15a8f7ad81fac2148f176d3d2841de21ec91089d17a57f331805": {
+    "consecutive_failures": 0,
+    "last_checked": "2026-06-23"
+  },
+  "fbdc0ea725c65fec26a85cb5b7ad285d6bfd4ae86558e922d98476c812d544a1": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-06-23"
+  },
+  "1cf5c60c4e69b8a970e071bbe38ea8c4a12c1a82c78fd2834e40cdd4d394eb08": {
     "consecutive_failures": 1,
     "last_checked": "2026-06-23"
   }
