@@ -5482,5 +5482,9 @@
   "9cdb500a1c65d6ab814ad908e99381d8d9c05784af0b52cc7c84fb3d17fdf048": {
     "consecutive_failures": 2,
     "last_checked": "2026-06-27"
+  },
+  "730c09d8833c41266c1d95d2706b1d4704bd9fbc72a1ee1ae51af63d47dea898": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-06-27"
   }
 }
