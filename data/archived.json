@@ -43876,8 +43876,37 @@
       "industry": "other",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "3d5bb7ea532851948c13a77a242009e813e698bd17f2ce9912882e774a9e65bc",
+      "company": "Chevron",
+      "company_slug": "chevron",
+      "role": "Finance InternCaracas, Venezuela",
+      "category": "other",
+      "locations": [
+        "Caracas, Venezuela"
+      ],
+      "apply_url": "https://careers.chevron.com/job/caracas/finance-intern/38138/96366940656",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-06-13",
+      "date_last_verified": "2026-06-20",
+      "source": "scrape",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "energy",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-06-27T04:14:06.720262Z",
+  "last_updated": "2026-06-28T04:35:06.536149Z",
   "total_open": 0
 }
