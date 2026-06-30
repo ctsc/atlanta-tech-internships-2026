@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: June 29, 2026 at 03:25 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: June 29, 2026 at 11:23 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 43 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 598 |
+| 🔹 [Other](#-other) | 597 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 79 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 166 |
-| **Total** | **894** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 165 |
+| **Total** | **893** |
 
 ---
 
@@ -46,8 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | today |
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | 1d ago |
 | **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | 1w ago |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | 2w ago |
@@ -58,9 +57,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Assurant** | Digital & AI Transformation Intern | Atlanta, GA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-1?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **CHEP** | FP&A Business Intelligence Intern | London, UK, Orlando and 3 more | F26 | [Apply](https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/London-England-United-Kingdom/FP-A-Business-Intelligence-Intern_JR23946-1?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **PrizePicks** | Data Science Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7761731003) | 3w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 3w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 3w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 4w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 4w ago |
+| **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **Shaw Industries Group** | STEM Intern | Calhoun, GA | F26 | [Apply](https://shawinc.wd1.myworkdayjobs.com/External/job/Shaw-Plant-2-2207-S-Hamilton-Street-Dalton-GA-30720-USA/Summer-2026-STEM-Internship_R-151433?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **RTX** | Co-op: Columbus Engine Center Rotational (on-site) | US-GA-MIDLAND-MPC ~ 8801, 8987 Macon Rd ~ BLDG MPC | F26 | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-GA-MIDLAND-MPC--88018987-Macon-Rd--BLDG-MPC/Co-op--Columbus-Engine-Center-Rotational--on-site-_01849462) | 4w ago |
 | **PrizePicks** | Market Intelligence Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7753475003) | 1mo ago |
@@ -161,8 +160,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Coca-Cola** | Supply Chain Summer Intern | US - OH - Columbus | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---OH---Columbus/Supply-Chain-Summer-Intern_R-132197) | 2mo ago |
 | 🔥 **Coca-Cola** | NAOU Commercial PMO Intern | US - GA - Atlanta | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---GA---Atlanta/NAOU-Commercial-PMO-Intern_R-139083) | 2mo ago |
 | 🔥 **Coca-Cola** | Global Human Insights Intern | US - GA - Atlanta | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---GA---Atlanta/Global-Human-Insights-Intern_R-137745) | 2mo ago |
-| **Primerica** | Application Development Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Application-Development-Intern_R-139032026?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Procter & Gamble** | Data Analytics Internship in Supply Chain | ATHENS DC | F26 | [Apply](https://pg.wd5.myworkdayjobs.com/1000/job/ATHENS-DC/Data-Analytics-Internship-in-Supply-Chain_R000148636) | 2mo ago |
+| **Primerica** | Application Development Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Application-Development-Intern_R-139032026?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Procter & Gamble** | Data Analytics Internship in Supply Chain | ATHENS DC | F26 | [Apply](https://pg.wd5.myworkdayjobs.com/1000/job/ATHENS-DC/Data-Analytics-Internship-in-Supply-Chain_R000148636) | 3mo ago |
 | **Solenis** | Undergraduate Intern | Georgia | F26 | [Apply](https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/United-States-of-America-Georgia-Remote/Undergraduate-Intern_R0028796?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **KION Group** | AI Intern | Grand Rapids, MI, Plano and 3 more | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Atlanta-GA-United-States/AI-Internships_JR-0088855?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Trimble** | Software Engineer Intern | Atlanta, GA | F26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Atlanta-GA/Software-Engineer-Intern_R52484?utm_source=Simplify&ref=Simplify) | 3mo ago |
@@ -219,7 +218,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 4d ago |
+| 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 5d ago |
 | 🔥 **Crowdstrike** | GTM Automation Intern | Remote in USA, Remote in Canada | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-CA/GTM-Automation-Intern--Remote-_R29083?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Crowdstrike** | Intelligence Launch Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Launch-Intern---Summer-2026--Remote-_R26263?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Electronic Arts** | Growth Marketing Creative Producer Intern | Austin, United States of America | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Growth-Marketing-Creative-Producer-Intern/214857) | 2w ago |
@@ -229,10 +228,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 2 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | 2w ago |
 | 🔥 **Instacart** | Machine Learning PhD Intern, Economics (Fall) | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=7532267) | 2w ago |
 | 🔥 **Instacart** | Machine Learning Engineer, PhD Intern (Fall) | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=5917202) | 2w ago |
-| 🔥 **NVIDIA** | Agentic AI Solution Engineering Intern - Fall 2026 | US, TX, Austin | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Agentic-AI-Solution-Engineering-Intern---Fall-2026_JR2019390) | 2w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 3w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 3w ago |
-| 🔥 **Twilio** | Go-to-market Analyst Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7823588) | 4w ago |
+| 🔥 **NVIDIA** | Agentic AI Solution Engineering Intern - Fall 2026 | US, TX, Austin | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Agentic-AI-Solution-Engineering-Intern---Fall-2026_JR2019390) | 3w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 4w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 4w ago |
+| 🔥 **Twilio** | Go-to-market Analyst Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7823588) | 1mo ago |
 | 🔥 **HubSpot** | Creator Partnerships Associate Co-op | Remote - USA | F26 | [Apply](https://www.hubspot.com/careers/jobs/7589749?gh_jid=7589749) | 1mo ago |
 | 🔥 **NVIDIA** | Synthetic Data Generation and User Simulation PhD Research Intern — Fall 2026 | US, CA, Remote | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Data-Generation-and-User-Simulation-Research-Intern---Fall-2026_JR2018317) | 1mo ago |
 | 🔥 **Cisco** | Hardware Engineer 1 Co-op | SF, San Jose, CA and 3 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Hardware-Engineer-I--Co-op----United-States_2000041?utm_source=Simplify&ref=Simplify) | 1mo ago |
@@ -305,16 +304,16 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **TDS** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://external-telecom-teldta.icims.com/jobs/29561/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 3d ago |
-| **VetsEZ** | Full Stack Developer Intern | Remote in US | F26 | [Apply](https://vetsez.breezy.hr/p/a4010fdb3a7001-full-stack-developer-intern-remote-opportunity?utm_source=Simplify&ref=Simplify) | 5d ago |
+| **TDS** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://external-telecom-teldta.icims.com/jobs/29561/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 4d ago |
+| **VetsEZ** | Full Stack Developer Intern | Remote in US | F26 | [Apply](https://vetsez.breezy.hr/p/a4010fdb3a7001-full-stack-developer-intern-remote-opportunity?utm_source=Simplify&ref=Simplify) | 6d ago |
 | **KnowBe4** | Software Engineer Intern | Clearwater, FL | F26 | [Apply](https://job-boards.greenhouse.io/knowbe4/jobs/8597668002?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Arine** | Full Stack Engineer Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/arine/jobs/6026856004?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | 2w ago |
 | **Ultra Intelligence and Communications** | Software Engineer Intern | Austin, TX | F26 | [Apply](https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Ultra** | Software Engineer Intern | Austin, TX | F26 | [Apply](https://ultra.wd3.myworkdayjobs.com/ultra-careers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111-1?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Centific** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/SDE-Intern_JR107453-1?utm_source=Simplify&ref=Simplify) | 2w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 3w ago |
-| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 3w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems Intern - United States | Boston, MA, Seattle and 30 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254?utm_source=Simplify&ref=Simplify) | 4w ago |
+| 🔥 **Cisco** | Software Engineer Data/AI/Intelligent Systems 2 Intern | Boston, MA, Knoxville and 22 more | F26 | [Apply](https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **KION Group** | Software Engineer Intern | Rochester, NY, Grand Rapids and 7 more | F26 | [Apply](https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0092762-1?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Autodesk** | Intern Software Developer, Stagiaire en Développement Logiciel | Quebec, CAN - Remote | F26 | [Apply](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Intern-Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD98603-2) | 1mo ago |
 | **Base Power** | Software Engineer Intern | Austin, TX | F26 | [Apply](https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application?utm_source=Simplify&ref=Simplify) | 1mo ago |
@@ -334,9 +333,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Northrop Grumman** | Software Engineer Intern | Melbourne, FL | F26 | [Apply](https://ngc.wd1.myworkdayjobs.com/northrop_grumman_restricted_site/job/United-States-Florida-Melbourne/XMLNAME-2026-Intern-Software-Engineer_R10204604-2?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Leidos** | Full Stack Development Intern | Orlando, FL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/Full-Stack-Development-Intern_R-00182542) | 1mo ago |
 | **Thales** | Software Engineer Intern | Plantation, FL | F26 | [Apply](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Plantation/Software-Engineer-Intern_R0326819-2?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Constant Contact** | Software Engineer Co-op | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/constantcontact/jobs/7862452?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Dover** | Software Developer Intern | Austin, TX | F26 | [Apply](https://careers.dovercorporation.com/job/Austin-Software-Developer-Intern-TX-78737/1389386833/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **CAE** | DNI Software Engineering Co-op | Tampa, FL | F26 | [Apply](https://cae.wd3.myworkdayjobs.com/career/job/Tampa/DNI-Software-Engineering-Co-op_121708-1?utm_source=Simplify&ref=Simplify) | 1mo ago |
+| **Constant Contact** | Software Engineer Co-op | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/constantcontact/jobs/7862452?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Dover** | Software Developer Intern | Austin, TX | F26 | [Apply](https://careers.dovercorporation.com/job/Austin-Software-Developer-Intern-TX-78737/1389386833/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **CAE** | DNI Software Engineering Co-op | Tampa, FL | F26 | [Apply](https://cae.wd3.myworkdayjobs.com/career/job/Tampa/DNI-Software-Engineering-Co-op_121708-1?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **AeroVironment** | Software Engineering Intern | Plantation, FL | F26 | [Apply](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/1613-NW-136th-Avenue-Sunrise-FL/Software-Engineering-Intern_7586?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Hermeus** | Software Engineering Intern (HMI) - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) | 2mo ago |
 | **Hermeus** | Software Engineering Intern (HIL) - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) | 2mo ago |
@@ -400,7 +399,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **SoloPulse** | Systems Engineering Intern | Norcross, GA | F26 | [Apply](https://jobs.lever.co/solopulseco/418b3949-3b21-48f9-b7a0-1c036ca0ba51/apply?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Fiserv** | Military Pathways - Technology Internship Program | Alpharetta, Georgia | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Military-Pathways---Technology-Internship-Program_R-10391447) | 2mo ago |
 | **GEHA** | Full Stack Developer | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Full-Stack-Developer_R-005245?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Nucor** | UX / UI Designer – Full Stack Intern | Goodlettsville, TN | F26 | [Apply](https://jobs.nucor.com/job/Portland-UX-UI-Designer-Full-Stack-Intern-TN-37148/1378401000/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Nucor** | UX / UI Designer – Full Stack Intern | Goodlettsville, TN | F26 | [Apply](https://jobs.nucor.com/job/Portland-UX-UI-Designer-Full-Stack-Intern-TN-37148/1378401000/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Myriad Genetics** | Software Engineer Technology | Remote in USA | F26 | [Apply](https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6020?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Myriad Genetics** | Software Engineer Architect – Technology Intern | Remote in USA | F26 | [Apply](https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6018?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Trimble** | Software Engineer Intern | Atlanta, GA | F26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Atlanta-GA/Software-Engineer-Intern_R52484?utm_source=Simplify&ref=Simplify) | 3mo ago |
@@ -475,12 +474,12 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Cotiviti** | Generative AI Research Engineer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19341/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Instacart** | Machine Learning PhD Intern, Economics (Fall) | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=7532267) | 2w ago |
 | 🔥 **Instacart** | Machine Learning Engineer, PhD Intern (Fall) | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=5917202) | 2w ago |
-| **Iron Mountain** | Machine Learning Intern - Machine Learning | Tampa, FL, Remote in USA | F26 | [Apply](https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs/job/US--FL--Remote/Summer-2026-INTERN---Machine-Learning_J0103465?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **Ancestry** | Machine Learning Engineer Co-op | Remote in USA | F26 | [Apply](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003378?utm_source=Simplify&ref=Simplify) | 2w ago |
+| **Iron Mountain** | Machine Learning Intern - Machine Learning | Tampa, FL, Remote in USA | F26 | [Apply](https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs/job/US--FL--Remote/Summer-2026-INTERN---Machine-Learning_J0103465?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **Ancestry** | Machine Learning Engineer Co-op | Remote in USA | F26 | [Apply](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Remote/Machine-Learning-Engineer--Co-op_R003378?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Peraton** | Generative AI Engineer Intern | Remote in USA | F26 | [Apply](https://careers-peraton.icims.com/jobs/167460/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Revance** | Data Scientist Intern | Remote in USA | F26 | [Apply](http://www.revance.com/careers/job-listings/?gh_jid=8578708002&utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Cohere Health** | Machine Learning Engineer Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/coherehealth/jobs/7734482003?utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Ryan** | AI/ML Engineer Intern - Data Engineering | Plano, TX | F26 | [Apply](https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/AI-ML-Engineer-Intern--Data-Engineering_R0019781?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **Ryan** | AI/ML Engineer Intern - Data Engineering | Plano, TX | F26 | [Apply](https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/AI-ML-Engineer-Intern--Data-Engineering_R0019781?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **Black Box** | AI Engineer Intern | Plano, TX | F26 | [Apply](https://eoje.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/6315?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Great Question** | AI Engineer Intern | SF, Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/greatquestion/c533196c-75d5-43b8-b1c8-dedf2437d544/application?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | 🔥 **NVIDIA** | Quantum Error Correction Research Scientist Intern - Fall 2026 | US, CA, Remote | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628) | 1mo ago |
@@ -521,8 +520,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Simple Technology Solutions** | AI & Data Engineering Apprentice | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/simpletechnologysolutions/jobs/6099047004?utm_source=Simplify&ref=Simplify) | 6d ago |
-| **Vanasse Hangen Brustlin (VHB)** | Data Analytics Intern 🔒 | Raleigh, NC | F26 | 🔒 Closed | 6d ago |
+| **Simple Technology Solutions** | AI & Data Engineering Apprentice | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/simpletechnologysolutions/jobs/6099047004?utm_source=Simplify&ref=Simplify) | 1w ago |
+| **Vanasse Hangen Brustlin (VHB)** | Data Analytics Intern 🔒 | Raleigh, NC | F26 | 🔒 Closed | 1w ago |
 | **Leidos** | Data Analytics Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Data-Analytics-Intern_R-00185665) | 1w ago |
 | **Trellix** | Business Operations & AI Data Analyst Intern | Remote in USA | F26 | [Apply](https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Remote-United-States/Business-Operations---AI-Data-Analyst-Intern_JR0037670?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **UnitedHealth Group** | Managed Care Analytics Intern - Per Diem - Kelsey - Seybold Clinics, Pearland, Tx.2367711\|Pearland, TX 🔒 | Pearland, TX | F26 | 🔒 Closed | 1w ago |
@@ -572,9 +571,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Marriott Vacations Worldwide** | Data & Analytics Intern | Orlando, FL | F26 | [Apply](https://mymvw.wd5.myworkdayjobs.com/mvw/job/MVW-Headquarters/Data---Analytics-Internship---Summer-2026---Orlando--FL_JR89259?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Inmar Intelligence** | Data Analyst Intern - AI & Chatbot Optimization | Winston-Salem, NC | F26 | [Apply](https://inmar.wd1.myworkdayjobs.com/inmarcareers/job/Headquarters-Winston-Salem-NC/Data-Analyst-Intern---AI---Chatbot-Optimization--Summer-2026_JY2526720?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **GEHA** | Data Analytics Intern | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Data-Analytics_R-005244?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **GEHA** | Intern Analytics Analyst | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Analytics-Analyst_R-005248?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **LexisNexis Risk Solutions** | Data Engineering Intern | Boca Raton, FL | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Boca-Raton-FL/Data-Engineering-intern--Sprinternship-_R110421?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Paccar** | Data Engineer Intern | Denton, TX | F26 | [Apply](https://jobs.paccar.com/job/Denton-2026-Summer-Internship-Data-Engineer-TX-76205-7864/1293392801/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **GEHA** | Intern Analytics Analyst | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Analytics-Analyst_R-005248?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **LexisNexis Risk Solutions** | Data Engineering Intern | Boca Raton, FL | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Boca-Raton-FL/Data-Engineering-intern--Sprinternship-_R110421?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Paccar** | Data Engineer Intern | Denton, TX | F26 | [Apply](https://jobs.paccar.com/job/Denton-2026-Summer-Internship-Data-Engineer-TX-76205-7864/1293392801/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **JP Morgan Chase** | Data Analytics/Business Intelligence/Process Automation Intern | SF, Dallas, TX and 5 more | F26 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210730023?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **CommScope** | Intern IT Data Analytics Intern | Hickory, NC | F26 | [Apply](https://jobs.commscope.com/job/Claremont-Intern-IT-Data-Analytics-Intern-Nort/1377746900/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **First Financial** | Digital Data Analyst Intern | Stamford, TX | F26 | [Apply](https://ffin.wd1.myworkdayjobs.com/First_Financial_Bank/job/Operations-Center/Digital-Data-Analyst-Intern_JR102577?utm_source=Simplify&ref=Simplify) | 3mo ago |
@@ -631,14 +630,13 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | today |
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
-| **BCBST** | Provider Data Reporting Intern | Chattanooga, TN | F26 | [Apply](https://bcbst.wd1.myworkdayjobs.com/external/job/USA-TN-Chattanooga-Remote/Intern---Provider-Data-Reporting_R-49815?utm_source=Simplify&ref=Simplify) | 4d ago |
-| 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 4d ago |
-| **Continental** | Marketing Intern - Bicycle Tire | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000133928489) | 5d ago |
-| **Coherent** | Equipment Engineering associate Intern - Photolithography / Metrology | Celina, TX | F26 | [Apply](https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011367?utm_source=Simplify&ref=Simplify) | 5d ago |
-| **Leidos** | Engineering Intern – Radar Signal Processing | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern---Radar-Signal-Processing_R-00185097) | 5d ago |
-| **MyEmployment** | AI Product Engineer Intern 🔒 | Remote in US | F26 | 🔒 Closed | 6d ago |
+| **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | 1d ago |
+| **BCBST** | Provider Data Reporting Intern | Chattanooga, TN | F26 | [Apply](https://bcbst.wd1.myworkdayjobs.com/external/job/USA-TN-Chattanooga-Remote/Intern---Provider-Data-Reporting_R-49815?utm_source=Simplify&ref=Simplify) | 5d ago |
+| 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 5d ago |
+| **Continental** | Marketing Intern - Bicycle Tire | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000133928489) | 6d ago |
+| **Coherent** | Equipment Engineering associate Intern - Photolithography / Metrology | Celina, TX | F26 | [Apply](https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011367?utm_source=Simplify&ref=Simplify) | 6d ago |
+| **Leidos** | Engineering Intern – Radar Signal Processing | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern---Radar-Signal-Processing_R-00185097) | 6d ago |
+| **MyEmployment** | AI Product Engineer Intern 🔒 | Remote in US | F26 | 🔒 Closed | 1w ago |
 | **RTX** | Co-op: Digital Technologies (DT) Vendor Management (Remote) | US-CT-REMOTE | F26 | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-REMOTE/Co-op--Digital-Technologies--DT--Vendor-Management--Remote-_01853563) | 1w ago |
 | **GE Healthcare** | Field Engineer Apprentice | San Antonio, TX | F26 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice--San-Antonio--TX-_R4042305-1?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Bugcrowd** | Engineering Intern | Remote in USA | F26 | [Apply](https://boards.greenhouse.io/bugcrowd/jobs/8016582?utm_source=Simplify&ref=Simplify) | 1w ago |
@@ -651,7 +649,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | **The Boeing Company** | Circuit Card Assembly Specialist Apprentice | Huntsville, AL | F26 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Circuit-Card-Assembly-Specialist-Apprenticeship_JR2026515181?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Texas Instruments** | Engineering Technician Intern | Dallas, TX, Tucson and 1 more | F26 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25010550?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | 1w ago |
-| **By Light Professional IT Services** | Artificial Intelligence Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 1w ago |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Electronic Arts** | Growth Marketing Creative Producer Intern | Austin, United States of America | F26 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Growth-Marketing-Creative-Producer-Intern/214857) | 2w ago |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | 2w ago |
@@ -661,11 +658,11 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Harris Computer** | Co-Op Student Developer | British Columbia, Canada, Burnaby and 5 more | F26 | [Apply](https://harriscomputer.wd3.myworkdayjobs.com/1/job/British-Columbia-Canada/XMLNAME--Remote--Co-Op-Student-Developer_R0044310-2?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **AMAROK Security** | Research and Development Intern | Columbia, SC | F26 | [Apply](https://job-boards.greenhouse.io/amarok/jobs/6018661004?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 2 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | 2w ago |
-| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - Michigan | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961) | 2w ago |
-| **Bank of America** | Technology Apprentice - Tech Delivery | Charlotte, NC | F26 | [Apply](https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Charlotte/Global-Tech-Apprentice-Program---Tech-Delivery----Charlotte--NC_26019813-1?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **Digital Realty** | Product Analyst Intern | Seattle, WA, Dallas and 3 more | F26 | [Apply](https://hdep.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/8096?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **GE Vernova** | Grid Automation & Software Intern | Remote in USA | F26 | [Apply](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/Grid-Automation---Software-Intern_R5041706?utm_source=Simplify&ref=Simplify) | 2w ago |
-| 🔥 **NVIDIA** | Agentic AI Solution Engineering Intern - Fall 2026 | US, TX, Austin | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Agentic-AI-Solution-Engineering-Intern---Fall-2026_JR2019390) | 2w ago |
+| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - Michigan | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961) | 3w ago |
+| **Bank of America** | Technology Apprentice - Tech Delivery | Charlotte, NC | F26 | [Apply](https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Charlotte/Global-Tech-Apprentice-Program---Tech-Delivery----Charlotte--NC_26019813-1?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **Digital Realty** | Product Analyst Intern | Seattle, WA, Dallas and 3 more | F26 | [Apply](https://hdep.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/8096?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **GE Vernova** | Grid Automation & Software Intern | Remote in USA | F26 | [Apply](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/Grid-Automation---Software-Intern_R5041706?utm_source=Simplify&ref=Simplify) | 3w ago |
+| 🔥 **NVIDIA** | Agentic AI Solution Engineering Intern - Fall 2026 | US, TX, Austin | F26 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/Agentic-AI-Solution-Engineering-Intern---Fall-2026_JR2019390) | 3w ago |
 | **Duke University** | Administrative Intern - Sanford School of Public Policy | Durham, NC | F26 | [Apply](https://careers.duke.edu/job/Durham-Administrative-Intern,-Sanford-School-of-Public-Policy-NC-27710/1395747700/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Autodesk** | Customer Advocacy Intern | California, USA - Remote | F26 | [Apply](https://autodesk.wd1.myworkdayjobs.com/Ext/job/California-USA---Remote/Customer-Advocacy-Intern_26WD99218) | 3w ago |
 | **Assurant** | Digital & AI Transformation Intern | Atlanta, GA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-1?utm_source=Simplify&ref=Simplify) | 3w ago |
@@ -676,13 +673,13 @@ Use this repo to discover and track **tech internships** across software enginee
 | **PrizePicks** | Data Science Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7761731003) | 3w ago |
 | **Volaris Group** | AI Software Enablement Intern | Texas | F26 | [Apply](https://volarisgroup.wd3.myworkdayjobs.com/volaris/job/United-States---TX/AI-Software-Enablement-Intern_R67348?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **City of Largo** | Stormwater Intern - Wastewater Management | Largo, FL | F26 | [Apply](https://largo.wd1.myworkdayjobs.com/external/job/Largo-City-Hall/Intern---Undergraduate_R-2319?utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Cotiviti** | Generative AI Developer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19214/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 3w ago |
-| **Leidos** | Data Architecture and Governance Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Data-Architecture-and-Governance-Intern_R-00184376) | 3w ago |
-| **Autodesk** | Stagiaire en Développement Cloud, Intern Cloud Developer | Quebec, CAN - Remote | F26 | [Apply](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD98608-2) | 3w ago |
+| **Cotiviti** | Generative AI Developer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19214/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 4w ago |
+| **Hearst** | Automotive Analyst Intern | Gwinnett County, GA | F26 | [Apply](https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026832?utm_source=Simplify&ref=Simplify) | 4w ago |
+| **Leidos** | Data Architecture and Governance Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Data-Architecture-and-Governance-Intern_R-00184376) | 4w ago |
+| **Autodesk** | Stagiaire en Développement Cloud, Intern Cloud Developer | Quebec, CAN - Remote | F26 | [Apply](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Quebec-CAN---Remote/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD98608-2) | 4w ago |
 | **Shaw Industries Group** | STEM Intern | Calhoun, GA | F26 | [Apply](https://shawinc.wd1.myworkdayjobs.com/External/job/Shaw-Plant-2-2207-S-Hamilton-Street-Dalton-GA-30720-USA/Summer-2026-STEM-Internship_R-151433?utm_source=Simplify&ref=Simplify) | 4w ago |
 | **Trimble** | PX Systems & Automation Intern | Remote in USA | F26 | [Apply](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---Remote-OH/PX-Systems---Automation-Intern_R56390?utm_source=Simplify&ref=Simplify) | 4w ago |
-| 🔥 **Twilio** | Go-to-market Analyst Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7823588) | 4w ago |
+| 🔥 **Twilio** | Go-to-market Analyst Intern (June 22nd start, 12 weeks) | Remote - US | F26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/7823588) | 1mo ago |
 | **Leidos** | IT Asset Administrator Intern | 6314 Remote, Teleworker US | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/IT-Asset-Administrator_R-00183578) | 1mo ago |
 | 🔥 **HubSpot** | Creator Partnerships Associate Co-op | Remote - USA | F26 | [Apply](https://www.hubspot.com/careers/jobs/7589749?gh_jid=7589749) | 1mo ago |
 | **PrizePicks** | Market Intelligence Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7753475003) | 1mo ago |
@@ -784,16 +781,16 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Assurant** | Strategic Reporting Intern | Remote in USA | F26 | [Apply](https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/United-States-Virtual/Strategic-Reporting-Intern_R-113597?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Primetals Technologies** | Data Science Intern | Lake Mary, FL | F26 | [Apply](https://mhicareers.com/job/Lake-Mary-Data-Science-Internship-FL-32746/1389658633/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Palmetto Clean Technology** | CX AI Intern | Charlotte, NC | F26 | [Apply](https://job-boards.greenhouse.io/palmettocleantech/jobs/5168758008?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Zscaler** | Phishing Analyst-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) | 1mo ago |
-| **Bosch** | HR Communications Co-Op - Fall 2026 | Fountain Inn, SC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000124021187) | 1mo ago |
-| **EquipmentShare** | Financial Systems Analyst Intern | Columbia, MO | F26 | [Apply](https://www.equipmentshare.com/careers/openings/?gh_jid=7871565&utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **City of Charlotte** | GIS Intern | Charlotte, NC | F26 | [Apply](https://charlottenc.wd12.myworkdayjobs.com/citgov/job/CLTW-Brookshire/GIS-Intern_JR103779?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Resolve Tech Solutions** | Managed Cloud Delivery Intern | Addison, TX | F26 | [Apply](https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/Managed-Cloud-Delivery-Intern_R1226?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Elsevier** | Acquisitions Editorial Assistant Intern | Remote in UK | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/United-Kingdom/Intern_R112302?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Cobalt** | Data Science - Agentic AI Intern | Remote in US | F26 | [Apply](https://job-boards.greenhouse.io/cobaltio/jobs/8512243002?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Resolve Tech Solutions** | AI & ML Intern | Addison, TX | F26 | [Apply](https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/AI---ML-Intern_R1225?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| **Continental** | Intern - Tire Property Management / Finance, Year-Round | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000124132674) | 1mo ago |
-| **Commvault** | AI & Support Automation Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/commvault/jobs/5051703008?utm_source=Simplify&ref=Simplify) | 1mo ago |
+| **Zscaler** | Phishing Analyst-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) | 2mo ago |
+| **Bosch** | HR Communications Co-Op - Fall 2026 | Fountain Inn, SC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000124021187) | 2mo ago |
+| **EquipmentShare** | Financial Systems Analyst Intern | Columbia, MO | F26 | [Apply](https://www.equipmentshare.com/careers/openings/?gh_jid=7871565&utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **City of Charlotte** | GIS Intern | Charlotte, NC | F26 | [Apply](https://charlottenc.wd12.myworkdayjobs.com/citgov/job/CLTW-Brookshire/GIS-Intern_JR103779?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Resolve Tech Solutions** | Managed Cloud Delivery Intern | Addison, TX | F26 | [Apply](https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/Managed-Cloud-Delivery-Intern_R1226?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Elsevier** | Acquisitions Editorial Assistant Intern | Remote in UK | F26 | [Apply](https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/United-Kingdom/Intern_R112302?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Cobalt** | Data Science - Agentic AI Intern | Remote in US | F26 | [Apply](https://job-boards.greenhouse.io/cobaltio/jobs/8512243002?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Resolve Tech Solutions** | AI & ML Intern | Addison, TX | F26 | [Apply](https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/AI---ML-Intern_R1225?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Continental** | Intern - Tire Property Management / Finance, Year-Round | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000124132674) | 2mo ago |
+| **Commvault** | AI & Support Automation Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/commvault/jobs/5051703008?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Underwriters Laboratories** | Research Intern | Columbia, MD | F26 | [Apply](https://ulse.wd5.myworkdayjobs.com/ulricareers/job/Columbia-MD/Research-Summer-2026-Intern---Fire-Safety-Research-Institute_JR1500-1?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Apptronik** | Robotics Software Intern - Real-Time Controls | Austin, TX | F26 | [Apply](https://boards.greenhouse.io/apptronik/jobs/5985132004?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Continental** | Intern - Logistics Analyst, Year-Round | Fort Mill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000123946228) | 2mo ago |
@@ -988,16 +985,16 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **The Walt Disney Company** | ESPN Production Operations Intern, Charlotte, Summer 2026 | Charlotte, NC, USA | S26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Charlotte-NC-USA/ESPN-Production-Operations-Intern--Charlotte--Summer-2026_10143247) | 2mo ago |
 | 🔥 **Coca-Cola** | NAOU Commercial PMO Intern | US - GA - Atlanta | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---GA---Atlanta/NAOU-Commercial-PMO-Intern_R-139083) | 2mo ago |
 | 🔥 **Coca-Cola** | Global Human Insights Intern | US - GA - Atlanta | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/US---GA---Atlanta/Global-Human-Insights-Intern_R-137745) | 2mo ago |
-| **Applied Materials** | Environmental Health Safety (EHS)  Systems and Strategy Intern (Bachelors - Austin, TX) | Austin,TX | F26 | [Apply](https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Environmental-Health-Safety--EHS---Systems-and-Strategy-Intern--Bachelors---Austin--TX-_R2517831) | 2mo ago |
-| **Primerica** | Application Development Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Application-Development-Intern_R-139032026?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Torch Technologies** | Engineering Intern | Huntsville, AL | F26 | [Apply](https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Engineering-Intern---Summer-2026_R839?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Jabil** | Financial Systems Developer Intern | St. Petersburg, FL | F26 | [Apply](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Financial-Systems-Developer-Intern_J2439302?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Equip Health** | Product Manager | Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/equip/c47d5485-7eeb-4d98-9ad7-d97f7c2f0262/application?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **GEHA** | Intern – Dental Clinical & Product | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Dental-Clinical---Product_R-005240?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Continental** | Intern – Engineering Analyst | Leakey, TX | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000114729038?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Qorvo** | Applications Engineering Intern | Richardson, TX | F26 | [Apply](https://careers.qorvo.com/job/Richardson-Applications-Engineering-Intern-TX-75081/1322646000/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Micron Technology** | Intern - Computer Engineer, AI/ML/LLM | Richardson, TX | F26 | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Computer-Engineer--AI-ML-LLM_JR96660) | 2mo ago |
-| **Welocalize** | Data Science Intern | Remote in USA | F26 | [Apply](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/US-remote/Data-Science-Intern_R0007551?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Applied Materials** | Environmental Health Safety (EHS)  Systems and Strategy Intern (Bachelors - Austin, TX) | Austin,TX | F26 | [Apply](https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Environmental-Health-Safety--EHS---Systems-and-Strategy-Intern--Bachelors---Austin--TX-_R2517831) | 3mo ago |
+| **Primerica** | Application Development Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Application-Development-Intern_R-139032026?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Torch Technologies** | Engineering Intern | Huntsville, AL | F26 | [Apply](https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Engineering-Intern---Summer-2026_R839?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Jabil** | Financial Systems Developer Intern | St. Petersburg, FL | F26 | [Apply](https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Financial-Systems-Developer-Intern_J2439302?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Equip Health** | Product Manager | Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/equip/c47d5485-7eeb-4d98-9ad7-d97f7c2f0262/application?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **GEHA** | Intern – Dental Clinical & Product | Remote in USA | F26 | [Apply](https://geha.wd5.myworkdayjobs.com/en-US/GEHACareers/job/Remote/Intern---Dental-Clinical---Product_R-005240?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Continental** | Intern – Engineering Analyst | Leakey, TX | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000114729038?utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Qorvo** | Applications Engineering Intern | Richardson, TX | F26 | [Apply](https://careers.qorvo.com/job/Richardson-Applications-Engineering-Intern-TX-75081/1322646000/?ats=successfactors&utm_source=Simplify&ref=Simplify) | 3mo ago |
+| **Micron Technology** | Intern - Computer Engineer, AI/ML/LLM | Richardson, TX | F26 | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Computer-Engineer--AI-ML-LLM_JR96660) | 3mo ago |
+| **Welocalize** | Data Science Intern | Remote in USA | F26 | [Apply](https://welocalize.wd1.myworkdayjobs.com/welocalize/job/US-remote/Data-Science-Intern_R0007551?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Solenis** | Undergraduate Intern | Georgia | F26 | [Apply](https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/United-States-of-America-Georgia-Remote/Undergraduate-Intern_R0028796?utm_source=Simplify&ref=Simplify) | 3mo ago |
 | **Bosch** | Technical Engineering Function (TEF) Summer Intern | Pineville, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000114437037) | 3mo ago |
 | **Sony** | Summer Intern, Sync | NA, Miami NW 26th St 37.5 | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/NA--Miami-NW-26th-St-375/Intern--Sync_JR-118849) | 3mo ago |
