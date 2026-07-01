@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: July 01, 2026 at 05:16 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: July 01, 2026 at 10:06 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -17,13 +17,13 @@ Use this repo to discover and track **tech internships** across software enginee
 | Category | Open Roles |
 |----------|-----------|
 | 💻 [Software Engineering](#-software-engineering) | 161 |
-| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 46 |
+| 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 43 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 77 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 601 |
+| 🔹 [Other](#-other) | 602 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 80 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 166 |
-| **Total** | **902** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 164 |
+| **Total** | **900** |
 
 ---
 
@@ -46,7 +46,6 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | 2d ago |
 | **Cox** | LEAD Program - Internal Consultant - Summer 2027 Cohort | Atlanta GA | S27 | [Apply](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/LEAD-Program---Internal-Consultant---Summer-2027-Cohort_R202678743-1) | 2w ago |
 | **Primerica** | Fraud Analyst Intern | Duluth, GA | F26 | [Apply](https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Fraud-Analyst-Intern_R-234062026?utm_source=Simplify&ref=Simplify) | 2w ago |
@@ -88,7 +87,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | **Xebia** | Internship Program - Multiple Teams | Atlanta, GA | F26 | [Apply](https://job-boards.greenhouse.io/xebiausa/jobs/5988141004?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Arcadis** | GIS Intern | Atlanta, GA | F26 | [Apply](https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40340?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Sharecare** | BI Analytics Intern | Atlanta, GA | F26 | [Apply](https://sharecare.wd1.myworkdayjobs.com/Sharecare_Careers/job/BAM---Atlanta-GA/BI-Analytics-Intern---Remote_R-101864?utm_source=Simplify&ref=Simplify) | 1mo ago |
-| 🔥 **Coca-Cola** | Coca-Cola Ignite Intern - PACS | Greece - Athens | F26 | [Apply](https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/Greece---Athens/Coca-Cola-Ignite-Intern---PACS_R-139296) | 1mo ago |
 | **Gordon Food Service** | Data Engineer Intern | Atlanta, GA | F26 | [Apply](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Data-Engineer-Internship_R-42918?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | **Fiserv** | Summer Internship - Graphic Design & Digital Presentation Support (Alpharetta, GA) | Alpharetta, Georgia | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Gift-Solution-Internship--Alpharetta--GA-_R-10393324) | 2mo ago |
 | **Ohio State University** | Data Analytics Intern | Columbus, OH | F26 | [Apply](https://osu.wd1.myworkdayjobs.com/OSUCareers/job/Columbus-Campus/Intern--Data-Analytics--Non-OSU-Student-Assistant-_R150208?utm_source=Simplify&ref=Simplify) | 2mo ago |
@@ -219,7 +217,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| 🔥 **Citadel** | Quantitative Research Engineer Intern | Greenwich, CT, Houston and 4 more | F26 | [Apply](https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-us/?utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Crowdstrike** | Intelligence Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Intern---Fall-2026--Remote-_R29214?utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Citadel** | Quantitative Research Engineer Intern 🔒 | Greenwich, CT, Houston and 4 more | F26 | 🔒 Closed | today |
 | 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 6d ago |
 | 🔥 **Crowdstrike** | GTM Automation Intern | Remote in USA, Remote in Canada | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-CA/GTM-Automation-Intern--Remote-_R29083?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Crowdstrike** | Intelligence Launch Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Launch-Intern---Summer-2026--Remote-_R26263?utm_source=Simplify&ref=Simplify) | 1w ago |
@@ -474,9 +473,9 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Citadel Securities** | Machine Learning Researcher PhD Intern | Miami, FL, NYC | F26 | [Apply](https://www.citadelsecurities.com/careers/details/machine-learning-researcher-phd-intern-us/?utm_source=Simplify&ref=Simplify) | today |
-| 🔥 **Citadel** | Quantitative Research Engineer Intern | Greenwich, CT, Houston and 4 more | F26 | [Apply](https://www.citadel.com/careers/details/quantitative-research-engineer-phd-intern-us/?utm_source=Simplify&ref=Simplify) | today |
-| **Citadel Securities** | Quantitative Research Engineer Intern | Miami, FL, NYC | F26 | [Apply](https://www.citadelsecurities.com/careers/details/quantitative-research-engineer-phd-intern-us/?utm_source=Simplify&ref=Simplify) | today |
+| **Citadel Securities** | Machine Learning Researcher PhD Intern 🔒 | Miami, FL, NYC | F26 | 🔒 Closed | today |
+| 🔥 **Citadel** | Quantitative Research Engineer Intern 🔒 | Greenwich, CT, Houston and 4 more | F26 | 🔒 Closed | today |
+| **Citadel Securities** | Quantitative Research Engineer Intern 🔒 | Miami, FL, NYC | F26 | 🔒 Closed | today |
 | **The Campbell's Company** | Agentic AI Engineer Co-op | Remote in USA | F26 | [Apply](https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015?utm_source=Simplify&ref=Simplify) | 2w ago |
 | **Cotiviti** | Generative AI Research Engineer Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19341/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Instacart** | Machine Learning PhD Intern, Economics (Fall) | United States - Remote | F26 | [Apply](https://instacart.careers/job/?gh_jid=7532267) | 3w ago |
@@ -637,11 +636,12 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **AssetWorks** | Software Development Intern - Engineering Team - React Native | Texas | F26 | [Apply](https://volarisgroup.wd3.myworkdayjobs.com/GoAssetWorks/job/United-States---TX/Software-Development-Intern_R67762?utm_source=Simplify&ref=Simplify) | today |
 | **Copart** | Database Engineer Intern | Dallas, TX | F26 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636?utm_source=Simplify&ref=Simplify) | today |
 | **Point C** | Data Science AI Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/pointc/jobs/5236086008?utm_source=Simplify&ref=Simplify) | today |
 | **PsiQuantum** | System Architecture Intern | Palo Alto, CA, Bristol and 4 more | F26 | [Apply](https://www.psiquantum.com/apply?gh_jid=7695577003&utm_source=Simplify&ref=Simplify) | today |
+| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - New York | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335) | today |
+| 🔥 **Crowdstrike** | Intelligence Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Intern---Fall-2026--Remote-_R29214?utm_source=Simplify&ref=Simplify) | today |
 | **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | 2d ago |
 | **BCBST** | Provider Data Reporting Intern | Chattanooga, TN | F26 | [Apply](https://bcbst.wd1.myworkdayjobs.com/external/job/USA-TN-Chattanooga-Remote/Intern---Provider-Data-Reporting_R-49815?utm_source=Simplify&ref=Simplify) | 6d ago |
 | 🔥 **The Walt Disney Company** | KTRK-TV (ABC13) News Intern, Fall 2026 | Houston, TX, USA | F26 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Houston-TX-USA/KTRK-TV--ABC13--News-Intern--Fall-2026_10152696-1) | 6d ago |
