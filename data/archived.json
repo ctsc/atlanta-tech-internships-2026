@@ -44841,8 +44841,37 @@
         "senior"
       ],
       "listing_type": "internship"
+    },
+    {
+      "id": "e99fac6c1b1b3d73dd7c99884e6f5da6a14fd0896981c25a9d3f4e49c49b7baa",
+      "company": "Qualitest",
+      "company_slug": "qualitest",
+      "role": "Digital Engineering CoE Intern",
+      "category": "other",
+      "locations": [
+        "California"
+      ],
+      "apply_url": "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors&utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-04-11",
+      "date_last_verified": "2026-06-20",
+      "source": "github_monitor",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-07-03T04:01:00.223739Z",
+  "last_updated": "2026-07-03T09:43:43.079550Z",
   "total_open": 0
 }
