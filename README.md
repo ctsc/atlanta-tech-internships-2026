@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: July 04, 2026 at 09:01 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: July 04, 2026 at 02:37 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -20,10 +20,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 43 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 78 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 17 |
-| 🔹 [Other](#-other) | 604 |
-| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 82 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 166 |
-| **Total** | **902** |
+| 🔹 [Other](#-other) | 606 |
+| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 83 |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 167 |
+| **Total** | **904** |
 
 ---
 
@@ -46,6 +46,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
 | **Travelers** | Engineering Development Program Intern - Engineering Development Program | Sparks, MD, Hartford and 5 more | F26 | [Apply](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-51185?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Caterpillar Inc.** | Engineering Intern - Product Development Track | West Chester, PA, Peoria and 31 more | F26 | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Intern-Program-----Product-Development-Track_R0000380479?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Hermeus** | Structures/Mechanical Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/08a3c5df-559a-49c8-a685-8165cb8388c7) | 5d ago |
@@ -219,6 +220,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
 | 🔥 **Intel** | DTCO Data Engineer Intern | US, Texas, Austin | F26 | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/DTCO-Data-Engineer-Intern_JR0285341) | 2d ago |
 | 🔥 **Crowdstrike** | Intelligence Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Intern---Fall-2026--Remote-_R29214?utm_source=Simplify&ref=Simplify) | 3d ago |
 | 🔥 **Optiver** | Software Engineer Intern (Summer 2027 - Austin) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002) | 3d ago |
@@ -642,8 +644,10 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Sezzle** | Product Intern | Remote in Canada | F26 | [Apply](https://job-boards.greenhouse.io/sezzle/jobs/6599073003?utm_source=Simplify&ref=Simplify) | today |
-| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - New York | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335) | today |
 | **Moss & Associates** | Construction Technologies Intern | McKinney, TX, Tampa and 3 more | F26 | [Apply](https://mosscm.wd1.myworkdayjobs.com/moss_careers/job/FORT-LAUDERDALE-FL/Construction-Technologies-Internship_R-2710?utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | today |
+| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - Michigan | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961) | today |
 | **Centific** | Technical Intern | Remote in USA, Redmond, WA | F26 | [Apply](https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/Technical-Intern--Masters-or-PhD-_JR105488-1?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Travelers** | Engineering Development Program Intern - Engineering Development Program | Sparks, MD, Hartford and 5 more | F26 | [Apply](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-51185?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Caterpillar Inc.** | Engineering Intern - Product Development Track | West Chester, PA, Peoria and 31 more | F26 | [Apply](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Intern-Program-----Product-Development-Track_R0000380479?utm_source=Simplify&ref=Simplify) | 2d ago |

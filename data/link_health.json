@@ -1532,7 +1532,7 @@
     "last_checked": "2026-07-04"
   },
   "64b93de1ecb33ffe1ef9a861180fd1e1eb3371f93e67da4a7888ecfd797b8589": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-07-04"
   },
   "6be8cbcbcf1fcc103cb1d32b04af202fdb014d2b7120174482a6a16fbf69bc55": {
@@ -5676,11 +5676,11 @@
     "last_checked": "2026-07-04"
   },
   "149afb8352ecd00b60a36c3cfe34a43fc611f01d8a786bfab72a0ce50e9d5017": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-07-04"
   },
   "588418fd0ea5b86f018413d829016890679c683d799e3cd95370272c6b7ea7f3": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-07-04"
   }
 }
