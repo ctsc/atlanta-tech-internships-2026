@@ -2828,7 +2828,7 @@
     "last_checked": "2026-07-04"
   },
   "6796e2de2feb739eebea39705594d648f6dfa9174089393f8d6c82ff2c7bb8d4": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "last_checked": "2026-07-04"
   },
   "3487bb771b1c35315430aaf2f6905632b6a620f241f1a097358238d5fd486743": {
@@ -3128,7 +3128,7 @@
     "last_checked": "2026-04-28"
   },
   "6cd6bf17b530c67e45a187384e58c15e9edacf6052885921f5eb6db57baaf07e": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-07-04"
   },
   "125191300181672760eb8c856148723badd7ed13aafcb076a9b342f7361f9d12": {
@@ -4600,7 +4600,7 @@
     "last_checked": "2026-05-30"
   },
   "cccfbb239aece8abb03392f27a2f08946d58e1997573c45f01a55b25e4e34281": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-07-04"
   },
   "1fe75b7efbc148c4e7df2cc023446e9be3a436516671b5d175b083d421adcacd": {
@@ -5128,15 +5128,15 @@
     "last_checked": "2026-06-13"
   },
   "29deb9946359af794782053897ddc0397aa45a39e29b69b7dcda66feb2f74a3d": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-04"
   },
   "a4b0bbe3acbf8c052feb62141a8a3233acd65d73bfa8da52678f4287eb83d052": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-04"
   },
   "03e80739a46b3dc60dd8e320730cde01a8d12cc3e5aeed0e785af74012b2ec83": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-04"
   },
   "25a97976d625da6d4f689bc0ceae10f655cd3f5b478045af8f6205030c43f8e2": {
@@ -5420,8 +5420,8 @@
     "last_checked": "2026-06-30"
   },
   "fcc00a20282e632c71327f4cced865db65635d319de1cff9f1eb10693cbe4533": {
-    "consecutive_failures": 2,
-    "last_checked": "2026-06-27"
+    "consecutive_failures": 3,
+    "last_checked": "2026-07-04"
   },
   "c7b57a29b31336617d43f868c8749e923a3a4ba4002f711d0f521acc6e1f26bf": {
     "consecutive_failures": 2,
@@ -5472,12 +5472,12 @@
     "last_checked": "2026-06-27"
   },
   "230ed5da635d9b60aac3e074e35bd6d0d37507581f3171eebe0da385c1f886b2": {
-    "consecutive_failures": 2,
-    "last_checked": "2026-06-27"
+    "consecutive_failures": 3,
+    "last_checked": "2026-07-04"
   },
   "0aaea8341bfb2309fb062002db9c18dd4a5cd171bfd396cfb5ad6156a6d20cc9": {
-    "consecutive_failures": 2,
-    "last_checked": "2026-06-27"
+    "consecutive_failures": 3,
+    "last_checked": "2026-07-04"
   },
   "9cdb500a1c65d6ab814ad908e99381d8d9c05784af0b52cc7c84fb3d17fdf048": {
     "consecutive_failures": 2,
@@ -5652,6 +5652,34 @@
     "last_checked": "2026-07-03"
   },
   "5c9acc3f14300a139ff2760f2aa925e05316a7b5fb10c435646458d772eae7bd": {
+    "consecutive_failures": 2,
+    "last_checked": "2026-07-04"
+  },
+  "e4fbe230f366f5c8359ae4e3b93a7e249620b425ca45359c5828334ddd558b99": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "e3590b1352145e04ee95fab9b5a165d53e2972d32acfd5b12df356c703d657b6": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "2f612ef41ca910499cfeafa02b0f7f838255ae814f4ea78c33e034aa5e65d310": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "446ed59bf497901efa20d27fe6b2f70d09b1bc61becfb00f945864f313ec451b": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "1ccfb25f4bf9bfedf81ccad029c4fe2383f05f04fb22e5beb68bf92061df4fce": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "149afb8352ecd00b60a36c3cfe34a43fc611f01d8a786bfab72a0ce50e9d5017": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-04"
+  },
+  "588418fd0ea5b86f018413d829016890679c683d799e3cd95370272c6b7ea7f3": {
     "consecutive_failures": 1,
     "last_checked": "2026-07-04"
   }
