@@ -108328,8 +108328,66 @@
       "industry": "media",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "9cb1220674bb195a05e2b38e702e47d9d0a63400e1f3e289e49818262924d632",
+      "company": "Transcarent",
+      "company_slug": "transcarent",
+      "role": "Product Management Intern",
+      "category": "other",
+      "locations": [
+        "Remote in USA"
+      ],
+      "apply_url": "https://boards.greenhouse.io/transcarent/jobs/5808316004?utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-03-12",
+      "date_last_verified": "2026-04-27",
+      "source": "github_monitor",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "c131c938babc45c609ccb9f38177ccc1a39ffdba923a2086eaa4dce752a214f0",
+      "company": "Transcarent",
+      "company_slug": "transcarent",
+      "role": "Software Engineering Intern - Virtual Primary Care",
+      "category": "swe",
+      "locations": [
+        "Seattle, W"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/transcarent/jobs/5822302004?gh_jid=5822302004&utm_source=Simplify&ref=Simplify",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-03-12",
+      "date_last_verified": "2026-04-17",
+      "source": "github_monitor",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-07-08T03:35:17.974653Z",
+  "last_updated": "2026-07-08T14:44:22.643763Z",
   "total_open": 2101
 }
