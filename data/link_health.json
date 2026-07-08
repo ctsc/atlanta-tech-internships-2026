@@ -3704,8 +3704,8 @@
     "last_checked": "2026-05-09"
   },
   "808ca1bc24b6c24843f73167089512a74b8f1d02f5b7d3cfa110cb5a268373a2": {
-    "consecutive_failures": 2,
-    "last_checked": "2026-05-09"
+    "consecutive_failures": 0,
+    "last_checked": "2026-07-08"
   },
   "47e366992c30f163853314b4458b8e8b18f66d082d6b17741990dbf086957d3e": {
     "consecutive_failures": 2,
@@ -5028,7 +5028,7 @@
     "last_checked": "2026-07-01"
   },
   "0a433f3ca96a3499945bac11f2c3747930fbd671140689605665b34750bfb36d": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-08"
   },
   "e034d7ea288fff8ea85c9d1159c373fa8527635df3461cb94dee333a5a40df1c": {
@@ -5504,7 +5504,7 @@
     "last_checked": "2026-06-29"
   },
   "28a422aea25464767aa3ca13583c4d54cfc8ad2bd4af58df33baea4e088844c0": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-08"
   },
   "7499b68d88ffc3e0e089a78788e6b2f576e5754dd1c5f554100077092560b53b": {
@@ -5620,11 +5620,11 @@
     "last_checked": "2026-07-08"
   },
   "2e871cd6e88d4872c29638e09745197909a47fd0fbb816a33ce891910495f1b6": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-08"
   },
   "980ff96b496ad792d248dc026fd795c5bbd02c4bba221e9d190171b391a10f7e": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-07-08"
   },
   "9d4ca410e946e42e2bb713c19620808a6806f0a01a63fe8337bafba9b27e88bc": {
@@ -5789,6 +5789,18 @@
   },
   "c131c938babc45c609ccb9f38177ccc1a39ffdba923a2086eaa4dce752a214f0": {
     "consecutive_failures": 2,
+    "last_checked": "2026-07-08"
+  },
+  "901c7228f1cfa0d47a269c3f10db88a76c1fe2d8fd1ca1941c08e5e78581fed5": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-08"
+  },
+  "33a4dfe971bb639aa5f7cdd9575156bdf5ae56e8fe3ab750b8f3b89b38e28507": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-08"
+  },
+  "66b747c28c75f5f19350c6eed9f5067fef3214996fe4e73048bc936051050d9f": {
+    "consecutive_failures": 1,
     "last_checked": "2026-07-08"
   }
 }
