@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: July 13, 2026 at 10:06 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: July 14, 2026 at 03:32 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,14 +16,14 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 138 |
+| 💻 [Software Engineering](#-software-engineering) | 139 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 42 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 70 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 14 |
 | 🔹 [Other](#-other) | 500 |
-| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 66 |
+| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 67 |
 | 🍑 [Roles Open in GA](#-roles-open-in-ga) | 151 |
-| **Total** | **764** |
+| **Total** | **765** |
 
 ---
 
@@ -204,6 +204,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
 | 🔥 **Intel** | DTCO Data Engineer Intern | US, Texas, Austin | F26 | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/DTCO-Data-Engineer-Intern_JR0285341) | 1w ago |
 | 🔥 **Crowdstrike** | Intelligence Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Intern---Fall-2026--Remote-_R29214?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Optiver** | Software Engineer Intern (Summer 2027 - Austin) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002) | 1w ago |
@@ -277,13 +278,15 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Zscaler** | Site Reliability Engineer Federal- SkillBridge Intern | Remote - Virginia, USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5046050007) | today |
+| **Zscaler** | Site Reliability Engineer-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5045817007) | today |
 | **Copart** | Software Engineer Intern | Dallas, TX | F26 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109393?utm_source=Simplify&ref=Simplify) | 3d ago |
 | **Equifax** | Technology Intern | USA - Georgia - Alpharetta - 30005 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/Technology-Intern_J00170964) | 1w ago |
 | **Outmarket AI** | AI Software Engineer Intern | Remote in India, Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/outmarket/8d192421-2422-42f5-854f-6a0765a949da/application?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Binance** | Software Engineer Intern | Remote in USA | F26 | [Apply](https://jobs.ashbyhq.com/binance.us/c23e9aa3-0daa-4170-a5a7-b03aaa031895/application?utm_source=Simplify&ref=Simplify) | 1w ago |
 | 🔥 **Optiver** | Software Engineer Intern (Summer 2027 - Austin) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002) | 1w ago |
 | **VetsEZ** | Full Stack Developer Intern | Remote in US | F26 | [Apply](https://vetsez.breezy.hr/p/a4010fdb3a7001-full-stack-developer-intern-remote-opportunity?utm_source=Simplify&ref=Simplify) | 2w ago |
-| **KnowBe4** | Software Engineer Intern | Clearwater, FL | F26 | [Apply](https://job-boards.greenhouse.io/knowbe4/jobs/8597668002?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **KnowBe4** | Software Engineer Intern 🔒 | Clearwater, FL | F26 | 🔒 Closed | 3w ago |
 | **Arine** | Full Stack Engineer Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/arine/jobs/6026856004?utm_source=Simplify&ref=Simplify) | 1mo ago |
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Costa Mesa, California, United States and 3 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | 1mo ago |
 | **Ultra Intelligence and Communications** | Software Engineer Intern | Austin, TX | F26 | [Apply](https://ultra.wd3.myworkdayjobs.com/uiccareers/job/Austin-TX-United-States/Software-Engineer-Intern_REQ-12111?utm_source=Simplify&ref=Simplify) | 1mo ago |
@@ -570,8 +573,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Leidos** | Engineering Intern | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00187036) | today |
-| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - Michigan | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961) | today |
 | **Leidos** | Engineering Engineer Intern | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Engineering-Intern_R-00187036?utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - New York | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335) | today |
 | **Hermeus** | Manufacturing Engineering Intern - Fall 2026 | Atlanta, GA | F26 | [Apply](https://jobs.lever.co/hermeus/922ee234-94aa-473b-8464-03f28a709872) | 1d ago |
 | **Fidelity Investments** | Summer 2027 Undergraduate Internship - FidHacks (Westlake, TX) | Westlake, TX | S27 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/Summer-2027-Undergraduate-Internship---FidHacks--Westlake--TX-_2132098) | 3d ago |
 | **Intuitive Surgical** | Global Customer Insights Intern | Peachtree Corners, GA | F26 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000136841879) | 5d ago |
@@ -598,9 +602,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **GE Healthcare** | Field Engineer Apprentice | San Antonio, TX | F26 | [Apply](https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice--San-Antonio--TX-_R4042305-1?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Continental** | Intern - IT Analyst / Project Coordinator, Year-Round | Rock Hill, SC | F26 | [Apply](https://jobs.smartrecruiters.com/Continental/744000133112004) | 3w ago |
 | **Bugcrowd** | Engineering Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 3w ago |
-| **iHerb** | Software Development Intern | Remote in USA | F26 | [Apply](https://job-boards.greenhouse.io/iherb/jobs/7776154003?utm_source=Simplify&ref=Simplify) | 3w ago |
 | 🔥 **Crowdstrike** | GTM Automation Intern | Remote in USA, Remote in Canada | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-CA/GTM-Automation-Intern--Remote-_R29083?utm_source=Simplify&ref=Simplify) | 3w ago |
 | 🔥 **Crowdstrike** | Intelligence Launch Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Launch-Intern---Summer-2026--Remote-_R26263?utm_source=Simplify&ref=Simplify) | 3w ago |
+| **iHerb** | Software Development Intern 🔒 | Remote in USA | F26 | 🔒 Closed | 3w ago |
 | **Cotiviti** | Agentic AI Research Intern | Remote in USA | F26 | [Apply](https://careers-cotiviti.icims.com/jobs/19416/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 3w ago |
 | **The Boeing Company** | Circuit Card Assembly Specialist Apprentice | Huntsville, AL | F26 | [Apply](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Huntsville-AL/Circuit-Card-Assembly-Specialist-Apprenticeship_JR2026515181?utm_source=Simplify&ref=Simplify) | 3w ago |
 | **Texas Instruments** | Engineering Technician Intern | Dallas, TX, Tucson and 1 more | F26 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25010550?utm_source=Simplify&ref=Simplify) | 3w ago |
