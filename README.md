@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: July 18, 2026 at 10:35 PM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: July 19, 2026 at 03:39 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -18,10 +18,10 @@ Use this repo to discover and track **tech internships** across software enginee
 |----------|-----------|
 | 💻 [Software Engineering](#-software-engineering) | 124 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 42 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 63 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 62 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 13 |
-| 🔹 [Other](#-other) | 440 |
-| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 57 |
+| 🔹 [Other](#-other) | 441 |
+| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 58 |
 | 🍑 [Roles Open in GA](#-roles-open-in-ga) | 140 |
 | **Total** | **682** |
 
@@ -193,6 +193,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
 | 🔥 **Intel** | DTCO Data Engineer Intern | US, Texas, Austin | F26 | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/DTCO-Data-Engineer-Intern_JR0285341) | 2w ago |
 | 🔥 **Crowdstrike** | Intelligence Intern | Remote in USA | F26 | [Apply](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Intelligence-Intern---Fall-2026--Remote-_R29214?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Optiver** | Software Engineer Intern (Summer 2027 - Austin) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8401052002/?gh_jid=8401052002) | 2w ago |
@@ -459,9 +460,9 @@ Use this repo to discover and track **tech internships** across software enginee
 | **OBE** | AI Intern – Data, Analytics & AI | Dallas, TX | F26 | [Apply](https://job-boards.greenhouse.io/oldcastlebuildingenvelope/jobs/4238154009?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Gordon Food Service** | Data Engineer Intern | Atlanta, GA | F26 | [Apply](https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Data-Engineer-Internship_R-42918?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Becton Dickinson** | Quality Analytics Engineer Intern | Durham, NC | F26 | [Apply](https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NC---Durham---Roche-Drive/Quality-Analytics-Engineering-Intern_R-544433?utm_source=Simplify&ref=Simplify) | 2mo ago |
-| **Rocket Lawyer** | Data Engineering Intern - AI & Automation | California, SF, Arizona and 3 more | F26 | [Apply](https://job-boards.greenhouse.io/rocketlawyer/jobs/5203906008?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Fiserv** | Summer Intern - Data Engineer | Alpharetta, Georgia | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654) | 2mo ago |
 | **Fiserv** | Intern - Data Engineer | Alpharetta, GA | F26 | [Apply](https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654?utm_source=Simplify&ref=Simplify) | 2mo ago |
+| **Rocket Lawyer** | Data Engineering Intern - AI & Automation 🔒 | California, SF, Arizona and 3 more | F26 | 🔒 Closed | 2mo ago |
 | **Becton Dickinson** | Business Data Analytics Intern - Channel Coverage | New Mexico, Washington, Kansas and 53 more | F26 | [Apply](https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-MD---Sparks---7-Loveton-Circle/Business-Data-Analytics-Intern--Channel-Coverage_R-544035?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **Nerdio** | People Operations & Analytics Intern | Remote in USA | F26 | [Apply](https://ats.rippling.com/nerdio-careers/jobs/ee6d6694-544b-48f8-84fe-c1ddf1fcb1c4?utm_source=Simplify&ref=Simplify) | 2mo ago |
 | **PrizePicks** | Business Intelligence Intern - Fall 2026 | Atlanta, Georgia, United States | F26 | [Apply](http://prizepicks.com/position?gh_jid=7711235003) | 2mo ago |
@@ -530,7 +531,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - New York | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335) | today |
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| **Sony** | Research Intern on Generative and Protective AI for Content Creation | Remote - Michigan | F26 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961) | today |
 | **Citadel Securities** | Quantitative Researcher PhD Intern 🔒 | Miami, FL, NYC | F26 | 🔒 Closed | 1d ago |
 | **City of Charlotte** | Management Analyst Intern - Research and Planning Division | Charlotte, NC | F26 | [Apply](https://charlottenc.wd12.myworkdayjobs.com/citgov/job/CMPD-HQ/Management-Analyst-Intern--Research-and-Planning-Division_JR104084-1?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Bosch** | Intern - Logistics | Lincolnton, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000138182639) | 3d ago |
