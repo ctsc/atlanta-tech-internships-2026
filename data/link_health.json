@@ -6130,5 +6130,13 @@
   "47afcd79dfa38df23e32cbbc29aea8c777b1c4973779f84d0d4fa2764e0fbf87": {
     "consecutive_failures": 2,
     "last_checked": "2026-07-25"
+  },
+  "4b64535200ff8741ab3e91be1d4e0efaa60338d207573a90d7003f47d8fe378b": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-27"
+  },
+  "db2c99c509dbd17e822ab55c99484ae4209f8f04667228e18b1582b8abbd27c9": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-27"
   }
 }
