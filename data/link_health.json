@@ -6144,6 +6144,22 @@
     "last_checked": "2026-07-28"
   },
   "11d3b234499b0733fc74822f0395718b2877d2960e272f6019ed3e35c663717a": {
+    "consecutive_failures": 2,
+    "last_checked": "2026-07-28"
+  },
+  "3df04bef37fde93324a968b71434c3bc6cbde0b6dcd5bb79676cb45b404fac37": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-28"
+  },
+  "ea8696340b9b1905e207c9ff6a87f94832a1fa370713b9d6c9603b40ab845390": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-28"
+  },
+  "b08d2b5099b4b139c17765ba55755c623cd6dca5ebbb33d6dffb0d8cf0c0e4ff": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-07-28"
+  },
+  "65c65b864276025b13d9421724c9b811680a008bbb8aec70d8c36ed6a8f7a9c3": {
     "consecutive_failures": 1,
     "last_checked": "2026-07-28"
   }
