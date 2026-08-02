@@ -165843,17 +165843,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "637c94a2bf9f01226d63fe4617d1ef9718d986bbdd5d5829d6cb14b07992871d",
+      "id": "badb94ea4eed963b9d3b10681c59c9a668d1d42fbce3375f65d9a42b6d86829f",
       "company": "Block (Square)",
       "company_slug": "block-(square)",
       "role": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
       "category": "other",
       "locations": [
-        "Toronto",
-        "Ontario",
-        "Canada"
+        "Bay Area",
+        "CA",
+        "United States of America"
       ],
-      "apply_url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008",
+      "apply_url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -165877,17 +165877,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "b426c675d93df918e5c35b372ef9c41b476d3cd3e62fb2babdd2aedd5f3d15a1",
+      "id": "2f87352e9c99eb4b2d77fa5ce45c851da61d1133fb8cbf0689dbd23af0f9687d",
       "company": "Optiver",
       "company_slug": "optiver",
       "role": "Quantitative Research Intern, PhD (Summer 2027)",
       "category": "other",
       "locations": [
-        "Austin",
-        "Texas",
+        "Chicago",
+        "Illinois",
         "United States"
       ],
-      "apply_url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
+      "apply_url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -165910,17 +165910,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "55bd92be63146e8f573fc71d16095229ff0fa93f97407fe3e9095bd8127d3c05",
+      "id": "c520913bd415d514afa3cc821b53c31276c7e7136af391cf7f56488ad0763018",
       "company": "Virtu Financial",
       "company_slug": "virtu-financial",
       "role": "2027 Internship - Quantitative Trading",
       "category": "other",
       "locations": [
-        "Austin, TX",
-        "Chicago",
-        "New York"
+        "Singapore"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/5208637002",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -165944,15 +165942,16 @@
       "listing_type": "internship"
     },
     {
-      "id": "9f1a110abd669957f9b02b6e345a35919ab9ab40f4c6919b4cbc7a3f7eec7243",
+      "id": "8d281a67c96c8083e679d4698c7a6c4df424e1ced57b3ac71bdad3c035097728",
       "company": "Virtu Financial",
       "company_slug": "virtu-financial",
       "role": "2027 Internship - Software Engineer",
       "category": "swe",
       "locations": [
-        "Dublin, Ireland"
+        "Austin, TX",
+        "New York"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8551566002",
+      "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -165970,23 +165969,22 @@
       "end_date": null,
       "industry": "fintech",
       "preferred_class_years": [
-        "senior",
-        "masters"
+        "senior"
       ],
       "listing_type": "internship"
     },
     {
-      "id": "db2c99c509dbd17e822ab55c99484ae4209f8f04667228e18b1582b8abbd27c9",
+      "id": "65c65b864276025b13d9421724c9b811680a008bbb8aec70d8c36ed6a8f7a9c3",
       "company": "FanDuel",
       "company_slug": "fanduel",
-      "role": "Canada Marketing Co-Op (Communications) - Fall 2026",
+      "role": "Canada Marketing Co-Op - Fall 2026",
       "category": "other",
       "locations": [
         "Toronto",
         "Ontario",
         "Canada"
       ],
-      "apply_url": "https://www.fanduel.careers/open-positions?gh_jid=8089328",
+      "apply_url": "https://www.fanduel.careers/open-positions?gh_jid=8092218",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166007,15 +166005,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "ca60a70c85fa5092cac38d0c6b981bfb4fb20634fe410cd20db861f04ec17a26",
+      "id": "7abc51e62f2dc8f670ed264d33f99d3a5632f958c8eee4fa58e71f115a82e1dc",
       "company": "Intel",
       "company_slug": "intel",
       "role": "AI Software Engineering Intern",
       "category": "swe",
       "locations": [
-        "Poland, Gdansk"
+        "US",
+        "Arizona",
+        "Phoenix"
       ],
-      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/Poland-Gdansk/AI-Software-Engineering-Intern_JR0285471",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166036,17 +166036,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "74b44a3edb194334427c30e0f332df9916d9ede5ebe545d76d2dcedd59342122",
+      "id": "1c5abb89a0bfd1804225864be15b56811ec123290107b12934e967d2475d1fb5",
       "company": "Intel",
       "company_slug": "intel",
-      "role": "New Mexico WPM Manufacturing Technician Internship",
+      "role": "New Mexico Manufacturing Technician Internship",
       "category": "other",
       "locations": [
         "US",
         "New Mexico",
         "Albuquerque"
       ],
-      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-New-Mexico-Albuquerque/New-Mexico-WPM-Manufacturing-Technician-Internship_JR0285454",
+      "apply_url": "https://intel.wd1.myworkdayjobs.com/External/job/US-New-Mexico-Albuquerque/New-Mexico-Manufacturing-Technician-Internship_JR0284246",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166067,17 +166067,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "e57e5f231cafdafc914717505493bb828a74a204e4b49895ea6d7e5b1dbb3d8b",
+      "id": "a7abb5f9612539b2f40df2c5e9513a302bb3ddfaeb4e1b14be851603644c47f1",
       "company": "Morgan Stanley",
       "company_slug": "morgan-stanley",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Newport",
-        "Rhode Island",
+        "Pasadena",
+        "California",
         "United States of America"
       ],
-      "apply_url": "https://ms.wd5.myworkdayjobs.com/External/job/Newport-Rhode-Island-United-States-of-America/Intern_JR040738",
+      "apply_url": "https://ms.wd5.myworkdayjobs.com/External/job/Pasadena-California-United-States-of-America/Intern_JR037649",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166098,15 +166098,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "89aa4237d891f250bc3b66ec64c8de1a2361e9f5ddb216c0165c59d7c7a54390",
+      "id": "d5ff4472faddcf2c8c1c006df2f26b214496aa2e61e0d61011bb2246ce15b699",
       "company": "Fidelity Investments",
       "company_slug": "fidelity-investments",
       "role": "Technology Intern",
       "category": "swe",
       "locations": [
-        "Galway, Ireland"
+        "Dublin, Ireland"
       ],
-      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Galway-Ireland/technology-Intern_2124817",
+      "apply_url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Dublin-Ireland/Technology-Intern_2124825",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166127,15 +166127,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "59c297000976fc4eb4da6a1e8eeffc1ac8093c535cf246f5babe3c5a0339edbe",
+      "id": "3520abb8d1d53f405196ddd88e63ac6219fdcea633d1ffef5a85fa3be29694ea",
       "company": "Accenture",
       "company_slug": "accenture",
-      "role": "Supply Chain & Engineering AI internship",
+      "role": "Supply Chain & Engineering Internship",
       "category": "other",
       "locations": [
         "Unknown"
       ],
-      "apply_url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Engineering-Services-New-Associate_R00342637",
+      "apply_url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Supply-Chain---Engineering-Internship_R00327505",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166156,44 +166156,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "b0ed263141a57ba3c24fdbb0e290ef8c092e493b585d757e7adcbe5bd5c16ba5",
-      "company": "PwC",
-      "company_slug": "pwc",
-      "role": "Intern - Assurance",
-      "category": "other",
-      "locations": [
-        "Kuching"
-      ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuching/Intern---Assurance_747618WD",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-08-02",
-      "date_last_verified": "2026-08-02",
-      "source": "workday_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "other",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "995f9e3c0ca640c5cb2f7ce94c375a09c845c05ccd5f0ed5c8015fd85066e420",
+      "id": "eff86be66aae9df967307ac3fded09752a1d615e5b1e8caa68c2f44079538069",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Intern - Assurance (January - April 2027 intake)",
       "category": "other",
       "locations": [
-        "Johor Bahru"
+        "Penang"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Johor-Bahru/Intern---Assurance--January---April-2027-intake-_744784WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--January---April-2027-intake-_742325WD-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166214,15 +166185,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "7a29e1e5256a20fbe441152a3b8001bfdcf47b4ee334b7b410156dd9139796ba",
+      "id": "ab0c766fdffba3b1c36cfc3a35cefd50a5b519667bed2e7c8b70b8a22e9d26c9",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Consulting - Strategy & Operations Year-End Internship (Dec 26 - Feb 27)",
+      "role": "Intern - Assurance",
       "category": "other",
       "locations": [
-        "Singapore"
+        "Ipoh"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Strategy---Operations-Year-End-Internship--Dec-26---Feb-27-_740556WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ipoh/Intern---Assurance_742014WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166243,15 +166214,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "b33a7c264529ab94003247ae1ead4256259aed15d5c1cbabc7322dcc2b3f28e1",
+      "id": "ed489795715cc9953b6642784a69655b88bfee0068b62d97c40d1cf0655f8948",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Consulting - Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
+      "role": "Consulting - Finance Strategy & Operations Off Cycle Internship (Jan - Jun 27)",
       "category": "other",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Strategy---Operations-Off-Cycle-Internship--Jan---Jun-27-_740557WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Finance-Strategy---Operations-Off-Cycle-Internship--Jan---Jun-27-_740957WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166272,15 +166243,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "b7e85dbf86af3ef98650983be14cdfe8d7813e813b776335d772b2ec229b520a",
+      "id": "bad87dcd63eb2e1e005100483917086ee4cb798d4e41cfbe89df0808a9839a3d",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Consulting - Digital, Cloud, Data (Cloud) Off Cycle Internship (Jan - Jun 27)",
+      "role": "Consulting - Finance Strategy & Operations Year-End Internship (Dec 26 - Feb 27)",
       "category": "other",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Digital--Cloud--Data--Cloud--Off-Cycle-Internship--Jan---Jun-27-_740976WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Finance-Strategy---Operations-Year-End-Internship--Dec-26---Feb-27-_740953WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166301,15 +166272,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "484c8988b7bd1d3848b947a5ddd1caadf1b4eaf86119437fcc69b92efcc54735",
+      "id": "3ff6ef33a58259481991b49a7088197f0d0a7f92e507699f091c3e8198fa87fa",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Consulting - Digital, Cloud, Data (Cloud) Year-End Internship (Dec 26 - Feb 27)",
+      "role": "Consulting - Digital, Cloud, Data (Data) Off Cycle Internship (Jan - Jun 27)",
       "category": "other",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Digital--Cloud--Data--Cloud--Year-End-Internship--Dec-26---Feb-27-_740975WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Digital--Cloud--Data--Data--Off-Cycle-Internship--Jan---Jun-27-_740967WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166330,15 +166301,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "9265a574a86777e95bc28fde9f459542b6d5729cd42c41f897a8e83125bb752e",
+      "id": "c211595a18218502e7f4d51dcc1843ba79bbfd4b15ce1086e9a67481a156848c",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Financial Services Assurance - Campaigns (ESG) Off-Cycle Internship (Jan - Jun 27)",
+      "role": "Consulting - Digital, Cloud, Data (Data) Year-End Internship (Dec 26 - Feb 27)",
       "category": "other",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Financial-Services-Assurance---Campaigns--ESG--Off-Cycle-Internship--Jan---Jun-27-_741574WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Consulting---Digital--Cloud--Data--Data--Year-End-Internship--Dec-26---Feb-27-_740962WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166359,15 +166330,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3a335df98f2bb9a49a9e8049d0017a624ed9d945145485a404f717e91edf5c63",
+      "id": "e01fab276c19cd1948a461b16b669584f9f01596229563d2a0e3ab32e21ac66f",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Risk Services - Regulatory Risk & Compliance Year-End Internship (Dec 26 - Feb 27)",
+      "role": "Risk Services - Governance, Risk & Compliance Year-End Internship (Dec 26 - Feb 27)",
       "category": "other",
       "locations": [
         "Singapore"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Regulatory-Risk---Compliance-Year-End-Internship--Dec-26---Feb-27-_741553WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore/Risk-Services---Governance--Risk---Compliance-Year-End-Internship--Dec-26---Feb-27-_741465WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166388,15 +166359,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "49bda24c618100a98b2bfb172d81ed17b9b06e197765a809bc9badb1e4a97e0a",
+      "id": "3e6e8d84cc910df82b3c86dec5f8ad0715b4ce362034c818dfcb18cb9addf7d6",
       "company": "PwC",
       "company_slug": "pwc",
-      "role": "Intern - Assurance (October - December 2026 intake)",
+      "role": "Financial Services Assurance - Off-Cycle Internship (Jan - Jun 27)",
       "category": "other",
       "locations": [
-        "Penang"
+        "Singapore - Marina One"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--October---December-2026-intake-_713828WD-1",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Singapore---Marina-One/Financial-Services-Assurance---Off-Cycle-Internship--Jan---Jun-27-_741186WD",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166410,22 +166381,51 @@
       "status": "open",
       "tech_stack": [],
       "season": "fall_2026",
-      "start_date": "2026-10",
-      "end_date": "2026-12",
+      "start_date": null,
+      "end_date": null,
       "industry": "other",
       "preferred_class_years": [],
       "listing_type": "internship"
     },
     {
-      "id": "f7fa42ff5a3b566d6ff64557eb6e3b46652da138bdfa0e3a32a83a7945f3189c",
+      "id": "41ec51ff67a5246195c611c9a956ce093af1b5ffb3ae2cd55bff8991ef6a0478",
+      "company": "PwC",
+      "company_slug": "pwc",
+      "role": "Intern - Assurance (October 2026 Intake)",
+      "category": "other",
+      "locations": [
+        "Kuala Lumpur"
+      ],
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Assurance--October-2026-Intake-_719776WD",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "f65881eec2f73976c0eb11f0d1d3cc4161afd853a0b980c6ea82d3a1bad8f24e",
       "company": "PwC",
       "company_slug": "pwc",
       "role": "Intern - Assurance (May - September 2026 intake)",
       "category": "other",
       "locations": [
-        "Penang"
+        "Melaka"
       ],
-      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Penang/Intern---Assurance--May---September-2026-intake-_704167WD",
+      "apply_url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Melaka/Intern---Assurance--May---September-2026-intake-_712773WD-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166446,15 +166446,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "d6866c5a25d88ad37d44ba4de35d817d363b308f7d5493c4df0659fbc4561287",
+      "id": "7262d04936f98915d3e2485dce5b1ae74fcddfcc7706c44ffcbcced22983d0a7",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Chessy, France"
+        "Marne la Vallee Cedex 4, France"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Chessy-France/Intern_DLP-0000434669",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Marne-la-Vallee-Cedex-4-France/Intern_10142698",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166475,17 +166475,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "1dcd42f478ff6f178c40d5ff5cd882a6c5808be14d07e7e5a9d66a41964b23ca",
+      "id": "5a96e890cc9620e6abc011c0079a8323c52c375a534c51aae935d3691e44ed66",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Disneyland Resort Industrial Engineering Intern, Spring 2027",
+      "role": "Disneyland Resort Alumni Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Anaheim",
         "CA",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Industrial-Engineering-Intern--Spring-2027_10140384-1",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Anaheim-CA-USA/Disneyland-Resort-Alumni-Industrial-Engineering-Intern--Spring-2027_10141149",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166506,17 +166506,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "d9bd92c4010ef838ed27e238342fcdeba73f0fe596c1380a4a28b1b7654936a6",
+      "id": "d805a2b940d81c455dc06b29601ff093e90ad285b020c5274fb5b15075f41642",
       "company": "The Walt Disney Company",
       "company_slug": "the-walt-disney-company",
-      "role": "Walt Disney World Industrial Engineering Intern, Spring 2027",
+      "role": "Walt Disney World Alumni Industrial Engineering Intern, Spring 2027",
       "category": "other",
       "locations": [
         "Bay Lake",
         "FL",
         "USA"
       ],
-      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Industrial-Engineering-Intern--Spring-2027_10141152-1",
+      "apply_url": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/Walt-Disney-World-Alumni-Industrial-Engineering-Intern--Spring-2027_10141156",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166537,15 +166537,17 @@
       "listing_type": "internship"
     },
     {
-      "id": "972b363b24bf94472b2d8ab414c0a2b3c384a970fcafec473f66fdd04d92ac0f",
+      "id": "2f4af0b59b96897f06d6ce0a9ce8f1de3b51ce122026ab6f46a9a94d4c7c0b3f",
       "company": "Johnson & Johnson",
       "company_slug": "johnson-&-johnson",
       "role": "Intern",
       "category": "other",
       "locations": [
-        "Shanghai, China"
+        "Suzhou",
+        "Jiangsu",
+        "China"
       ],
-      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Shanghai-China/Intern_R-006377",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Suzhou-Jiangsu-China/Intern_R-051447",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166566,15 +166568,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "a7ee2a7fd8ae6350d5828e8dd3b54dbcc16966f19c72e572489f0585b75c75d8",
+      "id": "6335abb39cc91f6353e20efd73fc51d50f30536c7393df66d458c44041632b51",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Brand Management Internship",
       "category": "other",
       "locations": [
-        "ROTTERDAM OFFICE"
+        "Brussels"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/ROTTERDAM-OFFICE/Brand-Management-Internship_R000148759",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Brand-Management-Internship_R000146320",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166595,44 +166597,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "17f577c7e88d8ebad674caa5012a85f728a3eba0b0d8ecf48c0b71fd2a7ce6d7",
-      "company": "Procter & Gamble",
-      "company_slug": "procter-&-gamble",
-      "role": "Data Engineer Internship (m/f/x)",
-      "category": "data_science",
-      "locations": [
-        "MADRID GENERAL OFFICE"
-      ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/MADRID-GENERAL-OFFICE/Data-Engineer-Internship--m-f-x-_R000154644",
-      "sponsorship": "unknown",
-      "requires_us_citizenship": false,
-      "is_faang_plus": false,
-      "requires_advanced_degree": false,
-      "graduate_friendly": false,
-      "remote_friendly": false,
-      "open_to_international": false,
-      "date_added": "2026-08-02",
-      "date_last_verified": "2026-08-02",
-      "source": "workday_api",
-      "status": "open",
-      "tech_stack": [],
-      "season": "fall_2026",
-      "start_date": null,
-      "end_date": null,
-      "industry": "other",
-      "preferred_class_years": [],
-      "listing_type": "internship"
-    },
-    {
-      "id": "92b5635eb6f5eb34be09c5a8e3c709d2c141443feee166379440197da51136ef",
+      "id": "a5da5c841c04ad69bb6009d7a4ff58e02a0903687db3ccb3539b716e966df890",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Strategic Finance Internship",
       "category": "other",
       "locations": [
-        "Brussels"
+        "ROTTERDAM OFFICE"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Strategic-Finance-Internship_R000154729",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/ROTTERDAM-OFFICE/Strategic-Finance-Internship_R000148762",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166653,15 +166626,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "7a175c36565f49743a4defe0eeab2f5bc508e0cf2ee33e1392409dc06e86415a",
+      "id": "2f508800f3d4ebb243948479a7141be67c24072fe4db31e7785c7ec3911658b4",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
       "role": "Supply Chain Internship",
       "category": "other",
       "locations": [
-        "Rotterdam"
+        "Brussels"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Rotterdam/Supply-Chain-Internship_R000154993",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/Brussels/Supply-Chain-Internship_R000155031",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166682,15 +166655,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3015ce44cf7789eda6e69012a4ca55efd9576f851b33202b763b35f4e268305f",
+      "id": "e8a77ee6be040c0f11932a8fdfe02934fc391779f64842bcf95a8f97057ecdb0",
       "company": "Procter & Gamble",
       "company_slug": "procter-&-gamble",
-      "role": "Northeastern University R&D Engineer Co-op- Northeastern Students Graduating in 2028/2029 ONLY",
-      "category": "other",
+      "role": "Data Engineer Internship (m/f/x)",
+      "category": "data_science",
       "locations": [
-        "BOSTON GO & TECH CENTER"
+        "JIJONA PLANT"
       ],
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/BOSTON-GO--TECH-CENTER/Northeastern-University-R-D-Engineer-Co-op--Northeastern-Students-Graduating-in-2028-2029-ONLY_R000155302",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/JIJONA-PLANT/Data-Engineer-Internship--m-f-x-_R000156073",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166711,15 +166684,74 @@
       "listing_type": "internship"
     },
     {
-      "id": "f66e2cc7bd51e29d9312c411351b6e004f5e028d50806ee60288de36803832e4",
+      "id": "53a24e670a5acfaab0dbce88056c207fbb9e3270c40fa840c25b8a92dc794e07",
+      "company": "Procter & Gamble",
+      "company_slug": "procter-&-gamble",
+      "role": "Purdue University R&D Engineer Co-op- Purdue Students Graduating in 2028/2029 ONLY",
+      "category": "other",
+      "locations": [
+        "MASON BUS AND INNOVATION CTR"
+      ],
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/MASON-BUS-AND-INNOVATION-CTR/Purdue-University-R-D-Engineer-Co-op--Purdue-Students-Graduating-in-2028-2029-ONLY_R000155305",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "e6b7cbad4a9747cdd045c9e3e90495256381c2f3df90414c37f0d8522c3076dd",
+      "company": "Micron Technology",
+      "company_slug": "micron-technology",
+      "role": "Intern - F10 CVD PEE",
+      "category": "other",
+      "locations": [
+        "Fab 10N",
+        "X, Singapore"
+      ],
+      "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---F10-CVD-PEE_JR97726",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "other",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "c291b0629e5ee0cbde93b58e06fb25d5c5576c1dbb451371bffdaf80e656d6b3",
       "company": "Sony",
       "company_slug": "sony",
       "role": "Research Intern on Generative and Protective AI for Content Creation",
       "category": "other",
       "locations": [
-        "Remote - Michigan"
+        "Remote - New York"
       ],
-      "apply_url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Michigan/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-118961",
+      "apply_url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166740,15 +166772,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "0b3e9d04eecbb4e7611cde85cb13f1f698c7acba084ad6787e166c07eda384c6",
+      "id": "93b3b52f2393d44b9a46363b75390b98de7cb9e85fc21275d4cff8c2a9bd5a5a",
       "company": "S&P Global",
       "company_slug": "s&p-global",
       "role": "Agribusiness Intern (Early Careers)",
       "category": "other",
       "locations": [
-        "Sao Paulo, BR"
+        "Virtual, BR"
       ],
-      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Sao-Paulo-BR/Agribusiness-Intern--Early-Careers-_326567",
+      "apply_url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Virtual-BR/Agribusiness-Intern--Early-Careers-_327499-2",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166769,15 +166801,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "3d3273a776b2a0c2ed84ad8c990e0fd648b03f39caa52b21b5ead223ece45d3f",
+      "id": "64467defbffe9448546480aed2807242881f05b873b44b5d0ad4221bfc8a8790",
       "company": "Cadence Design Systems",
       "company_slug": "cadence-design-systems",
-      "role": "software engineering intern",
+      "role": "Software Engineering Intern",
       "category": "swe",
       "locations": [
-        "BEIJING"
+        "PITTSBURGH 03"
       ],
-      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BEIJING/software-engineering-intern_R52210",
+      "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/PITTSBURGH-03/Software-Engineering-Intern_R52334",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166798,15 +166830,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "adb80631b12af9472dec919f4b3589f2e15ceb27beafe8fd35a7c4a7568eb41b",
+      "id": "1339f53c7fab17e37d54692be617a369b7895ef4bead0065116bbb46c38f075f",
       "company": "Marvell",
       "company_slug": "marvell",
       "role": "Analog Engineer Intern - PhD",
       "category": "other",
       "locations": [
-        "Ottawa, Canada"
+        "Toronto, Canada"
       ],
-      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1",
+      "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166829,15 +166861,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "4c5a3de794ff23dd589be171dcf01298a09fc2298beb9074384a65e2345cb080",
+      "id": "64af2b0aa5affa9d23d341fc0b0aa28e829ecb6ee04d63c9272a63a842f41bff",
       "company": "Coca-Cola",
       "company_slug": "coca-cola",
       "role": "Coca-Cola Ignite Intern - Marketing",
       "category": "other",
       "locations": [
-        "Netherlands - Rotterdam"
+        "Italy - Milan"
       ],
-      "apply_url": "https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/Netherlands---Rotterdam/Coca-Cola-Ignite-Intern---Marketing_R-142685",
+      "apply_url": "https://coke.wd1.myworkdayjobs.com/coca-cola-careers/job/Italy---Milan/Coca-Cola-Ignite-Intern---Marketing_R-139266",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -166858,15 +166890,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "b905f13deb3446e7a5ebbe870d0ba61b38a2bf524eeffd8358c76cb675e33a92",
-      "company": "Bosch",
-      "company_slug": "bosch",
-      "role": "Logistic Internship",
-      "category": "other",
+      "id": "3f70bdaeace855ddec27cfbb2560a5654f025ea80243722ff49d271da4f86ee4",
+      "company": "Expedia Group",
+      "company_slug": "expedia-group",
+      "role": "Mobile Engineering Intern -  May/June 2027 - Gurgaon/Bangalore",
+      "category": "swe",
       "locations": [
-        "Torino, Piemonte"
+        "India - Gurgaon"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000139277649",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Mobile-Engineering-Intern----May-June-2027---Gurgaon-Bangalore_R-108103",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166876,26 +166908,113 @@
       "open_to_international": false,
       "date_added": "2026-08-02",
       "date_last_verified": "2026-08-02",
-      "source": "smartrecruiters_api",
+      "source": "workday_api",
       "status": "open",
       "tech_stack": [],
       "season": "fall_2026",
       "start_date": null,
       "end_date": null,
-      "industry": "automotive",
+      "industry": "ecommerce",
       "preferred_class_years": [],
       "listing_type": "internship"
     },
     {
-      "id": "63e1e3116c611034bef193a355aebec451187057f5d84e6e58523efd099fdefb",
+      "id": "4c7a7708ca26770f8e6a4ee2c77229217a59725b94c2c22c57a5fca6e8d4ae9a",
+      "company": "Expedia Group",
+      "company_slug": "expedia-group",
+      "role": "Cloud Engineering Intern - May/June 2027 - Gurgaon/Bangalore",
+      "category": "swe",
+      "locations": [
+        "India - Gurgaon"
+      ],
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Cloud-Engineering-Intern---May-June-2027---Gurgaon-Bangalore_R-108101",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "ecommerce",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "99a11635690028e1793864e63dd1c4bcf973e1d647f098d825c25294f24c8feb",
+      "company": "Expedia Group",
+      "company_slug": "expedia-group",
+      "role": "Security Engineering Intern - May/June 2027 - Gurgaon",
+      "category": "swe",
+      "locations": [
+        "India - Gurgaon"
+      ],
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/India---Gurgaon/Security-Engineering-Intern---May-June-2027---Gurgaon_R-108100",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "ecommerce",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "8a37f6cf0651b4e02be1e94018d75bc1ac56992bd6947083a985a3f477a8f415",
+      "company": "Expedia Group",
+      "company_slug": "expedia-group",
+      "role": "Software Development Engineering Intern - May/June 2027 - Bangalore",
+      "category": "other",
+      "locations": [
+        "India - Bangalore"
+      ],
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/private/job/India---Bangalore/Software-Development-Engineering-Intern---May-June-2027---Bangalore_R-108099",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "workday_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "ecommerce",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "5d7616e7b51d1ca3237d633f8a1736511bd295958d5edaa02df65032ab55fb82",
       "company": "Bosch",
       "company_slug": "bosch",
       "role": "HSE - Internship",
       "category": "other",
       "locations": [
-        "Vezzano sul Crostolo, Emilia-Romagna"
+        "Nonantola, Emilia-Romagna"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000138051419",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000139943604",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166916,15 +167035,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "51d8f1b9bc9529dcf3fb9f5bde216000b7b1619c24d29f87a7f8175d7b1e6097",
+      "id": "da456fe2cb40ec0b4dc50f1682d3c297b6e8f7ffcae85e78dd6d506648d1446e",
       "company": "Bosch",
       "company_slug": "bosch",
-      "role": "[Bosch HcP - Internship] Production Engineering Intern",
+      "role": "[Bosch HcP - Internship] Production Engineering Intern - MSE2",
       "category": "other",
       "locations": [
-        "An Phuoc Commune, Dong Nai Province"
+        "Dong Nai"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000131579839",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000132107319",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166945,15 +167064,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "2638129196e2617de9ba92700c91b771dd0c9bb659791f83e4dbcda22c044ca0",
+      "id": "a444fc575f6b0d6b9b882e2fb063aceee61c53b7a5e4c2861e46ccfc93cb128c",
       "company": "Bosch",
       "company_slug": "bosch",
-      "role": "[SO] Translation & Requirement Management Support Intern (Japanese + English required)",
+      "role": "[SO] Translation & Requirement Management Support Intern (Chinese + English required)",
       "category": "other",
       "locations": [
         "Ho Chi Minh city"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000131074727",
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000131075509",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -166974,15 +167093,44 @@
       "listing_type": "internship"
     },
     {
-      "id": "75b5637a21cb3752d96d432b508042983d5ec937c8971ced0a51d363bced1ad9",
+      "id": "82ced8f564e07038f6fea05118aff56bf3486a383baadf9b5e80072e7b99615e",
+      "company": "Bosch",
+      "company_slug": "bosch",
+      "role": "Logistic Internship",
+      "category": "other",
+      "locations": [
+        "Milano, Lombardia"
+      ],
+      "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/744000130184832",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "smartrecruiters_api",
+      "status": "open",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "automotive",
+      "preferred_class_years": [],
+      "listing_type": "internship"
+    },
+    {
+      "id": "dc0e13494f0ffd9199e0f0407bca4874d8963d1b2a6946f424e7c3f10326e802",
       "company": "AbbVie",
       "company_slug": "abbvie",
       "role": "Product Specialist Neuroscience intern",
       "category": "other",
       "locations": [
-        "Riyadh, Riyadh Province"
+        "Jeddah, Makkah Province"
       ],
-      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014309466",
+      "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990014309406",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": false,
@@ -167003,15 +167151,46 @@
       "listing_type": "internship"
     },
     {
-      "id": "64f690dea844a38c5fcb7beb8413ef1299d6c940899b4a5ef5a727278c1255ef",
+      "id": "313f0cdee5b20bf1e96e85fa613d2d5c63985f4c68a264bc47c53ea469383afe",
       "company": "DE Shaw",
       "company_slug": "de-shaw",
-      "role": "iconQuantitative Analyst Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented individuals with impressive records of academic and/or professional achievement to join the firm as quantitative analyst interns. Interns\u2026",
+      "role": "iconQuantitative Analyst, Ph.D. Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented Ph.D. candidates with impressive records of academic and/or professional achievement to join the firm as quantitative analyst interns. Ph.D.\u2026",
       "category": "other",
       "locations": [
         "New York"
       ],
-      "apply_url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
+      "apply_url": "https://www.deshaw.com/careers/quantitative-analyst-ph-d-intern-new-york-summer-2027-5891",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": true,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-02",
+      "date_last_verified": "2026-08-02",
+      "source": "scrape",
+      "status": "open",
+      "tech_stack": [],
+      "season": "summer_2027",
+      "start_date": null,
+      "end_date": null,
+      "industry": "banking",
+      "preferred_class_years": [
+        "phd"
+      ],
+      "listing_type": "internship"
+    },
+    {
+      "id": "6cb5a6f571ea1eee38ffa4f79071e0cbe9259e438388bb0a51f975bdc8b0be31",
+      "company": "DE Shaw",
+      "company_slug": "de-shaw",
+      "role": "iconSoftware Developer Intern (New York) \u2013 Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks talented individuals with impressive records of academic and/or professional achievement to join the firm as software developer interns. Interns\u2026",
+      "category": "swe",
+      "locations": [
+        "New York"
+      ],
+      "apply_url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -167032,15 +167211,15 @@
       "listing_type": "internship"
     },
     {
-      "id": "1e75ef99c032e22d40d16ba8ff384f81c3a560bebf168d550a5595f7a17841b3",
+      "id": "14dfad703f619c1174cc2c8f9cc7ecebde29389f19d7ff404ca4ac0735f78efd",
       "company": "DE Shaw",
       "company_slug": "de-shaw",
-      "role": "iconSystems Engineering Intern (London) - Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks motivated individuals with impressive records of academic and/or professional achievement to join the firm as systems engineering interns. Engineers at\u2026",
+      "role": "iconSystems Engineering Intern (New York) - Summer 2027: The D.\u00a0E.\u00a0Shaw group seeks motivated individuals with impressive records of academic and/or professional achievement to join the firm as systems engineering interns. Engineers at\u2026",
       "category": "swe",
       "locations": [
-        "London"
+        "New York"
       ],
-      "apply_url": "https://www.deshaw.com/careers/systems-engineering-intern-london-summer-2027-5925",
+      "apply_url": "https://www.deshaw.com/careers/systems-engineering-intern-new-york-summer-2027-5916",
       "sponsorship": "unknown",
       "requires_us_citizenship": false,
       "is_faang_plus": true,
@@ -167061,6 +167240,6 @@
       "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-08-02T13:51:53.785064Z",
-  "total_open": 5607
+  "last_updated": "2026-08-02T19:31:36.256559Z",
+  "total_open": 5613
 }
