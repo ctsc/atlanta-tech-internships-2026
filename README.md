@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: August 20, 2026 at 08:13 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: August 20, 2026 at 02:02 PM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,14 +16,14 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 70 |
+| 💻 [Software Engineering](#-software-engineering) | 69 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 23 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 39 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 12 |
-| 🔹 [Other](#-other) | 250 |
-| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 47 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 92 |
-| **Total** | **394** |
+| 🔹 [Other](#-other) | 255 |
+| 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 48 |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 93 |
+| **Total** | **398** |
 
 ---
 
@@ -51,6 +51,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 5 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | today |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | today |
 | **Johnson & Johnson** | Spring 2027 Quality Engineering Co-op | Cornelia, Georgia, United States of America | Sp27 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937) | today |
+| 🔥 **Morgan Stanley** | Intern | Columbus, Ohio, United States of America | F26 | [Apply](https://ms.wd5.myworkdayjobs.com/External/job/Columbus-Ohio-United-States-of-America/Intern_JR042395-1) | today |
 | **Truist Bank** | Technology and Operations Intern - Data | Charlotte, NC, Atlanta and 1 more | F26 | [Apply](https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship_R0118061?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **American Express** | AI Engineer Intern - Enterprise Technology Services | Atlanta, GA | F26 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Deloitte** | Forensic Analytics Summer Scholar Intern - Forensic Analytics | Atlanta, GA | F26 | [Apply](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-Forensic-Analytics/363251?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -149,7 +150,8 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Anduril** | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) | today |
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 5 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | today |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | today |
-| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| 🔥 **Goldman Sachs** | AWM Product Management Analyst Intern | Dallas, TX | F26 | [Apply](https://higher.gs.com/roles/171513?type=students&utm_source=Simplify&ref=Simplify) | today |
 | 🔥 **Goldman Sachs** | Summer Analyst Intern - FICC and Equities - Sales and Trading | West Palm Beach, FL | F26 | [Apply](https://higher.gs.com/roles/181628?type=students&utm_source=Simplify&ref=Simplify) | 5d ago |
 | 🔥 **Northrop Grumman** | Software Engineer Intern - Aeronautics Systems | Melbourne, FL | F26 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573?utm_source=Simplify&ref=Simplify) | 2w ago |
 | 🔥 **Optiver** | Quantitative Intern - Summer 2027 | Austin, TX | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002&utm_source=Simplify&ref=Simplify) | 2w ago |
@@ -201,7 +203,6 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | today |
 | **Verition Fund Management** | Technology Intern | Greenwich, CT, Houston and 8 more | F26 | [Apply](https://www.verition.com/open-positions?gh_jid=5214784007&utm_source=Simplify&ref=Simplify) | today |
-| **Virtu Financial** | 2027 Internship - Software Engineer | Austin, TX, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) | today |
 | **American Express** | Software Engineer Intern - Enterprise Technology Services | Sunrise, FL | F26 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **PIMCO** | Software Engineering Intern - Technology Analyst | Austin, TX | F26 | [Apply](https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Hilton Worldwide** | Corporate Summer Internship - Technology, Software Engineering and Cyber | Dallas, TX, McLean and 3 more | F26 | [Apply](https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -374,13 +375,18 @@ Use this repo to discover and track **tech internships** across software enginee
 |---------|------|----------|--------|-------|--------|
 | 🔥 **Anduril** | 2027 Manufacturing Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 5 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153218007?gh_jid=5153218007) | today |
 | 🔥 **Anduril** | 2027 Mechanical Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5153187007?gh_jid=5153187007) | today |
+| **Johnson & Johnson** | Materials Engineering Co-Op Spring 2027 | Jacksonville, Florida, United States of America | Sp27 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-Op_R-093889-1) | today |
 | **Johnson & Johnson** | Spring 2027 Quality Engineering Co-op | Cornelia, Georgia, United States of America | Sp27 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937) | today |
-| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
+| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| **Virtu Financial** | 2027 Internship - Quantitative Trading | Austin, TX, Chicago, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624408002) | today |
+| **Johnson & Johnson** | Materials Engineering Co-Op Fall 2027 | Jacksonville, Florida, United States of America | fall_2027 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-op_R-094380) | today |
+| **Leidos** | Robotics Engineer Intern | Huntsville, AL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Robotics-Engineer-Intern_R-00190159) | today |
+| **Bosch** | Intern - Logistics | Lincolnton, NC | F26 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000138182639) | today |
+| 🔥 **Goldman Sachs** | AWM Product Management Analyst Intern | Dallas, TX | F26 | [Apply](https://higher.gs.com/roles/171513?type=students&utm_source=Simplify&ref=Simplify) | today |
 | **Truist Bank** | Technology and Operations Intern - Data | Charlotte, NC, Atlanta and 1 more | F26 | [Apply](https://truist.wd1.myworkdayjobs.com/en-US/Careers/job/Charlotte-NC/XMLNAME-2027-Technology--Data--and-Operations-Internship_R0118061?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Dimensional Fund Advisors** | Global Client Group Operations Insights Intern - Undergraduate & Master's | Austin, TX | F26 | [Apply](https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Insights--Undergraduate---Master-s-_2026-9002?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Dimensional Fund Advisors** | Global Client Group Intern - Data and Tools - Undergraduate and Master's | Austin, TX | F26 | [Apply](https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Austin/Internship-in-Global-Client-Group---Data-and-Tools--Undergraduate---Master-s-_2026-9003?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Avery Dennison** | RFID Applications Engineer Co-op - Summer 2027 - Plus one semester | Miamisburg, OH | S27 | [Apply](https://jobs.smartrecruiters.com/AveryDennison/744000144153141?utm_source=Simplify&ref=Simplify) | 1d ago |
-| **Johnson & Johnson** | Materials Engineering Co-Op | Jacksonville, Florida, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-Op_R-093889-1) | 2d ago |
 | **Vanguard** | Data Science Intern - College to Corporate IT | Charlotte, NC | F26 | [Apply](https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Johnson & Johnson** | Operations Co-Op | Athens, Georgia, United States of America | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/Operations-Co-Op_R-093947) | 3d ago |
 | **BP** | Geoscience Intern - Geoscientist | Houston, TX | F26 | [Apply](https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Geoscientist---Houston-TX_RQ114816?utm_source=Simplify&ref=Simplify) | 5d ago |
