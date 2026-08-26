@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: August 26, 2026 at 02:11 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: August 26, 2026 at 08:16 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -16,11 +16,11 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Category | Open Roles |
 |----------|-----------|
-| 💻 [Software Engineering](#-software-engineering) | 70 |
+| 💻 [Software Engineering](#-software-engineering) | 71 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 22 |
 | 📊 [Data Science & Analytics](#-data-science--analytics) | 40 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 16 |
-| 🔹 [Other](#-other) | 259 |
+| 🔹 [Other](#-other) | 258 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 62 |
 | 🍑 [Roles Open in GA](#-roles-open-in-ga) | 90 |
 | **Total** | **407** |
@@ -143,7 +143,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
+| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
 | 🔥 **Epic Games** | Gameplay Programmer Intern 🔒 | Cary, NC | F26 | 🔒 Closed | today |
 | 🔥 **AMD** | ASIC Package Engineering Intern Co-op | Secaucus, NJ, Austin and 9 more | F26 | [Apply](https://careers.amd.com/jobs/91471?icims=1&utm_source=Simplify&ref=Simplify) | 1d ago |
 | 🔥 **AMD** | Research Engineering Intern/Co-op - AMD Research | Secaucus, NJ, Austin and 9 more | F26 | [Apply](https://careers.amd.com/jobs/90926?icims=1&utm_source=Simplify&ref=Simplify) | 1d ago |
@@ -213,6 +213,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **Virtu Financial** | 2027 Internship - Software Engineer | Austin, TX, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) | today |
 | **Johnson & Johnson** | Technology Intern - Technology LDP | West Chester, PA, Horsham and 19 more | F26 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2027-Summer-Internship_R-095602?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Apex Fintech Solutions** | Technology Fintern - Software Engineering - Product Management | Austin, TX, Dallas and 4 more | F26 | [Apply](https://peak6group.wd1.myworkdayjobs.com/apexfintechsolutions/job/Austin-TX/XMLNAME-2026-AFS-Technology-Internship-Program_JR103660?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **RTX** | Software Engineer Intern | Jupiter, FL | F26 | [Apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Software-Engineering-Intern--Summer-2027-_01868485?utm_source=Simplify&ref=Simplify) | 1d ago |
@@ -392,8 +393,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | **DTCC** | Application Developer Intern | Tampa, FL, Dallas and 3 more | F26 | [Apply](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214459?utm_source=Simplify&ref=Simplify) | today |
 | **DTCC** | Product Management Intern - 2027 Internship Program | Tampa, FL, Jersey City and 1 more | F26 | [Apply](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214410?utm_source=Simplify&ref=Simplify) | today |
 | **DTCC** | Data Solutions Intern - Internship Program | Boston, MA, Tampa and 1 more | F26 | [Apply](https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214478?utm_source=Simplify&ref=Simplify) | today |
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
-| **Virtu Financial** | 2027 Internship - Quantitative Trading | Austin, TX, Chicago, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624408002) | today |
+| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
 | 🔥 **Epic Games** | Gameplay Programmer Intern 🔒 | Cary, NC | F26 | 🔒 Closed | today |
 | **Rystad Energy** | Analyst Intern - Summer 2027 | Houston, TX | S27 | [Apply](https://apply.workable.com/rystad-energy/j/74A4CBBC6B/apply?utm_source=Simplify&ref=Simplify) | 1d ago |
 | **Bosch** | Spring 2027 Key User - Supply Chain / Computer Science - Co-op | Summerville, SC | Sp27 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000145511458) | 1d ago |
