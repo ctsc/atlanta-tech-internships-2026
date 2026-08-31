@@ -1,6 +1,6 @@
 # Atlanta Tech Internships 🚀
 
-> 🤖 **Auto-updated every 6 hours** | Last updated: August 31, 2026 at 12:00 AM EST
+> 🤖 **Auto-updated every 6 hours** | Last updated: August 31, 2026 at 08:28 AM EST
 >
 > Catered to Georgia / Southeast ⭐ Leave a star on the repo if you enjoy this project :)
 >
@@ -18,12 +18,12 @@ Use this repo to discover and track **tech internships** across software enginee
 |----------|-----------|
 | 💻 [Software Engineering](#-software-engineering) | 73 |
 | 🤖 [ML / AI / Data Science](#-ml--ai--data-science) | 21 |
-| 📊 [Data Science & Analytics](#-data-science--analytics) | 39 |
+| 📊 [Data Science & Analytics](#-data-science--analytics) | 40 |
 | 🔧 [Hardware Engineering](#-hardware-engineering) | 16 |
-| 🔹 [Other](#-other) | 244 |
+| 🔹 [Other](#-other) | 246 |
 | 🔥 [Big Tech in the Southeast](#-big-tech-in-the-southeast) | 63 |
-| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 88 |
-| **Total** | **393** |
+| 🍑 [Roles Open in GA](#-roles-open-in-ga) | 89 |
+| **Total** | **396** |
 
 ---
 
@@ -47,6 +47,7 @@ Use this repo to discover and track **tech internships** across software enginee
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
 | **Equifax** | USIS Technology Intern | USA - Georgia - Alpharetta - 30005 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/USIS-Technology-Intern_J00178784) | today |
+| **GE Aerospace** | Applied AI Intern | Evendale, OH, Atlanta and 1 more | F26 | [Apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1?utm_source=Simplify&ref=Simplify) | today |
 | **Intuit** | Software Engineer Intern - Full Stack | Charlotte, NC, NYC and 6 more | F26 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Booz Allen** | Software Developer Intern - University | Atlanta, GA | F26 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Booz Allen** | Data Scientist Intern - University | Atlanta, GA | F26 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -141,8 +142,8 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
 | 🔥 **Goldman Sachs** | Associate Intern - The Core Quantitative Strats | Dallas, TX | F26 | [Apply](https://higher.gs.com/roles/171546?type=students&utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
 | 🔥 **The Walt Disney Company** | Pricing & Product Development Intern - Spring 2027 | Lake Buena Vista, FL | Sp27 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Pricing---Product-Development-Intern--Spring-2027_10158266?utm_source=Simplify&ref=Simplify) | 3d ago |
 | 🔥 **The Walt Disney Company** | System App Dev & Sustainment Intern, Spring 2027 | Orlando, FL, USA | Sp27 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/System-App-Dev---Sustainment-Intern_10159463-1) | 3d ago |
 | 🔥 **The Walt Disney Company** | Software Engineering Intern, Spring 2027 | Orlando, FL, USA | Sp27 | [Apply](https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/Software-Engineering-Intern--Spring-2027_10158599-1) | 3d ago |
@@ -212,8 +213,9 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| **RTX** | Software Engineering Intern (Summer 2027) | US-AL-HUNTSVILLE-401 ~ 401 Jan Davis Dr NW ~ JAN DAVIS 401 | S27 | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Software-Engineering-Intern--Summer-2027-_01870007) | today |
 | **Equifax** | USIS Technology Intern | USA - Georgia - Alpharetta - 30005 | F26 | [Apply](https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Georgia---Alpharetta---30005/USIS-Technology-Intern_J00178784) | today |
+| **Virtu Financial** | 2027 Internship - Software Engineer | Austin, TX, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) | today |
+| **Qorvo** | Full-Stack Web Developer Intern | Richardson, TX | F26 | [Apply](https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors&utm_source=Simplify&ref=Simplify) | today |
 | **Intuit** | Software Engineer Intern - Full Stack | Charlotte, NC, NYC and 6 more | F26 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864?utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Charles Schwab** | Software Engineering Intern - Technology | Austin, TX, Westlake and 9 more | F26 | [Apply](https://career-schwab.icims.com/jobs/126228/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Booz Allen** | Software Developer Intern - University | Atlanta, GA | F26 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138?utm_source=Simplify&ref=Simplify) | 2d ago |
@@ -236,7 +238,6 @@ Use this repo to discover and track **tech internships** across software enginee
 | 🔥 **Anduril** | 2027 Software Engineer Intern | Atlanta, Georgia, United States, Boston, Massachusetts, United States, Broomfield, Colorado, United States and 6 more | S27 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) | 1w ago |
 | **Verition Fund Management** | Technology Intern | Greenwich, CT, Houston and 8 more | F26 | [Apply](https://www.verition.com/open-positions?gh_jid=5214784007&utm_source=Simplify&ref=Simplify) | 1w ago |
 | **American Express** | Software Engineer Intern - Enterprise Technology Services | Sunrise, FL | F26 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011015?utm_source=Simplify&ref=Simplify) | 1w ago |
-| **PIMCO** | Software Engineering Intern - Technology Analyst | Austin, TX | F26 | [Apply](https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Hilton Worldwide** | Corporate Summer Internship - Technology, Software Engineering and Cyber | Dallas, TX, McLean and 3 more | F26 | [Apply](https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **RTX** | Software Engineer Intern - Spring 2027 | Melbourne, FL | Sp27 | [Apply](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Spring-2027-_01864146?utm_source=Simplify&ref=Simplify) | 1w ago |
 | **Teledyne** | Software Engineer Intern - NHRC | Huntsville, AL | F26 | [Apply](https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193?utm_source=Simplify&ref=Simplify) | 2w ago |
@@ -321,6 +322,7 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
+| **BP** | Trading, Origination, Analytics, and Operations Intern - Supply, Trading, & Shipping - Trading, Origination, Analytics, & Operations | Houston, TX | F26 | [Apply](https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Internship---Supply--Trading----Shipping---Trading--Origination----Analytics--Houston--TX_RQ115366?utm_source=Simplify&ref=Simplify) | today |
 | **Charles Schwab** | Data Engineering Intern - Data Engineering | Austin, TX, Westlake and 3 more | F26 | [Apply](https://career-schwab.icims.com/jobs/126227/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) | 2d ago |
 | **Wells Fargo** | Quantitative Analytics Intern - Applied Computational Intelligence | Charlotte, NC | F26 | [Apply](https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2027-Quantitative-Analytics-Summer-Internship-Applied-Computational-Intelligence--ACI-PhD----Early-Careers_R-571703?utm_source=Simplify&ref=Simplify) | 3d ago |
 | **Huntington Bancshares** | Data and Analytics Intern | Detroit, MI, Dallas and 5 more | F26 | [Apply](https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Data-and-Analytics-Internship_R0075377?utm_source=Simplify&ref=Simplify) | 3d ago |
@@ -390,10 +392,12 @@ Use this repo to discover and track **tech internships** across software enginee
 
 | Company | Role | Location | Season | Apply | Posted |
 |---------|------|----------|--------|-------|--------|
-| 🔥 **Optiver** | Quantitative Research Intern, PhD (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002) | today |
-| **Virtu Financial** | 2027 Internship - Quantitative Trading | Austin, TX, Chicago, New York | F26 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624408002) | today |
 | **GE Vernova** | Product Management Intern - Controls Lifecare Services | Longmont, CO, Greenville and 1 more | F26 | [Apply](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Longmont/Product-Management-Intern---Controls-Lifecare-Services_R5050801-1?utm_source=Simplify&ref=Simplify) | today |
 | 🔥 **Goldman Sachs** | Associate Intern - The Core Quantitative Strats | Dallas, TX | F26 | [Apply](https://higher.gs.com/roles/171546?type=students&utm_source=Simplify&ref=Simplify) | today |
+| 🔥 **Optiver** | Quantitative Intern (Summer 2027) | Austin, Texas, United States | S27 | [Apply](https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002) | today |
+| **Leidos** | Network Operations Intern | Tampa, FL | F26 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Tampa-FL/Network-Operations-Intern_R-00190651) | today |
+| **GE Aerospace** | Applied AI Intern | Evendale, OH, Atlanta and 1 more | F26 | [Apply](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Applied-AI-Engineer-Intern---Summer-2027--May-June-Start-_R5039302-1?utm_source=Simplify&ref=Simplify) | today |
+| **BP** | Summer Intern | Houston, TX | F26 | [Apply](https://bpinternational.wd3.myworkdayjobs.com/bpEarlyCareers/job/United-States-of-America---Texas---Houston/Summer-Intern---Supply--Trading----Shipping-Finance---Risk---Houston--TX_RQ112380-1?utm_source=Simplify&ref=Simplify) | today |
 | **Zscaler** | Phishing Analyst-SkillBridge Intern | Remote - USA | F26 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5065302007) | 1d ago |
 | **Persona AI** | Robotics Software Intern - Manipulation | Houston, TX | F26 | [Apply](https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc/application?embed=true&utm_source=Simplify&ref=Simplify) | 2d ago |
 | **AnaVation** | Computer Science Intern | Huntsville, AL | F26 | [Apply](https://jobs.lever.co/anavationllc/f7c83978-8510-409c-a5a3-17618511f819/apply?utm_source=Simplify&ref=Simplify) | 3d ago |
