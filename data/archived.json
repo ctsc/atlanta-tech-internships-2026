@@ -246411,8 +246411,37 @@
       "industry": "telecom",
       "preferred_class_years": [],
       "listing_type": "internship"
+    },
+    {
+      "id": "d86854bf187d1d37d77a3575cf1007bf9a66ee8a503a4430cbbbd954283c715d",
+      "company": "Chevron",
+      "company_slug": "chevron",
+      "role": "Supply Chain InternBarcelona, Venezuela",
+      "category": "other",
+      "locations": [
+        "Barcelona, Venezuela"
+      ],
+      "apply_url": "https://careers.chevron.com/job/barcelona/supply-chain-intern/38138/99357271952",
+      "sponsorship": "unknown",
+      "requires_us_citizenship": false,
+      "is_faang_plus": false,
+      "requires_advanced_degree": false,
+      "graduate_friendly": false,
+      "remote_friendly": false,
+      "open_to_international": false,
+      "date_added": "2026-08-18",
+      "date_last_verified": "2026-08-24",
+      "source": "scrape",
+      "status": "closed",
+      "tech_stack": [],
+      "season": "fall_2026",
+      "start_date": null,
+      "end_date": null,
+      "industry": "energy",
+      "preferred_class_years": [],
+      "listing_type": "internship"
     }
   ],
-  "last_updated": "2026-08-31T05:00:35.694791Z",
+  "last_updated": "2026-09-01T04:41:08.539888Z",
   "total_open": 6422
 }
