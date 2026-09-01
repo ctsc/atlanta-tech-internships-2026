@@ -6868,42 +6868,50 @@
     "last_checked": "2026-09-01"
   },
   "1936f99e0470169f4595feda746051b80cee17dcfdc83f01670aa8e447dc0d86": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "4fbeea531a8c9ccc98fc65398ed81926c1e48d6a5fb4f412aad1da6e2d9c50a2": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "041c496d5187af980e6508fc4fe98e729a158d123310f1c64cb0b7b33f2f15a1": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "8c377dc826b0029dc7acf66cef6396223cf1e258c1177488081f42ee7e19aba0": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "b085113a1220a49d8edc3b7430516be6aad7c2ea04572fb04ca1bc9a6b000783": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "ecbacf902fd863a9e9984f9f52c0ff7fa95f94c1338accf8b067d9ee36207111": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-09-01"
   },
   "7444487884fb99fa6cb895d8664992f371209c2784188701499fd535d26e685b": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "89d4e59792ce496c95d3bdede2fbcc4f05253e6a73c41db861c63d159b43d53c": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_checked": "2026-09-01"
   },
   "4730bbf53d309a4960ba81f3b38ea2a9609d024be957917fbc3441b4fefcaf63": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "last_checked": "2026-09-01"
   },
   "25548d2e476d4747827d541d128157aab468cef512b40ce4d6dacf4b3ce562ec": {
+    "consecutive_failures": 2,
+    "last_checked": "2026-09-01"
+  },
+  "8c1eaf3d4702fe1fa879335361ad946d8922bd113c1674d40ab420006b5c90c7": {
+    "consecutive_failures": 1,
+    "last_checked": "2026-09-01"
+  },
+  "d8193c94b7f589f2f0f1bd6d05a2986b0e8e1055741d8615a45585a6150bf4c1": {
     "consecutive_failures": 1,
     "last_checked": "2026-09-01"
   }
