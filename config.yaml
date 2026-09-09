@@ -7,11 +7,9 @@
 
 project:
   name: "Atlanta Tech Internships"
-  season: "summer_2026"
+  season: "spring_2027"
   github_repo: "ctsc/atlanta-tech-internships-2026"
   active_seasons:
-    - "summer_2026"
-    - "fall_2026"
     - "spring_2027"
     - "summer_2027"
 
@@ -1581,7 +1579,13 @@ scrape_sources:
 # ============================================================================
 # Monitor other repos for new additions (diff against last run).
 github_monitors:
-  - repo: "SimplifyJobs/Summer2026-Internships"
+  - repo: "SimplifyJobs/Summer2027-Internships"
+    branch: "dev"
+    file: "README.md"
+
+# Entry-level / new-grad GitHub monitors (used only by el_discover)
+entry_level_github_monitors:
+  - repo: "SimplifyJobs/New-Grad-Positions"
     branch: "dev"
     file: "README.md"
 
@@ -1594,10 +1598,6 @@ filters:
     - "internship"
     - "co-op"
     - "coop"
-    - "summer 2026"
-    - "summer 26"
-    - "fall 2026"
-    - "fall 26"
     - "spring 2027"
     - "spring 27"
     - "summer 2027"
@@ -1607,7 +1607,9 @@ filters:
     - "staff"
     - "principal"
     - "director"
-    - "manager"
+    - "engineering manager"
+    - "hiring manager"
+    - "office manager"
     - "lead engineer"
     - "sales"
     - "banker"
@@ -1632,6 +1634,29 @@ filters:
     - "vice president"
     - "onboarding lead"
     - "internal audit"
+    # Dropped domains (board-wide)
+    - "hardware engineer"
+    - "electrical engineer"
+    - "robotics"
+    - "firmware"
+    - "fpga"
+    - "asic"
+    - "chip design"
+    - "embedded systems"
+    - "cybersecurity"
+    - "information security"
+    - "security engineer"
+    - "network engineer"
+    - "soc analyst"
+    - "help desk"
+    - "it support"
+    - "it intern"
+    - "data analyst"
+    - "business intelligence"
+    - "data engineer"
+    - "analytics intern"
+    - "quant"
+    - "quantitative"
   role_categories:
     swe:
       - "software engineer"
@@ -1655,34 +1680,30 @@ filters:
       - "technology intern"
       - "technology operations"
       - "solutions engineer"
-      - "IT intern"
-      - "cybersecurity"
-      - "security engineer"
-      - "information security"
-      - "network engineer"
+    product_engineer:
+      - "product engineer"
+      - "product engineering"
+    pm:
+      - "product manager"
+      - "product management"
+      - "associate product manager"
+      - "apm"
     ml_ai:
       - "machine learning"
       - "ml engineer"
       - "ai engineer"
+      - "ai/ml"
       - "deep learning"
       - "nlp"
       - "computer vision"
+      - "llm"
+      - "generative ai"
       - "data scientist"
       - "research engineer"
       - "research scientist"
-    data_science:
-      - "data analyst"
-      - "data engineer"
-      - "business intelligence"
-      - "analytics"
-    hardware:
-      - "hardware engineer"
-      - "embedded"
-      - "firmware"
-      - "fpga"
-      - "asic"
-      - "chip design"
-      - "electrical engineer"
+    # data_science / hardware kept empty — dropped from board (archived enums remain)
+    data_science: []
+    hardware: []
   exclude_companies:
     - "Revature"
     - "Infosys"
@@ -1701,23 +1722,66 @@ entry_level_filters:
     - "entry level"
     - "entry-level"
     - "junior"
-    - "associate"
     - "early career"
     - "university grad"
     - "0-2 years"
     - "0-1 years"
-    - "full time"
-    - "full-time"
+    - "software engineer"
+    - "software developer"
+    - "swe"
+    - "backend"
+    - "frontend"
+    - "full stack"
+    - "fullstack"
+    - "cloud engineer"
+    - "ai engineer"
+    - "machine learning engineer"
+    - "ml engineer"
+    - "devops"
+    - "sre"
+    - "engineer i"
+    - "engineer ii"
+    - "swe i"
+    - "swe ii"
+    - "swe 1"
+    - "swe 2"
+    - "product engineer"
+    - "product manager"
+    - "associate product manager"
   keywords_exclude:
     - "senior"
     - "staff"
     - "principal"
     - "lead"
-    - "manager"
+    - "engineering manager"
+    - "hiring manager"
     - "director"
     - "intern"
     - "internship"
     - "co-op"
+    - "iii"
+    - "swe 3"
+    - "engineer iii"
+    - "l5"
+    - "l6"
+    - "hardware engineer"
+    - "electrical engineer"
+    - "robotics"
+    - "firmware"
+    - "fpga"
+    - "asic"
+    - "cybersecurity"
+    - "information security"
+    - "security engineer"
+    - "network engineer"
+    - "soc analyst"
+    - "help desk"
+    - "it support"
+    - "data analyst"
+    - "business intelligence"
+    - "data engineer"
+    - "quant"
+    - "quantitative"
 
 # ============================================================================
 # AI Enrichment
@@ -1729,6 +1793,16 @@ ai:
     Analyze this job listing and extract structured metadata.
     Return JSON only, no markdown, no explanation.
 
+    Category rules:
+    - swe: software engineering (backend, frontend, fullstack, cloud, devops, mobile, etc.)
+    - product_engineer: product engineer / product engineering roles
+    - pm: product manager / product management / APM
+    - ml_ai: ML engineer, AI engineer, LLM, deep learning, NLP, CV, research engineer;
+      also "data scientist" ONLY when the role is ML/AI modeling (not BI/analytics)
+    - other: anything else that is still a valid tech internship
+    Reject (set is_internship false) for: hardware, electrical, robotics, cybersecurity, IT support,
+    data analyst / BI / analytics-only, quant trading.
+
     If a job description is provided, use it to determine:
     - remote_friendly: true if the description mentions remote work, hybrid, or work-from-home options
     - open_to_international: true if the description does NOT require US citizenship/permanent residency,
@@ -1738,10 +1812,10 @@ ai:
 
     {
       "is_internship": true/false,
-      "season": "summer_2026|fall_2026|spring_2027|summer_2027|none",
+      "season": "spring_2027|summer_2027|none",
       "start_date": "YYYY-MM-DD or YYYY-MM or null",
       "end_date": "YYYY-MM-DD or YYYY-MM or null",
-      "category": "swe|ml_ai|data_science|hardware|other",
+      "category": "swe|ml_ai|pm|product_engineer|other",
       "locations": ["city, state abbreviation"],
       "is_georgia": true/false,
       "sponsorship": "sponsors|no_sponsorship|us_citizenship|unknown",
@@ -1755,7 +1829,11 @@ ai:
     }
   entry_level_enrichment_prompt: |
     Analyze this job listing and determine if it is an entry-level/new-grad full-time tech position.
-    This is NOT an internship — we are looking for full-time entry-level roles.
+    This is NOT an internship — we are looking for full-time roles suitable for new grads
+    or early-career software / product / AI engineers (SWE / SWE I / SWE II / Engineer I-II,
+    Product Engineer, Product Manager, AI/ML, roughly 0-2 years).
+    Reject mid-level, senior, staff, or roles requiring more than 2 years of experience.
+    Reject hardware, electrical, robotics, cybersecurity, IT support, data analyst/BI, quant.
     Return JSON only, no markdown, no explanation.
 
     If a job description is provided, use it to determine:
@@ -1764,11 +1842,18 @@ ai:
       or explicitly mentions visa sponsorship or international candidates welcome
     - sponsorship: check for visa sponsorship mentions in the description
     - tech_stack: extract specific technologies mentioned in the description
+    - seniority: new_grad (university/new grad programs), swe1 (Engineer I / SWE I),
+      swe2 (Engineer II / SWE II / 1-2 YOE), mid (3+ YOE or mid-level), senior (Senior/Staff/Lead)
+    - max_years_required: maximum years of experience required (number), or null if unspecified
+    - category: swe|ml_ai|pm|product_engineer|other
+      (data scientist only as ml_ai when ML/AI modeling; pure analytics → is_entry_level false)
 
     {
       "is_entry_level": true/false,
       "is_internship": false,
-      "category": "swe|ml_ai|data_science|quant|pm|hardware|other",
+      "seniority": "new_grad|swe1|swe2|mid|senior",
+      "max_years_required": null,
+      "category": "swe|ml_ai|pm|product_engineer|other",
       "locations": ["city, state abbreviation"],
       "is_georgia": true/false,
       "sponsorship": "sponsors|no_sponsorship|us_citizenship|unknown",

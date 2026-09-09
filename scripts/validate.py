@@ -325,10 +325,56 @@ def _map_category(category_str: str) -> RoleCategory:
         "data_science": RoleCategory.DATA_SCIENCE,
         "quant": RoleCategory.QUANT,
         "pm": RoleCategory.PM,
+        "product_engineer": RoleCategory.PRODUCT_ENGINEER,
+        "product_engineering": RoleCategory.PRODUCT_ENGINEER,
         "hardware": RoleCategory.HARDWARE,
         "other": RoleCategory.OTHER,
     }
     return mapping.get(category_str.lower().strip(), RoleCategory.OTHER)
+
+
+# Domains dropped from the board (title substring match, case-insensitive).
+DROPPED_DOMAIN_KEYWORDS: tuple[str, ...] = (
+    "hardware engineer",
+    "electrical engineer",
+    "robotics",
+    "firmware",
+    "fpga",
+    "asic",
+    "chip design",
+    "embedded systems",
+    "cybersecurity",
+    "information security",
+    "security engineer",
+    "network engineer",
+    "soc analyst",
+    "help desk",
+    "it support",
+    "it intern",
+    "data analyst",
+    "business intelligence",
+    "data engineer",
+    "analytics intern",
+    "quant ",
+    "quantitative",
+)
+
+DROPPED_CATEGORIES: set[RoleCategory] = {
+    RoleCategory.DATA_SCIENCE,
+    RoleCategory.HARDWARE,
+    RoleCategory.QUANT,
+}
+
+
+def _is_dropped_domain_title(title: str) -> bool:
+    """Return True if the title matches a board-wide dropped domain."""
+    title_lower = title.lower()
+    return any(kw in title_lower for kw in DROPPED_DOMAIN_KEYWORDS)
+
+
+def _is_dropped_category(category: RoleCategory) -> bool:
+    """Return True if the category is excluded from the live board."""
+    return category in DROPPED_CATEGORIES
 
 
 def _map_sponsorship(sponsorship_str: str) -> SponsorshipStatus:
@@ -506,6 +552,11 @@ def _build_job_listing(
     if not class_years:
         class_years = metadata.get("preferred_class_years", [])
 
+    requires_advanced = bool(metadata.get("requires_advanced_degree", False))
+    graduate_friendly = bool(metadata.get("graduate_friendly", False))
+    if requires_advanced or any(y in ("masters", "phd") for y in class_years):
+        graduate_friendly = True
+
     return JobListing(
         id=listing_id,
         company=raw.company,
@@ -517,7 +568,8 @@ def _build_job_listing(
         sponsorship=_map_sponsorship(metadata.get("sponsorship", "unknown")),
         requires_us_citizenship=metadata.get("sponsorship", "").lower() == "us_citizenship",
         is_faang_plus=raw.is_faang_plus or is_big_tech(raw.company),
-        requires_advanced_degree=metadata.get("requires_advanced_degree", False),
+        requires_advanced_degree=requires_advanced,
+        graduate_friendly=graduate_friendly,
         remote_friendly=metadata.get("remote_friendly", False),
         open_to_international=metadata.get("open_to_international", False),
         date_added=today,
@@ -597,7 +649,7 @@ def validate_all() -> list[JobListing]:
         active_seasons = set(config.project.active_seasons)
     except Exception as exc:
         logger.warning("Could not load active_seasons from config: %s", exc)
-        active_seasons = {"summer_2026"}
+        active_seasons = {"spring_2027"}
 
     logger.info(
         "Validating %d raw listings (%d already in database), active seasons: %s",
@@ -613,6 +665,7 @@ def validate_all() -> list[JobListing]:
     skipped_existing = 0
     rejected_not_internship = 0
     rejected_wrong_season = 0
+    rejected_dropped_domain = 0
     rejected_low_confidence = 0
     errors = 0
 
@@ -635,6 +688,15 @@ def validate_all() -> list[JobListing]:
             continue
 
         try:
+            if _is_dropped_domain_title(raw.title):
+                logger.info(
+                    "Rejected (dropped domain): %s — %s",
+                    raw.company,
+                    raw.title,
+                )
+                rejected_dropped_domain += 1
+                continue
+
             # Enrich via AI (sync call — Gemini client is synchronous)
             metadata = enrich_listing(raw)
 
@@ -657,7 +719,7 @@ def validate_all() -> list[JobListing]:
             )
 
             if is_default_metadata:
-                default_season = sorted(active_seasons)[0] if active_seasons else "summer_2026"
+                default_season = sorted(active_seasons)[0] if active_seasons else "spring_2027"
                 metadata["season"] = default_season
                 metadata["confidence"] = 0.7
                 metadata["category"] = _infer_category_from_title(
@@ -707,6 +769,17 @@ def validate_all() -> list[JobListing]:
                 rejected_low_confidence += 1
                 continue
 
+            mapped_category = _map_category(metadata.get("category", "other"))
+            if _is_dropped_category(mapped_category):
+                logger.info(
+                    "Rejected (dropped category %s): %s — %s",
+                    mapped_category.value,
+                    raw.company,
+                    raw.title,
+                )
+                rejected_dropped_domain += 1
+                continue
+
             # Build validated listing
             job = _build_job_listing(raw, metadata, config_industries)
             validated.append(job)
@@ -751,11 +824,12 @@ def validate_all() -> list[JobListing]:
     logger.info(
         "Validation complete: %d validated, %d skipped (existing), "
         "%d rejected (not internship), %d rejected (wrong season), "
-        "%d rejected (low confidence), %d errors",
+        "%d rejected (dropped domain), %d rejected (low confidence), %d errors",
         len(validated),
         skipped_existing,
         rejected_not_internship,
         rejected_wrong_season,
+        rejected_dropped_domain,
         rejected_low_confidence,
         errors,
     )

@@ -1,8 +1,6 @@
 name: Update Entry-Level Listings
 on:
-  schedule:
-    - cron: '0 */12 * * *'     # Every 12 hours
-  workflow_dispatch:            # Manual trigger
+  workflow_dispatch:            # Manual trigger only (main update.yml runs EL every 6h)
 
 permissions:
   contents: write
@@ -35,6 +33,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         continue-on-error: true
+
+      - name: Generate README
+        run: python -m scripts.generate_readme
 
       - name: Commit & push
         run: |

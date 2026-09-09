@@ -51,6 +51,15 @@ class TestParseArgs:
             parse_args(["--clean", "--full"])
 
 
+    def test_entry_level_flag(self):
+        args = parse_args(["--entry-level"])
+        assert args.entry_level is True
+
+    def test_mutually_exclusive_entry_level_and_full(self):
+        with pytest.raises(SystemExit):
+            parse_args(["--entry-level", "--full"])
+
+
 class TestMainDispatch:
     """Tests for dispatch logic in main()."""
 
@@ -84,6 +93,11 @@ class TestMainDispatch:
         main(["--clean"])
         mock_clean.assert_called_once()
 
+    @patch("main.run_entry_level_pipeline")
+    def test_entry_level_flag(self, mock_el):
+        main(["--entry-level"])
+        mock_el.assert_called_once()
+
 
 class TestRunStep:
     """Tests for the _run_step error isolation."""
@@ -92,15 +106,15 @@ class TestRunStep:
     def test_full_pipeline_calls_all_steps(self, mock_step):
         mock_step.return_value = True
         run_full_pipeline()
-        assert mock_step.call_count == 6
+        assert mock_step.call_count == 11
 
     @patch("main._run_step")
     def test_full_pipeline_continues_after_failure(self, mock_step):
-        mock_step.side_effect = [False, True, True, True, True, True]
+        mock_step.side_effect = [False] + [True] * 10
         with pytest.raises(SystemExit) as exc_info:
             run_full_pipeline()
         assert exc_info.value.code == 1
-        assert mock_step.call_count == 6
+        assert mock_step.call_count == 11
 
     def test_run_step_catches_exceptions(self):
         from main import _run_step
@@ -153,6 +167,9 @@ class TestRunClean:
         cfg = MagicMock()
         cfg.filters.keywords_exclude = ["sales", "accounting", "internal audit"]
         cfg.filters.keywords_include = ["intern", "internship"]
+        cfg.company_industries = {}
+        cfg.project.active_seasons = ["spring_2027", "summer_2027"]
+        cfg.big_tech_companies = []
 
         # Create fake jobs.json
         data_dir = tmp_path / "data"

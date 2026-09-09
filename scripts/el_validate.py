@@ -24,6 +24,8 @@ from scripts.utils.models import (
 from scripts.validate import (
     _generate_listing_id,
     _infer_category_from_title,
+    _is_dropped_category,
+    _is_dropped_domain_title,
     _map_category,
     _map_industry,
     _map_sponsorship,
@@ -74,6 +76,43 @@ def _get_existing_hashes(db: JobsDatabase) -> set[str]:
     return {listing.id for listing in db.listings}
 
 
+def _normalize_seniority(raw: object) -> str:
+    """Normalize AI seniority values to a canonical token."""
+    value = str(raw or "").strip().lower().replace(" ", "_").replace("-", "_")
+    aliases = {
+        "newgrad": "new_grad",
+        "new_graduate": "new_grad",
+        "university_grad": "new_grad",
+        "entry_level": "new_grad",
+        "junior": "swe1",
+        "swe_1": "swe1",
+        "engineer_i": "swe1",
+        "swe_i": "swe1",
+        "swe_2": "swe2",
+        "engineer_ii": "swe2",
+        "swe_ii": "swe2",
+        "mid_level": "mid",
+        "middle": "mid",
+    }
+    return aliases.get(value, value)
+
+
+def _is_acceptable_entry_level_seniority(metadata: dict) -> tuple[bool, str]:
+    """Return whether seniority / YOE metadata is within SWE I–II / new-grad range."""
+    seniority = _normalize_seniority(metadata.get("seniority", ""))
+    if seniority in ("mid", "senior"):
+        return False, f"seniority={seniority}"
+
+    max_years = metadata.get("max_years_required")
+    try:
+        if max_years is not None and float(max_years) > 2:
+            return False, f"max_years_required={max_years}"
+    except (TypeError, ValueError):
+        pass
+
+    return True, seniority
+
+
 def _build_entry_level_listing(
     raw: RawListing, metadata: dict, config_industries: Optional[dict[str, str]] = None
 ) -> JobListing:
@@ -87,6 +126,16 @@ def _build_entry_level_listing(
         raw.company,
         config_industries or {},
     )
+    seniority = _normalize_seniority(metadata.get("seniority", ""))
+    if seniority not in ("new_grad", "swe1", "swe2"):
+        # Infer a displayable default when AI omitted seniority
+        title_lower = raw.title.lower()
+        if "ii" in title_lower or "swe 2" in title_lower or "swe2" in title_lower:
+            seniority = "swe2"
+        elif " i" in title_lower or "swe 1" in title_lower or "swe1" in title_lower:
+            seniority = "swe1"
+        else:
+            seniority = "new_grad"
 
     return JobListing(
         id=listing_id,
@@ -110,6 +159,7 @@ def _build_entry_level_listing(
         season="n/a",
         industry=industry,
         listing_type=ListingType.ENTRY_LEVEL,
+        seniority=seniority,
     )
 
 
@@ -166,6 +216,8 @@ def validate_entry_level() -> list[JobListing]:
     skipped_existing = 0
     rejected_not_entry_level = 0
     rejected_is_internship = 0
+    rejected_seniority = 0
+    rejected_dropped_domain = 0
     rejected_low_confidence = 0
     errors = 0
 
@@ -185,6 +237,14 @@ def validate_entry_level() -> list[JobListing]:
             continue
 
         try:
+            if _is_dropped_domain_title(raw.title):
+                logger.info(
+                    "Rejected (dropped domain): %s — %s",
+                    raw.company, raw.title,
+                )
+                rejected_dropped_domain += 1
+                continue
+
             metadata = enrich_listing(raw, config=config, prompt_override=el_prompt)
 
             if metadata is None:
@@ -228,6 +288,24 @@ def validate_entry_level() -> list[JobListing]:
                     raw.company, raw.title,
                 )
                 rejected_not_entry_level += 1
+                continue
+
+            ok_seniority, seniority_info = _is_acceptable_entry_level_seniority(metadata)
+            if not ok_seniority:
+                logger.info(
+                    "Rejected (too senior: %s): %s — %s",
+                    seniority_info, raw.company, raw.title,
+                )
+                rejected_seniority += 1
+                continue
+
+            mapped_category = _map_category(metadata.get("category", "other"))
+            if _is_dropped_category(mapped_category):
+                logger.info(
+                    "Rejected (dropped category %s): %s — %s",
+                    mapped_category.value, raw.company, raw.title,
+                )
+                rejected_dropped_domain += 1
                 continue
 
             confidence = metadata.get("confidence", 0.0)
@@ -274,9 +352,11 @@ def validate_entry_level() -> list[JobListing]:
     logger.info(
         "Entry-level validation complete: %d validated, %d skipped (existing), "
         "%d rejected (internship), %d rejected (not entry-level), "
+        "%d rejected (seniority), %d rejected (dropped domain), "
         "%d rejected (low confidence), %d errors",
         len(validated), skipped_existing,
         rejected_is_internship, rejected_not_entry_level,
+        rejected_seniority, rejected_dropped_domain,
         rejected_low_confidence, errors,
     )
 

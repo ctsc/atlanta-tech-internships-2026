@@ -37,6 +37,7 @@ class RoleCategory(str, Enum):
     DATA_SCIENCE = "data_science"
     QUANT = "quant"
     PM = "pm"
+    PRODUCT_ENGINEER = "product_engineer"
     HARDWARE = "hardware"
     OTHER = "other"
 
@@ -138,12 +139,13 @@ class JobListing(BaseModel):
     source: str  # "greenhouse_api", "lever_api", "scrape", "community"
     status: ListingStatus = ListingStatus.OPEN
     tech_stack: list[str] = []
-    season: str = "summer_2026"
+    season: str = "spring_2027"
     start_date: Optional[str] = None
     end_date: Optional[str] = None
     industry: IndustrySector = IndustrySector.OTHER
     preferred_class_years: list[str] = []
     listing_type: ListingType = ListingType.INTERNSHIP
+    seniority: str = ""
 
 
 class JobsDatabase(BaseModel):

@@ -31,16 +31,16 @@ class TestProjectConfig:
         assert p.name == "Test"
 
     def test_active_seasons_default(self):
-        p = ProjectConfig(name="Test", season="summer_2026", github_repo="a/b")
-        assert p.active_seasons == ["summer_2026"]
+        p = ProjectConfig(name="Test", season="spring_2027", github_repo="a/b")
+        assert p.active_seasons == ["spring_2027"]
 
     def test_active_seasons_custom(self):
         p = ProjectConfig(
-            name="Test", season="summer_2026", github_repo="a/b",
-            active_seasons=["summer_2026", "fall_2026", "spring_2027", "summer_2027"],
+            name="Test", season="spring_2027", github_repo="a/b",
+            active_seasons=["spring_2027", "summer_2027"],
         )
-        assert len(p.active_seasons) == 4
-        assert "fall_2026" in p.active_seasons
+        assert len(p.active_seasons) == 2
+        assert "summer_2027" in p.active_seasons
 
     def test_missing_name(self):
         with pytest.raises(ValidationError):
@@ -135,7 +135,7 @@ class TestScrapeSource:
 
 class TestGitHubMonitor:
     def test_valid(self):
-        m = GitHubMonitor(repo="SimplifyJobs/Summer2026-Internships")
+        m = GitHubMonitor(repo="SimplifyJobs/Summer2027-Internships")
         assert m.branch == "main"
         assert m.file == "README.md"
 

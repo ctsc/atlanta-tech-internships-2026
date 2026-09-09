@@ -13,7 +13,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -54,6 +54,30 @@ jobs:
 
       - name: Archive stale listings
         run: python -m scripts.archive_stale
+
+      - name: Discover entry-level listings
+        run: python -m scripts.el_discover
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        continue-on-error: true
+
+      - name: Validate entry-level listings
+        run: python -m scripts.el_validate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        continue-on-error: true
+
+      - name: Deduplicate entry-level listings
+        run: python -c "from pathlib import Path; from scripts.utils.config import PROJECT_ROOT; from scripts.deduplicate import deduplicate_all; deduplicate_all(PROJECT_ROOT / 'data' / 'entry_level_jobs.json')"
+        continue-on-error: true
+
+      - name: Check entry-level link health
+        run: python -c "from pathlib import Path; from scripts.utils.config import PROJECT_ROOT; from scripts.check_links import check_all_links; import asyncio; asyncio.run(check_all_links(PROJECT_ROOT / 'data' / 'entry_level_jobs.json'))"
+        continue-on-error: true
+
+      - name: Archive stale entry-level listings
+        run: python -c "from scripts.utils.config import PROJECT_ROOT; from scripts.archive_stale import archive_stale; archive_stale(jobs_path=PROJECT_ROOT / 'data' / 'entry_level_jobs.json', archived_path=PROJECT_ROOT / 'data' / 'entry_level_archived.json')"
+        continue-on-error: true
 
       - name: Process community submissions
         if: github.event_name == 'issues'

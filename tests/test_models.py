@@ -43,7 +43,7 @@ class TestInternSeason:
 
 class TestRoleCategory:
     def test_all_values(self):
-        expected = {"swe", "ml_ai", "data_science", "quant", "pm", "hardware", "other"}
+        expected = {"swe", "ml_ai", "data_science", "quant", "pm", "product_engineer", "hardware", "other"}
         assert {e.value for e in RoleCategory} == expected
 
     def test_str_enum(self):
@@ -175,7 +175,7 @@ class TestJobListing:
         assert listing.remote_friendly is False
         assert listing.status == ListingStatus.OPEN
         assert listing.tech_stack == []
-        assert listing.season == "summer_2026"
+        assert listing.season == "spring_2027"
 
     def test_all_categories(self, sample_job_listing_data):
         """Every RoleCategory value should be accepted."""

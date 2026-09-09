@@ -35,7 +35,7 @@ def sample_job_listing_data():
         "source": "greenhouse_api",
         "status": ListingStatus.OPEN,
         "tech_stack": ["Python", "React"],
-        "season": "summer_2026",
+        "season": "spring_2027",
     }
 
 
@@ -60,9 +60,9 @@ def minimal_config_dict():
     return {
         "project": {
             "name": "Test Project",
-            "season": "summer_2026",
+            "season": "spring_2027",
             "github_repo": "test/repo",
-            "active_seasons": ["summer_2026"],
+            "active_seasons": ["spring_2027"],
         },
     }
 
@@ -73,9 +73,9 @@ def full_config_dict():
     return {
         "project": {
             "name": "Atlanta Tech Internships",
-            "season": "summer_2026",
+            "season": "spring_2027",
             "github_repo": "ctsc/atlanta-tech-internships-2026",
-            "active_seasons": ["summer_2026", "fall_2026", "spring_2027", "summer_2027"],
+            "active_seasons": ["spring_2027", "summer_2027"],
         },
         "georgia_focus": {
             "priority_locations": ["Atlanta, GA", "Alpharetta, GA"],

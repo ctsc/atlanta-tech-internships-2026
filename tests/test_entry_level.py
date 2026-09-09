@@ -199,6 +199,62 @@ class TestEntryLevelValidation:
         assert job.season == "n/a"
         assert job.category == RoleCategory.SWE
         assert job.company == "Google"
+        assert job.seniority == "new_grad"
+
+    def test_build_entry_level_listing_swe2(self, raw_entry_level_listing):
+        from scripts.el_validate import _build_entry_level_listing
+
+        metadata = {
+            "is_entry_level": True,
+            "category": "swe",
+            "locations": ["Atlanta, GA"],
+            "sponsorship": "unknown",
+            "seniority": "swe2",
+            "max_years_required": 2,
+            "industry": "cloud",
+            "confidence": 0.95,
+        }
+        job = _build_entry_level_listing(raw_entry_level_listing, metadata)
+        assert job.seniority == "swe2"
+
+    def test_reject_mid_seniority(self):
+        from scripts.el_validate import _is_acceptable_entry_level_seniority
+
+        ok, reason = _is_acceptable_entry_level_seniority({"seniority": "mid"})
+        assert ok is False
+        assert "mid" in reason
+
+    def test_reject_high_yoe(self):
+        from scripts.el_validate import _is_acceptable_entry_level_seniority
+
+        ok, reason = _is_acceptable_entry_level_seniority(
+            {"seniority": "swe2", "max_years_required": 3}
+        )
+        assert ok is False
+        assert "max_years_required" in reason
+
+    def test_accept_swe2(self):
+        from scripts.el_validate import _is_acceptable_entry_level_seniority
+
+        ok, seniority = _is_acceptable_entry_level_seniority(
+            {"seniority": "swe2", "max_years_required": 2}
+        )
+        assert ok is True
+        assert seniority == "swe2"
+
+    def test_scraper_accepts_el_keywords(self):
+        from scripts.utils.scraper import GenericScraper
+
+        with patch("scripts.utils.scraper.get_config") as mock_get:
+            mock_get.return_value = MagicMock()
+            scraper = GenericScraper(
+                keywords_include=["software engineer", "swe ii"],
+                keywords_exclude=["senior", "intern"],
+            )
+            assert "software engineer" in scraper._intern_keywords
+            assert "senior" in scraper._exclude_keywords
+            assert scraper._matches_intern_keywords("Software Engineer II")
+            assert scraper._matches_exclude_keywords("Senior Software Engineer")
 
     def test_build_entry_level_listing_is_faang(self, raw_entry_level_listing):
         from scripts.el_validate import _build_entry_level_listing
@@ -247,7 +303,7 @@ class TestEntryLevelConfig:
         config_dict = {
             "project": {
                 "name": "Test",
-                "season": "summer_2026",
+                "season": "spring_2027",
                 "github_repo": "test/repo",
             },
             "entry_level_filters": {
@@ -265,7 +321,7 @@ class TestEntryLevelConfig:
         config_dict = {
             "project": {
                 "name": "Test",
-                "season": "summer_2026",
+                "season": "spring_2027",
                 "github_repo": "test/repo",
             },
         }

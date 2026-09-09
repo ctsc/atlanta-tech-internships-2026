@@ -1,6 +1,6 @@
-"""Transforms jobs.json into a formatted README.md with categorized internship tables.
+"""Transforms jobs.json (+ entry_level_jobs.json) into a formatted README.md.
 
-Entry point script that loads the jobs database, renders it to markdown,
+Entry point script that loads the jobs databases, renders them to markdown,
 validates the output, and writes the final README.md.
 """
 
@@ -15,6 +15,7 @@ from scripts.utils.readme_renderer import render_readme
 logger = logging.getLogger(__name__)
 
 JOBS_PATH = PROJECT_ROOT / "data" / "jobs.json"
+EL_JOBS_PATH = PROJECT_ROOT / "data" / "entry_level_jobs.json"
 README_PATH = PROJECT_ROOT / "README.md"
 
 
@@ -28,7 +29,7 @@ def load_database(jobs_path: Path = JOBS_PATH) -> JobsDatabase:
         A validated JobsDatabase instance.
     """
     if not jobs_path.exists():
-        logger.warning("jobs.json not found at %s, using empty database", jobs_path)
+        logger.warning("%s not found, using empty database", jobs_path)
         from datetime import datetime, timezone
 
         return JobsDatabase(listings=[], last_updated=datetime.now(timezone.utc))
@@ -84,7 +85,7 @@ def validate_markdown(content: str) -> bool:
             expected_pipes = 0
 
     # Check that required sections exist
-    required = ["# Atlanta Tech Internships", "### Legend", "## How This Works"]
+    required = ["# Atlanta Tech Internships", "## How This Works"]
     for section in required:
         if section not in content:
             logger.warning("Missing required section: %s", section)
@@ -96,18 +97,21 @@ def validate_markdown(content: str) -> bool:
 def generate_readme(
     jobs_path: Path = JOBS_PATH,
     readme_path: Path = README_PATH,
+    entry_level_path: Path = EL_JOBS_PATH,
 ) -> str:
     """Load jobs, render README, validate, and write to disk.
 
     Args:
         jobs_path: Path to jobs.json.
         readme_path: Path to write README.md.
+        entry_level_path: Path to entry_level_jobs.json.
 
     Returns:
         The rendered README content.
     """
     db = load_database(jobs_path)
-    content = render_readme(db)
+    el_db = load_database(entry_level_path)
+    content = render_readme(db, entry_level_db=el_db)
 
     if not validate_markdown(content):
         logger.error("Markdown validation failed, writing anyway with warning")

@@ -101,7 +101,7 @@ def _make_valid_metadata(**overrides) -> dict:
     """Create a valid AI enrichment metadata dict."""
     defaults = {
         "is_internship": True,
-        "season": "summer_2026",
+        "season": "spring_2027",
         "category": "swe",
         "locations": ["San Francisco, CA"],
         "sponsorship": "unknown",
@@ -361,8 +361,18 @@ class TestMapCategory:
         assert _map_category("data_science") == RoleCategory.DATA_SCIENCE
         assert _map_category("quant") == RoleCategory.QUANT
         assert _map_category("pm") == RoleCategory.PM
+        assert _map_category("product_engineer") == RoleCategory.PRODUCT_ENGINEER
         assert _map_category("hardware") == RoleCategory.HARDWARE
         assert _map_category("other") == RoleCategory.OTHER
+
+    def test_dropped_domain_title(self):
+        from scripts.validate import _is_dropped_domain_title
+
+        assert _is_dropped_domain_title("Hardware Engineer Intern") is True
+        assert _is_dropped_domain_title("Cybersecurity Intern") is True
+        assert _is_dropped_domain_title("Data Analyst Intern") is True
+        assert _is_dropped_domain_title("Software Engineer Intern") is False
+        assert _is_dropped_domain_title("Product Manager Intern") is False
 
     def test_unknown_defaults_to_other(self):
         """Unknown category strings default to OTHER."""
@@ -567,7 +577,7 @@ class TestBuildJobListing:
         assert job.source == "greenhouse_api"
         assert job.status == ListingStatus.OPEN
         assert job.tech_stack == ["Python", "TypeScript"]
-        assert job.season == "summer_2026"  # from metadata["season"]
+        assert job.season == "spring_2027"  # from metadata["season"]
         assert job.date_added == date.today()
         assert job.date_last_verified == date.today()
 
@@ -598,7 +608,7 @@ class TestBuildJobListing:
         raw = _make_raw_listing()
         metadata = {
             "is_internship": True,
-            "season": "summer_2026",
+            "season": "spring_2027",
             "confidence": 0.9,
             # No category, sponsorship, tech_stack, etc.
         }
@@ -628,6 +638,21 @@ class TestBuildJobListing:
         }
         job = _build_job_listing(raw, metadata)
         assert job.season == "summer_2026"
+
+    def test_graduate_friendly_from_metadata(self):
+        """Persists graduate_friendly from AI metadata."""
+        raw = _make_raw_listing()
+        metadata = _make_valid_metadata(graduate_friendly=True)
+        job = _build_job_listing(raw, metadata)
+        assert job.graduate_friendly is True
+
+    def test_graduate_friendly_from_masters_class_years(self):
+        """Derives graduate_friendly when preferred_class_years includes masters."""
+        raw = _make_raw_listing(title="Graduate Research Intern for Master's students")
+        metadata = _make_valid_metadata(graduate_friendly=False)
+        job = _build_job_listing(raw, metadata)
+        assert "masters" in job.preferred_class_years or job.graduate_friendly is True
+        assert job.graduate_friendly is True
 
     def test_fall_2026_season(self):
         """Season set from AI metadata for fall_2026."""
@@ -844,7 +869,7 @@ class TestValidateAll:
         )
 
         mock_config = MagicMock()
-        mock_config.project.active_seasons = ["summer_2026", "fall_2026"]
+        mock_config.project.active_seasons = ["spring_2027", "summer_2027"]
 
         with (
             patch("scripts.validate.DATA_DIR", tmp_path),
@@ -857,29 +882,25 @@ class TestValidateAll:
 
         assert result == []
 
-    def test_accepts_fall_2026_listing(self, tmp_path):
-        """Accepts listings with fall_2026 season when it's in active_seasons."""
-        raw_dict = _make_raw_listing_dict(company="FallCo", title="Fall SWE Intern")
+    def test_accepts_summer_2027_listing(self, tmp_path):
+        """Accepts listings with summer_2027 season when it's in active_seasons."""
+        raw_dict = _make_raw_listing_dict(company="SummerCo", title="SWE Intern")
         _write_raw_discovery(tmp_path, "raw_discovery_20260101_000000.json", [raw_dict])
 
         mock_enrich = MagicMock(
-            return_value=_make_valid_metadata(season="fall_2026")
+            return_value=_make_valid_metadata(season="summer_2027")
         )
-
-        mock_config = MagicMock()
-        mock_config.project.active_seasons = ["summer_2026", "fall_2026"]
 
         with (
             patch("scripts.validate.DATA_DIR", tmp_path),
             patch("scripts.validate.JOBS_PATH", tmp_path / "jobs.json"),
             patch("scripts.validate.enrich_listing", mock_enrich),
             patch("scripts.validate.reset_budget"),
-            patch("scripts.validate.get_config", return_value=mock_config),
         ):
             result = validate_all()
 
         assert len(result) == 1
-        assert result[0].season == "fall_2026"
+        assert result[0].season == "summer_2027"
 
     def test_rejects_low_confidence(self, tmp_path):
         """Rejects listings with confidence below 0.7 threshold."""

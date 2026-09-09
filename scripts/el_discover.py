@@ -81,7 +81,11 @@ async def _run_scraping(config: AppConfig) -> list[RawListing]:
     if not config.scrape_sources:
         return []
 
-    scraper = GenericScraper()
+    el = config.entry_level_filters
+    scraper = GenericScraper(
+        keywords_include=el.keywords_include,
+        keywords_exclude=el.keywords_exclude,
+    )
     tasks = [scraper.scrape_career_page(source) for source in config.scrape_sources]
 
     results_or_errors = await asyncio.gather(*tasks, return_exceptions=True)
@@ -106,18 +110,19 @@ async def _run_scraping(config: AppConfig) -> list[RawListing]:
 
 
 async def _run_github_monitors(config: AppConfig) -> list[RawListing]:
-    """Monitor all configured GitHub repos for entry-level listings."""
-    if not config.github_monitors:
+    """Monitor entry-level GitHub repos (falls back to internship monitors)."""
+    monitors = config.entry_level_github_monitors or config.github_monitors
+    if not monitors:
         return []
 
-    tasks = [monitor_github_repo(monitor) for monitor in config.github_monitors]
+    tasks = [monitor_github_repo(monitor) for monitor in monitors]
     results_or_errors = await asyncio.gather(*tasks, return_exceptions=True)
 
     listings: list[RawListing] = []
     succeeded = 0
     failed = 0
     for i, result in enumerate(results_or_errors):
-        monitor = config.github_monitors[i]
+        monitor = monitors[i]
         if isinstance(result, BaseException):
             logger.error("GitHub monitor %s failed: %s", monitor.repo, result)
             failed += 1

@@ -1,0 +1,50 @@
+name: Daily Digest Email
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 12:00 UTC ≈ 8:00 AM Eastern
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send daily digest
+        run: python -m scripts.send_digest
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+
+      - name: Commit digest snapshot
+        run: |
+          git config user.name "internship-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/digest_snapshot.json
+          if git diff --staged --quiet; then
+            echo "No snapshot changes"
+          else
+            git commit -m "Update digest snapshot — $(date -u +%Y-%m-%d)"
+            git push
+          fi

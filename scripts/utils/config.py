@@ -30,7 +30,7 @@ class ProjectConfig(BaseModel):
     name: str
     season: str
     github_repo: str
-    active_seasons: list[str] = ["summer_2026"]
+    active_seasons: list[str] = ["spring_2027"]
 
 
 class GeorgiaFocusConfig(BaseModel):
@@ -136,6 +136,7 @@ class AppConfig(BaseModel):
     smartrecruiters_boards: list[SmartRecruitersBoard] = []
     scrape_sources: list[ScrapeSource] = []
     github_monitors: list[GitHubMonitor] = []
+    entry_level_github_monitors: list[GitHubMonitor] = []
     filters: FiltersConfig = Field(default_factory=FiltersConfig)
     entry_level_filters: EntryLevelFiltersConfig = Field(default_factory=EntryLevelFiltersConfig)
     ai: AIConfig = Field(default_factory=AIConfig)

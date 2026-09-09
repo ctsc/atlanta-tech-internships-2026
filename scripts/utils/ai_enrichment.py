@@ -47,6 +47,8 @@ class EnrichmentResult(BaseModel):
     start_date: str | None = None
     end_date: str | None = None
     preferred_class_years: list[str] = []
+    seniority: str = ""
+    max_years_required: float | None = None
 
     model_config = {"extra": "allow"}
 

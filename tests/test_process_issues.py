@@ -236,7 +236,13 @@ class TestMapCategory:
         assert _map_category("Software Engineering") == RoleCategory.SWE
 
     def test_ml_ai(self):
+        assert _map_category("ML / AI") == RoleCategory.ML_AI
+
+    def test_ml_ai_legacy(self):
         assert _map_category("ML / AI / Data Science") == RoleCategory.ML_AI
+
+    def test_product_engineering(self):
+        assert _map_category("Product Engineering") == RoleCategory.PRODUCT_ENGINEER
 
     def test_quant(self):
         assert _map_category("Quantitative Finance") == RoleCategory.QUANT
@@ -770,7 +776,9 @@ class TestProcessIssues:
     async def test_category_mapping_all_values(self):
         """All CATEGORY_MAP values map correctly."""
         assert _map_category("Software Engineering") == RoleCategory.SWE
+        assert _map_category("ML / AI") == RoleCategory.ML_AI
         assert _map_category("ML / AI / Data Science") == RoleCategory.ML_AI
+        assert _map_category("Product Engineering") == RoleCategory.PRODUCT_ENGINEER
         assert _map_category("Quantitative Finance") == RoleCategory.QUANT
         assert _map_category("Product Management") == RoleCategory.PM
         assert _map_category("Hardware Engineering") == RoleCategory.HARDWARE

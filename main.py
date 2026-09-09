@@ -6,6 +6,7 @@ Supports running the full pipeline or individual stages:
     python main.py --readme-only      # Regenerate README only
     python main.py --check-links-only # Link checking only
     python main.py --clean            # Re-filter existing jobs.json
+    python main.py --entry-level      # Entry-level discovery + validation pipeline
 """
 
 import argparse
@@ -16,6 +17,9 @@ import sys
 import time
 
 logger = logging.getLogger("internship_pipeline")
+
+EL_JOBS_PATH_NAME = "entry_level_jobs.json"
+EL_ARCHIVED_PATH_NAME = "entry_level_archived.json"
 
 
 def _setup_logging() -> None:
@@ -54,14 +58,73 @@ def _run_step(name: str, func: object, is_async: bool = False) -> bool:
         return False
 
 
+def _el_jobs_path():
+    from scripts.utils.config import PROJECT_ROOT
+    return PROJECT_ROOT / "data" / EL_JOBS_PATH_NAME
+
+
+def _el_archived_path():
+    from scripts.utils.config import PROJECT_ROOT
+    return PROJECT_ROOT / "data" / EL_ARCHIVED_PATH_NAME
+
+
+def run_entry_level_pipeline() -> None:
+    """Run entry-level discover -> validate -> dedup -> link check -> archive."""
+    from scripts.archive_stale import archive_stale
+    from scripts.check_links import check_all_links
+    from scripts.deduplicate import deduplicate_all
+    from scripts.el_discover import discover_entry_level
+    from scripts.el_validate import validate_entry_level
+
+    el_path = _el_jobs_path()
+    el_archived = _el_archived_path()
+
+    steps: list[tuple[str, object, bool]] = [
+        ("Discover entry-level listings", discover_entry_level, True),
+        ("Validate entry-level listings", validate_entry_level, False),
+        ("Deduplicate entry-level listings", lambda: deduplicate_all(el_path), False),
+        ("Check entry-level link health", lambda: check_all_links(el_path), True),
+        (
+            "Archive stale entry-level listings",
+            lambda: archive_stale(jobs_path=el_path, archived_path=el_archived),
+            False,
+        ),
+    ]
+
+    succeeded = 0
+    failed = 0
+    failed_steps: list[str] = []
+    for name, func, is_async in steps:
+        if _run_step(name, func, is_async):
+            succeeded += 1
+        else:
+            failed += 1
+            failed_steps.append(name)
+
+    logger.info(
+        "Entry-level pipeline complete: %d/%d steps succeeded, %d failed",
+        succeeded,
+        succeeded + failed,
+        failed,
+    )
+    if failed > 0:
+        logger.error("Failed entry-level steps: %s", ", ".join(failed_steps))
+        sys.exit(1)
+
+
 def run_full_pipeline() -> None:
-    """Run the complete pipeline: discover -> validate -> deduplicate -> check_links -> archive -> readme."""
+    """Run the complete pipeline including entry-level and README generation."""
     from scripts.archive_stale import archive_stale
     from scripts.check_links import check_all_links
     from scripts.deduplicate import deduplicate_all
     from scripts.discover import discover_all
+    from scripts.el_discover import discover_entry_level
+    from scripts.el_validate import validate_entry_level
     from scripts.generate_readme import generate_readme
     from scripts.validate import validate_all
+
+    el_path = _el_jobs_path()
+    el_archived = _el_archived_path()
 
     steps: list[tuple[str, object, bool]] = [
         ("Discover new listings", discover_all, True),
@@ -69,6 +132,15 @@ def run_full_pipeline() -> None:
         ("Deduplicate listings", deduplicate_all, False),
         ("Check link health", check_all_links, True),
         ("Archive stale listings", archive_stale, False),
+        ("Discover entry-level listings", discover_entry_level, True),
+        ("Validate entry-level listings", validate_entry_level, False),
+        ("Deduplicate entry-level listings", lambda: deduplicate_all(el_path), False),
+        ("Check entry-level link health", lambda: check_all_links(el_path), True),
+        (
+            "Archive stale entry-level listings",
+            lambda: archive_stale(jobs_path=el_path, archived_path=el_archived),
+            False,
+        ),
         ("Generate README", generate_readme, False),
     ]
 
@@ -117,18 +189,23 @@ def run_check_links_only() -> None:
 
 
 def run_clean() -> None:
-    """Re-filter existing jobs.json: remove listings that fail updated filters.
+    """Re-filter existing jobs.json and archive inactive-season listings.
 
     Removes listings whose titles match expanded exclude keywords or whose
-    titles don't pass word-boundary intern keyword matching.
+    titles don't pass word-boundary intern keyword matching. Moves listings
+    whose season is not in project.active_seasons into archived.json.
     """
     import json
     from datetime import datetime, timezone
 
     from scripts.utils.config import PROJECT_ROOT, get_config
+    from scripts.utils.db_io import load_database, save_database
+    from scripts.utils.models import JobsDatabase, JobListing
 
     config = get_config()
     jobs_path = PROJECT_ROOT / "data" / "jobs.json"
+    archived_path = PROJECT_ROOT / "data" / "archived.json"
+    active_seasons = set(config.project.active_seasons)
 
     if not jobs_path.exists():
         logger.warning("jobs.json not found — nothing to clean")
@@ -198,14 +275,13 @@ def run_clean() -> None:
     if faang_updated:
         logger.info("Backfilled is_faang_plus for %d listings", faang_updated)
 
-    # Backfill season classification using deterministic date parsing
+    # Re-classify season from title when missing/none
     from scripts.validate import _extract_season_from_text
 
     season_updated = 0
     for listing in cleaned:
-        current_season = listing.get("season", "summer_2026")
-        # Re-classify listings that are fall_2026 (likely default/wrong) or "none"
-        if current_season in ("fall_2026", "none"):
+        current_season = listing.get("season", "spring_2027")
+        if current_season in ("none", "", None):
             title = listing.get("role", "")
             regex_season, regex_start, regex_end = _extract_season_from_text(title)
             if regex_season:
@@ -215,17 +291,11 @@ def run_clean() -> None:
                 if regex_end and not listing.get("end_date"):
                     listing["end_date"] = regex_end
                 season_updated += 1
-            else:
-                # Default misclassified fall_2026 to summer_2026
-                # (most internships with no season info are summer)
-                if current_season == "fall_2026":
-                    listing["season"] = "summer_2026"
-                    season_updated += 1
 
     if season_updated:
         logger.info("Backfilled season for %d listings", season_updated)
 
-    # Backfill preferred_class_years from title text
+    # Backfill preferred_class_years / graduate_friendly from title text
     from scripts.validate import _extract_class_years_from_text as _extract_cy
 
     class_year_updated = 0
@@ -236,13 +306,88 @@ def run_clean() -> None:
             if years:
                 listing["preferred_class_years"] = years
                 class_year_updated += 1
+        years = listing.get("preferred_class_years") or []
+        if listing.get("requires_advanced_degree") or any(y in ("masters", "phd") for y in years):
+            listing["graduate_friendly"] = True
 
     if class_year_updated:
         logger.info("Backfilled preferred_class_years for %d listings", class_year_updated)
 
-    data["listings"] = cleaned
+    # Archive listings whose season is explicitly set and not in active_seasons.
+    # Missing / "none" seasons are assigned the primary active season instead.
+    keep: list[dict] = []
+    to_archive: list[dict] = []
+    default_season = (
+        "spring_2027"
+        if "spring_2027" in active_seasons
+        else (sorted(active_seasons)[0] if active_seasons else "spring_2027")
+    )
+    for listing in cleaned:
+        season = listing.get("season") or ""
+        if not season or season == "none":
+            listing["season"] = default_season
+            keep.append(listing)
+        elif season not in active_seasons:
+            logger.info(
+                "Archiving inactive season (%s): %s — %s",
+                season, listing.get("company"), listing.get("role"),
+            )
+            to_archive.append(listing)
+        else:
+            keep.append(listing)
+
+    # Archive dropped-domain / dropped-category listings
+    from scripts.validate import (
+        DROPPED_CATEGORIES,
+        _is_dropped_domain_title,
+        _map_category,
+    )
+
+    still_keep: list[dict] = []
+    dropped_archived = 0
+    for listing in keep:
+        title = listing.get("role", "")
+        category_raw = listing.get("category", "other")
+        try:
+            category = _map_category(str(category_raw))
+        except Exception:
+            category = None
+        if _is_dropped_domain_title(title) or (
+            category is not None and category in DROPPED_CATEGORIES
+        ):
+            logger.info(
+                "Archiving dropped domain/category: %s — %s [%s]",
+                listing.get("company"), title, category_raw,
+            )
+            to_archive.append(listing)
+            dropped_archived += 1
+        else:
+            still_keep.append(listing)
+    keep = still_keep
+
+    if to_archive:
+        if archived_path.exists():
+            archived_db = load_database(archived_path)
+        else:
+            archived_db = JobsDatabase(
+                listings=[],
+                last_updated=datetime.now(timezone.utc),
+                total_open=0,
+            )
+        for item in to_archive:
+            try:
+                archived_db.listings.append(JobListing.model_validate(item))
+            except Exception as exc:
+                logger.warning("Could not archive listing %s: %s", item.get("id"), exc)
+        save_database(archived_db, archived_path)
+        logger.info(
+            "Archived %d listings to %s (%d wrong season / dropped domain)",
+            len(to_archive), archived_path, dropped_archived,
+        )
+
+    data["listings"] = keep
     data["last_updated"] = datetime.now(timezone.utc).isoformat()
-    data["total_open"] = len([x for x in cleaned if x.get("status") == "open"])
+    data["total_open"] = len([x for x in keep if x.get("status") == "open"])
 
     tmp_path = jobs_path.with_suffix(".tmp")
     with open(tmp_path, "w", encoding="utf-8") as f:
@@ -250,10 +395,11 @@ def run_clean() -> None:
     tmp_path.replace(jobs_path)
 
     logger.info(
-        "Clean complete: %d → %d listings (%d removed)",
+        "Clean complete: %d -> %d listings (%d removed by filters, %d archived)",
         original_count,
-        len(cleaned),
+        len(keep),
         removed,
+        len(to_archive),
     )
 
 
@@ -294,7 +440,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     group.add_argument(
         "--clean",
         action="store_true",
-        help="Re-filter existing jobs.json to remove non-tech/non-intern listings",
+        help="Re-filter existing jobs.json and archive inactive-season listings",
+    )
+    group.add_argument(
+        "--entry-level",
+        action="store_true",
+        help="Run the entry-level discovery and validation pipeline",
     )
 
     return parser.parse_args(argv)
@@ -317,6 +468,8 @@ def main(argv: list[str] | None = None) -> None:
         run_check_links_only()
     elif args.clean:
         run_clean()
+    elif args.entry_level:
+        run_entry_level_pipeline()
     else:
         # Default to full pipeline (covers --full and no args)
         run_full_pipeline()

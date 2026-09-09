@@ -12,7 +12,7 @@ The easiest way to contribute is through our structured issue form:
    - **Role Title** — The exact title of the position
    - **Application URL** — A direct link to the application page
    - **Location(s)** — Where the internship is located (e.g., "Atlanta, GA / Remote")
-   - **Role Category** — Software Engineering, ML/AI, Data Science, Quant, PM, or Hardware
+   - **Role Category** — Software Engineering, Product Engineering, Product Management, or ML/AI
 3. Optionally check any applicable flags (sponsorship, citizenship, remote, advanced degree)
 4. Submit the issue
 
@@ -21,7 +21,7 @@ The easiest way to contribute is through our structured issue form:
 Your submission goes through our automated validation pipeline:
 
 1. **Parsing** — The bot reads the structured fields from your issue
-2. **AI Validation** — Gemini AI verifies that the listing is a real Summer 2026 tech internship
+2. **AI Validation** — Gemini AI verifies that the listing is a real Spring 2027 or Summer 2027 tech internship
 3. **Link Check** — The application URL is verified to be live and accessible
 4. **Deduplication** — The system checks whether the listing already exists in our database
 
@@ -29,25 +29,28 @@ If everything checks out, the listing is added to the repo and your issue is clo
 
 ## Update Cycle
 
-The repo updates automatically **every 6 hours**. Community submissions are processed when they are opened or labeled. Your listing will appear in the README after the next pipeline run.
+The repo updates automatically **every 6 hours**. A morning email digest (via Resend) can notify the maintainer of newly added roles. Community submissions are processed when they are opened or labeled.
 
 ## What We're Looking For
 
-We track **tech internships** across multiple seasons (Summer 2026, Fall 2026, Spring 2027, Summer 2027) in these categories:
+**Geography:** Atlanta, Georgia, Southeast US, and Texas. Fully remote roles only count when a Georgia / Southeast / Texas location is also listed. Nationwide-only roles belong on SimplifyJobs, not here.
 
-- Software Engineering (SWE, frontend, backend, full stack, mobile, DevOps)
-- Machine Learning / AI / Data Science
-- Quantitative Finance
+**Internships (Spring 2027 / Summer 2027):**
+- Software Engineering (SWE, frontend, backend, fullstack, mobile, DevOps, cloud)
+- Product Engineering
 - Product Management
-- Hardware Engineering (embedded, firmware, FPGA, chip design)
+- ML / AI (including AI engineering; ML-heavy data scientist roles OK)
 
-We have a heavy focus on internships in **Georgia** (Atlanta, Alpharetta, and statewide), but we track listings across all locations.
+**Entry-level:** new grad / SWE I / SWE II / PE / PM / ML-AI (~0–2 years)
 
 ## What We Don't Track
 
-- Full-time positions (internships and co-ops only)
+- Hardware, electrical, robotics, cybersecurity, IT support
+- Data analyst / BI / analytics-only and quant roles
+- Mid-level / senior / staff full-time roles (3+ years)
 - Non-tech roles (marketing, sales, HR, etc.)
 - Listings from known body shops (Revature, Infosys, Wipro, TCS, Cognizant)
+- Expired seasons (Summer 2026, Fall 2026)
 
 ## Questions?
 

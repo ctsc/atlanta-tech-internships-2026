@@ -28,7 +28,8 @@ body:
     id: location
     attributes:
       label: Location(s)
-      placeholder: e.g., San Francisco, CA / Remote
+      description: Georgia, Southeast US, or Texas preferred. Remote only if a GA/SE/TX location is also listed.
+      placeholder: e.g., Atlanta, GA / Remote
     validations:
       required: true
   - type: dropdown
@@ -37,10 +38,9 @@ body:
       label: Role Category
       options:
         - Software Engineering
-        - ML / AI / Data Science
-        - Quantitative Finance
+        - Product Engineering
         - Product Management
-        - Hardware Engineering
+        - ML / AI
         - Other
     validations:
       required: true
@@ -54,3 +54,4 @@ body:
         - label: Remote friendly
         - label: Requires advanced degree (Master's/PhD)
         - label: Open to international students
+        - label: Graduate / master's friendly

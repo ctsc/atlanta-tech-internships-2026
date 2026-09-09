@@ -60,15 +60,23 @@ class GenericScraper:
     Parses HTML with BeautifulSoup + lxml to find intern-related links.
     """
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        keywords_include: list[str] | None = None,
+        keywords_exclude: list[str] | None = None,
+    ) -> None:
         self._rate_limiter = _DomainRateLimiter(max_per_second=2.0)
         self._config = get_config()
-        self._intern_keywords: list[str] = (
-            self._config.filters.keywords_include or list(INTERN_KEYWORDS)
-        )
-        self._exclude_keywords: list[str] = (
-            self._config.filters.keywords_exclude or []
-        )
+        if keywords_include is not None:
+            self._intern_keywords = list(keywords_include) or list(INTERN_KEYWORDS)
+        else:
+            self._intern_keywords = (
+                self._config.filters.keywords_include or list(INTERN_KEYWORDS)
+            )
+        if keywords_exclude is not None:
+            self._exclude_keywords = list(keywords_exclude)
+        else:
+            self._exclude_keywords = self._config.filters.keywords_exclude or []
 
     # ------------------------------------------------------------------
     # Public API

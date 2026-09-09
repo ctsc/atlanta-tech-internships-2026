@@ -89,7 +89,7 @@ def scrape_source():
 @pytest.fixture
 def github_monitor():
     return GitHubMonitor(
-        repo="SimplifyJobs/Summer2026-Internships", branch="dev", file="README.md"
+        repo="SimplifyJobs/Summer2027-Internships", branch="dev", file="README.md"
     )
 
 

@@ -29,9 +29,12 @@ JOBS_PATH = DATA_DIR / "jobs.json"
 # Mapping from issue form category strings to RoleCategory enum
 CATEGORY_MAP: dict[str, RoleCategory] = {
     "software engineering": RoleCategory.SWE,
+    "product engineering": RoleCategory.PRODUCT_ENGINEER,
+    "product management": RoleCategory.PM,
+    "ml / ai": RoleCategory.ML_AI,
+    # Legacy labels (older issues)
     "ml / ai / data science": RoleCategory.ML_AI,
     "quantitative finance": RoleCategory.QUANT,
-    "product management": RoleCategory.PM,
     "hardware engineering": RoleCategory.HARDWARE,
     "other": RoleCategory.OTHER,
 }
