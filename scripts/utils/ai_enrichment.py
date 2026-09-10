@@ -64,7 +64,7 @@ class EnrichmentResult(BaseModel):
 # ---------------------------------------------------------------------------
 
 _api_call_count: int = 0
-MAX_API_CALLS_PER_RUN: int = 200
+MAX_API_CALLS_PER_RUN: int = 800
 
 # Cached Gemini client (lazy-initialized)
 _gemini_client: Optional[object] = None

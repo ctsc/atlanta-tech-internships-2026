@@ -25,6 +25,7 @@ from tenacity import (
 
 from scripts.utils.config import GitHubMonitor, ScrapeSource, get_config, PROJECT_ROOT
 from scripts.utils.models import RawListing
+from scripts.utils.posting_age import is_within_max_age, parse_simplify_age
 
 logger = logging.getLogger(__name__)
 
@@ -443,30 +444,50 @@ async def monitor_github_repo(monitor: GitHubMonitor) -> list[RawListing]:
     state_path = PROJECT_ROOT / "data" / "monitor_state.json"
     previous_urls = _load_monitor_state(state_path, monitor.repo)
 
-    # Diff: only new entries
+    # Diff: only new entries (or all entries when state is empty / reseeding)
     current_urls = {entry["url"] for entry in current_entries}
     new_urls = current_urls - previous_urls
 
+    # Freshness window from internship or entry-level filters
+    max_age_days = None
+    try:
+        from scripts.utils.config import get_config
+
+        cfg = get_config()
+        max_age_days = cfg.filters.max_posting_age_days
+        if "New-Grad" in monitor.repo or "new-grad" in monitor.repo.lower():
+            max_age_days = cfg.entry_level_filters.max_posting_age_days
+    except Exception:
+        max_age_days = 14
+
     new_listings: list[RawListing] = []
     for entry in current_entries:
-        if entry["url"] in new_urls:
-            company_slug = re.sub(
-                r"[^a-z0-9]+", "-", entry["company"].lower()
-            ).strip("-")
-            listing = RawListing(
-                company=entry["company"],
-                company_slug=company_slug,
-                title=entry["role"],
-                location=entry.get("location", "Unknown"),
-                url=entry["url"],
-                source="github_monitor",
-                is_faang_plus=False,
-                raw_data={
-                    "source_repo": monitor.repo,
-                    "branch": monitor.branch,
-                },
-            )
-            new_listings.append(listing)
+        if entry["url"] not in new_urls:
+            continue
+        raw_meta = {
+            "source_repo": monitor.repo,
+            "branch": monitor.branch,
+            "age": entry.get("age", ""),
+        }
+        age_days = parse_simplify_age(entry.get("age", ""))
+        if age_days is not None:
+            raw_meta["age_days"] = age_days
+        if not is_within_max_age(raw_meta, max_age_days, source="github_monitor"):
+            continue
+        company_slug = re.sub(
+            r"[^a-z0-9]+", "-", entry["company"].lower()
+        ).strip("-")
+        listing = RawListing(
+            company=entry["company"],
+            company_slug=company_slug,
+            title=entry["role"],
+            location=entry.get("location", "Unknown"),
+            url=entry["url"],
+            source="github_monitor",
+            is_faang_plus=False,
+            raw_data=raw_meta,
+        )
+        new_listings.append(listing)
 
     # Save updated state
     _save_monitor_state(state_path, monitor.repo, current_urls)
@@ -567,12 +588,17 @@ def _parse_html_table(content: str) -> list[dict]:
             if not apply_url:
                 continue
 
+            age = ""
+            if len(cells) > 4:
+                age = _strip_markup(_extract_cell_text(cells[4]))
+
             entries.append(
                 {
                     "company": company,
                     "role": role,
                     "location": location,
                     "url": apply_url,
+                    "age": age,
                 }
             )
 

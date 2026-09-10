@@ -4,13 +4,13 @@
 >
 > [Back to main listings](README.md)
 
-We track **374** companies across multiple sources.
+We track **467** companies across multiple sources.
 
 | Source Type | Companies |
 |-----------|-----------|
-| API-tracked (Greenhouse, Lever, Ashby, Workday, SmartRecruiters) | 302 |
-| Web scraping | 72 |
-| **Total** | **374** |
+| API-tracked (Greenhouse, Lever, Ashby, Workday, SmartRecruiters) | 326 |
+| Web scraping | 141 |
+| **Total** | **467** |
 
 ---
 
@@ -47,8 +47,9 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Axon | Greenhouse |  |
 | BAE Systems | Greenhouse |  |
 | Bakkt | Greenhouse |  |
-| Bandwidth | Lever |  |
+| Bandwidth | Greenhouse, Lever |  |
 | Baton | Lever |  |
+| BigCommerce | Workday |  |
 | BlackRock | Workday | Yes |
 | Block (Square) | Greenhouse | Yes |
 | Blue Origin | Workday |  |
@@ -64,6 +65,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Cadence Design Systems | Workday |  |
 | Cal.com | Ashby |  |
 | Calendly | Greenhouse |  |
+| CallRail | Greenhouse |  |
 | Canva | Greenhouse | Yes |
 | Capital One | Workday | Yes |
 | Cardlytics | Greenhouse |  |
@@ -90,9 +92,11 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Confluent | Greenhouse |  |
 | Contentful | Greenhouse, Lever |  |
 | Continental | SmartRecruiters |  |
+| Coursera | Greenhouse |  |
 | Cox | Workday |  |
 | CrowdStrike | Greenhouse | Yes |
 | Cursor | Ashby, Greenhouse |  |
+| Cypress.io | Greenhouse |  |
 | Databricks | Greenhouse | Yes |
 | Datadog | Greenhouse | Yes |
 | dbt Labs | Greenhouse |  |
@@ -107,6 +111,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Duolingo | Greenhouse | Yes |
 | eBay | Workday | Yes |
 | Elastic | Greenhouse |  |
+| Epic Games | Greenhouse | Yes |
 | Epic Systems | Greenhouse |  |
 | Equifax | Workday |  |
 | Etsy | Greenhouse, Workday |  |
@@ -116,11 +121,13 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | FanDuel | Greenhouse |  |
 | Fidelity Investments | Workday |  |
 | Figma | Greenhouse, Lever | Yes |
+| FinQuery | Lever |  |
 | Fireworks AI | Ashby, Greenhouse |  |
 | Fiserv | Workday |  |
 | Five Rings Capital | Greenhouse |  |
 | Flatiron Health | Greenhouse |  |
 | Flexport | Greenhouse |  |
+| Flock Safety | Ashby |  |
 | Fly.io | Greenhouse |  |
 | Frigade | Ashby |  |
 | FullStory | Greenhouse |  |
@@ -131,6 +138,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | GOAT Group | Greenhouse |  |
 | Grafana Labs | Lever |  |
 | Grammarly | Greenhouse | Yes |
+| Granum | Greenhouse |  |
 | Greenlight | Greenhouse |  |
 | GreenSky | Greenhouse |  |
 | Groq | Greenhouse |  |
@@ -144,6 +152,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | HubSpot | Greenhouse | Yes |
 | Hugging Face | Greenhouse |  |
 | IMC Trading | Greenhouse | Yes |
+| Indeed | Workday |  |
 | Inngest | Ashby |  |
 | Instacart | Greenhouse | Yes |
 | Intel | Workday | Yes |
@@ -151,8 +160,10 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Ionic Security | Greenhouse |  |
 | JetBrains | Greenhouse |  |
 | Johnson & Johnson | Workday |  |
+| Journey Foods | Greenhouse |  |
 | Justworks | Greenhouse |  |
 | Kabbage (Amex) | Greenhouse |  |
+| Khan Academy | Greenhouse |  |
 | Klarna | Greenhouse |  |
 | Klaviyo | Greenhouse |  |
 | Knock | Ashby |  |
@@ -169,6 +180,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Lucid Motors | Greenhouse |  |
 | Lyft | Greenhouse | Yes |
 | Mailchimp (Intuit) | Greenhouse | Yes |
+| Manhattan Associates | Workday |  |
 | Marqeta | Greenhouse |  |
 | Marvell | Workday |  |
 | Mastercard | Workday | Yes |
@@ -184,13 +196,14 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Modern Treasury | Greenhouse |  |
 | monday.com | Greenhouse |  |
 | MongoDB | Greenhouse | Yes |
-| Morgan Stanley | Workday |  |
+| Morgan Stanley | Workday | Yes |
 | MotherDuck | Lever |  |
 | Motorola Solutions | Workday |  |
 | Mux | Lever |  |
 | Nasdaq | Workday |  |
 | Navan | Greenhouse |  |
-| NCR Atleos | Greenhouse |  |
+| NCR Atleos | Greenhouse, Workday |  |
+| NCR Voyix | Workday |  |
 | Neon | Lever |  |
 | Netflix | Lever | Yes |
 | Netlify | Greenhouse |  |
@@ -212,6 +225,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Palantir | Greenhouse | Yes |
 | Palo Alto Networks | Greenhouse | Yes |
 | PayPal | Workday | Yes |
+| Peach Pilot | Greenhouse |  |
 | Pendo | Greenhouse |  |
 | Perplexity AI | Ashby, Greenhouse |  |
 | Pindrop | Greenhouse |  |
@@ -229,7 +243,9 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | QGenda | Greenhouse |  |
 | Qualcomm | Workday | Yes |
 | QuestDB | Lever |  |
+| R1 RCM | Workday |  |
 | Railway | Ashby, Greenhouse |  |
+| Rainforest | Ashby |  |
 | Ramp | Ashby, Greenhouse | Yes |
 | Raytheon | Greenhouse | Yes |
 | Red Hat | Greenhouse |  |
@@ -246,10 +262,12 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Rippling | Greenhouse | Yes |
 | Roadie | Greenhouse |  |
 | Robinhood | Greenhouse | Yes |
+| Roblox | Greenhouse |  |
 | RTX | Workday |  |
 | Rubicon Technologies | Greenhouse |  |
 | S&P Global | Workday |  |
 | SAIC | Greenhouse |  |
+| SailPoint | Workday |  |
 | Salesforce | Workday | Yes |
 | Salesloft | Greenhouse |  |
 | Samsara | Greenhouse | Yes |
@@ -258,11 +276,14 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Sanity | Greenhouse, Lever |  |
 | Scale AI | Greenhouse | Yes |
 | Segment | Greenhouse |  |
+| Sema4.ai | Ashby |  |
 | SendGrid | Greenhouse |  |
 | SentinelOne | Greenhouse |  |
 | Sentry | Greenhouse |  |
+| Sharecare | Workday |  |
 | Shield AI | Greenhouse |  |
 | Shopify | Lever | Yes |
+| Sierra | Ashby |  |
 | Skydio | Greenhouse |  |
 | Snap | Greenhouse | Yes |
 | Snorkel AI | Greenhouse |  |
@@ -275,6 +296,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Spotify | Greenhouse | Yes |
 | Squarespace | Greenhouse |  |
 | State Street | Workday |  |
+| Stord | Workday |  |
 | Stripe | Greenhouse | Yes |
 | Stytch | Lever |  |
 | Supabase | Greenhouse, Lever |  |
@@ -300,6 +322,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Veeva Systems | Greenhouse |  |
 | Vercel | Ashby, Greenhouse, Lever |  |
 | Verkada | Greenhouse |  |
+| Verusen | Greenhouse |  |
 | Virtu Financial | Greenhouse |  |
 | Visa | SmartRecruiters | Yes |
 | VMware | Workday | Yes |
@@ -316,6 +339,7 @@ These companies are monitored via direct ATS API integrations for reliable, real
 | Wish | Greenhouse |  |
 | Workday | Workday | Yes |
 | WorkOS | Lever |  |
+| WP Engine | Workday |  |
 | xAI | Greenhouse |  |
 | Zendesk | Greenhouse |  |
 | Zip | Ashby |  |
@@ -327,79 +351,201 @@ These companies are monitored via direct ATS API integrations for reliable, real
 
 ## Web-Scraped Companies
 
-These companies are monitored via career page scraping. Coverage may vary as pages change.
+These companies require web scraping of careers pages (no clean public JSON ATS API, or dual-tracked with ATS).
 
-| Company |
-|---------|
-| Activision Blizzard |
-| Aflac |
-| Amazon |
-| American Express |
-| Anthem (Elevance Health) |
-| Apple |
-| Arista Networks |
-| AT&T |
-| Bank of America |
-| Best Buy |
-| Bloomberg |
-| Chevron |
-| Chick-fil-A |
-| Citadel |
-| Citigroup |
-| CORPAY (FleetCor) |
-| Costco |
-| Cox Automotive |
-| Cox Enterprises |
-| CSX |
-| CVS Health |
-| DE Shaw |
-| Electronic Arts |
-| Emerson |
-| Epic Games |
-| ExxonMobil |
-| FedEx |
-| GE Aerospace |
-| Genuine Parts Company |
-| Georgia-Pacific |
-| Global Payments |
-| Google |
-| Honeywell |
-| Hudson River Trading |
-| Humana |
-| InComm Payments |
-| Intercontinental Exchange |
-| Invesco |
-| Jane Street |
-| Kroger |
-| Lockheed Martin (Marietta) |
-| Lowe's |
-| Medtronic |
-| Meta |
-| Microsoft |
-| NCR Voyix |
-| NextEra Energy |
-| Norfolk Southern |
-| Panasonic |
-| Paramount |
-| PDI Technologies |
-| Progressive |
-| Riot Games |
-| Rivian |
-| Siemens |
-| Southern Company |
-| SpaceX |
-| State Farm |
-| SunTrust (Truist) |
-| Target |
-| Tesla |
-| Truist |
-| Truist Financial |
-| Two Sigma |
-| UnitedHealth Group |
-| UPS |
-| USAA |
-| Verizon |
-| Walmart |
-| Warner Bros. Discovery |
-| Waystar |
-| Wells Fargo |
+| Company | Big Tech |
+|---------|----------|
+| Activision Blizzard |  |
+| ADP |  |
+| Aflac |  |
+| AGCO Corporation |  |
+| Amazon | Yes |
+| American Express |  |
+| Anthem (Elevance Health) |  |
+| Apple | Yes |
+| Aptean |  |
+| Arista Networks |  |
+| AT&T |  |
+| Bank of America |  |
+| Best Buy |  |
+| BitPay |  |
+| Bloomberg | Yes |
+| Brightree |  |
+| CACI International |  |
+| CDC |  |
+| Chart Industries |  |
+| Chevron |  |
+| Chick-fil-A |  |
+| Children's Healthcare of Atlanta |  |
+| Cigna |  |
+| Citadel | Yes |
+| Citigroup |  |
+| Comcast |  |
+| CoreCard |  |
+| CORPAY (FleetCor) |  |
+| Costco |  |
+| Cotiviti |  |
+| Cox Automotive |  |
+| Cox Communications |  |
+| Cox Enterprises |  |
+| Cox Media Group |  |
+| CSX |  |
+| CVS Health |  |
+| DE Shaw | Yes |
+| Delta Air Lines | Yes |
+| DraftKings |  |
+| Electronic Arts | Yes |
+| Emerson |  |
+| Emory Healthcare |  |
+| ExxonMobil |  |
+| EY |  |
+| Federal Reserve Bank of Atlanta |  |
+| FedEx |  |
+| GDIT |  |
+| GE Aerospace |  |
+| General Dynamics Mission Systems |  |
+| Genuine Parts Company |  |
+| Georgia Tech Research Institute |  |
+| Georgia-Pacific |  |
+| Global Payments |  |
+| Google | Yes |
+| Gray Television |  |
+| Greenway Health |  |
+| Gulfstream Aerospace |  |
+| Hi-Rez Studios |  |
+| Honeywell |  |
+| Hudson River Trading | Yes |
+| Humana |  |
+| Hyland Software |  |
+| Hyundai Metaplant America |  |
+| IBM | Yes |
+| InComm Payments |  |
+| Infor |  |
+| Ingenico |  |
+| Inspire Brands |  |
+| Intercontinental Exchange |  |
+| Invesco |  |
+| Jane Street | Yes |
+| JPMorgan Chase | Yes |
+| Kaiser Permanente of Georgia |  |
+| KPMG |  |
+| Kroger |  |
+| LexisNexis Risk Solutions |  |
+| LG Electronics USA |  |
+| Lockheed Martin (Marietta) |  |
+| Lowe's |  |
+| Medtronic |  |
+| Meta | Yes |
+| Microsoft | Yes |
+| Mohawk Industries |  |
+| NCR |  |
+| NextEra Energy |  |
+| Norfolk Southern |  |
+| Occupier |  |
+| Omnissa |  |
+| Optum |  |
+| Oracle | Yes |
+| Panasonic |  |
+| Panasonic Automotive |  |
+| Paramount |  |
+| ParkMobile |  |
+| Parsons Corporation |  |
+| PDI Technologies |  |
+| Pegasystems |  |
+| Peraton |  |
+| PrimeRevenue |  |
+| Priority Technology Holdings |  |
+| Profisee |  |
+| Progressive |  |
+| Regions Financial |  |
+| Repay Holdings |  |
+| Riot Games |  |
+| Rivian |  |
+| Rockwell Automation |  |
+| Rollins Inc |  |
+| Sage Software |  |
+| SAP |  |
+| Secureworks |  |
+| ServiceNow | Yes |
+| Siemens |  |
+| SK Battery America |  |
+| Slalom |  |
+| SoftWear Automation |  |
+| Southern Company |  |
+| Southwire |  |
+| SpaceX | Yes |
+| State Farm |  |
+| SunTrust (Truist) |  |
+| Synchrony |  |
+| Synovus |  |
+| Target |  |
+| Tesla | Yes |
+| The Weather Company |  |
+| Thyssenkrupp Elevator Americas |  |
+| Truist |  |
+| Truist Financial |  |
+| Two Sigma | Yes |
+| UnitedHealth Group |  |
+| UPS | Yes |
+| USAA |  |
+| Verifone |  |
+| Verizon |  |
+| Walmart |  |
+| Warner Bros. Discovery |  |
+| Wattch |  |
+| Waystar |  |
+| Wells Fargo |  |
+| XPO Logistics |  |
+
+### Also scraped (dual-tracked with ATS API)
+
+| Company | ATS + Scrape |
+|---------|--------------|
+| Accenture | Greenhouse, Workday + Scrape |
+| Anduril | Greenhouse + Scrape |
+| Bakkt | Greenhouse + Scrape |
+| Booz Allen Hamilton | Greenhouse + Scrape |
+| Calendly | Greenhouse + Scrape |
+| CallRail | Greenhouse + Scrape |
+| Capital One | Workday + Scrape |
+| Cardlytics | Greenhouse + Scrape |
+| Cisco | Workday + Scrape |
+| Cloudflare | Greenhouse + Scrape |
+| Coca-Cola | Workday + Scrape |
+| Deloitte | Greenhouse + Scrape |
+| Epic Games | Greenhouse + Scrape |
+| Equifax | Workday + Scrape |
+| FanDuel | Greenhouse + Scrape |
+| FinQuery | Lever + Scrape |
+| Fiserv | Workday + Scrape |
+| Flock Safety | Ashby + Scrape |
+| FullStory | Greenhouse + Scrape |
+| Greenlight | Greenhouse + Scrape |
+| Home Depot | Workday + Scrape |
+| Leidos | Greenhouse, Workday + Scrape |
+| Lockheed Martin | Greenhouse + Scrape |
+| Mailchimp (Intuit) | Greenhouse + Scrape |
+| Manhattan Associates | Workday + Scrape |
+| Micron Technology | Workday + Scrape |
+| MongoDB | Greenhouse + Scrape |
+| Morgan Stanley | Workday + Scrape |
+| NCR Atleos | Greenhouse, Workday + Scrape |
+| NCR Voyix | Workday + Scrape |
+| Northrop Grumman | Greenhouse + Scrape |
+| OneTrust | Greenhouse + Scrape |
+| Pindrop | Greenhouse + Scrape |
+| PrizePicks | Greenhouse + Scrape |
+| PwC | Workday + Scrape |
+| R1 RCM | Workday + Scrape |
+| Rainforest | Ashby + Scrape |
+| Roadie | Greenhouse + Scrape |
+| SAIC | Greenhouse + Scrape |
+| Salesforce | Workday + Scrape |
+| Salesloft | Greenhouse + Scrape |
+| Sema4.ai | Ashby + Scrape |
+| Sharecare | Workday + Scrape |
+| Stord | Workday + Scrape |
+| T-Mobile | Workday + Scrape |
+| Verusen | Greenhouse + Scrape |
+| Visa | SmartRecruiters + Scrape |
+| Workday | Workday + Scrape |

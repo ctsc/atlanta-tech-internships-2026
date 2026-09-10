@@ -36,6 +36,7 @@ class _EntryLevelFilters:
         el = config.entry_level_filters
         self.keywords_include = el.keywords_include
         self.keywords_exclude = el.keywords_exclude
+        self.max_posting_age_days = el.max_posting_age_days
         # Reuse role_categories and exclude_companies from main filters
         self.role_categories = config.filters.role_categories
         self.exclude_companies = config.filters.exclude_companies

@@ -152,15 +152,18 @@ def _extract_season_from_text(
             season = _month_to_season(sm, yr)
             return season, start_date, None
 
-    # Pattern 4: Season keyword — "Summer 2026", "Fall 2026"
+    # Pattern 4: Season keyword — "Summer 2026", "Fall 2026", "Summer '27"
     season_names = "|".join(_SEASON_KEYWORDS.keys())
-    pat4 = rf"\b({season_names})\s+(\d{{4}})\b"
+    pat4 = rf"\b({season_names})\s+'?(\d{{2,4}})\b"
     m = _re.search(pat4, text_lower)
     if m:
         keyword, year_str = m.group(1), m.group(2)
         season_prefix = _SEASON_KEYWORDS.get(keyword)
         if season_prefix:
-            season = f"{season_prefix}_{year_str}"
+            year = int(year_str)
+            if year < 100:
+                year += 2000
+            season = f"{season_prefix}_{year}"
             return season, None, None
 
     return None, None, None
@@ -711,26 +714,50 @@ def validate_all() -> list[JobListing]:
 
             # Detect DEFAULT_METADATA (Gemini unavailable / budget exceeded):
             # confidence == 0.0 AND season == "none" means AI didn't run.
-            # Since discovery already filtered for intern keywords, accept
-            # these listings with reasonable defaults instead of rejecting.
+            # Prefer season from title/description; reject inactive seasons.
             is_default_metadata = (
                 metadata.get("confidence", 0.0) == 0.0
                 and metadata.get("season", "none") == "none"
             )
 
             if is_default_metadata:
-                default_season = sorted(active_seasons)[0] if active_seasons else "spring_2027"
-                metadata["season"] = default_season
+                inferred_season = None
+                for text in (raw.title, raw.description or ""):
+                    s, _, _ = _extract_season_from_text(text)
+                    if s:
+                        inferred_season = s
+                        break
+
+                if inferred_season and inferred_season not in active_seasons:
+                    logger.info(
+                        "Rejected (season %s not active, no AI): %s — %s",
+                        inferred_season,
+                        raw.company,
+                        raw.title,
+                    )
+                    rejected_wrong_season += 1
+                    continue
+
+                if inferred_season:
+                    metadata["season"] = inferred_season
+                elif "summer_2027" in active_seasons:
+                    # Undated intern roles default to Summer 2027 (primary cycle)
+                    metadata["season"] = "summer_2027"
+                else:
+                    metadata["season"] = (
+                        sorted(active_seasons)[0] if active_seasons else "spring_2027"
+                    )
+
                 metadata["confidence"] = 0.7
                 metadata["category"] = _infer_category_from_title(
                     raw.title, role_categories_map
                 )
                 logger.info(
-                    "Accepted without AI validation (Gemini unavailable): %s — %s "
-                    "(default season=%s, category=%s)",
+                    "Accepted without AI validation: %s — %s "
+                    "(season=%s, category=%s)",
                     raw.company,
                     raw.title,
-                    default_season,
+                    metadata["season"],
                     metadata["category"],
                 )
 
@@ -743,6 +770,14 @@ def validate_all() -> list[JobListing]:
                 )
                 rejected_not_internship += 1
                 continue
+
+            # Overlay season from title/description when AI left it unspecified
+            if metadata.get("season", "none") == "none":
+                for text in (raw.title, raw.description or ""):
+                    inferred, _, _ = _extract_season_from_text(text)
+                    if inferred:
+                        metadata["season"] = inferred
+                        break
 
             # Season check: support both new "season" key and legacy "is_summer_2026"
             season = metadata.get("season", "none")

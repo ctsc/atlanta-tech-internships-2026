@@ -97,12 +97,16 @@ class FiltersConfig(BaseModel):
     keywords_exclude: list[str] = []
     role_categories: dict[str, list[str]] = {}
     exclude_companies: list[str] = []
+    # Drop ATS/GitHub postings older than this many days when a posted date
+    # is known. Undated scrapes are kept. Set 0/null to disable.
+    max_posting_age_days: Optional[int] = 14
 
 
 class EntryLevelFiltersConfig(BaseModel):
     """Keyword filtering rules for entry-level job discovery."""
     keywords_include: list[str] = []
     keywords_exclude: list[str] = []
+    max_posting_age_days: Optional[int] = 14
 
 
 class AIConfig(BaseModel):

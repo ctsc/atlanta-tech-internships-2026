@@ -262,6 +262,9 @@ def validate_entry_level() -> list[JobListing]:
             )
 
             if is_default_metadata:
+                # DEFAULT_METADATA marks is_internship=True for the internship
+                # pipeline; flip that for entry-level heuristic acceptance.
+                metadata["is_internship"] = False
                 metadata["is_entry_level"] = True
                 metadata["confidence"] = 0.7
                 metadata["category"] = _infer_category_from_title(

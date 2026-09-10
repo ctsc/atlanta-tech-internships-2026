@@ -96,7 +96,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            STATS=$(python -c "import json; d=json.load(open('data/jobs.json')); print(f\"{len([j for j in d['listings'] if j['status']=='open'])} open roles\")")
+            STATS=$(python -c "import json, os; d=json.load(open('data/jobs.json')); el=json.load(open('data/entry_level_jobs.json')) if os.path.exists('data/entry_level_jobs.json') else {'listings':[]}; print(f\"{len([j for j in d['listings'] if j['status']=='open'])} open internships, {len([j for j in el['listings'] if j['status']=='open'])} open entry-level\")")
             git commit -m "Update listings — $STATS — $(date -u +%Y-%m-%d)"
             git push
           fi

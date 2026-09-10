@@ -28,6 +28,7 @@ from scripts.utils.config import (
     WorkdayBoard,
 )
 from scripts.utils.models import RawListing
+from scripts.utils.posting_age import is_within_max_age
 
 logger = logging.getLogger(__name__)
 
@@ -100,6 +101,7 @@ class BaseATSClient(ABC):
         self._exclude_keywords = [
             kw.lower() for kw in filters.keywords_exclude
         ]
+        self._max_posting_age_days = filters.max_posting_age_days
 
     def _get_semaphore(self) -> asyncio.Semaphore:
         """Get or create a per-domain semaphore for rate limiting."""
@@ -122,6 +124,14 @@ class BaseATSClient(ABC):
         if _title_matches_exclude(title, self._exclude_keywords):
             return False
         return True
+
+    def _is_fresh(self, raw_data: dict, source: str = "") -> bool:
+        """Return True if posting age is within the configured freshness window."""
+        return is_within_max_age(
+            raw_data,
+            self._max_posting_age_days,
+            source=source,
+        )
 
     @abstractmethod
     async def fetch_listings(self, board: object) -> list[RawListing]:
@@ -194,6 +204,8 @@ class GreenhouseClient(BaseATSClient):
         for job in jobs:
             title = job.get("title", "")
             if not self._should_include(title):
+                continue
+            if not self._is_fresh(job, "greenhouse_api"):
                 continue
 
             location_obj = job.get("location", {})
@@ -300,6 +312,8 @@ class LeverClient(BaseATSClient):
         for posting in data:
             title = posting.get("text", "")
             if not self._should_include(title):
+                continue
+            if not self._is_fresh(posting, "lever_api"):
                 continue
 
             categories = posting.get("categories", {})
@@ -440,6 +454,8 @@ query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) {
                 title = job.get("title", "")
                 if not self._should_include(title):
                     continue
+                if not self._is_fresh(job, "ashby_api"):
+                    continue
 
                 location = job.get("locationName", "Unknown") or "Unknown"
                 job_id = job.get("id", "")
@@ -567,6 +583,8 @@ class WorkdayClient(BaseATSClient):
                     title = job.get("title", "")
                     if not self._should_include(title):
                         continue
+                    if not self._is_fresh(job, "workday_api"):
+                        continue
 
                     location = job.get("locationsText", "Unknown") or "Unknown"
                     external_path = job.get("externalPath", "")
@@ -686,6 +704,8 @@ class SmartRecruitersClient(BaseATSClient):
                 for posting in postings:
                     title = posting.get("name", "")
                     if not self._should_include(title):
+                        continue
+                    if not self._is_fresh(posting, "smartrecruiters_api"):
                         continue
 
                     # Build location string
